@@ -5,10 +5,21 @@
 #
 
 key:e92d9e43(0) id:landscape_padkey_footside
+key:80f87c88(0) id:bg
 key:e95f1628(0) id:planeobj
 key:c5cca233(0) id:style_scroll_view
 key:01f875b1(0) id:textobj
+key:f239aa56(0) id:plane_obj1
+key:a56e4ba2(0) id:text_obj1
+key:a246c545(0) id:plane_obj2
+key:6ce85f25(0) id:style_list_view_default
+key:12824c8f(0) id:style_list_item_default
+key:8d07923e(0) id:list_item_style
+key:8d9fcb07(0) id:bg_obj_style
+key:16ca0b50(0) id:planeobj_style1
 key:7505d64a(0) id:default
+key:ddbbc1de(0) id:plane_obj3
+key:31eec9ed(0) id:text_layout
 key:27ad384a(0) id:list_item_template
 key:63678fee(0) id:list_item
 key:829c3804(0) id:dummy

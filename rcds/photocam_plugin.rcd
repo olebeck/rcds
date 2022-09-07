@@ -14,6 +14,8 @@ key:e95f1628(0) id:planeobj
 key:01f875b1(0) id:textobj
 key:d3979b63(0) id:image_obj
 key:22ff88bd(0) id:glow_obj
+key:83b10bc3(0) id:plane_style_transparent
+key:f239aa56(0) id:plane_obj1
 key:9c96918b(0) id:bg_obj
 key:28ccf273(0) id:label_obj
 key:66026a52(0) id:style_text_filelist_title
@@ -24,6 +26,7 @@ key:1c769873(0) id:signal_obj
 key:037d763a(0) id:base_shadow_obj
 key:8fc65573(0) id:bar_shadow_obj
 key:da1d47bb(0) id:slider_obj
+key:ee38688f(0) id:textobj_style
 key:21b278b4(0) id:filelist_template_common_shadow
 key:69b13d29(0) id:filelist_widget_common_shadow
 key:852dcca3(0) id:filelist_widget_common_shadow_body
@@ -48,6 +51,8 @@ key:b6671681(0) id:template_empty_info_content_manager
 key:78583f53(0) id:button_start_content_manager
 key:0869de74(0) id:title_bar_group
 key:e0f4a49e(0) id:title_bar_text
+key:3d31f98d(0) id:landscape960x544
+key:d1e956da(0) id:text_label
 key:6781f4a4(0) id:filelist_template_photo_slide
 key:9d619832(0) id:filelist_widget_photo_slide
 key:3ec51be4(0) id:filelist_widget_photo_slide_scroll_view

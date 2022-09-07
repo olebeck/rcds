@@ -23,11 +23,17 @@ key:86d6de69(0) id:menuitem_checkbox
 key:1332d6fc(0) id:busyindicator
 key:e95f1628(0) id:planeobj
 key:01f875b1(0) id:textobj
+key:c72cf1d7(0) id:style_plane_triangle
 key:cabd940f(0) id:style_box
 key:079b7dff(0) id:style_list_view
 key:9c96918b(0) id:bg_obj
 key:22ff88bd(0) id:glow_obj
+key:8d9fcb07(0) id:bg_obj_style
+key:b75b7c7c(0) id:label_obj_style
+key:f239aa56(0) id:plane_obj1
+key:a56e4ba2(0) id:text_obj1
 key:183569ba(0) id:style_busyindicator
+key:15901be0(0) id:style_close_button
 key:29b91f26(0) id:tex_list_80px
 key:68ecc7c3(0) id:tex_spanner
 key:bbda2aab(0) id:tex_line

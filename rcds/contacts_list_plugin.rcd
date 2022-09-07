@@ -7,8 +7,14 @@
 key:9f5a6f89(0) id:type1
 key:07fb102b(0) id:group_footer
 key:01f875b1(0) id:textobj
+key:f239aa56(0) id:plane_obj1
+key:a56e4ba2(0) id:text_obj1
+key:a246c545(0) id:plane_obj2
 key:9c96918b(0) id:bg_obj
 key:22ff88bd(0) id:glow_obj
+key:8d07923e(0) id:list_item_style
+key:8d9fcb07(0) id:bg_obj_style
+key:749ca58b(0) id:list_view_style
 key:29b91f26(0) id:tex_list_80px
 key:ac019bcd(0) id:sound_button_ok
 key:bb576907(0) id:sound_button_back

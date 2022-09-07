@@ -43,11 +43,17 @@ key:7b335aa5(0) id:manual_area
 key:892b3f82(0) id:bg_change_template
 key:a7a7f2b9(0) id:bg_change_btn
 key:29d92ff5(0) id:bg_change_text
+key:749ca58b(0) id:list_view_style
+key:8d9fcb07(0) id:bg_obj_style
+key:53a6c8b5(0) id:text_obj
+key:8d07923e(0) id:list_item_style
 key:183569ba(0) id:style_busyindicator
 key:22ff88bd(0) id:glow_obj
+key:b75b7c7c(0) id:label_obj_style
 key:320bc447(0) id:style_plane_check_mark
 key:cabd940f(0) id:style_box
 key:e95f1628(0) id:planeobj
 key:87df663f(0) id:style_symbol_of_hint
+key:c72cf1d7(0) id:style_plane_triangle
 key:96aacfcd(0) id:tex_back_ground
 key:5290985b(0) id:tex_ps1symbol

@@ -4,20 +4,44 @@
 #
 #
 
+key:80f87c88(0) id:bg
+key:1bcd9ca1(0) id:top_gradation
+key:85a75b2e(0) id:bottom_gradation
+key:9fa39b7d(0) id:plane_bg
+key:e9c61c2c(0) id:dialog_view
+key:4112d880(0) id:vertical_scroll_bar
+key:019bc95d(0) id:dialog_view_box
 key:377cad88(0) id:text_content_info_title
+key:07b6bf73(0) id:tate
 key:e95f1628(0) id:planeobj
 key:01f875b1(0) id:textobj
+key:ee38688f(0) id:textobj_style
 key:9c96918b(0) id:bg_obj
 key:22ff88bd(0) id:glow_obj
 key:eb3b8f6e(0) id:glowobj
+key:8d9fcb07(0) id:bg_obj_style
+key:b75b7c7c(0) id:label_obj_style
 key:72463716(0) id:template_content_info_list_item
 key:56d3d98e(0) id:list_item_content_info
 key:7505d64a(0) id:default
 key:59bd0a3f(0) id:info
 key:438c7285(0) id:dialog_base
+key:5066f91c(0) id:base_frame
+key:2c5b8b18(0) id:base_fill
+key:2a35777a(0) id:dialog_image
+key:34b37956(0) id:dialog_title
+key:3a3b1f42(0) id:dialog_arrow
+key:ebc8a5d0(0) id:dialog_line
+key:d0791765(0) id:dialog_text1
+key:ef6773d4(0) id:copy_dialog_common_items
+key:5049f5e4(0) id:dialog_button1
+key:bd559a97(0) id:dialog_button2
 key:21b278b4(0) id:filelist_template_common_shadow
 key:69b13d29(0) id:filelist_widget_common_shadow
 key:852dcca3(0) id:filelist_widget_common_shadow_body
 key:c0e0dccd(0) id:filelist_template_common_check_box
 key:51c361d9(0) id:filelist_widget_common_check_box
 key:8bbb66f7(0) id:filelist_widget_common_check_box_body
+key:66ea7a2f(0) id:dialog_text2
+key:768e69aa(0) id:dialog_box1
+key:918215f3(0) id:dialog_view_gradation

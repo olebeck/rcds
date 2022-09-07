@@ -4,6 +4,8 @@
 #
 #
 
+key:9fa39b7d(0) id:plane_bg
+key:07b6bf73(0) id:tate
 key:5fcd170e(0) id:page_main
 key:a20371f2(0) id:uni63A5
 key:026b1bb7(0) id:progressbar
@@ -15,6 +17,9 @@ key:852dcca3(0) id:filelist_widget_common_shadow_body
 key:c0e0dccd(0) id:filelist_template_common_check_box
 key:51c361d9(0) id:filelist_widget_common_check_box
 key:8bbb66f7(0) id:filelist_widget_common_check_box_body
+key:53a6c8b5(0) id:text_obj
+key:f239aa56(0) id:plane_obj1
+key:a246c545(0) id:plane_obj2
 key:eb3b8f6e(0) id:glowobj
 key:01f875b1(0) id:textobj
 key:e95f1628(0) id:planeobj

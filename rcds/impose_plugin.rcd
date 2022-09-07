@@ -6,17 +6,25 @@
 
 key:25c60488(0) id:portrait
 key:0a2f2cd9(0) id:landscape
+key:1898df68(0) id:text_brightness
 key:e95f1628(0) id:planeobj
 key:01f875b1(0) id:textobj
+key:a56e4ba2(0) id:text_obj1
 key:264f39ca(0) id:line
 key:eb3b8f6e(0) id:glowobj
+key:ee38688f(0) id:textobj_style
 key:30396cea(0) id:style_slidebar
 key:91e1c701(0) id:style_plane_surface_size
 key:e5b95a23(0) id:style_button
+key:f239aa56(0) id:plane_obj1
+key:a246c545(0) id:plane_obj2
+key:ddbbc1de(0) id:plane_obj3
+key:53a6c8b5(0) id:text_obj
 key:22ff88bd(0) id:glow_obj
 key:75cbf56e(0) id:base_obj
 key:2e869b90(0) id:plane
 key:372ea08c(0) id:text
+key:80f87c88(0) id:bg
 key:c9addaa4(0) id:highlight
 key:64c65374(0) id:label
 key:0e762927(0) id:image

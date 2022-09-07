@@ -4,12 +4,19 @@
 #
 #
 
+key:9fa39b7d(0) id:plane_bg
+key:3d31f98d(0) id:landscape960x544
 key:8aebcf9e(0) id:style_list_view_common
 key:372ea08c(0) id:text
 key:2e869b90(0) id:plane
 key:22ff88bd(0) id:glow_obj
 key:9c96918b(0) id:bg_obj
+key:f239aa56(0) id:plane_obj1
+key:a246c545(0) id:plane_obj2
+key:ddbbc1de(0) id:plane_obj3
+key:1c4fbcb6(0) id:plane_obj4
 key:d3979b63(0) id:image_obj
+key:3ff83436(0) id:label_button
 key:21b278b4(0) id:filelist_template_common_shadow
 key:69b13d29(0) id:filelist_widget_common_shadow
 key:852dcca3(0) id:filelist_widget_common_shadow_body

@@ -4,12 +4,15 @@
 #
 #
 
+key:80f87c88(0) id:bg
 key:252a2566(0) id:menu
+key:ccce2527(0) id:search_button
 key:14eb14ec(0) id:option
 key:594fd161(0) id:header
 key:3c6de1b7(0) id:title
 key:02083f45(0) id:body
 key:9c3bb49f(0) id:avatar
+key:673c2b78(0) id:signup_button
 key:c8e58a1f(0) id:scroll_view
 key:deb80331(0) id:desc
 key:d7eb6b34(0) id:footer
@@ -35,4 +38,9 @@ key:62604146(0) id:tex_list_flat
 key:6eeea1dc(0) id:tex_ps3
 key:63678fee(0) id:list_item
 key:438c7285(0) id:dialog_base
+key:e9c61c2c(0) id:dialog_view
+key:019bc95d(0) id:dialog_view_box
 key:64c65374(0) id:label
+key:5049f5e4(0) id:dialog_button1
+key:bd559a97(0) id:dialog_button2
+key:bcfbf95c(0) id:dialog_button3

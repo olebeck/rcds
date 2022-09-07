@@ -6,6 +6,9 @@ with open("hashes.json", "r", encoding="utf8") as f:
 ids = {v[0:8]: k for k,v in names.items()}
 #assert len(ids) == len(names)
 
+#why does python let me do this aaaaaaaaaa
+_ = [ids.update({item["key"]: item["id"] for item in [{item[0]: item[1].split("(")[0].split(",")[0] for item in [a.split(":") for a in line.split(" ")]} for line in open("sony_rcds/"+sony_rcd, "r", encoding="utf8").read().splitlines() if len(line) > 0 and not line[0] == "#"]}) for sony_rcd in os.listdir("sony_rcds")]
+
 def match_hashes(filename: str):
     " creates an rcd by matching the ids in the rco with names from hashes json "
     name = os.path.splitext(os.path.basename(filename))[0]
@@ -18,9 +21,9 @@ def match_hashes(filename: str):
 
         for elem in x.findall(".//*[@id]"):
             elem_id = elem.get("id")
-            name = ids.get(elem_id)
-            if name and elem_id not in matched:
-                f.write(f"key:{elem_id}(0) id:{name}\n")
+            value = ids.get(elem_id)
+            if value and elem_id not in matched:
+                f.write(f"key:{elem_id}(0) id:{value}\n")
                 matched.append(elem_id)
     print()
 

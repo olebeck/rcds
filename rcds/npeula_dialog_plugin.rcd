@@ -16,3 +16,5 @@ key:75cbf56e(0) id:base_obj
 key:da1d47bb(0) id:slider_obj
 key:855f12bb(0) id:slider_glow_obj
 key:d2c8f0c2(0) id:scrollbar
+key:9e74f9fa(0) id:button_decline
+key:41c9b9c4(0) id:button_accept
