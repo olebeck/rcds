@@ -1,0 +1,14 @@
+#
+#
+#               crash_report - resource debug symbol file
+#
+#
+
+key:5fcd170e(0) id:page_main
+key:dc76e9f0(0) id:root
+key:22ff88bd(0) id:glow_obj
+key:c5cca233(0) id:style_scroll_view
+key:8b8027c1(0) id:style_scrollbar_touch
+key:75cbf56e(0) id:base_obj
+key:da1d47bb(0) id:slider_obj
+key:bb742ca2(0) id:tex_bg

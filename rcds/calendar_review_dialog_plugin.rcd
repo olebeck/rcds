@@ -1,0 +1,20 @@
+#
+#
+#               calendar_review_dialog_plugin - resource debug symbol file
+#
+#
+
+key:8aebcf9e(0) id:style_list_view_common
+key:372ea08c(0) id:text
+key:2e869b90(0) id:plane
+key:22ff88bd(0) id:glow_obj
+key:9c96918b(0) id:bg_obj
+key:d3979b63(0) id:image_obj
+key:21b278b4(0) id:filelist_template_common_shadow
+key:69b13d29(0) id:filelist_widget_common_shadow
+key:852dcca3(0) id:filelist_widget_common_shadow_body
+key:c0e0dccd(0) id:filelist_template_common_check_box
+key:51c361d9(0) id:filelist_widget_common_check_box
+key:8bbb66f7(0) id:filelist_widget_common_check_box_body
+key:3267a4bb(0) id:button_cancel
+key:d5cff5e3(0) id:button_ok

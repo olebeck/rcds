@@ -1,0 +1,55 @@
+#
+#
+#               store_browser_plugin - resource debug symbol file
+#
+#
+
+key:5fcd170e(0) id:page_main
+key:a20371f2(0) id:uni63A5
+key:e0f4a49e(0) id:title_bar_text
+key:e95f1628(0) id:planeobj
+key:01f875b1(0) id:textobj
+key:9c96918b(0) id:bg_obj
+key:ac005ffa(0) id:style_image_slidebar
+key:75cbf56e(0) id:base_obj
+key:89085de6(0) id:bar_obj
+key:eb3b8f6e(0) id:glowobj
+key:22ff88bd(0) id:glow_obj
+key:28ccf273(0) id:label_obj
+key:90531f74(0) id:list_view
+key:63678fee(0) id:list_item
+key:438c7285(0) id:dialog_base
+key:7b7fcc78(0) id:button
+key:f26a4b0d(0) id:thumbnail
+key:3c6de1b7(0) id:title
+key:b497a0aa(0) id:publisher
+key:e927d067(0) id:date
+key:5bc33f48(0) id:five_star_plane
+key:594fd161(0) id:header
+key:64c65374(0) id:label
+key:f32b67c7(0) id:value
+key:9e96ddc0(0) id:signin_id
+key:5c75e66a(0) id:end_date
+key:6ae99955(0) id:name
+key:d0a3e7f8(0) id:type
+key:cb329146(0) id:description
+key:0e762927(0) id:image
+key:264f39ca(0) id:line
+key:6f9b9af3(0) id:message
+key:3c2d687e(0) id:rating
+key:12c0f1fb(0) id:left
+key:305047e9(0) id:center
+key:d27a1f11(0) id:right
+key:cfd6c2ba(0) id:spin_base
+key:7505d64a(0) id:default
+key:5b219f0a(0) id:dialog_title_line
+key:e9b9c88b(0) id:rich_text
+key:14eb14ec(0) id:option
+key:80862643(0) id:check_box
+key:734c3c67(0) id:hint
+key:4956fadd(0) id:guide
+key:5288f006(0) id:tex_spin_base
+key:8cd5e386(0) id:tex_spin_center
+key:17bdfde3(0) id:tex_spin_line_highlight
+key:ab2c69c5(0) id:tex_spin_line_shadow
+key:bb576907(0) id:sound_button_back

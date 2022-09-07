@@ -1,0 +1,50 @@
+#
+#
+#               videoimport_dialog_plugin - resource debug symbol file
+#
+#
+
+key:e95f1628(0) id:planeobj
+key:9c96918b(0) id:bg_obj
+key:66026a52(0) id:style_text_filelist_title
+key:01f875b1(0) id:textobj
+key:21b278b4(0) id:filelist_template_common_shadow
+key:69b13d29(0) id:filelist_widget_common_shadow
+key:852dcca3(0) id:filelist_widget_common_shadow_body
+key:c0e0dccd(0) id:filelist_template_common_check_box
+key:51c361d9(0) id:filelist_widget_common_check_box
+key:8bbb66f7(0) id:filelist_widget_common_check_box_body
+key:c9a65dc4(0) id:filelist_template_video_list
+key:b460b36a(0) id:filelist_widget_video_list
+key:0a2f2cd9(0) id:landscape
+key:38268b01(0) id:half_hd
+key:2f440f1c(0) id:filelist_widget_video_list_button
+key:76314531(0) id:filelist_widget_video_list_number_label
+key:16610b98(0) id:filelist_template_video_item
+key:c05dfbc5(0) id:filelist_widget_video_item
+key:77129ace(0) id:filelist_expire_time
+key:e30cb0b5(0) id:filelist_widget_video_item_button
+key:f4cccff0(0) id:filelist_widget_video_item_title_label
+key:8e9c36ff(0) id:filelist_widget_video_item_date_label
+key:274a95b7(0) id:filelist_show_content_information
+key:426a995b(0) id:filelist_thumbnail_busy_indicator
+key:0869de74(0) id:title_bar_group
+key:e0f4a49e(0) id:title_bar_text
+key:f6dc2e7f(0) id:template_edit_toolbar
+key:d24c6d80(0) id:template_empty_info
+key:c8ece83b(0) id:group_empty_info
+key:b390f407(0) id:text_empty_info
+key:72463716(0) id:template_content_info_list_item
+key:56d3d98e(0) id:list_item_content_info
+key:377cad88(0) id:text_content_info_title
+key:3c6de1b7(0) id:title
+key:0aa5684c(0) id:text_content_info
+key:59bd0a3f(0) id:info
+key:94e04940(0) id:template_content_info_list_item_thumbnail
+key:7b234e40(0) id:image_thumbnail
+key:696de75a(0) id:filelist_texture_video_list_default
+key:af79f8d8(0) id:filelist_texture_video_item_default
+key:f6f142f2(0) id:videoplayer_texture_expire_valid
+key:ff44664f(0) id:videoplayer_texture_folders_albums
+key:56b94555(0) id:videoplayer_texture_video_item_lock
+key:ac019bcd(0) id:sound_button_ok

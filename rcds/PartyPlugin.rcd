@@ -1,0 +1,21 @@
+#
+#
+#               PartyPlugin - resource debug symbol file
+#
+#
+
+key:11a0399f(0) id:style_plane_test
+key:e95f1628(0) id:planeobj
+key:2fae8301(0) id:style_plane_opaque
+key:c0b8fbb7(0) id:style_plane_transparent
+key:079b7dff(0) id:style_list_view
+key:eb3b8f6e(0) id:glowobj
+key:01f875b1(0) id:textobj
+key:7afecf52(0) id:style_text_avatar_user_name
+key:eef8a778(0) id:shadow_obj
+key:3267a4bb(0) id:button_cancel
+key:441133d4(0) id:button_game
+key:7505d64a(0) id:default
+key:cd157588(0) id:button_send
+key:d5cff5e3(0) id:button_ok
+key:adfd96f4(0) id:page_base

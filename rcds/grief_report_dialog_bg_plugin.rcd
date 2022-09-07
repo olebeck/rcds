@@ -1,0 +1,12 @@
+#
+#
+#               grief_report_dialog_bg_plugin - resource debug symbol file
+#
+#
+
+key:9f5a6f89(0) id:type1
+key:01f875b1(0) id:textobj
+key:e95f1628(0) id:planeobj
+key:bb742ca2(0) id:tex_bg
+key:ac019bcd(0) id:sound_button_ok
+key:bb576907(0) id:sound_button_back

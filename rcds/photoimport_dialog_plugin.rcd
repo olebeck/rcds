@@ -1,0 +1,38 @@
+#
+#
+#               photoimport_dialog_plugin - resource debug symbol file
+#
+#
+
+key:e95f1628(0) id:planeobj
+key:01f875b1(0) id:textobj
+key:9c96918b(0) id:bg_obj
+key:66026a52(0) id:style_text_filelist_title
+key:21b278b4(0) id:filelist_template_common_shadow
+key:69b13d29(0) id:filelist_widget_common_shadow
+key:852dcca3(0) id:filelist_widget_common_shadow_body
+key:c0e0dccd(0) id:filelist_template_common_check_box
+key:51c361d9(0) id:filelist_widget_common_check_box
+key:8bbb66f7(0) id:filelist_widget_common_check_box_body
+key:83110daa(0) id:filelist_template_photo_list
+key:30cab372(0) id:filelist_widget_photo_list
+key:793794af(0) id:filelist_widget_photo_list_button
+key:6d429f40(0) id:filelist_template_photo_list_small
+key:b4baf03a(0) id:filelist_template_photo_item
+key:d521bf6c(0) id:filelist_widget_photo_item
+key:72d797bf(0) id:filelist_widget_photo_item_button
+key:ff40a92d(0) id:filelist_widget_photo_item_icon
+key:0e9b6767(0) id:filelist_widget_photo_item_text
+key:fa5da1f3(0) id:filelist_widget_photo_item_panorama_icon
+key:0869de74(0) id:title_bar_group
+key:e0f4a49e(0) id:title_bar_text
+key:f6dc2e7f(0) id:template_edit_toolbar
+key:d24c6d80(0) id:template_empty_info
+key:c8ece83b(0) id:group_empty_info
+key:b390f407(0) id:text_empty_info
+key:4e959b67(0) id:filelist_texture_photo_default
+key:126c80b1(0) id:filelist_texture_photo_loading
+key:936f12fd(0) id:filelist_texture_photo_folder
+key:28bdf805(0) id:filelist_texture_photo_broken
+key:4c81dddd(0) id:filelist_texture_photo_unknown
+key:141404cd(0) id:filelist_texture_photo_item_icon

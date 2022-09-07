@@ -1,0 +1,21 @@
+#
+#
+#               savedata_dialog_plugin - resource debug symbol file
+#
+#
+
+key:5fcd170e(0) id:page_main
+key:e92d9e43(0) id:landscape_padkey_footside
+key:9f5a6f89(0) id:type1
+key:7505d64a(0) id:default
+key:0baad851(0) id:type2
+key:f26a4b0d(0) id:thumbnail
+key:72463716(0) id:template_content_info_list_item
+key:56d3d98e(0) id:list_item_content_info
+key:377cad88(0) id:text_content_info_title
+key:3c6de1b7(0) id:title
+key:0aa5684c(0) id:text_content_info
+key:59bd0a3f(0) id:info
+key:0e762927(0) id:image
+key:0a2f2cd9(0) id:landscape
+key:2b4d3820(0) id:tex_info

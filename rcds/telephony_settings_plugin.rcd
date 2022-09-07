@@ -1,0 +1,16 @@
+#
+#
+#               telephony_settings_plugin - resource debug symbol file
+#
+#
+
+key:01f875b1(0) id:textobj
+key:9c96918b(0) id:bg_obj
+key:22ff88bd(0) id:glow_obj
+key:e95f1628(0) id:planeobj
+key:0d4a23c7(0) id:file_list
+key:526b27a1(0) id:list_item_button
+key:51c361d9(0) id:filelist_widget_common_check_box
+key:8bbb66f7(0) id:filelist_widget_common_check_box_body
+key:29b91f26(0) id:tex_list_80px
+key:aff3e0cf(0) id:tex_check

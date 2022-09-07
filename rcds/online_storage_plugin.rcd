@@ -1,0 +1,23 @@
+#
+#
+#               online_storage_plugin - resource debug symbol file
+#
+#
+
+key:377cad88(0) id:text_content_info_title
+key:e95f1628(0) id:planeobj
+key:01f875b1(0) id:textobj
+key:9c96918b(0) id:bg_obj
+key:22ff88bd(0) id:glow_obj
+key:eb3b8f6e(0) id:glowobj
+key:72463716(0) id:template_content_info_list_item
+key:56d3d98e(0) id:list_item_content_info
+key:7505d64a(0) id:default
+key:59bd0a3f(0) id:info
+key:438c7285(0) id:dialog_base
+key:21b278b4(0) id:filelist_template_common_shadow
+key:69b13d29(0) id:filelist_widget_common_shadow
+key:852dcca3(0) id:filelist_widget_common_shadow_body
+key:c0e0dccd(0) id:filelist_template_common_check_box
+key:51c361d9(0) id:filelist_widget_common_check_box
+key:8bbb66f7(0) id:filelist_widget_common_check_box_body

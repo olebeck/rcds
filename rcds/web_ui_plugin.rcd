@@ -1,0 +1,18 @@
+#
+#
+#               web_ui_plugin - resource debug symbol file
+#
+#
+
+key:0a2f2cd9(0) id:landscape
+key:25c60488(0) id:portrait
+key:99393c85(0) id:plane_download_confirm_dimmer
+key:4a2d3107(0) id:plane_new_indicator
+key:7505d64a(0) id:default
+key:e95f1628(0) id:planeobj
+key:9c96918b(0) id:bg_obj
+key:28ccf273(0) id:label_obj
+key:22ff88bd(0) id:glow_obj
+key:01f875b1(0) id:textobj
+key:ac019bcd(0) id:sound_button_ok
+key:bb576907(0) id:sound_button_back

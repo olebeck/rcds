@@ -1,0 +1,23 @@
+#
+#
+#               resource - resource debug symbol file
+#
+#
+
+key:026b1bb7(0) id:progressbar
+key:7505d64a(0) id:default
+key:709381e9(0) id:hostname
+key:a6a662a8(0) id:button_import
+key:da071f41(0) id:button_export
+key:89121dc9(0) id:backup
+key:6c933f1d(0) id:button_restore
+key:e08e8491(0) id:restore
+key:9485989f(0) id:delete
+key:469a2110(0) id:auto_upload
+key:2a4dfc59(0) id:style_list_item
+key:eb3b8f6e(0) id:glowobj
+key:e95f1628(0) id:planeobj
+key:01f875b1(0) id:textobj
+key:bb742ca2(0) id:tex_bg
+key:63678fee(0) id:list_item
+key:86d9b2b3(0) id:bytecodeIndex

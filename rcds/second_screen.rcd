@@ -1,0 +1,10 @@
+#
+#
+#               second_screen - resource debug symbol file
+#
+#
+
+key:22ff88bd(0) id:glow_obj
+key:01f875b1(0) id:textobj
+key:1332d6fc(0) id:busyindicator
+key:ac019bcd(0) id:sound_button_ok

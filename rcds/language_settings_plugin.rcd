@@ -1,0 +1,18 @@
+#
+#
+#               language_settings_plugin - resource debug symbol file
+#
+#
+
+key:e95f1628(0) id:planeobj
+key:eb3b8f6e(0) id:glowobj
+key:01f875b1(0) id:textobj
+key:21b278b4(0) id:filelist_template_common_shadow
+key:69b13d29(0) id:filelist_widget_common_shadow
+key:852dcca3(0) id:filelist_widget_common_shadow_body
+key:c0e0dccd(0) id:filelist_template_common_check_box
+key:51c361d9(0) id:filelist_widget_common_check_box
+key:8bbb66f7(0) id:filelist_widget_common_check_box_body
+key:0a2f2cd9(0) id:landscape
+key:c79dfe2f(0) id:term_list_info
+key:c0b1efb1(0) id:term_list_view

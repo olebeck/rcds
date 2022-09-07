@@ -1,0 +1,13 @@
+#
+#
+#               tel_reg_plugin - resource debug symbol file
+#
+#
+
+key:01f875b1(0) id:textobj
+key:e95f1628(0) id:planeobj
+key:22ff88bd(0) id:glow_obj
+key:183569ba(0) id:style_busyindicator
+key:eb3b8f6e(0) id:glowobj
+key:079b7dff(0) id:style_list_view
+key:d2c8f0c2(0) id:scrollbar

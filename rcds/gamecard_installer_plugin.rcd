@@ -1,0 +1,18 @@
+#
+#
+#               gamecard_installer_plugin - resource debug symbol file
+#
+#
+
+key:e95f1628(0) id:planeobj
+key:01f875b1(0) id:textobj
+key:9c96918b(0) id:bg_obj
+key:22ff88bd(0) id:glow_obj
+key:29b91f26(0) id:tex_list_80px
+key:405fbf62(0) id:template_listitem
+key:20bb5bfd(0) id:listitem_target_application
+key:4bf33e7a(0) id:imgbtn_item_button
+key:438c7285(0) id:dialog_base
+key:829c3804(0) id:dummy
+key:1332d6fc(0) id:busyindicator
+key:7505d64a(0) id:default

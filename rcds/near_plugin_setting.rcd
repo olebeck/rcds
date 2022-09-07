@@ -1,0 +1,17 @@
+#
+#
+#               near_plugin_setting - resource debug symbol file
+#
+#
+
+key:7505d64a(0) id:default
+key:cabd940f(0) id:style_box
+key:c0b8fbb7(0) id:style_plane_transparent
+key:e95f1628(0) id:planeobj
+key:01f875b1(0) id:textobj
+key:22ff88bd(0) id:glow_obj
+key:0a2f2cd9(0) id:landscape
+key:25c60488(0) id:portrait
+key:bebf0207(0) id:main_page_title_plane
+key:857fda14(0) id:main_page_title_text
+key:4810335b(0) id:main_page_button_back

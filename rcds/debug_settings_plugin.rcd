@@ -1,0 +1,11 @@
+#
+#
+#               debug_settings_plugin - resource debug symbol file
+#
+#
+
+key:5288f006(0) id:tex_spin_base
+key:8cd5e386(0) id:tex_spin_center
+key:17bdfde3(0) id:tex_spin_line_highlight
+key:ab2c69c5(0) id:tex_spin_line_shadow
+key:01f875b1(0) id:textobj

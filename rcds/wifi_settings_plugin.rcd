@@ -1,0 +1,28 @@
+#
+#
+#               wifi_settings_plugin - resource debug symbol file
+#
+#
+
+key:7505d64a(0) id:default
+key:9f5a6f89(0) id:type1
+key:1332d6fc(0) id:busyindicator
+key:0e762927(0) id:image
+key:01f875b1(0) id:textobj
+key:e95f1628(0) id:planeobj
+key:183569ba(0) id:style_busyindicator
+key:9c96918b(0) id:bg_obj
+key:28ccf273(0) id:label_obj
+key:22ff88bd(0) id:glow_obj
+key:eb3b8f6e(0) id:glowobj
+key:757ab4e8(0) id:tex_rssi_off
+key:f933cf36(0) id:tex_rssi_0
+key:f5b0408b(0) id:tex_rssi_1
+key:03180661(0) id:tex_rssi_2
+key:1934a97a(0) id:tex_rssi_3
+key:5e85b495(0) id:tex_rssi_4
+key:3bf938be(0) id:tex_secure_rock
+key:46f9796b(0) id:tex_aoss
+key:e4482118(0) id:tex_rakuraku
+key:1761f83d(0) id:tex_wps
+key:6e58645d(0) id:tex_wired_lan_on

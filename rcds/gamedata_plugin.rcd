@@ -1,0 +1,48 @@
+#
+#
+#               gamedata_plugin - resource debug symbol file
+#
+#
+
+key:5fcd170e(0) id:page_main
+key:0a2f2cd9(0) id:landscape
+key:7ef4ead9(0) id:page_new_indicator_anim
+key:a0dbfcdc(0) id:plane_dimmer
+key:c67f8774(0) id:plane_thumbnail
+key:4a2d3107(0) id:plane_new_indicator
+key:01f875b1(0) id:textobj
+key:e95f1628(0) id:planeobj
+key:22ff88bd(0) id:glow_obj
+key:9c96918b(0) id:bg_obj
+key:6f57e251(0) id:tex_parental_lock_icon
+key:29b91f26(0) id:tex_list_80px
+key:62604146(0) id:tex_list_flat
+key:68ecc7c3(0) id:tex_spanner
+key:414fac00(0) id:filelist_texture_appdata_item_default
+key:1796a1a0(0) id:filelist_template_psp2addcont_title_item
+key:33068592(0) id:filelist_widget_appdata_item
+key:334875e4(0) id:filelist_widget_appdata_item_button
+key:317d3f1e(0) id:filelist_template_psp2addcont_item
+key:16066e2e(0) id:filelist_psp2addcont_item
+key:5205856a(0) id:filelist_psp2addcont_item_button
+key:59bd0a3f(0) id:info
+key:72463716(0) id:template_content_info_list_item
+key:56d3d98e(0) id:list_item_content_info
+key:7505d64a(0) id:default
+key:377cad88(0) id:text_content_info_title
+key:3c6de1b7(0) id:title
+key:0aa5684c(0) id:text_content_info
+key:274a95b7(0) id:filelist_show_content_information
+key:b2a7cfd4(0) id:filelist_template_vmc_item
+key:45f8560c(0) id:filelist_template_ps1savedata_item
+key:438c7285(0) id:dialog_base
+key:9f5a6f89(0) id:type1
+key:829c3804(0) id:dummy
+key:0baad851(0) id:type2
+key:0e762927(0) id:image
+key:21b278b4(0) id:filelist_template_common_shadow
+key:69b13d29(0) id:filelist_widget_common_shadow
+key:852dcca3(0) id:filelist_widget_common_shadow_body
+key:c0e0dccd(0) id:filelist_template_common_check_box
+key:51c361d9(0) id:filelist_widget_common_check_box
+key:8bbb66f7(0) id:filelist_widget_common_check_box_body

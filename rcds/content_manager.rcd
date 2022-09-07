@@ -1,0 +1,14 @@
+#
+#
+#               content_manager - resource debug symbol file
+#
+#
+
+key:3c5b4927(0) id:gate
+key:2e9374eb(0) id:template_content_zone_layout
+key:48770190(0) id:tex_btn_left
+key:997a11f0(0) id:tex_btn_right
+key:e95f1628(0) id:planeobj
+key:9c96918b(0) id:bg_obj
+key:28ccf273(0) id:label_obj
+key:d3979b63(0) id:image_obj

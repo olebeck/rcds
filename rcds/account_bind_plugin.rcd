@@ -1,0 +1,13 @@
+#
+#
+#               account_bind_plugin - resource debug symbol file
+#
+#
+
+key:eb3b8f6e(0) id:glowobj
+key:e95f1628(0) id:planeobj
+key:ed906fd3(0) id:page_wizard_bg
+key:75a8ba83(0) id:page_wizard_fg
+key:9fb3fbc9(0) id:signin_input_1
+key:1b42b9de(0) id:signin_input_2
+key:e18a89f9(0) id:busy

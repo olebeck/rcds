@@ -1,0 +1,29 @@
+#
+#
+#               impose_net_plugin - resource debug symbol file
+#
+#
+
+key:63678fee(0) id:list_item
+key:202f570c(0) id:menuitem_icon
+key:dd31503b(0) id:menuitem_triangle
+key:224390d9(0) id:menuitem_button
+key:2fbcdeae(0) id:menuitem_title
+key:7505d64a(0) id:default
+key:1332d6fc(0) id:busyindicator
+key:cabd940f(0) id:style_box
+key:e95f1628(0) id:planeobj
+key:01f875b1(0) id:textobj
+key:183569ba(0) id:style_busyindicator
+key:eb3b8f6e(0) id:glowobj
+key:757ab4e8(0) id:tex_rssi_off
+key:f933cf36(0) id:tex_rssi_0
+key:f5b0408b(0) id:tex_rssi_1
+key:03180661(0) id:tex_rssi_2
+key:1934a97a(0) id:tex_rssi_3
+key:5e85b495(0) id:tex_rssi_4
+key:46f9796b(0) id:tex_aoss
+key:1761f83d(0) id:tex_wps
+key:e4482118(0) id:tex_rakuraku
+key:3bf938be(0) id:tex_secure_rock
+key:29b91f26(0) id:tex_list_80px

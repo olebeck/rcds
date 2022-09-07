@@ -1,0 +1,56 @@
+#
+#
+#               companion_dialog_plugin - resource debug symbol file
+#
+#
+
+key:6b835e44(0) id:box_auth_pw_output_area
+key:cb4e1ad0(0) id:registing_dot0
+key:30b6c912(0) id:registing_dot0_glow
+key:df06bdfb(0) id:registing_dot_r1
+key:c7509b06(0) id:registing_dot_r1_glow
+key:23d1056b(0) id:registing_dot_r2
+key:e90f3ae6(0) id:registing_dot_r2_glow
+key:f1a60bc5(0) id:registing_dot_r3_glow
+key:fc36aa62(0) id:registing_dot_r4_glow
+key:a9cb5050(0) id:registing_dot_r5_glow
+key:ffef2d9b(0) id:registing_dot_r6_glow
+key:a88945f3(0) id:registing_dot_r7_glow
+key:f51baabf(0) id:registing_dot_r8_glow
+key:8df4f4ac(0) id:registing_dot_r9_glow
+key:4191d892(0) id:registing_dot_r10_glow
+key:8c3e5b4f(0) id:registing_dot_r11_glow
+key:145b5ba0(0) id:registing_dot_r12_glow
+key:f9f9eaae(0) id:registing_dot_r13_glow
+key:4f8b5b48(0) id:registing_dot_r14_glow
+key:9802d5cb(0) id:registing_dot_r15_glow
+key:e9ebb3f1(0) id:registing_dot_r16_glow
+key:a82e96db(0) id:registing_dot_l1
+key:f83c5c18(0) id:registing_dot_l1_glow
+key:90e9c029(0) id:registing_dot_l2
+key:91f5684e(0) id:registing_dot_l2_glow
+key:4d48ecee(0) id:registing_dot_l3_glow
+key:bde11040(0) id:registing_dot_l4_glow
+key:bf1f4b47(0) id:registing_dot_l5_glow
+key:aa622db2(0) id:registing_dot_l6_glow
+key:484d01eb(0) id:registing_dot_l7_glow
+key:7d60a385(0) id:registing_dot_l8_glow
+key:9bc343a4(0) id:registing_dot_l9_glow
+key:5fdedd95(0) id:registing_dot_l10_glow
+key:d42d2c48(0) id:registing_dot_l11_glow
+key:27c9e5d9(0) id:registing_dot_l12_glow
+key:0b20f36a(0) id:registing_dot_l13_glow
+key:6d6e2a91(0) id:registing_dot_l14_glow
+key:395e468e(0) id:registing_dot_l15_glow
+key:d576c522(0) id:registing_dot_l16_glow
+key:954bc104(0) id:connecting_plane2
+key:22ff88bd(0) id:glow_obj
+key:9c96918b(0) id:bg_obj
+key:01f875b1(0) id:textobj
+key:183569ba(0) id:style_busyindicator
+key:e95f1628(0) id:planeobj
+key:4792275c(0) id:plane_style_footer
+key:c9addaa4(0) id:highlight
+key:c2f728f1(0) id:text_box_style1
+key:1ef00fb8(0) id:power_on_ps4_text
+key:ac019bcd(0) id:sound_button_ok

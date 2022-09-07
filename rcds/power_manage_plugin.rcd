@@ -1,0 +1,17 @@
+#
+#
+#               power_manage_plugin - resource debug symbol file
+#
+#
+
+key:63678fee(0) id:list_item
+key:7505d64a(0) id:default
+key:4852bd17(0) id:template_output_area
+key:6b835e44(0) id:box_auth_pw_output_area
+key:2a4dfc59(0) id:style_list_item
+key:9c96918b(0) id:bg_obj
+key:28ccf273(0) id:label_obj
+key:22ff88bd(0) id:glow_obj
+key:372ea08c(0) id:text
+key:e95f1628(0) id:planeobj
+key:01f875b1(0) id:textobj

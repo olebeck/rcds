@@ -1,0 +1,18 @@
+#
+#
+#               signin_plugin - resource debug symbol file
+#
+#
+
+key:3e16962c(0) id:page_background
+key:1405df66(0) id:base
+key:bebf0207(0) id:main_page_title_plane
+key:0a2f2cd9(0) id:landscape
+key:857fda14(0) id:main_page_title_text
+key:e95f1628(0) id:planeobj
+key:01f875b1(0) id:textobj
+key:cabd940f(0) id:style_box
+key:9c96918b(0) id:bg_obj
+key:22ff88bd(0) id:glow_obj
+key:28ccf273(0) id:label_obj
+key:eb3b8f6e(0) id:glowobj

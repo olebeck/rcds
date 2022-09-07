@@ -1,0 +1,14 @@
+#
+#
+#               twitter_dialog_plugin - resource debug symbol file
+#
+#
+
+key:9c96918b(0) id:bg_obj
+key:28ccf273(0) id:label_obj
+key:d8ff8e1c(0) id:highlight_obj
+key:22ff88bd(0) id:glow_obj
+key:01f875b1(0) id:textobj
+key:e95f1628(0) id:planeobj
+key:ac019bcd(0) id:sound_button_ok
+key:bb576907(0) id:sound_button_back

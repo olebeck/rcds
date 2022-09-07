@@ -1,0 +1,17 @@
+#
+#
+#               location_settings_plugin - resource debug symbol file
+#
+#
+
+key:1ddd0e08(0) id:tex_app_icon
+key:6f57e251(0) id:tex_parental_lock_icon
+key:38b62be4(0) id:list
+key:0a2f2cd9(0) id:landscape
+key:63678fee(0) id:list_item
+key:2fbcdeae(0) id:menuitem_title
+key:202f570c(0) id:menuitem_icon
+key:f0d5fab6(0) id:menuitem_hint
+key:86d6de69(0) id:menuitem_checkbox
+key:01f875b1(0) id:textobj
+key:22ff88bd(0) id:glow_obj

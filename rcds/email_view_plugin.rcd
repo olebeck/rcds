@@ -1,0 +1,21 @@
+#
+#
+#               email_view_plugin - resource debug symbol file
+#
+#
+
+key:9c96918b(0) id:bg_obj
+key:22ff88bd(0) id:glow_obj
+key:01f875b1(0) id:textobj
+key:e95f1628(0) id:planeobj
+key:28ccf273(0) id:label_obj
+key:29b91f26(0) id:tex_list_80px
+key:43410fd0(0) id:tex_folder
+key:0a2f2cd9(0) id:landscape
+key:38268b01(0) id:half_hd
+key:21b278b4(0) id:filelist_template_common_shadow
+key:69b13d29(0) id:filelist_widget_common_shadow
+key:852dcca3(0) id:filelist_widget_common_shadow_body
+key:c0e0dccd(0) id:filelist_template_common_check_box
+key:51c361d9(0) id:filelist_widget_common_check_box
+key:8bbb66f7(0) id:filelist_widget_common_check_box_body

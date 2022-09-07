@@ -1,0 +1,12 @@
+#
+#
+#               topmenu_plugin - resource debug symbol file
+#
+#
+
+key:7505d64a(0) id:default
+key:d2c8f0c2(0) id:scrollbar
+key:0e762927(0) id:image
+key:9c96918b(0) id:bg_obj
+key:183569ba(0) id:style_busyindicator
+key:01f875b1(0) id:textobj
