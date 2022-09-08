@@ -17,6 +17,10 @@ def load_hashes_json(file: str) -> dict:
     elif isinstance(names, list):
         return {name2id(v): v for v in names}
 
+def load_hashes_txt(file: str) -> dict:
+    " loads hashes from a strings file "
+    with open(file, "r", encoding="utf8") as f:
+        return {name2id(v): v for v in f.read().splitlines()}
 
 #why does python let me do this aaaaaaaaaa
 def load_hashes_rcd(filename: str) -> dict:
@@ -91,6 +95,7 @@ def load_all_hashes():
     ids = load_hashes_json("hashes.json")
     for sony_rcd in os.listdir("sony_rcds"):
         ids.update(load_hashes_rcd("sony_rcds/"+sony_rcd))
+    #ids.update(load_hashes_txt("devkit-strings.txt"))
     return ids
 
 
