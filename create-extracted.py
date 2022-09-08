@@ -2,6 +2,7 @@ import subprocess, glob, os
 
 WITH_RCD = False
 rco_path = "T:/firmware/vita/decrypted/external/official/3.60/fs/**/*.rc*"
+outdir = "decompiled"
 
 def get_rcos():
     " list of all rcos "
@@ -15,10 +16,10 @@ def main():
     " main "
     all_rcos = get_rcos()
 
-    os.makedirs("decompiled", exist_ok=True)
+    os.makedirs(outdir, exist_ok=True)
     for k,v in all_rcos.items():
         name = k.split(".")[0]
-        args = ["./CXMLDecompiler.exe", "-i", v, "-o", f"decompiled/{k}", "-d"]
+        args = ["./CXMLDecompiler.exe", "-i", v, "-o", f"{outdir}/{k}", "-d"]
         if WITH_RCD:
             args += ["-s", f"rcds/{name}.rcd"]
         proc = subprocess.run(args, check=True)
