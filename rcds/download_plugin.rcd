@@ -4,15 +4,34 @@
 #
 #
 
+# <resource>key:465efbec(0) id:download_plugin
+
+# <templatetable>
+key:7374487a(0) id:_common_default_style_dialog_box
 key:768e69aa(0) id:dialog_box1
+key:92fd288f(0) id:_common_default_style_dialog_button
 key:5049f5e4(0) id:dialog_button1
 key:918215f3(0) id:dialog_view_gradation
+key:6d23b259(0) id:_common_style_scroll_view_transparent
+key:4112d880(0) id:vertical_scroll_bar
 key:e9c61c2c(0) id:dialog_view
 key:019bc95d(0) id:dialog_view_box
+key:67f05a01(0) id:_common_style_dialog_text
 key:d0791765(0) id:dialog_text1
 key:0e762927(0) id:image
-key:4112d880(0) id:vertical_scroll_bar
+key:ffb11291(0) id:_common_default_style_scrollbar
+key:bdb0eaff(0) id:_common_style_plane_dialog
 key:1bcd9ca1(0) id:top_gradation
+key:8c8546bc(0) id:_common_texture_dialog_gradation_top
 key:85a75b2e(0) id:bottom_gradation
+key:524141ac(0) id:_common_texture_dialog_gradation_bottom
 key:fe994e8d(0) id:dialog_image_box1
+
+# <pagetable>
 key:5fcd170e(0) id:page_main
+
+# <styletable>
+
+# <stringtable>
+
+# <texturetable>

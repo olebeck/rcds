@@ -4,52 +4,95 @@
 #
 #
 
+# <resource>key:59be4fb4(0) id:applauncher_plugin
+
+# <pagetable>
+
+# <templatetable>
+key:b032e738(0) id:_common_style_close_button
+key:35ca8ee7(0) id:_common_style_corner_bottom_left
+key:75fe59f6(0) id:_common_default_style_plane
 key:90be1658(0) id:position
+key:f2e47359(0) id:style_text
 key:3c6de1b7(0) id:title
 key:485b382c(0) id:separator
+key:749ca58b(0) id:list_view_style
 key:9356430c(0) id:sbar_h
+key:7897906d(0) id:_common_texture_check_mark
+key:598221c8(0) id:_common_default_style_busyindicator
+key:ba195a37(0) id:_common_texture_busy
+key:5fca1779(0) id:_common_template_x_button
+key:c57612a0(0) id:dialog_x_button
+key:ed93a379(0) id:msg_intellectual_property_notices
+key:7374487a(0) id:_common_default_style_dialog_box
 key:7505d64a(0) id:default
 key:531e99e7(0) id:busy_indicator
 key:768e69aa(0) id:dialog_box1
 key:b4283e3b(0) id:dialog_text
+key:808d0901(0) id:_common_template_dialog_text
 key:40ad99c1(0) id:dialog_button_box
+key:85e95feb(0) id:_common_template_dialog_2buttons
 key:2a35777a(0) id:dialog_image
 key:34b37956(0) id:dialog_title
 key:51df3c38(0) id:dialog_desc
 key:ebc8a5d0(0) id:dialog_line
+key:91685156(0) id:_common_texture_ruled_line
+key:92fd288f(0) id:_common_default_style_dialog_button
 key:5049f5e4(0) id:dialog_button1
 key:12ded257(0) id:dialog_item_button_box
 key:918215f3(0) id:dialog_view_gradation
+key:6d23b259(0) id:_common_style_scroll_view_transparent
+key:4112d880(0) id:vertical_scroll_bar
 key:e9c61c2c(0) id:dialog_view
 key:019bc95d(0) id:dialog_view_box
+key:67f05a01(0) id:_common_style_dialog_text
 key:d0791765(0) id:dialog_text1
 key:0e762927(0) id:image
-key:4112d880(0) id:vertical_scroll_bar
+key:ffb11291(0) id:_common_default_style_scrollbar
+key:bdb0eaff(0) id:_common_style_plane_dialog
 key:1bcd9ca1(0) id:top_gradation
+key:8c8546bc(0) id:_common_texture_dialog_gradation_top
 key:85a75b2e(0) id:bottom_gradation
+key:524141ac(0) id:_common_texture_dialog_gradation_bottom
 key:fe994e8d(0) id:dialog_image_box1
+key:5515d341(0) id:_common_default_style_dialog
 key:438c7285(0) id:dialog_base
 key:5066f91c(0) id:base_frame
+key:60501e4b(0) id:_common_texture_dialog_frame
 key:2c5b8b18(0) id:base_fill
+key:65fe4933(0) id:_common_texture_dialog_fill_white
 key:829c3804(0) id:dummy
+key:e211ce05(0) id:_common_style_busyindicator_8
 key:1332d6fc(0) id:busyindicator
+key:501d508e(0) id:_common_default_style_progressbar
 key:8eed7923(0) id:dialog_progressbar1
 key:eafa0a2f(0) id:dialog_progressbar_text
+key:c6e3b635(0) id:_common_style_text_progressbar_label
+key:dc458595(0) id:_common_template_dialog_title
 key:d2c8f0c2(0) id:scrollbar
 key:3a7d9767(0) id:item
-key:63678fee(0) id:list_item
-key:a56e4ba2(0) id:text_obj1
-key:e95f1628(0) id:planeobj
-key:eb3b8f6e(0) id:glowobj
-key:53a6c8b5(0) id:text_obj
 key:8d07923e(0) id:list_item_style
+key:63678fee(0) id:list_item
+
+# <styletable>
+key:a56e4ba2(0) id:text_obj1
+key:e58c4ff4(0) id:_common_sound_text_box
+key:eb3b8f6e(0) id:glowobj
+key:e95f1628(0) id:planeobj
+key:35e0295d(0) id:_common_texture_text_box
+key:5cd8fdbb(0) id:_common_texture_checkbox_textbox_glow
+key:53a6c8b5(0) id:text_obj
 key:c5cca233(0) id:style_scroll_view
 key:ee38688f(0) id:textobj_style
 key:106dfc2d(0) id:planeobj_style
 key:9c96918b(0) id:bg_obj
-key:e9694c76(0) id:scrollbar_style
 key:75cbf56e(0) id:base_obj
+key:e9694c76(0) id:scrollbar_style
 key:01f875b1(0) id:textobj
-key:f2e47359(0) id:style_text
-key:749ca58b(0) id:list_view_style
 key:da1d47bb(0) id:slider_obj
+key:6ec95ce2(0) id:_common_texture_scrollbar_base
+key:447350aa(0) id:_common_texture_scrollbar_slider
+
+# <stringtable>
+
+# <texturetable>

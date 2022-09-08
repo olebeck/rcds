@@ -4,3 +4,19 @@
 #
 #
 
+# <resource>key:44ba8db0(0) id:contacts_near_plugin
+
+# <pagetable>
+
+# <styletable>
+key:11c027f5(0) id:_common_texture_close_button
+key:f5b88e4a(0) id:_common_texture_close_button_glow
+
+# <texturetable>
+
+# <soundindextable>
+key:48d64cf1(0) id:_common_snd01
+key:5c756da0(0) id:_common_snd02
+key:e8b9a154(0) id:_common_snd03
+
+# <stringtable>

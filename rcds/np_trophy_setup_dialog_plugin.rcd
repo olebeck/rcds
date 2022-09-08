@@ -4,5 +4,15 @@
 #
 #
 
+
+# <stringtable>
+
+# <styletable>
 key:01f875b1(0) id:textobj
+
+# <pagetable>
+
+# <templatetable>
+key:665c3d2f(0) id:_common_default_style_box
+key:75fe59f6(0) id:_common_default_style_plane
 key:9f5a6f89(0) id:type1

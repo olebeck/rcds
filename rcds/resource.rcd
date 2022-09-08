@@ -4,28 +4,58 @@
 #
 #
 
+# <resource>key:0b48a691(0) id:content_manager
+
+# <pagetable>
+key:7374487a(0) id:_common_default_style_dialog_box
+key:501d508e(0) id:_common_default_style_progressbar
 key:026b1bb7(0) id:progressbar
 key:9fa39b7d(0) id:plane_bg
+key:bb742ca2(0) id:tex_bg
 key:07b6bf73(0) id:tate
 key:7505d64a(0) id:default
+key:0b40173f(0) id:msg_music
 key:709381e9(0) id:hostname
+key:20413274(0) id:_common_sound_button_enter
 key:a6a662a8(0) id:button_import
 key:da071f41(0) id:button_export
 key:89121dc9(0) id:backup
 key:6c933f1d(0) id:button_restore
 key:e08e8491(0) id:restore
 key:9485989f(0) id:delete
+key:35ca8ee7(0) id:_common_style_corner_bottom_left
 key:469a2110(0) id:auto_upload
+
+# <styletable>
 key:2a4dfc59(0) id:style_list_item
 key:eb3b8f6e(0) id:glowobj
 key:e95f1628(0) id:planeobj
 key:f239aa56(0) id:plane_obj1
+key:45be9610(0) id:_common_texture_icon_mask64
 key:53a6c8b5(0) id:text_obj
+key:74319925(0) id:_common_texture_button
+key:9b7bed4b(0) id:_common_texture_button_glow
 key:01f875b1(0) id:textobj
-key:bb742ca2(0) id:tex_bg
+key:e58c4ff4(0) id:_common_sound_text_box
+
+# <stringtable>
+
+# <texturetable>
+
+# <templatetable>
 key:768e69aa(0) id:dialog_box1
+key:dc458595(0) id:_common_template_dialog_title
 key:40ad99c1(0) id:dialog_button_box
+key:c17d7980(0) id:_common_sound_button_cancel
+key:92fd288f(0) id:_common_default_style_dialog_button
 key:5049f5e4(0) id:dialog_button1
+key:a060aed9(0) id:msg_no
 key:bd559a97(0) id:dialog_button2
+key:18a9da04(0) id:msg_yes
+key:adcd9adf(0) id:msg_cancel_vb
 key:63678fee(0) id:list_item
+key:7a5c31cc(0) id:_common_sound_image_button
 key:86d9b2b3(0) id:bytecodeIndex
+key:ba195a37(0) id:_common_texture_busy
+
+# <aliastable>

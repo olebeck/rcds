@@ -4,24 +4,61 @@
 #
 #
 
+# <resource>key:5495dd29(0) id:PartyPlugin
+
+# <stringtable>
+
+# <styletable>
 key:11a0399f(0) id:style_plane_test
 key:e95f1628(0) id:planeobj
 key:2fae8301(0) id:style_plane_opaque
 key:c0b8fbb7(0) id:style_plane_transparent
 key:079b7dff(0) id:style_list_view
-key:f239aa56(0) id:plane_obj1
-key:a56e4ba2(0) id:text_obj1
+key:20413274(0) id:_common_sound_button_enter
 key:a246c545(0) id:plane_obj2
+key:a56e4ba2(0) id:text_obj1
+key:f239aa56(0) id:plane_obj1
+key:74319925(0) id:_common_texture_button
+key:9b7bed4b(0) id:_common_texture_button_glow
 key:eb3b8f6e(0) id:glowobj
+key:34389aa1(0) id:_common_texture_icon_glow
+key:c17d7980(0) id:_common_sound_button_cancel
+key:25d6d211(0) id:_common_sound_button_back
+key:a7f5dbb2(0) id:_common_texture_list_glow_70px
+key:7a5c31cc(0) id:_common_sound_image_button
 key:01f875b1(0) id:textobj
 key:7afecf52(0) id:style_text_avatar_user_name
 key:eef8a778(0) id:shadow_obj
+key:e58c4ff4(0) id:_common_sound_text_box
+key:35e0295d(0) id:_common_texture_text_box
 key:6ce85f25(0) id:style_list_view_default
 key:12824c8f(0) id:style_list_item_default
+
+# <texturetable>
+
+# <templatetable>
 key:3267a4bb(0) id:button_cancel
+key:11c027f5(0) id:_common_texture_close_button
 key:41c9b9c4(0) id:button_accept
+key:ed3441bf(0) id:msg_settings
+key:9a2f4f6a(0) id:msg_chat_prioritize_party
+key:35ca8ee7(0) id:_common_style_corner_bottom_left
+key:d7220c5c(0) id:_common_style_corner_bottom_right
 key:441133d4(0) id:button_game
+key:60501e4b(0) id:_common_texture_dialog_frame
+key:65fe4933(0) id:_common_texture_dialog_fill_white
+key:805beca6(0) id:msg_ok
+key:f1811d32(0) id:msg_delete
 key:7505d64a(0) id:default
+key:7374487a(0) id:_common_default_style_dialog_box
+key:b9fbcf7d(0) id:_common_default_style_button
+key:75fe59f6(0) id:_common_default_style_plane
+key:afdef9d0(0) id:_common_texture_transparent
 key:cd157588(0) id:button_send
+key:c321c694(0) id:msg_send_vb
 key:d5cff5e3(0) id:button_ok
+
+# <pagetable>
 key:adfd96f4(0) id:page_base
+
+# <sounddatatable>

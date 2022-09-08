@@ -4,6 +4,13 @@
 #
 #
 
+
+# <stringtable>
+
+# <templatetable>
+key:5f7b332b(0) id:_common_style_plane_transparent
+
+# <texturetable>
 key:29b91f26(0) id:tex_list_80px
 key:a73a105f(0) id:color_fill
 key:21db7070(0) id:color_border

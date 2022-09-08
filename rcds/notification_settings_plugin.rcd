@@ -4,22 +4,38 @@
 #
 #
 
+
+# <stringtable>
+
+# <texturetable>
 key:1ddd0e08(0) id:tex_app_icon
 key:2133ceeb(0) id:tex_download_status
 key:f7988312(0) id:tex_friend_status_and_request
 key:6f57e251(0) id:tex_parental_lock_icon
 key:86645d41(0) id:tex_update_status_livearea
 key:29b91f26(0) id:tex_list_80px
+
+# <styletable>
 key:9c96918b(0) id:bg_obj
 key:22ff88bd(0) id:glow_obj
 key:01f875b1(0) id:textobj
 key:c72cf1d7(0) id:style_plane_triangle
 key:e95f1628(0) id:planeobj
+key:1845d10d(0) id:_common_texture_disclosure
+
+# <pagetable>
+
+# <templatetable>
+key:7038364b(0) id:_common_style_file_list_transparent
 key:38b62be4(0) id:list
 key:0a2f2cd9(0) id:landscape
+key:f3488f99(0) id:_common_style_list_item_transparent
 key:63678fee(0) id:list_item
 key:2fbcdeae(0) id:menuitem_title
+key:5f7b332b(0) id:_common_style_plane_transparent
 key:202f570c(0) id:menuitem_icon
+key:9f20f898(0) id:_common_default_style_check_box
 key:86d6de69(0) id:menuitem_checkbox
+key:20413274(0) id:_common_sound_button_enter
 key:224390d9(0) id:menuitem_button
 key:dd31503b(0) id:menuitem_triangle

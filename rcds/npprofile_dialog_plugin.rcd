@@ -4,4 +4,13 @@
 #
 #
 
+# <resource>key:1cc23512(0) id:friendlist_dialog_plugin
+
+# <pagetable>
 key:80f87c88(0) id:bg
+key:35ca8ee7(0) id:_common_style_corner_bottom_left
+
+# <styletable>
+key:248a20b6(0) id:background
+
+# <texturetable>

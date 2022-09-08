@@ -4,7 +4,11 @@
 #
 #
 
+
+# <pagetable>
 key:e92d9e43(0) id:landscape_padkey_footside
+
+# <styletable>
 key:e95f1628(0) id:planeobj
 key:01f875b1(0) id:textobj
 key:f239aa56(0) id:plane_obj1
@@ -12,4 +16,19 @@ key:a246c545(0) id:plane_obj2
 key:6ce85f25(0) id:style_list_view_default
 key:12824c8f(0) id:style_list_item_default
 key:15901be0(0) id:style_close_button
+key:11c027f5(0) id:_common_texture_close_button
+key:f5b88e4a(0) id:_common_texture_close_button_glow
+
+# <templatetable>
 key:7505d64a(0) id:default
+key:b1a4211e(0) id:_common_sound_plane_button_back
+key:48d64cf1(0) id:_common_snd01
+key:b9fbcf7d(0) id:_common_default_style_button
+key:805beca6(0) id:msg_ok
+key:20413274(0) id:_common_sound_button_enter
+key:75fe59f6(0) id:_common_default_style_plane
+key:afdef9d0(0) id:_common_texture_transparent
+
+# <stringtable>
+
+# <texturetable>

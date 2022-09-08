@@ -4,11 +4,27 @@
 #
 #
 
+
+# <stringtable>
+
+# <styletable>
 key:01f875b1(0) id:textobj
 key:e95f1628(0) id:planeobj
-key:e5b95a23(0) id:style_button
 key:eb3b8f6e(0) id:glowobj
+key:e5b95a23(0) id:style_button
+key:74319925(0) id:_common_texture_button
+key:9b7bed4b(0) id:_common_texture_button_glow
+
+# <texturetable>
+
+# <pagetable>
+
+# <templatetable>
+key:665c3d2f(0) id:_common_default_style_box
 key:4956fadd(0) id:guide
+key:5f7b332b(0) id:_common_style_plane_transparent
+key:b7f752b8(0) id:msg_enter
+key:20413274(0) id:_common_sound_button_enter
 key:b92d1cf8(0) id:_da_template_main
 key:11bb8f3a(0) id:base_plane
 key:1fba2e5c(0) id:corner_top_left

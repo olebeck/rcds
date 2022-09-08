@@ -4,20 +4,46 @@
 #
 #
 
+# <resource>key:4e31f70f(0) id:location_plugin
+
+# <pagetable>
 key:5fcd170e(0) id:page_main
+
+# <templatetable>
 key:3a918c2c(0) id:_common_template_dialog_base
+key:5515d341(0) id:_common_default_style_dialog
 key:438c7285(0) id:dialog_base
 key:5066f91c(0) id:base_frame
+key:60501e4b(0) id:_common_texture_dialog_frame
 key:2c5b8b18(0) id:base_fill
+key:65fe4933(0) id:_common_texture_dialog_fill_white
+key:7374487a(0) id:_common_default_style_dialog_box
 key:7505d64a(0) id:default
 key:918215f3(0) id:dialog_view_gradation
+key:6d23b259(0) id:_common_style_scroll_view_transparent
+key:4112d880(0) id:vertical_scroll_bar
 key:e9c61c2c(0) id:dialog_view
 key:019bc95d(0) id:dialog_view_box
-key:4112d880(0) id:vertical_scroll_bar
+key:67f05a01(0) id:_common_style_dialog_text
+key:ffb11291(0) id:_common_default_style_scrollbar
 key:1bcd9ca1(0) id:top_gradation
+key:8c8546bc(0) id:_common_texture_dialog_gradation_top
 key:85a75b2e(0) id:bottom_gradation
+key:524141ac(0) id:_common_texture_dialog_gradation_bottom
+key:92fd288f(0) id:_common_default_style_dialog_button
+key:805beca6(0) id:msg_ok
 key:d3aa1490(0) id:_common_template_t1b1_dialog
 key:d0791765(0) id:dialog_text1
 key:72f4cdb2(0) id:_common_template_t1b2_dialog
+key:a060aed9(0) id:msg_no
+key:18a9da04(0) id:msg_yes
+
+# <styletable>
 key:e95f1628(0) id:planeobj
 key:a56e4ba2(0) id:text_obj1
+
+# <stringtable>
+
+# <soundindextable>
+key:48d64cf1(0) id:_common_snd01
+key:5c756da0(0) id:_common_snd02

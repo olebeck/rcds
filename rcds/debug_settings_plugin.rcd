@@ -4,8 +4,18 @@
 #
 #
 
+
+# <stringtable>
+
+# <texturetable>
 key:5288f006(0) id:tex_spin_base
 key:8cd5e386(0) id:tex_spin_center
 key:17bdfde3(0) id:tex_spin_line_highlight
 key:ab2c69c5(0) id:tex_spin_line_shadow
+
+# <styletable>
 key:01f875b1(0) id:textobj
+
+# <templatetable>
+key:5f7b332b(0) id:_common_style_plane_transparent
+key:9f20f898(0) id:_common_default_style_check_box

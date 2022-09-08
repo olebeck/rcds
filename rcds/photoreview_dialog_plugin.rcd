@@ -4,8 +4,26 @@
 #
 #
 
+# <resource>key:9455d4dc(0) id:photoreview_dialog_plugin
+
+# <pagetable>
+key:75fe59f6(0) id:_common_default_style_plane
 key:9fa39b7d(0) id:plane_bg
 key:3d31f98d(0) id:landscape960x544
+key:e211ce05(0) id:_common_style_busyindicator_8
+key:ba195a37(0) id:_common_texture_busy
+key:b1a4211e(0) id:_common_sound_plane_button_back
+key:b032e738(0) id:_common_style_close_button
+key:20413274(0) id:_common_sound_button_enter
+
+# <styletable>
 key:9c96918b(0) id:bg_obj
 key:22ff88bd(0) id:glow_obj
+key:34389aa1(0) id:_common_texture_icon_glow
 key:e95f1628(0) id:planeobj
+
+# <stringtable>
+
+# <templatetable>
+
+# <texturetable>

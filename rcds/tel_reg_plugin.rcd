@@ -4,16 +4,47 @@
 #
 #
 
+# <resource>key:9d54c53c(0) id:tel_reg_plugin
+
+# <pagetable>
+key:75fe59f6(0) id:_common_default_style_plane
+key:7374487a(0) id:_common_default_style_dialog_box
+key:20413274(0) id:_common_sound_button_enter
+
+# <styletable>
 key:01f875b1(0) id:textobj
-key:e95f1628(0) id:planeobj
 key:22ff88bd(0) id:glow_obj
-key:f239aa56(0) id:plane_obj1
+key:e95f1628(0) id:planeobj
+key:5cd8fdbb(0) id:_common_texture_checkbox_textbox_glow
 key:a56e4ba2(0) id:text_obj1
-key:a246c545(0) id:plane_obj2
+key:f239aa56(0) id:plane_obj1
+key:74319925(0) id:_common_texture_button
 key:ddbbc1de(0) id:plane_obj3
+key:a246c545(0) id:plane_obj2
+key:3d132ed4(0) id:_common_texture_button_white
+key:9b7bed4b(0) id:_common_texture_button_glow
 key:183569ba(0) id:style_busyindicator
 key:1c4fbcb6(0) id:plane_obj4
 key:eb3b8f6e(0) id:glowobj
 key:079b7dff(0) id:style_list_view
 key:4fbbc27c(0) id:scroll_view_style
+
+# <templatetable>
+key:c17d7980(0) id:_common_sound_button_cancel
+key:501d508e(0) id:_common_default_style_progressbar
+key:c6e3b635(0) id:_common_style_text_progressbar_label
+key:b9fbcf7d(0) id:_common_default_style_button
+key:adcd9adf(0) id:msg_cancel_vb
+key:e58c4ff4(0) id:_common_sound_text_box
+key:5f7b332b(0) id:_common_style_plane_transparent
+key:7a5c31cc(0) id:_common_sound_image_button
+key:ba195a37(0) id:_common_texture_busy
+key:8afabb31(0) id:_common_default_style_list_item
+key:7897906d(0) id:_common_texture_check_mark
+key:e211ce05(0) id:_common_style_busyindicator_8
+key:aa2c6d2a(0) id:msg_back
 key:d2c8f0c2(0) id:scrollbar
+
+# <stringtable>
+
+# <texturetable>

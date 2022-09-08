@@ -4,27 +4,47 @@
 #
 #
 
+# <resource>key:968f5c35(0) id:game_manual_plugin
+
+# <templatetable>
+key:7374487a(0) id:_common_default_style_dialog_box
 key:918215f3(0) id:dialog_view_gradation
+key:6d23b259(0) id:_common_style_scroll_view_transparent
+key:4112d880(0) id:vertical_scroll_bar
 key:e9c61c2c(0) id:dialog_view
 key:019bc95d(0) id:dialog_view_box
+key:67f05a01(0) id:_common_style_dialog_text
 key:d0791765(0) id:dialog_text1
-key:4112d880(0) id:vertical_scroll_bar
+key:ffb11291(0) id:_common_default_style_scrollbar
 key:1bcd9ca1(0) id:top_gradation
+key:8c8546bc(0) id:_common_texture_dialog_gradation_top
 key:85a75b2e(0) id:bottom_gradation
+key:524141ac(0) id:_common_texture_dialog_gradation_bottom
 key:0a2f2cd9(0) id:landscape
+
+# <pagetable>
 key:5fcd170e(0) id:page_main
 key:3d31f98d(0) id:landscape960x544
 key:1332d6fc(0) id:busyindicator
+key:ba195a37(0) id:_common_texture_busy
+key:672a5e85(0) id:_common_snd04
+key:30396cea(0) id:style_slidebar
 key:70161365(0) id:page_error
 key:717c58ef(0) id:dialog_item_box
+
+# <styletable>
 key:e95f1628(0) id:planeobj
-key:63bd09fe(0) id:icon_button_style
 key:3e63fc28(0) id:icon_plane_obj
+key:63bd09fe(0) id:icon_button_style
 key:106dfc2d(0) id:planeobj_style
-key:f239aa56(0) id:plane_obj1
-key:a56e4ba2(0) id:text_obj1
 key:a246c545(0) id:plane_obj2
-key:30396cea(0) id:style_slidebar
+key:a56e4ba2(0) id:text_obj1
+key:f239aa56(0) id:plane_obj1
+key:9b7bed4b(0) id:_common_texture_button_glow
+key:3c7094d5(0) id:jet_tail_obj
 key:75cbf56e(0) id:base_obj
 key:da1d47bb(0) id:slider_obj
-key:3c7094d5(0) id:jet_tail_obj
+
+# <texturetable>
+
+# <stringtable>

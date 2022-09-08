@@ -4,10 +4,17 @@
 #
 #
 
+# <resource>key:6f97edde(0) id:friend_select_plugin
+
+# <pagetable>
 key:80f87c88(0) id:bg
 key:7040cb72(0) id:panel
+key:20ef7a84(0) id:_common_sound_plane_button_cancel
+key:b032e738(0) id:_common_style_close_button
 key:da38860c(0) id:close
 key:61bb8d29(0) id:back
+key:35ca8ee7(0) id:_common_style_corner_bottom_left
+key:d7220c5c(0) id:_common_style_corner_bottom_right
 key:14eb14ec(0) id:option
 key:594fd161(0) id:header
 key:9621bb66(0) id:update_button
@@ -15,6 +22,8 @@ key:02083f45(0) id:body
 key:38b62be4(0) id:list
 key:3c6de1b7(0) id:title
 key:d2c8f0c2(0) id:scrollbar
+key:3d12adf2(0) id:msg_no_history
+key:6d23b259(0) id:_common_style_scroll_view_transparent
 key:c8e58a1f(0) id:scroll_view
 key:1405df66(0) id:base
 key:519698eb(0) id:date_label
@@ -22,35 +31,60 @@ key:e927d067(0) id:date
 key:b7f90d4c(0) id:detail
 key:9c3bb49f(0) id:avatar
 key:965b8ea1(0) id:online_id
+key:35e0295d(0) id:_common_texture_text_box
+key:e58c4ff4(0) id:_common_sound_text_box
 key:118a9989(0) id:comment
 key:d7eb6b34(0) id:footer
+key:c17d7980(0) id:_common_sound_button_cancel
+key:adcd9adf(0) id:msg_cancel_vb
+key:20413274(0) id:_common_sound_button_enter
+key:c321c694(0) id:msg_send_vb
+
+# <styletable>
 key:e95f1628(0) id:planeobj
 key:01f875b1(0) id:textobj
 key:9c96918b(0) id:bg_obj
 key:22ff88bd(0) id:glow_obj
 key:28ccf273(0) id:label_obj
+key:74319925(0) id:_common_texture_button
+key:9b7bed4b(0) id:_common_texture_button_glow
 key:d3979b63(0) id:image_obj
 key:0cc0195c(0) id:arrow_obj
+key:48919590(0) id:_common_sound_list_view
 key:75cbf56e(0) id:base_obj
 key:da1d47bb(0) id:slider_obj
 key:855f12bb(0) id:slider_glow_obj
 key:a6f7d9e6(0) id:bar_fore_obj
+key:53e25bfa(0) id:_common_texture_progressbar_base
+key:301ef5d2(0) id:_common_texture_progressbar_bar
+
+# <stringtable>
+
+# <texturetable>
 key:6eeea1dc(0) id:tex_ps3
+
+# <templatetable>
 key:63678fee(0) id:list_item
 key:f8995ba5(0) id:icon
 key:7b7fcc78(0) id:button
+key:f3488f99(0) id:_common_style_list_item_transparent
+key:243e9955(0) id:_common_sound_plane_button_enter
 key:64c65374(0) id:label
 key:48a3661d(0) id:status
 key:026b1bb7(0) id:progressbar
-key:ad60c535(0) id:level
 key:5aaf8905(0) id:progress
+key:ad60c535(0) id:level
 key:deb80331(0) id:desc
 key:fbf54c6c(0) id:about_me
 key:438c7285(0) id:dialog_base
 key:2a35777a(0) id:dialog_image
 key:34b37956(0) id:dialog_title
 key:d0791765(0) id:dialog_text1
+key:41b7f005(0) id:_common_style_dialog_button_fix
 key:5049f5e4(0) id:dialog_button1
 key:bd559a97(0) id:dialog_button2
 key:0e762927(0) id:image
 key:485b382c(0) id:separator
+
+# <soundindextable>
+key:48d64cf1(0) id:_common_snd01

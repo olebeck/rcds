@@ -4,9 +4,29 @@
 #
 #
 
+# <resource>key:b46d11f2(0) id:contacts_pa_plugin
+
+# <pagetable>
 key:9f5a6f89(0) id:type1
+key:bb576907(0) id:sound_button_back
+
+# <styletable>
 key:01f875b1(0) id:textobj
 key:9c96918b(0) id:bg_obj
 key:22ff88bd(0) id:glow_obj
+key:11c027f5(0) id:_common_texture_close_button
+key:f5b88e4a(0) id:_common_texture_close_button_glow
+key:34389aa1(0) id:_common_texture_icon_glow
+
+# <texturetable>
+
+# <stringtable>
+
+# <templatetable>
+key:d7220c5c(0) id:_common_style_corner_bottom_right
+
+# <soundindextable>
 key:ac019bcd(0) id:sound_button_ok
-key:bb576907(0) id:sound_button_back
+key:48d64cf1(0) id:_common_snd01
+key:5c756da0(0) id:_common_snd02
+key:e8b9a154(0) id:_common_snd03

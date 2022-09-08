@@ -4,7 +4,18 @@
 #
 #
 
+
+# <stringtable>
+
+# <texturetable>
+
+# <pagetable>
+
+# <styletable>
 key:e95f1628(0) id:planeobj
 key:01f875b1(0) id:textobj
+
+# <templatetable>
 key:4852bd17(0) id:template_output_area
+key:665c3d2f(0) id:_common_default_style_box
 key:6b835e44(0) id:box_auth_pw_output_area

@@ -4,9 +4,28 @@
 #
 #
 
+
+# <stringtable>
+
+# <templatetable>
+key:5515d341(0) id:_common_default_style_dialog
 key:5066f91c(0) id:base_frame
+key:60501e4b(0) id:_common_texture_dialog_frame
+key:bdb0eaff(0) id:_common_style_plane_dialog
 key:2c5b8b18(0) id:base_fill
+key:65fe4933(0) id:_common_texture_dialog_fill_white
+key:5f7b332b(0) id:_common_style_plane_transparent
+key:7374487a(0) id:_common_default_style_dialog_box
 key:7505d64a(0) id:default
+key:92fd288f(0) id:_common_default_style_dialog_button
+key:adcd9adf(0) id:msg_cancel_vb
+key:805beca6(0) id:msg_ok
 key:0a2f2cd9(0) id:landscape
+
+# <styletable>
 key:01f875b1(0) id:textobj
+key:e58c4ff4(0) id:_common_sound_text_box
 key:e95f1628(0) id:planeobj
+key:35e0295d(0) id:_common_texture_text_box
+
+# <texturetable>

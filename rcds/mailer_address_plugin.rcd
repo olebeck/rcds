@@ -4,35 +4,74 @@
 #
 #
 
+# <resource>key:f8d60eac(0) id:mailer_address_plugin
+
+# <pagetable>
 key:248a20b6(0) id:background
 key:d1e956da(0) id:text_label
+key:183569ba(0) id:style_busyindicator
 key:1332d6fc(0) id:busyindicator
+key:ba195a37(0) id:_common_texture_busy
+key:20413274(0) id:_common_sound_button_enter
+key:b1a4211e(0) id:_common_sound_plane_button_back
+key:b032e738(0) id:_common_style_close_button
 key:0baad851(0) id:type2
+key:4792275c(0) id:plane_style_footer
+key:b9fbcf7d(0) id:_common_default_style_button
+key:adcd9adf(0) id:msg_cancel_vb
 key:9f5a6f89(0) id:type1
+key:ac019bcd(0) id:sound_button_ok
+key:f1811d32(0) id:msg_delete
+key:805beca6(0) id:msg_ok
+key:665c3d2f(0) id:_common_default_style_box
+key:5f7b332b(0) id:_common_style_plane_transparent
+key:25d6d211(0) id:_common_sound_button_back
+key:6ce85f25(0) id:style_list_view_default
+
+# <styletable>
 key:01f875b1(0) id:textobj
 key:106dfc2d(0) id:planeobj_style
-key:4792275c(0) id:plane_style_footer
+key:e58c4ff4(0) id:_common_sound_text_box
 key:22ff88bd(0) id:glow_obj
 key:8d9fcb07(0) id:bg_obj_style
-key:4f4d8310(0) id:labelobj_style
 key:b85e8ea2(0) id:balloonobj_style
-key:b75b7c7c(0) id:label_obj_style
-key:f239aa56(0) id:plane_obj1
-key:a246c545(0) id:plane_obj2
-key:ddbbc1de(0) id:plane_obj3
-key:1c4fbcb6(0) id:plane_obj4
-key:8200fdb5(0) id:_common_image_obj
-key:0b0e968c(0) id:_common_glow_obj
-key:183569ba(0) id:style_busyindicator
-key:6ce85f25(0) id:style_list_view_default
-key:e95f1628(0) id:planeobj
-key:9c96918b(0) id:bg_obj
-key:8d07923e(0) id:list_item_style
-key:28ccf273(0) id:label_obj
-key:d3979b63(0) id:image_obj
+key:4f4d8310(0) id:labelobj_style
+key:5eb53d38(0) id:_common_texture_dbar_base
 key:4b536ad0(0) id:texture_dbar_launch
 key:29b91f26(0) id:tex_list_80px
-key:5eb53d38(0) id:_common_texture_dbar_base
+key:b75b7c7c(0) id:label_obj_style
+key:6b56caf8(0) id:_common_sound_corner_button_menu
+key:a246c545(0) id:plane_obj2
+key:1c4fbcb6(0) id:plane_obj4
+key:ddbbc1de(0) id:plane_obj3
+key:f239aa56(0) id:plane_obj1
+key:fb2979d5(0) id:_common_texture_corner_button_base
+key:4fdb2f08(0) id:_common_texture_corner_option
+key:c903feec(0) id:_common_texture_corner_button_highlight
+key:60a6dc16(0) id:_common_texture_corner_button_glow
+key:3245a8d0(0) id:_common_sound_check_box
+key:0b0e968c(0) id:_common_glow_obj
+key:8200fdb5(0) id:_common_image_obj
+key:ad721c77(0) id:_common_texture_check_box_glow
+key:e95f1628(0) id:planeobj
+key:9c96918b(0) id:bg_obj
+key:11c027f5(0) id:_common_texture_close_button
+key:f5b88e4a(0) id:_common_texture_close_button_glow
+key:3d132ed4(0) id:_common_texture_button_white
+key:74319925(0) id:_common_texture_button
+key:9b7bed4b(0) id:_common_texture_button_glow
+key:34389aa1(0) id:_common_texture_icon_glow
+key:8d07923e(0) id:list_item_style
+key:43410fd0(0) id:tex_folder
+key:4a150e89(0) id:_common_sound_scroll_view
+key:28ccf273(0) id:label_obj
+key:d3979b63(0) id:image_obj
+
+# <texturetable>
+
+# <stringtable>
+
+# <templatetable>
 key:27ad384a(0) id:list_item_template
 key:63678fee(0) id:list_item
 key:6ee7c0bc(0) id:list_item_check_box
@@ -51,7 +90,17 @@ key:f2d90990(0) id:button_del_person
 key:e6d58f91(0) id:list_item_template_spacer_1
 key:b86964b0(0) id:list_item_template_spacer_8
 key:b4a81cef(0) id:list_item_template_spacer_48
+key:f3488f99(0) id:_common_style_list_item_transparent
+key:75fe59f6(0) id:_common_default_style_plane
+key:35e0295d(0) id:_common_texture_text_box
 key:6b659da4(0) id:template_directbar
+key:f8a9df1b(0) id:msg_directbar
 key:361f7112(0) id:directbar_instance
-key:ac019bcd(0) id:sound_button_ok
+
+# <soundindextable>
+key:48d64cf1(0) id:_common_snd01
+key:5c756da0(0) id:_common_snd02
 key:bb576907(0) id:sound_button_back
+key:e8b9a154(0) id:_common_snd03
+key:672a5e85(0) id:_common_snd04
+key:f6d01f6c(0) id:_common_snd17

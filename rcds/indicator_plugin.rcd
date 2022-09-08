@@ -4,31 +4,55 @@
 #
 #
 
+# <resource>key:9d4f61f8(0) id:indicator_plugin
+
+# <pagetable>
 key:25c60488(0) id:portrait
 key:0a2f2cd9(0) id:landscape
 key:2e869b90(0) id:plane
 key:9f5a6f89(0) id:type1
+
+# <templatetable>
 key:89ffad08(0) id:datetime
 key:31eec9ed(0) id:text_layout
 key:c6f5e77c(0) id:flight_mode
 key:90be1658(0) id:position
+key:ba195a37(0) id:_common_texture_busy
 key:814605c6(0) id:connection
+key:2a4dfc59(0) id:style_list_item
+key:20413274(0) id:_common_sound_button_enter
+key:db7e2ecd(0) id:style_progressbar
+key:efe54aa6(0) id:_common_texture_keyfocus_circle_frame
+
+# <styletable>
 key:01f875b1(0) id:textobj
 key:a56e4ba2(0) id:text_obj1
 key:e95f1628(0) id:planeobj
 key:8d9fcb07(0) id:bg_obj_style
-key:2a4dfc59(0) id:style_list_item
 key:9c96918b(0) id:bg_obj
 key:22ff88bd(0) id:glow_obj
-key:db7e2ecd(0) id:style_progressbar
 key:75cbf56e(0) id:base_obj
+key:1c769873(0) id:signal_obj
 key:a6f7d9e6(0) id:bar_fore_obj
 key:ca9a7b9e(0) id:bar_back_obj
-key:1c769873(0) id:signal_obj
-key:f239aa56(0) id:plane_obj1
-key:a246c545(0) id:plane_obj2
+key:53e25bfa(0) id:_common_texture_progressbar_base
+key:301ef5d2(0) id:_common_texture_progressbar_bar
+key:3315b17b(0) id:_common_texture_progressbar_bar_back
+key:a9315c75(0) id:_common_texture_progressbar_signal
+key:e3367205(0) id:_common_texture_progressbar_glow
+key:34389aa1(0) id:_common_texture_icon_glow
+key:6b56caf8(0) id:_common_sound_corner_button_menu
 key:ddbbc1de(0) id:plane_obj3
 key:1c4fbcb6(0) id:plane_obj4
+key:a246c545(0) id:plane_obj2
+key:f239aa56(0) id:plane_obj1
+key:fb2979d5(0) id:_common_texture_corner_button_base
+key:c903feec(0) id:_common_texture_corner_button_highlight
+key:60a6dc16(0) id:_common_texture_corner_button_glow
 key:3c6de1b7(0) id:title
 key:16ca0b50(0) id:planeobj_style1
+
+# <stringtable>
+
+# <texturetable>
 key:cce7d536(0) id:tex_copy_music_files

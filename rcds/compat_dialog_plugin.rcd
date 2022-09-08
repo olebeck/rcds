@@ -4,24 +4,38 @@
 #
 #
 
+# <resource>key:551629cd(0) id:compat_dialog_plugin
+
+# <templatetable>
 key:244fd5c5(0) id:plane_back_ground_template
 key:d7300907(0) id:plane_back_ground
 key:e5c9881b(0) id:plane_page_header_template
 key:594ed83b(0) id:plane_top_menu_header
+key:cabd940f(0) id:style_box
 key:0a2f2cd9(0) id:landscape
 key:77e448f2(0) id:text_top_menu_title
+key:20ef7a84(0) id:_common_sound_plane_button_cancel
+key:b032e738(0) id:_common_style_close_button
 key:08aca039(0) id:button_close_psp_menu
 key:91eea89d(0) id:plane_page_footer_template
+key:35ca8ee7(0) id:_common_style_corner_bottom_left
 key:81b31207(0) id:corner_button_back
 key:cecaf9c5(0) id:list_view_top_menu_template
+key:5f7b332b(0) id:_common_style_plane_transparent
 key:ce561ed6(0) id:list_view_clip_area
+key:48919590(0) id:_common_sound_list_view
+key:749ca58b(0) id:list_view_style
 key:691b1b40(0) id:list_view_top_menu
 key:5874fe05(0) id:list_item_01_template
+key:8d07923e(0) id:list_item_style
 key:df27676a(0) id:list_item01
 key:feba04f7(0) id:list_item_1st_text
+key:3245a8d0(0) id:_common_sound_check_box
+key:0c9f1494(0) id:_common_style_check_box_left
 key:6ee7c0bc(0) id:list_item_check_box
 key:619b7452(0) id:list_item_02_template
 key:181298a6(0) id:list_item02
+key:20413274(0) id:_common_sound_button_enter
 key:edb4a12b(0) id:list_item_button02
 key:44417221(0) id:list_item_2nd_text
 key:dec6c66b(0) id:list_item_03_template
@@ -34,8 +48,10 @@ key:477ab528(0) id:list_item_text04
 key:c811699b(0) id:list_item_05_template
 key:7f2a39ac(0) id:list_item05
 key:6cab7c19(0) id:list_item_button05
+key:c72cf1d7(0) id:style_plane_triangle
 key:44b10012(0) id:list_item_06_template
 key:dee086f0(0) id:list_item06
+key:0f1450fd(0) id:list_item_button_style
 key:3b431271(0) id:list_item_button06
 key:bfc9f320(0) id:text_svn_info_c_p
 key:777dd265(0) id:text_svn_info_c_r
@@ -59,6 +75,7 @@ key:fc8b441b(0) id:button_assign_menu_clip_area
 key:c69bca58(0) id:plane_dualshock_hw
 key:d68c948a(0) id:plane_vita_hw
 key:029ce33b(0) id:button_assign_desc_text
+key:92fd288f(0) id:_common_default_style_dialog_button
 key:f66cda6d(0) id:button_assign_standard
 key:7505d64a(0) id:default
 key:7edd3f2c(0) id:button_assign_custom
@@ -116,6 +133,7 @@ key:14cd78a4(0) id:group_screen_mode_custom
 key:6b0bcb0e(0) id:plane_screen_mode_custom
 key:68c84063(0) id:button_screen_mode_clear
 key:2a00785e(0) id:button_screen_mode_ok
+key:805beca6(0) id:msg_ok
 key:5d6d999d(0) id:check_box_screen_mode_custom
 key:37689ed7(0) id:ps1mc_root_template
 key:8e278b95(0) id:ps1mc_root_in_master_xml
@@ -141,6 +159,7 @@ key:d9ba708e(0) id:ps1mc_navi_menu_delete_button
 key:98ea34c6(0) id:ps1mc_navi_menu_delete_text
 key:29f00dfe(0) id:ps1mc_slot_moveanim_blockattachpoint
 key:d1cdbac4(0) id:ps1mc_slot_moveanim_blocksloc
+key:d7220c5c(0) id:_common_style_corner_bottom_right
 key:40e97e11(0) id:corner_br
 key:92f583bd(0) id:ps1mc_pocketstation_root_template
 key:706e06e3(0) id:ps1mc_pocketloc
@@ -152,31 +171,38 @@ key:330fb6f6(0) id:ps1mc_big_memorycard1
 key:4b0a5de8(0) id:ps1mc_big_memorycard2
 key:cc0e3795(0) id:ps1mc_big_playstation
 key:a16584b7(0) id:ps1mc_big_stage_shadow_l_base
-key:749ca58b(0) id:list_view_style
+
+# <styletable>
 key:8d9fcb07(0) id:bg_obj_style
 key:53a6c8b5(0) id:text_obj
-key:8d07923e(0) id:list_item_style
 key:183569ba(0) id:style_busyindicator
-key:0f1450fd(0) id:list_item_button_style
 key:b75b7c7c(0) id:label_obj_style
 key:22ff88bd(0) id:glow_obj
-key:c72cf1d7(0) id:style_plane_triangle
+key:74319925(0) id:_common_texture_button
+key:9b7bed4b(0) id:_common_texture_button_glow
+key:70f035f0(0) id:tex_btn_select
+key:1845d10d(0) id:_common_texture_disclosure
+key:11c027f5(0) id:_common_texture_close_button
 key:8eb64773(0) id:style_button_disc_active
-key:320bc447(0) id:style_plane_check_mark
-key:cabd940f(0) id:style_box
-key:7321604a(0) id:highlight_obj_style
-key:96aacfcd(0) id:tex_back_ground
 key:31a45a92(0) id:tex_disc_active_1
+key:e7522708(0) id:tex_disc_negative_1
+key:320bc447(0) id:style_plane_check_mark
+key:27ac95df(0) id:_common_style_plane_popup_list_view_popup_bg
+key:7321604a(0) id:highlight_obj_style
+key:3d132ed4(0) id:_common_texture_button_white
+
+# <stringtable>
+
+# <texturetable>
+key:96aacfcd(0) id:tex_back_ground
 key:61893717(0) id:tex_disc_active_2
 key:c8f410b3(0) id:tex_disc_active_3
 key:96188ce4(0) id:tex_disc_active_4
 key:01b80d70(0) id:tex_disc_active_5
-key:e7522708(0) id:tex_disc_negative_1
 key:006d2acf(0) id:tex_disc_negative_2
 key:ac2703e3(0) id:tex_disc_negative_3
 key:296653b1(0) id:tex_disc_negative_4
 key:36afd544(0) id:tex_disc_negative_5
-key:70f035f0(0) id:tex_btn_select
 key:717d6544(0) id:tex_btn_start
 key:4cdc483f(0) id:tex_btn_up
 key:d11ee9ad(0) id:tex_btn_down

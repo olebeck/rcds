@@ -4,15 +4,37 @@
 #
 #
 
-key:e95f1628(0) id:planeobj
+
+# <stringtable>
+
+# <styletable>
+key:e58c4ff4(0) id:_common_sound_text_box
 key:eb3b8f6e(0) id:glowobj
+key:e95f1628(0) id:planeobj
 key:01f875b1(0) id:textobj
+key:35e0295d(0) id:_common_texture_text_box
+key:5cd8fdbb(0) id:_common_texture_checkbox_textbox_glow
+
+# <texturetable>
+
+# <pagetable>
+
+# <templatetable>
 key:21b278b4(0) id:filelist_template_common_shadow
 key:69b13d29(0) id:filelist_widget_common_shadow
 key:852dcca3(0) id:filelist_widget_common_shadow_body
 key:c0e0dccd(0) id:filelist_template_common_check_box
 key:51c361d9(0) id:filelist_widget_common_check_box
+key:0c9f1494(0) id:_common_style_check_box_left
 key:8bbb66f7(0) id:filelist_widget_common_check_box_body
+key:b97bd73b(0) id:_common_style_check_box_type2_left_top
+key:5f7b332b(0) id:_common_style_plane_transparent
 key:0a2f2cd9(0) id:landscape
 key:c79dfe2f(0) id:term_list_info
+key:7038364b(0) id:_common_style_file_list_transparent
 key:c0b1efb1(0) id:term_list_view
+key:f3488f99(0) id:_common_style_list_item_transparent
+key:20413274(0) id:_common_sound_button_enter
+key:665c3d2f(0) id:_common_default_style_box
+key:6d23b259(0) id:_common_style_scroll_view_transparent
+key:d7220c5c(0) id:_common_style_corner_bottom_right

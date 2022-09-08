@@ -4,17 +4,32 @@
 #
 #
 
+# <resource>key:724d42c3(0) id:savedata_dialog_plugin
+
+# <pagetable>
 key:5fcd170e(0) id:page_main
 key:3d31f98d(0) id:landscape960x544
 key:07b6bf73(0) id:tate
+key:35ca8ee7(0) id:_common_style_corner_bottom_left
+
+# <styletable>
 key:f239aa56(0) id:plane_obj1
 key:ee38688f(0) id:textobj_style
 key:a246c545(0) id:plane_obj2
+key:2b4d3820(0) id:tex_info
+key:7a5c31cc(0) id:_common_sound_image_button
 key:8d9fcb07(0) id:bg_obj_style
+
+# <templatetable>
+key:b1a4211e(0) id:_common_sound_plane_button_back
+key:b032e738(0) id:_common_style_close_button
 key:e92d9e43(0) id:landscape_padkey_footside
 key:9f5a6f89(0) id:type1
+key:75fe59f6(0) id:_common_default_style_plane
+key:91685156(0) id:_common_texture_ruled_line
 key:7505d64a(0) id:default
 key:0baad851(0) id:type2
+key:7374487a(0) id:_common_default_style_dialog_box
 key:f26a4b0d(0) id:thumbnail
 key:72463716(0) id:template_content_info_list_item
 key:56d3d98e(0) id:list_item_content_info
@@ -22,17 +37,36 @@ key:377cad88(0) id:text_content_info_title
 key:3c6de1b7(0) id:title
 key:0aa5684c(0) id:text_content_info
 key:59bd0a3f(0) id:info
+key:5515d341(0) id:_common_default_style_dialog
+key:e6ea7d34(0) id:_common_default_style_dialog_text_box
+key:3fc2179e(0) id:_common_default_style_scrollbar_touch
+key:92fd288f(0) id:_common_default_style_dialog_button
+key:805beca6(0) id:msg_ok
+key:adcd9adf(0) id:msg_cancel_vb
+key:c6e3b635(0) id:_common_style_text_progressbar_label
+key:501d508e(0) id:_common_default_style_progressbar
+key:e2ad9302(0) id:_common_default_style_text
 key:768e69aa(0) id:dialog_box1
 key:5049f5e4(0) id:dialog_button1
 key:918215f3(0) id:dialog_view_gradation
+key:6d23b259(0) id:_common_style_scroll_view_transparent
+key:4112d880(0) id:vertical_scroll_bar
 key:e9c61c2c(0) id:dialog_view
 key:019bc95d(0) id:dialog_view_box
+key:67f05a01(0) id:_common_style_dialog_text
 key:d0791765(0) id:dialog_text1
 key:0e762927(0) id:image
-key:4112d880(0) id:vertical_scroll_bar
+key:ffb11291(0) id:_common_default_style_scrollbar
+key:bdb0eaff(0) id:_common_style_plane_dialog
 key:1bcd9ca1(0) id:top_gradation
+key:8c8546bc(0) id:_common_texture_dialog_gradation_top
 key:85a75b2e(0) id:bottom_gradation
+key:524141ac(0) id:_common_texture_dialog_gradation_bottom
 key:fe994e8d(0) id:dialog_image_box1
 key:2a35777a(0) id:dialog_image
 key:0a2f2cd9(0) id:landscape
-key:2b4d3820(0) id:tex_info
+key:20413274(0) id:_common_sound_button_enter
+
+# <stringtable>
+
+# <texturetable>

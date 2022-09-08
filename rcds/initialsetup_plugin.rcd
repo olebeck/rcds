@@ -4,39 +4,77 @@
 #
 #
 
-key:e95f1628(0) id:planeobj
+
+# <stringtable>
+
+# <styletable>
 key:01f875b1(0) id:textobj
-key:e5b95a23(0) id:style_button
+key:e95f1628(0) id:planeobj
 key:eb3b8f6e(0) id:glowobj
+key:e5b95a23(0) id:style_button
+key:9b7bed4b(0) id:_common_texture_button_glow
 key:d8ff8e1c(0) id:highlight_obj
-key:8dcf81e4(0) id:style_rich_text
+key:3d132ed4(0) id:_common_texture_button_white
 key:9c96918b(0) id:bg_obj
+key:8dcf81e4(0) id:style_rich_text
+key:7d50d741(0) id:sound_scrollbar_touch
 key:8b8027c1(0) id:style_scrollbar_touch
+key:8c8546bc(0) id:_common_texture_dialog_gradation_top
+key:524141ac(0) id:_common_texture_dialog_gradation_bottom
+key:e58c4ff4(0) id:_common_sound_text_box
+key:35e0295d(0) id:_common_texture_text_box
+key:5cd8fdbb(0) id:_common_texture_checkbox_textbox_glow
 key:183569ba(0) id:style_busyindicator
+
+# <texturetable>
 key:5288f006(0) id:tex_spin_base
 key:8cd5e386(0) id:tex_spin_center
 key:17bdfde3(0) id:tex_spin_line_highlight
 key:ab2c69c5(0) id:tex_spin_line_shadow
 key:1192b315(0) id:tex_spin_line_highlight_low
 key:ae36aad7(0) id:tex_spin_line_shadow_low
+
+# <pagetable>
+
+# <templatetable>
+key:5f7b332b(0) id:_common_style_plane_transparent
 key:0a2f2cd9(0) id:landscape
+key:665c3d2f(0) id:_common_default_style_box
+key:25d6d211(0) id:_common_sound_button_back
 key:7cab656a(0) id:footer_button_back
+key:aa2c6d2a(0) id:msg_back
+key:20413274(0) id:_common_sound_button_enter
 key:66509527(0) id:footer_button_proceed
 key:5c20509d(0) id:footer_button_ok
+key:805beca6(0) id:msg_ok
 key:ac4280ba(0) id:cross
 key:00b7b811(0) id:circle
 key:264f39ca(0) id:line
-key:e9b9c88b(0) id:rich_text
+key:9b262826(0) id:_common_style_list_view_transparent
+key:ffb11291(0) id:_common_default_style_scrollbar
+key:8afabb31(0) id:_common_default_style_list_item
 key:d2c8f0c2(0) id:scrollbar
+key:e9b9c88b(0) id:rich_text
+key:ba195a37(0) id:_common_texture_busy
+key:6d23b259(0) id:_common_style_scroll_view_transparent
+key:c17d7980(0) id:_common_sound_button_cancel
 key:531e99e7(0) id:busy_indicator
 key:b4222594(0) id:menulist
 key:9fb3fbc9(0) id:signin_input_1
+key:46f815eb(0) id:msg_pw
 key:1b42b9de(0) id:signin_input_2
 key:aeb5ea1d(0) id:expire_date_value
 key:8eec7bc4(0) id:security
 key:a67a1db5(0) id:security_value
 key:2ee641ba(0) id:start_date
 key:adb10acc(0) id:issue_number_value
+key:adcd9adf(0) id:msg_cancel_vb
+key:b1a4211e(0) id:_common_sound_plane_button_back
+key:b032e738(0) id:_common_style_close_button
 key:594fd161(0) id:header
 key:a20371f2(0) id:uni63A5
-key:7d50d741(0) id:sound_scrollbar_touch
+
+# <soundindextable>
+key:48d64cf1(0) id:_common_snd01
+key:e8b9a154(0) id:_common_snd03
+key:857299df(0) id:_common_snd08

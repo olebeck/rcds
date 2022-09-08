@@ -4,17 +4,43 @@
 #
 #
 
+# <resource>key:e5c9868d(0) id:tw_login_dialog_plugin
+
+# <pagetable>
 key:9f5a6f89(0) id:type1
+key:46f815eb(0) id:msg_pw
 key:3267a4bb(0) id:button_cancel
+key:c17d7980(0) id:_common_sound_button_cancel
+key:adcd9adf(0) id:msg_cancel_vb
+key:20413274(0) id:_common_sound_button_enter
+
+# <styletable>
 key:ee38688f(0) id:textobj_style
-key:9c96918b(0) id:bg_obj
-key:28ccf273(0) id:label_obj
-key:d8ff8e1c(0) id:highlight_obj
 key:22ff88bd(0) id:glow_obj
+key:d8ff8e1c(0) id:highlight_obj
+key:28ccf273(0) id:label_obj
+key:9c96918b(0) id:bg_obj
+key:3d132ed4(0) id:_common_texture_button_white
+key:74319925(0) id:_common_texture_button
+key:9b7bed4b(0) id:_common_texture_button_glow
 key:e95f1628(0) id:planeobj
+key:e26a1647(0) id:tex_titlebar_separator
+key:4a150e89(0) id:_common_sound_scroll_view
 key:75cbf56e(0) id:base_obj
 key:da1d47bb(0) id:slider_obj
 key:855f12bb(0) id:slider_glow_obj
+key:e58c4ff4(0) id:_common_sound_text_box
 key:01f875b1(0) id:textobj
 key:eb3b8f6e(0) id:glowobj
-key:e26a1647(0) id:tex_titlebar_separator
+key:5cd8fdbb(0) id:_common_texture_checkbox_textbox_glow
+
+# <templatetable>
+
+# <stringtable>
+
+# <texturetable>
+
+# <soundindextable>
+key:48d64cf1(0) id:_common_snd01
+key:5c756da0(0) id:_common_snd02
+key:e8b9a154(0) id:_common_snd03

@@ -4,27 +4,65 @@
 #
 #
 
+# <resource>key:c9238383(0) id:impose_plugin
+
+# <pagetable>
+key:20413274(0) id:_common_sound_button_enter
+
+# <templatetable>
+key:bdb0eaff(0) id:_common_style_plane_dialog
+key:65fe4933(0) id:_common_texture_dialog_fill_white
 key:25c60488(0) id:portrait
 key:0a2f2cd9(0) id:landscape
+key:57cd85ec(0) id:_common_style_plane_3x3
+key:60501e4b(0) id:_common_texture_dialog_frame
+key:75fe59f6(0) id:_common_default_style_plane
+key:5f7b332b(0) id:_common_style_plane_transparent
+key:b9fbcf7d(0) id:_common_default_style_button
+key:91e1c701(0) id:style_plane_surface_size
+key:ed3441bf(0) id:msg_settings
+key:e5b95a23(0) id:style_button
+key:243e9955(0) id:_common_sound_plane_button_enter
 key:1898df68(0) id:text_brightness
+key:722bab78(0) id:msg_brightness
+key:30396cea(0) id:style_slidebar
+key:0b40173f(0) id:msg_music
+key:2a7ea71c(0) id:msg_no_song
+key:9a2f4f6a(0) id:msg_chat_prioritize_party
+key:6d23b259(0) id:_common_style_scroll_view_transparent
+key:20ef7a84(0) id:_common_sound_plane_button_cancel
+key:b032e738(0) id:_common_style_close_button
+key:adcd9adf(0) id:msg_cancel_vb
+key:b7f752b8(0) id:msg_enter
+
+# <styletable>
 key:e95f1628(0) id:planeobj
 key:01f875b1(0) id:textobj
 key:a56e4ba2(0) id:text_obj1
 key:264f39ca(0) id:line
 key:eb3b8f6e(0) id:glowobj
+key:74319925(0) id:_common_texture_button
+key:9b7bed4b(0) id:_common_texture_button_glow
 key:ee38688f(0) id:textobj_style
-key:30396cea(0) id:style_slidebar
-key:91e1c701(0) id:style_plane_surface_size
-key:e5b95a23(0) id:style_button
-key:f239aa56(0) id:plane_obj1
-key:a246c545(0) id:plane_obj2
+key:53e25bfa(0) id:_common_texture_progressbar_base
+key:301ef5d2(0) id:_common_texture_progressbar_bar
 key:ddbbc1de(0) id:plane_obj3
+key:a246c545(0) id:plane_obj2
+key:f239aa56(0) id:plane_obj1
+key:3d132ed4(0) id:_common_texture_button_white
+key:2822454f(0) id:_common_texture_list_70px
+key:a7f5dbb2(0) id:_common_texture_list_glow_70px
 key:53a6c8b5(0) id:text_obj
 key:22ff88bd(0) id:glow_obj
 key:75cbf56e(0) id:base_obj
 key:2e869b90(0) id:plane
 key:372ea08c(0) id:text
-key:80f87c88(0) id:bg
 key:c9addaa4(0) id:highlight
 key:64c65374(0) id:label
+key:80f87c88(0) id:bg
 key:0e762927(0) id:image
+key:34389aa1(0) id:_common_texture_icon_glow
+
+# <stringtable>
+
+# <texturetable>

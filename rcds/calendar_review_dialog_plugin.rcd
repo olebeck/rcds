@@ -4,24 +4,53 @@
 #
 #
 
+# <resource>key:423b0136(0) id:calendar_review_dialog_plugin
+
+# <pagetable>
+key:75fe59f6(0) id:_common_default_style_plane
 key:9fa39b7d(0) id:plane_bg
 key:3d31f98d(0) id:landscape960x544
+key:b1a4211e(0) id:_common_sound_plane_button_back
+key:b032e738(0) id:_common_style_close_button
+
+# <styletable>
 key:8aebcf9e(0) id:style_list_view_common
 key:372ea08c(0) id:text
 key:2e869b90(0) id:plane
-key:22ff88bd(0) id:glow_obj
 key:9c96918b(0) id:bg_obj
-key:f239aa56(0) id:plane_obj1
-key:a246c545(0) id:plane_obj2
+key:22ff88bd(0) id:glow_obj
+key:9b7bed4b(0) id:_common_texture_button_glow
+key:74319925(0) id:_common_texture_button
+key:7d112423(0) id:_common_sound_corner_button_back
 key:ddbbc1de(0) id:plane_obj3
 key:1c4fbcb6(0) id:plane_obj4
+key:a246c545(0) id:plane_obj2
+key:f239aa56(0) id:plane_obj1
+key:fb2979d5(0) id:_common_texture_corner_button_base
+key:352ffde1(0) id:_common_texture_corner_back
+key:c903feec(0) id:_common_texture_corner_button_highlight
+key:60a6dc16(0) id:_common_texture_corner_button_glow
+key:6b56caf8(0) id:_common_sound_corner_button_menu
+key:4fdb2f08(0) id:_common_texture_corner_option
 key:d3979b63(0) id:image_obj
+key:7a5c31cc(0) id:_common_sound_image_button
 key:3ff83436(0) id:label_button
+
+# <stringtable>
+
+# <templatetable>
 key:21b278b4(0) id:filelist_template_common_shadow
 key:69b13d29(0) id:filelist_widget_common_shadow
 key:852dcca3(0) id:filelist_widget_common_shadow_body
 key:c0e0dccd(0) id:filelist_template_common_check_box
 key:51c361d9(0) id:filelist_widget_common_check_box
+key:0c9f1494(0) id:_common_style_check_box_left
 key:8bbb66f7(0) id:filelist_widget_common_check_box_body
+key:b97bd73b(0) id:_common_style_check_box_type2_left_top
+key:aa3e58d1(0) id:_common_texture_default_avatar64
 key:3267a4bb(0) id:button_cancel
+key:adcd9adf(0) id:msg_cancel_vb
 key:d5cff5e3(0) id:button_ok
+key:805beca6(0) id:msg_ok
+
+# <texturetable>

@@ -4,33 +4,64 @@
 #
 #
 
+
+# <pagetable>
 key:07b6bf73(0) id:tate
 key:0a2f2cd9(0) id:landscape
 key:25c60488(0) id:portrait
+key:ac019bcd(0) id:sound_button_ok
+key:bb576907(0) id:sound_button_back
+key:adcd9adf(0) id:msg_cancel_vb
 key:99393c85(0) id:plane_download_confirm_dimmer
 key:4a2d3107(0) id:plane_new_indicator
 key:3d31f98d(0) id:landscape960x544
+
+# <templatetable>
+key:665c3d2f(0) id:_common_default_style_box
+key:7374487a(0) id:_common_default_style_dialog_box
 key:881a5e90(0) id:dialog_checkbox_box
 key:7505d64a(0) id:default
+key:0c9f1494(0) id:_common_style_check_box_left
 key:bab68135(0) id:dialog_checkbox
+key:9d4545dc(0) id:_common_style_text_dialog_checkbox_desc
 key:dc7297de(0) id:dialog_checkbox_desc
+key:f3488f99(0) id:_common_style_list_item_transparent
 key:bedd0586(0) id:dialog_list_item
 key:768e69aa(0) id:dialog_box1
 key:d635cd6f(0) id:dialog_list_view
+key:b0601bd9(0) id:_common_template_dialog_list_view
 key:40ad99c1(0) id:dialog_button_box
+key:85e95feb(0) id:_common_template_dialog_2buttons
 key:34b37956(0) id:dialog_title
+key:dc458595(0) id:_common_template_dialog_title
 key:a937e21d(0) id:dialog_box2
 key:d0791765(0) id:dialog_text1
 key:66ea7a2f(0) id:dialog_text2
 key:b73334a0(0) id:dialog_progressbar_box
+key:501d508e(0) id:_common_default_style_progressbar
 key:8eed7923(0) id:dialog_progressbar1
+key:eafa0a2f(0) id:dialog_progressbar_text
+key:c6e3b635(0) id:_common_style_text_progressbar_label
+key:92fd288f(0) id:_common_default_style_dialog_button
 key:5049f5e4(0) id:dialog_button1
+
+# <styletable>
 key:f239aa56(0) id:plane_obj1
 key:a56e4ba2(0) id:text_obj1
+key:35e0295d(0) id:_common_texture_text_box
 key:e95f1628(0) id:planeobj
-key:9c96918b(0) id:bg_obj
-key:28ccf273(0) id:label_obj
 key:22ff88bd(0) id:glow_obj
+key:28ccf273(0) id:label_obj
+key:9c96918b(0) id:bg_obj
+key:74319925(0) id:_common_texture_button
+key:9b7bed4b(0) id:_common_texture_button_glow
 key:01f875b1(0) id:textobj
-key:ac019bcd(0) id:sound_button_ok
-key:bb576907(0) id:sound_button_back
+
+# <stringtable>
+
+# <texturetable>
+
+# <soundindextable>
+key:48d64cf1(0) id:_common_snd01
+key:5c756da0(0) id:_common_snd02
+key:e8b9a154(0) id:_common_snd03

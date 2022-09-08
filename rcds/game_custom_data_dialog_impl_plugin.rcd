@@ -4,17 +4,41 @@
 #
 #
 
+
+# <pagetable>
 key:7505d64a(0) id:default
 key:80f87c88(0) id:bg
+
+# <styletable>
 key:e95f1628(0) id:planeobj
 key:c5cca233(0) id:style_scroll_view
 key:01f875b1(0) id:textobj
-key:f239aa56(0) id:plane_obj1
-key:a56e4ba2(0) id:text_obj1
 key:a246c545(0) id:plane_obj2
+key:a56e4ba2(0) id:text_obj1
+key:f239aa56(0) id:plane_obj1
+key:74319925(0) id:_common_texture_button
+key:9b7bed4b(0) id:_common_texture_button_glow
 key:6ce85f25(0) id:style_list_view_default
 key:8d9fcb07(0) id:bg_obj_style
 key:ddbbc1de(0) id:plane_obj3
+key:3d132ed4(0) id:_common_texture_button_white
+
+# <templatetable>
+key:c17d7980(0) id:_common_sound_button_cancel
+key:b032e738(0) id:_common_style_close_button
+key:20413274(0) id:_common_sound_button_enter
 key:31eec9ed(0) id:text_layout
+key:35ca8ee7(0) id:_common_style_corner_bottom_left
+key:75fe59f6(0) id:_common_default_style_plane
+key:afdef9d0(0) id:_common_texture_transparent
+key:7374487a(0) id:_common_default_style_dialog_box
+key:b9fbcf7d(0) id:_common_default_style_button
 key:829c3804(0) id:dummy
+key:c321c694(0) id:msg_send_vb
 key:c8e58a1f(0) id:scroll_view
+key:adcd9adf(0) id:msg_cancel_vb
+key:805beca6(0) id:msg_ok
+
+# <stringtable>
+
+# <texturetable>

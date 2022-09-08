@@ -4,6 +4,15 @@
 #
 #
 
+
+# <templatetable>
 key:079b7dff(0) id:style_list_view
+key:f3488f99(0) id:_common_style_list_item_transparent
+
+# <styletable>
 key:e95f1628(0) id:planeobj
 key:01f875b1(0) id:textobj
+
+# <stringtable>
+
+# <texturetable>
