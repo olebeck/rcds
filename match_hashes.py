@@ -25,7 +25,7 @@ def match_hashes(filename: str):
         resource = x.getroot()
         if rid := resource.get("id"):
             if name := ids.get(rid):
-                f.write("# <resource>")
+                f.write("# <resource>\n")
                 f.write(rcd_entry(rid, name))
 
         for table in resource.findall("./*"):
