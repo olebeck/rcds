@@ -95,7 +95,7 @@ def load_all_hashes():
     ids = load_hashes_json("hashes.json")
     for sony_rcd in os.listdir("sony_rcds"):
         ids.update(load_hashes_rcd("sony_rcds/"+sony_rcd))
-    #ids.update(load_hashes_txt("devkit-strings.txt"))
+    ids.update(load_hashes_txt("devkit-strings.txt"))
     return ids
 
 

@@ -162,7 +162,15 @@ key:d370d266(0) id:framerate_button_caption_text
 key:35ca8ee7(0) id:_common_style_corner_bottom_left
 key:baacbf82(0) id:front_page_button_back
 key:c2f728f1(0) id:text_box_style1
-key:a20371f2(0) id:uni63A5
+key:dd17b1d4(0) id:debug_ipaddress_input_text_box
+key:a20371f2(0) id:back_button
+key:adb720ca(0) id:input_button
+key:8fce1886(0) id:text_debug_net_emu_inputparam
+key:dda367d7(0) id:debug_net_emu_input_text_box
+key:9cbbada3(0) id:text_debug_net_emu_input_unit
+key:e7894539(0) id:test_popup_error_info1_text
+key:06cecddd(0) id:test_popup_error_info2_text
+key:4fc1554e(0) id:test_popup_error_info3_text
 key:27aa05df(0) id:plane_passcode_lr_area
 key:d737653c(0) id:touch_select_left_up_button
 key:27af147a(0) id:touch_select_left_up_text
@@ -213,6 +221,7 @@ key:872d0eb2(0) id:list_item_setting
 key:526b27a1(0) id:list_item_button
 key:ee2bb16b(0) id:list_item_setting_icon
 key:93adf33b(0) id:list_item_setting_text
+key:92795f95(0) id:list_PS4_setting_status_template
 key:be7d983c(0) id:list_item_setting_text_state
 key:3e57de57(0) id:list_PS4_streaming_setting_template
 key:1f58206c(0) id:list_PS4_setting_sub_template

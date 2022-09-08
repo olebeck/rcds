@@ -72,7 +72,7 @@ key:adcd9adf(0) id:msg_cancel_vb
 key:b1a4211e(0) id:_common_sound_plane_button_back
 key:b032e738(0) id:_common_style_close_button
 key:594fd161(0) id:header
-key:a20371f2(0) id:uni63A5
+key:a20371f2(0) id:back_button
 
 # <soundindextable>
 key:48d64cf1(0) id:_common_snd01
