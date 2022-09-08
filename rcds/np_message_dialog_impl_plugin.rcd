@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:2f02047e(0) id:np_message_dialog_plugin
+# <resource>
+key:2f02047e(0) id:np_message_dialog_plugin
 
 # <pagetable>
 key:e92d9e43(0) id:landscape_padkey_footside

@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:9c1da5ac(0) id:msg_dialog_plugin
+# <resource>
+key:9c1da5ac(0) id:msg_dialog_plugin
 
 # <pagetable>
 

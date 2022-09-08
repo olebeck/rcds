@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:15c531a4(0) id:email_view_plugin
+# <resource>
+key:15c531a4(0) id:email_view_plugin
 
 # <pagetable>
 

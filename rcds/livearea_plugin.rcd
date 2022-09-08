@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:e13ae4de(0) id:livearea_plugin
+# <resource>
+key:e13ae4de(0) id:livearea_plugin
 
 # <templatetable>
 key:4af406c4(0) id:msg_no_account_signup_activity

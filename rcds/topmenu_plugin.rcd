@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:1a25844c(0) id:topmenu_plugin
+# <resource>
+key:1a25844c(0) id:topmenu_plugin
 
 # <pagetable>
 

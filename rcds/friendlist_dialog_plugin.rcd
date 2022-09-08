@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:1cc23512(0) id:friendlist_dialog_plugin
+# <resource>
+key:1cc23512(0) id:friendlist_dialog_plugin
 
 # <pagetable>
 key:80f87c88(0) id:bg

@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:59be4fb4(0) id:applauncher_plugin
+# <resource>
+key:59be4fb4(0) id:applauncher_plugin
 
 # <pagetable>
 

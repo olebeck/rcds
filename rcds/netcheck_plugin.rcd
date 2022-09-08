@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:ea3c4c84(0) id:netcheck_plugin
+# <resource>
+key:ea3c4c84(0) id:netcheck_plugin
 
 # <stringtable>
 

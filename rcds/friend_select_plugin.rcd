@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:6f97edde(0) id:friend_select_plugin
+# <resource>
+key:6f97edde(0) id:friend_select_plugin
 
 # <pagetable>
 key:80f87c88(0) id:bg

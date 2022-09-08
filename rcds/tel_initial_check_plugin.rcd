@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:f3a0de0e(0) id:tel_initial_check_plugin
+# <resource>
+key:f3a0de0e(0) id:tel_initial_check_plugin
 
 # <pagetable>
 key:75fe59f6(0) id:_common_default_style_plane

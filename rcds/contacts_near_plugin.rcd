@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:44ba8db0(0) id:contacts_near_plugin
+# <resource>
+key:44ba8db0(0) id:contacts_near_plugin
 
 # <pagetable>
 

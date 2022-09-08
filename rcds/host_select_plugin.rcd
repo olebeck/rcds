@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:6c108b7a(0) id:host_select_plugin
+# <resource>
+key:6c108b7a(0) id:host_select_plugin
 
 # <pagetable>
 key:594fd161(0) id:header

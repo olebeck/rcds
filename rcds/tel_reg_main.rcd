@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:31da83c7(0) id:tel_reg_main
+# <resource>
+key:31da83c7(0) id:tel_reg_main
 
 # <pagetable>
 

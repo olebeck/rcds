@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:f3c8889d(0) id:store_browser_plugin
+# <resource>
+key:f3c8889d(0) id:store_browser_plugin
 
 # <pagetable>
 key:5fcd170e(0) id:page_main

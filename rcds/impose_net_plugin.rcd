@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:873c46a0(0) id:impose_net_plugin
+# <resource>
+key:873c46a0(0) id:impose_net_plugin
 
 # <stringtable>
 

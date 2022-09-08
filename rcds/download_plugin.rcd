@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:465efbec(0) id:download_plugin
+# <resource>
+key:465efbec(0) id:download_plugin
 
 # <templatetable>
 key:7374487a(0) id:_common_default_style_dialog_box

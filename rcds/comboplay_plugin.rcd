@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:d6b1ad7c(0) id:comboplay_plugin
+# <resource>
+key:d6b1ad7c(0) id:comboplay_plugin
 
 # <pagetable>
 key:5032be3f(0) id:bg_page

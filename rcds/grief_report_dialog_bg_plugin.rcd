@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:6a0a5ae3(0) id:grief_report_dialog_bg_plugin
+# <resource>
+key:6a0a5ae3(0) id:grief_report_dialog_bg_plugin
 
 # <pagetable>
 key:ac019bcd(0) id:sound_button_ok

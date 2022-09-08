@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:6d203403(0) id:online_storage_plugin
+# <resource>
+key:6d203403(0) id:online_storage_plugin
 
 # <pagetable>
 key:80f87c88(0) id:bg

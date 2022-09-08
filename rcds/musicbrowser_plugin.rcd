@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:95aa943b(0) id:musicbrowser_plugin
+# <resource>
+key:95aa943b(0) id:musicbrowser_plugin
 
 # <pagetable>
 key:3e16962c(0) id:page_background

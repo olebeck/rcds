@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:e5c9868d(0) id:tw_login_dialog_plugin
+# <resource>
+key:e5c9868d(0) id:tw_login_dialog_plugin
 
 # <pagetable>
 key:9f5a6f89(0) id:type1

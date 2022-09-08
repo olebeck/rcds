@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:20dd5547(0) id:trophy_network_plugin
+# <resource>
+key:20dd5547(0) id:trophy_network_plugin
 
 # <pagetable>
 key:5f7b332b(0) id:_common_style_plane_transparent

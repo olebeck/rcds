@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:95af30b8(0) id:remoteplay_plugin
+# <resource>
+key:95af30b8(0) id:remoteplay_plugin
 
 # <pagetable>
 key:07fb102b(0) id:group_footer

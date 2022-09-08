@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:6bf7662b(0) id:email_first_plugin
+# <resource>
+key:6bf7662b(0) id:email_first_plugin
 
 # <pagetable>
 key:665c3d2f(0) id:_common_default_style_box

@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:df0e932f(0) id:panorama_plugin
+# <resource>
+key:df0e932f(0) id:panorama_plugin
 
 # <pagetable>
 key:9f5a6f89(0) id:type1

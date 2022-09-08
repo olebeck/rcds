@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:9d4f61f8(0) id:indicator_plugin
+# <resource>
+key:9d4f61f8(0) id:indicator_plugin
 
 # <pagetable>
 key:25c60488(0) id:portrait

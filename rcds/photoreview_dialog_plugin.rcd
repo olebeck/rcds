@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:9455d4dc(0) id:photoreview_dialog_plugin
+# <resource>
+key:9455d4dc(0) id:photoreview_dialog_plugin
 
 # <pagetable>
 key:75fe59f6(0) id:_common_default_style_plane

@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:dc5c4375(0) id:gamecard_installer_plugin
+# <resource>
+key:dc5c4375(0) id:gamecard_installer_plugin
 
 # <pagetable>
 key:80f87c88(0) id:bg

@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:0b48a691(0) id:content_manager
+# <resource>
+key:0b48a691(0) id:content_manager
 
 # <pagetable>
 key:7374487a(0) id:_common_default_style_dialog_box

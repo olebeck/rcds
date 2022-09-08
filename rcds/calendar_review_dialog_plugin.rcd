@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:423b0136(0) id:calendar_review_dialog_plugin
+# <resource>
+key:423b0136(0) id:calendar_review_dialog_plugin
 
 # <pagetable>
 key:75fe59f6(0) id:_common_default_style_plane

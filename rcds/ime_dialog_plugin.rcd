@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:87625152(0) id:ime_dialog_plugin
+# <resource>
+key:87625152(0) id:ime_dialog_plugin
 
 # <pagetable>
 

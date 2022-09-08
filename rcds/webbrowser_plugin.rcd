@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:8ac2b9db(0) id:webbrowser_plugin
+# <resource>
+key:8ac2b9db(0) id:webbrowser_plugin
 
 # <pagetable>
 key:5fcd170e(0) id:page_main

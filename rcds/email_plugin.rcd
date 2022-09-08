@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:0c615fcd(0) id:email_plugin
+# <resource>
+key:0c615fcd(0) id:email_plugin
 
 # <pagetable>
 key:5f7b332b(0) id:_common_style_plane_transparent

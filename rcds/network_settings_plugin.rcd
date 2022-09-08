@@ -4,6 +4,7 @@
 #
 #
 
-# <resource>key:c684aec3(0) id:network_settings_plugin
+# <resource>
+key:c684aec3(0) id:network_settings_plugin
 
 # <stringtable>

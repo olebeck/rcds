@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:551629cd(0) id:compat_dialog_plugin
+# <resource>
+key:551629cd(0) id:compat_dialog_plugin
 
 # <templatetable>
 key:244fd5c5(0) id:plane_back_ground_template

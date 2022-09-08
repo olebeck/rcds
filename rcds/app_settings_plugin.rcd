@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:482bbcff(0) id:app_settings_plugin
+# <resource>
+key:482bbcff(0) id:app_settings_plugin
 
 # <templatetable>
 key:5f7b332b(0) id:_common_style_plane_transparent

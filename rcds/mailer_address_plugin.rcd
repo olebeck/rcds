@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:f8d60eac(0) id:mailer_address_plugin
+# <resource>
+key:f8d60eac(0) id:mailer_address_plugin
 
 # <pagetable>
 key:248a20b6(0) id:background

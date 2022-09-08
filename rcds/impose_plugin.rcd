@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:c9238383(0) id:impose_plugin
+# <resource>
+key:c9238383(0) id:impose_plugin
 
 # <pagetable>
 key:20413274(0) id:_common_sound_button_enter

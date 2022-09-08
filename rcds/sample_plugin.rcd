@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:0a2cfd06(0) id:sample_plugin
+# <resource>
+key:0a2cfd06(0) id:sample_plugin
 
 # <pagetable>
 key:9fa39b7d(0) id:plane_bg

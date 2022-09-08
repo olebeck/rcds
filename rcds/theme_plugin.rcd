@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:81f199d9(0) id:theme_plugin
+# <resource>
+key:81f199d9(0) id:theme_plugin
 
 # <pagetable>
 key:b032e738(0) id:_common_style_close_button

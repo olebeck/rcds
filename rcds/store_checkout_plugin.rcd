@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:cd64a0bf(0) id:store_checkout_plugin
+# <resource>
+key:cd64a0bf(0) id:store_checkout_plugin
 
 # <pagetable>
 key:248a20b6(0) id:background

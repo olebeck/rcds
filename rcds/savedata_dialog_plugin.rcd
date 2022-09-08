@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:724d42c3(0) id:savedata_dialog_plugin
+# <resource>
+key:724d42c3(0) id:savedata_dialog_plugin
 
 # <pagetable>
 key:5fcd170e(0) id:page_main

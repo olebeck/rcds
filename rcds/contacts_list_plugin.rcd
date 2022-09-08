@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:00ace6ab(0) id:contacts_list_plugin
+# <resource>
+key:00ace6ab(0) id:contacts_list_plugin
 
 # <pagetable>
 key:9f5a6f89(0) id:type1

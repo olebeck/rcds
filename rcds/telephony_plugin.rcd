@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:7f8851c9(0) id:telephony_plugin
+# <resource>
+key:7f8851c9(0) id:telephony_plugin
 
 # <styletable>
 key:01f875b1(0) id:textobj

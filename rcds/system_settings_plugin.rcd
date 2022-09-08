@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:9977932c(0) id:system_settings_plugin
+# <resource>
+key:9977932c(0) id:system_settings_plugin
 
 # <stringtable>
 

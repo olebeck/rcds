@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:b1e749e9(0) id:gamedata_plugin
+# <resource>
+key:b1e749e9(0) id:gamedata_plugin
 
 # <pagetable>
 key:5fcd170e(0) id:page_main

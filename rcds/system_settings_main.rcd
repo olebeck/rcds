@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:52b69c20(0) id:system_settings_main
+# <resource>
+key:52b69c20(0) id:system_settings_main
 
 # <templatetable>
 key:5f7b332b(0) id:_common_style_plane_transparent

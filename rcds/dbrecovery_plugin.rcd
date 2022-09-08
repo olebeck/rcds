@@ -4,6 +4,7 @@
 #
 #
 
-# <resource>key:372f6846(0) id:dbrecovery_plugin
+# <resource>
+key:372f6846(0) id:dbrecovery_plugin
 
 # <stringtable>

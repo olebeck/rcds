@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:a76e13f9(0) id:coldboot_plugin
+# <resource>
+key:a76e13f9(0) id:coldboot_plugin
 
 # <pagetable>
 

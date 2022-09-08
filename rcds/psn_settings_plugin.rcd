@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:80b65ec5(0) id:psn_settings_plugin
+# <resource>
+key:80b65ec5(0) id:psn_settings_plugin
 
 # <templatetable>
 key:7b7fcc78(0) id:button

@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:4e31f70f(0) id:location_plugin
+# <resource>
+key:4e31f70f(0) id:location_plugin
 
 # <pagetable>
 key:5fcd170e(0) id:page_main

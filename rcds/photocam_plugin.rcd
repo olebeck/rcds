@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:d47bde8f(0) id:photocam_plugin
+# <resource>
+key:d47bde8f(0) id:photocam_plugin
 
 # <pagetable>
 key:7ef4ead9(0) id:page_new_indicator_anim

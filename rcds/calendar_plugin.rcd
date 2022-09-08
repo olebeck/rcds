@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:07dd3d66(0) id:calendar_plugin
+# <resource>
+key:07dd3d66(0) id:calendar_plugin
 
 # <pagetable>
 key:3d31f98d(0) id:landscape960x544

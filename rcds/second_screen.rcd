@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:43f5efa7(0) id:second_screen
+# <resource>
+key:43f5efa7(0) id:second_screen
 
 # <pagetable>
 

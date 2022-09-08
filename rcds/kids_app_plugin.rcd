@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:2c027c3f(0) id:kids_app_plugin
+# <resource>
+key:2c027c3f(0) id:kids_app_plugin
 
 # <pagetable>
 key:2fe7e8cc(0) id:_common_style_plane_aspect_size

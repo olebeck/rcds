@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:9b34c256(0) id:signup_plugin
+# <resource>
+key:9b34c256(0) id:signup_plugin
 
 # <pagetable>
 key:80f87c88(0) id:bg

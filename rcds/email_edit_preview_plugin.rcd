@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:3d05f5b1(0) id:email_edit_preview_plugin
+# <resource>
+key:3d05f5b1(0) id:email_edit_preview_plugin
 
 # <pagetable>
 

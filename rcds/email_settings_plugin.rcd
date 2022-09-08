@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:bd29ca7b(0) id:email_settings_plugin
+# <resource>
+key:bd29ca7b(0) id:email_settings_plugin
 
 # <pagetable>
 

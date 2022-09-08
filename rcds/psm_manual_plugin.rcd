@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:d17c4ccf(0) id:psm_manual_plugin
+# <resource>
+key:d17c4ccf(0) id:psm_manual_plugin
 
 # <pagetable>
 key:91685156(0) id:_common_texture_ruled_line

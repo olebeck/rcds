@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:58224bdf(0) id:signin_ext_plugin
+# <resource>
+key:58224bdf(0) id:signin_ext_plugin
 
 # <pagetable>
 key:d2c8f0c2(0) id:scrollbar

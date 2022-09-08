@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:b46d11f2(0) id:contacts_pa_plugin
+# <resource>
+key:b46d11f2(0) id:contacts_pa_plugin
 
 # <pagetable>
 key:9f5a6f89(0) id:type1

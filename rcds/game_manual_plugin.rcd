@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:968f5c35(0) id:game_manual_plugin
+# <resource>
+key:968f5c35(0) id:game_manual_plugin
 
 # <templatetable>
 key:7374487a(0) id:_common_default_style_dialog_box

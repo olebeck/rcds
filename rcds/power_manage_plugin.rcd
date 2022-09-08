@@ -4,7 +4,8 @@
 #
 #
 
-# <resource>key:b033f15b(0) id:power_manage_plugin
+# <resource>
+key:b033f15b(0) id:power_manage_plugin
 
 # <pagetable>
 
