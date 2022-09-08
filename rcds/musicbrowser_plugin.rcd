@@ -18,6 +18,8 @@ key:e8884874(0) id:page_layout_check
 key:5fcd170e(0) id:page_main
 key:96803913(0) id:page_filelist
 key:9f5a6f89(0) id:type1
+key:4ed910c6(0) id:page_playpanel
+key:45528d6d(0) id:page_backbutton_area
 key:2d3c466c(0) id:page_playdisplay
 key:b41772a4(0) id:page_host_playdisplay
 key:b25b9a27(0) id:page_dialog
@@ -64,6 +66,7 @@ key:e4038f59(0) id:filelist_widget_music_menu_item
 key:4aa8595b(0) id:filelist_widget_music_menu_button
 key:6b659da4(0) id:template_directbar
 key:69b3d98e(0) id:directbar_style1
+key:e9a6c577(0) id:tex_musictrack
 key:f8a9df1b(0) id:msg_directbar
 key:361f7112(0) id:directbar_instance
 key:a94a8fe5(0) id:test
@@ -205,7 +208,12 @@ key:d13d846d(0) id:tex_repeat_on
 key:054cac3f(0) id:tex_repeat_on1
 key:ba38eec0(0) id:tex_playbutton_bottom
 key:ea26d907(0) id:tex_noimage
+key:987b0ad3(0) id:tex_trackthumb
+key:eb135fb2(0) id:tex_bar_base
+key:827607d0(0) id:tex_bar_progress
 key:49f624dd(0) id:tex_player_spotlight
+key:f3239179(0) id:tex_progress_bar_fore
+key:ab142617(0) id:tex_progress_bar_base
 key:43410fd0(0) id:tex_folder
 key:fc65579f(0) id:tex_default_90x90_margin
 key:556a1026(0) id:tex_pc
@@ -227,6 +235,7 @@ key:f4935ed7(0) id:tex_songs
 key:ea8d6f43(0) id:tex_artists
 key:d25151e5(0) id:tex_albums
 key:f816c42e(0) id:tex_shuffle_top
+key:ca8b2890(0) id:filelist_texture_music_loading
 key:f81be0ba(0) id:filelist_texture_music_track_default
 key:683aeec4(0) id:tex_nasne
 key:d7dca9cb(0) id:tex_nasne_bg

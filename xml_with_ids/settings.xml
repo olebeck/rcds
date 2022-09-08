@@ -1,0 +1,3865 @@
+<?xml version="1.0" encoding="utf-8"?>
+<system_settings version="1.0" plugin="system_settings_plugin">
+
+  <!-- システム設定 トップメニュー -->
+  <setting_list id="system_settings" 
+                title="msg_settings">
+
+    <!-- Sandbox Settings -->
+    <link id="sandbox_settings"
+          file="sandbox_settings.xml"
+          title="Sandbox Settings"
+          icon="tex_spanner"/>
+
+    <!-- フレームワークテスト -->
+    <link id="framework_test"
+      file="framework_test.xml"
+      title="フレームワークテスト"
+      icon="tex_spanner"/>
+
+    <!-- テスト用と本番用でなんとなく分ける -->
+    <spacer id="spacer0" />
+
+    <!-- 機内モード -->
+    <toggle_switch id="flight_mode"
+                   key="/CONFIG/SYSTEM/flight_mode"
+                   title="msg_airplanemode"
+                   icon="tex_flight_mode"
+                   hint="msg_airplanemode_info" />
+
+    <!-- システムアップデート: たぶんアップデートアプリを起動する -->
+    <link id="system_update"
+            title="msg_system_update"
+            icon="tex_system_update"
+            file="system_update.xml"
+            />
+    
+    <!-- ネットワーク設定 -->
+    <link id="network_settings"
+          title="msg_network"
+          icon="tex_network"
+          file="network_settings.xml" />
+
+    <!-- PlayStation®Network設定 -->
+    <link id="psn_settings"
+          file="psn_settings.xml"
+          title="msg_psn"
+          icon="tex_psn"/>
+
+    <!-- 周辺機器設定 -->
+    <link id="peripherals_settings"
+          file="peripherals_settings.xml"
+          title="msg_accessories"
+          icon="tex_accessories"/>
+
+    <!-- お知らせ -->
+    <link id="notification_settings"
+          file="notification_settings.xml"
+          title="msg_notifications"
+          icon="tex_notification"/>
+
+    <!-- サウンド＆ディスプレイ -->
+    <link id="sound_settings"
+          file="sound_settings.xml"
+          title="msg_sound_display"
+          icon="tex_sound_display"/>
+
+    <!-- テーマ -->
+    <link id="theme_settings"
+          file="theme_settings.xml"
+          title="msg_theme_background"
+          icon="tex_themes"/>
+
+    <!-- 位置データ -->
+    <link id="location_settings"
+          file="location_settings.xml"
+          title="msg_location_data"
+          icon="tex_location_information_service"/>
+
+    <!-- セキュリティー -->
+    <link id="security_settings"
+          file="security_settings.xml"
+          title="msg_pc_security"
+          icon="tex_security"/>
+
+    <!-- 日付＆時刻 -->
+    <link id="datetime_settings"
+          file="datetime_settings.xml"
+          title="msg_date_time"
+          icon="tex_time_date"/>
+
+    <!-- 言語 -->
+    <link id="language_settings"
+          file="language_settings.xml"
+          title="msg_language"
+          icon="tex_language"/>
+
+    <!-- アクセシビリティ -->
+    <link id="accessibility"
+          file="accessibility.xml"
+          title="msg_accessibility"
+          icon="tex_accessibility"/>
+
+    <!-- システム -->
+    <link id="console_info"
+          file="console_info.xml"
+          title="msg_system"
+          icon="tex_system"/>
+
+    <!-- 初期化 -->
+    <link id="reset"
+          file="reset.xml"
+          title="msg_format_restore"
+          icon="tex_format"/>
+
+    <!-- 省電力設定 -->
+    <link id="powersave_settings"
+          file="powersave_settings.xml"
+          title="msg_power_saving_settings"
+          icon="tex_power_save"/>
+
+    <!-- IDU Settings -->
+    <link id="idu_settings"
+          file="idu_settings.xml"
+          title="IDU Settings"
+          icon="tex_spanner"/>
+
+    <!-- ★Debug Settings -->
+    <link id="debug_settings"
+          file="debug_settings.xml"
+          title="★Debug Settings"
+          icon="tex_spanner"/>
+
+  </setting_list>
+
+</system_settings>
+<?xml version="1.0" encoding="utf-8"?>
+<system_settings version="1.0" plugin="console_info_plugin">
+
+  <setting_list id="id_system" title="msg_system">
+
+    <!-- システム情報 -->
+    <setting_list id="id_about_system" title="msg_system_information" icon="tex_spanner" style="edit">
+      <label id="id_system_software" title="msg_system_software" />
+      <label id="id_mac_address" title="msg_mac_address" />
+      <label id="id_mac_address_usb" title="msg_mac_address_lan" />
+      <spacer id="id_memory_card_top" height="24"/>
+      <label id="id_memory_card" title="msg_mc" height="162"/>
+      <label id="id_phone_number" title="msg_phone_number" />
+      <label id="id_imei" title="msg_imei" />
+      <label id="id_iccid" title="msg_iccid" />
+      <label id="id_com_firm_rev" title="msg_mobile_network" />
+    </setting_list>
+
+    <!-- 自動開始設定 -->
+    <setting_list id="id_auto_start" title="msg_auto_start_settings" icon="tex_spanner" hint="msg_auto_start_settings_info">
+      <user_custom id="id_auto_start_item"/>
+    </setting_list>
+
+    <!-- PS Vita本体のボタンで操作する -->
+    <toggle_switch id="id_use_system_button" title="msg_use_system_button" icon="tex_spanner" hint="msg_use_system_button_info" key="/CONFIG/SYSTEM/key_pad" />
+
+    <!-- ネットワーク経由でPS Vita本体の電源を入れられる -->
+    <toggle_switch id="id_remote_start" title="msg_remote_start" icon="tex_spanner" key="/CONFIG/NET/wol_config" />
+    
+    <!-- USB給電 -->
+    <toggle_switch id="id_usb_charge"
+                   title="msg_usb_power_supply"
+                   icon="tex_spanner"
+                   key="/CONFIG/USB/usb_charge_enable"/>
+
+    <!-- HDMI機器リンクを有効にする -->
+    <toggle_switch id="id_hdmi_device_link" title="msg_hdmi_device_link" icon="tex_spanner" key="/CONFIG/SYSTEM/hdmi_use_cec"/>
+    
+    <!-- メディア転送設定 -->
+    <setting_list id="id_media_transfer" title="msg_media_forwarding_settings" icon="tex_spanner" >
+      <toggle_switch id="id_media_transfer_allow" title="msg_allow_media_forwarding_other_devices" icon="tex_spanner" key="/CONFIG/NP2/TELEPORT/enable_media_transfer" />
+      <button id="id_media_transfer_set_passcode" title="msg_passcode" icon="tex_spanner" />
+      <button id="id_media_transfer_delete_passcode" title="msg_delete_passcode" icon="tex_spanner" />
+    </setting_list>
+    
+    <!-- PlayStation(R)Mobile -->
+    <setting_list id="id_psmobile" title="msg_psmobile" icon="tex_spanner" style="edit">
+      <label id="id_psmobile_version" title="msg_psm_runtime" />
+    </setting_list>
+    
+    <!-- 使用量 -->
+    <setting_list id="id_status" title="msg_usage" icon="tex_spanner" style="edit">
+      <label id="id_status_header" title="msg_mobile_network" style="heading"/>
+      <label id="id_status_transmit" title="msg_upload" />
+      <label id="id_status_received" title="msg_download" />
+      <label id="id_status_accumulated_time" title="msg_time" />
+      <label id="id_status_date" title="msg_reset_date" />
+      <button id="id_status_reset" title="msg_reset_vb" confirm="msg_usage_reset_conf"/>
+    </setting_list>
+
+    <!-- エラー履歴 -->
+    <setting_list id="id_error_history"
+                  title="msg_error_history"
+                  icon="tex_spanner">
+      <!-- link の枠組みだけ使って、textは独自の template で配置します -->
+      <link id="id_error_history_0" title="" file="console_info.xml" target_id="id_error_details"/>
+      <link id="id_error_history_1" title="" file="console_info.xml" target_id="id_error_details"/>
+      <link id="id_error_history_2" title="" file="console_info.xml" target_id="id_error_details"/>
+      <link id="id_error_history_3" title="" file="console_info.xml" target_id="id_error_details"/>
+      <link id="id_error_history_4" title="" file="console_info.xml" target_id="id_error_details"/>
+      <link id="id_error_history_5" title="" file="console_info.xml" target_id="id_error_details"/>
+      <link id="id_error_history_6" title="" file="console_info.xml" target_id="id_error_details"/>
+      <link id="id_error_history_7" title="" file="console_info.xml" target_id="id_error_details"/>
+      <link id="id_error_history_8" title="" file="console_info.xml" target_id="id_error_details"/>
+      <link id="id_error_history_9" title="" file="console_info.xml" target_id="id_error_details"/>
+    </setting_list>
+
+    <!-- 知的財産の表記 -->
+    <setting_list id="id_legal_information"
+                  title="msg_intellectual_property_notices"
+                  icon="tex_spanner"
+                  rotate="full">
+      
+       <!--ps family--> 
+      <user_custom id="id_ps_family"/>
+
+    </setting_list>
+
+  </setting_list>
+
+  <!-- エラー詳細 -->
+  <setting_list id="id_error_details" title="msg_value_none" style="edit">
+
+    <label id="id_error_date" title="msg_date" />
+    <label id="id_error_code" title="msg_error_code" />
+    <label id="id_error_application" title="msg_application" />
+    <label id="id_error_nat_type" title="msg_nat_type" />
+    <label id="id_error_system_software" title="msg_system_software" />
+    <label id="id_error_message" title="msg_message" />
+
+    <!-- お試しください -->
+    <button id="id_suggested_actions" title="msg_suggested_actions"/>
+
+  </setting_list>
+
+</system_settings>
+<?xml version="1.0" encoding="utf-8"?>
+<system_settings version="1.0" plugin="reset_plugin">
+
+  <!-- リセット -->
+  <setting_list id="reset" title="msg_format_restore">
+
+    <!-- 学習辞書を消去する -->
+    <setting_list id="clear_learning_dictionary"
+            title="msg_clear_learning_dictionary"
+            icon="tex_spanner"
+            rotate="full"
+            navi="ok_cancel">
+      <user_custom id="clear_learning_dictionary_dummy" />
+    </setting_list>
+
+    <!-- メモリーカードのフォーマット -->
+    <setting_list id="format_mc"
+            title="msg_format_mc"
+            icon="tex_spanner"
+            rotate="full"
+            navi="ok_cancel">
+      <user_custom id="format_mc_dummy" />
+    </setting_list>
+
+    <!-- メモリーカードのフォーマット …のダミーエントリ。常に check visible で false になる
+         [新しいRMのプロモート](Bug 26942) で使う -->
+    <setting_list id="format_mc_for_promote"
+            title=""
+            navi="ok_cancel">
+      <user_custom id="format_mc_dummy_for_promote" />
+    </setting_list>
+
+    <!-- 設定の初期化 -->
+    <setting_list id="init_setting"
+            title="msg_restore_settings"
+            icon="tex_spanner"
+            rotate="full"
+            navi="ok_cancel">
+      <user_custom id="init_setting_dummy" />
+    </setting_list>
+
+    <!-- VITAの初期化 -->
+    <setting_list id="init_console"
+            title="msg_restore_system"
+            icon="tex_spanner"
+            rotate="full"
+            navi="ok_cancel">
+      <setting_list id="format_mc_from_init_console"
+              title="msg_format_mc"
+              icon="tex_spanner"
+              rotate="full"
+              navi="ok_cancel">
+        <user_custom id="format_mc_dummy2" />
+      </setting_list>
+    </setting_list>
+
+  </setting_list>
+</system_settings>
+<?xml version="1.0" encoding="utf-8"?>
+<system_settings version="1.0" plugin="bluetooth_settings_plugin">
+
+  <!-- Bluetooth®設定 -->
+  <setting_list id="id_bluetooth_settings" title="msg_bt_devices">
+
+    <!-- Bluetooth®機能 -->
+    <toggle_switch id="id_bt_enable"
+                   title="msg_bt"
+                   key="/CONFIG/BT/bt_enable"
+                   icon="tex_spanner" />
+
+    <!-- Bluetooth®機器設定 -->
+    <label id="id_bt_device_settings"
+           title="msg_bt_device_settings"
+           icon="tex_spanner" />
+
+    <!-- 検索中です (登録された機器も見つかった機器もない時のみ表示) -->
+    <label id="id_searching"
+           title="msg_searching" />
+
+    <!-- 登録されている機器(表示しないので空の Element)  -->
+    <user_custom id="id_saved_device" />
+
+    <!-- 周辺で見つかった機器(表示しないので空の Element) -->
+    <user_custom id="id_found_device" />
+
+    <!-- 接続したい Bluetooth®機器がみつからない... -->
+    <label id="id_search_info"
+           title="msg_bt_search_information" />
+
+    <!-- Bluetooth®機器のマイク.... -->
+    <toggle_switch id="id_mic_priority_bt"
+                   title="msg_mic_priority_bt"
+                   key="/CONFIG/BT/bt_mic"
+                   hint="msg_mic_priority_bt_info"
+                   icon="tex_spanner" />
+  </setting_list>
+</system_settings>
+<?xml version="1.0" encoding="utf-8"?>
+<system_settings version="1.0" plugin="bluetooth_settings_plugin">
+
+  <!-- Bluetooth®設定メニュー -->
+  <setting_list id="id_bluetooth_settings_menu" title="" style="edit" rotate="full">
+
+    <!-- 機器名称 -->
+    <label id="id_bt_device_name" title="msg_bt_device_name" />
+
+    <!-- 機器種別 -->
+    <label id="id_bt_device_type" title="msg_bt_type" />
+
+    <!-- プロファイル -->
+    <label id="id_bt_profile" title="msg_bt_profile" />
+
+  </setting_list>
+</system_settings>
+<?xml version="1.0" encoding="utf-8"?>
+<system_settings version="1.0" plugin="debug_settings_plugin">
+
+  <!-- Debug Settings -->
+  <setting_list id="id_debug_settings" title="msg_debug_settings">
+    
+    <!-- Boot Parameters -->
+    <setting_list id="id_bp" title="msg_bp" icon="tex_spanner" style="edit">
+
+      <!-- Release Check Mode -->
+      <list id="id_bp_release_check_mode"
+            title="msg_bp_release_check_mode">
+        <list_item id="id_bp_release_check_mode_release" title="msg_release_mode" value="0"/>
+        <list_item id="id_bp_release_check_mode_development" title="msg_development_mode" value="1"/>
+      </list>
+
+      <!-- Release Mode Console -->
+      <list id="id_bp_release_mode_console"
+            title="msg_bp_release_mode_console">
+        <list_item id="id_bp_release_mode_console_disable" title="msg_disable" value="0"/>
+        <list_item id="id_bp_release_mode_console_enable" title="msg_enable" value="1"/>
+      </list>
+
+      <!-- Memory Size -->
+      <list id="id_bp_memory_size"
+            title="msg_bp_memory_size">
+        <list_item id="id_bp_memory_size_console" title="msg_console_size" value="0"/>
+        <list_item id="id_bp_memory_size_development_tool" title="msg_development_tool_size" value="1"/>
+      </list>
+
+      <!-- PS TV Emulation -->
+      <list id="id_bp_dolce_emu"
+            title="msg_bp_dolce_emu">
+        <list_item id="id_bp_dolce_emu_off" title="msg_off" value="0"/>
+        <list_item id="id_bp_dolce_emu_on" title="msg_on" value="1"/>
+      </list>
+
+      <!-- Extra TTY -->
+      <list id="id_bp_extra_tty"
+            title="msg_bp_extra_tty">
+        <list_item id="id_bp_extra_tty_off" title="msg_off" value="0"/>
+        <list_item id="id_bp_extra_tty_on" title="msg_on" value="1"/>
+      </list>
+
+    </setting_list>
+
+    <!-- System Update -->
+    <setting_list id="id_update" title="msg_update" icon="tex_spanner" style="edit">
+      
+      <!-- Update Server URL -->
+      <text_field id="id_update_server_url" key="/CONFIG/SYSTEM/UPDATE/server_url"
+            title="msg_update_server_url"
+            keyboard_type="url" max_length="511"/>
+
+      <!-- Show PUP List -->
+      <list id="id_update_pup_list_flag" key="/CONFIG/SYSTEM/UPDATE/pup_list_flag" 
+            title="msg_update_pup_list_flag">
+        <list_item id="id_update_pup_list_flag_off" title="msg_off" value="0"/>
+        <list_item id="id_update_pup_list_flag_on" title="msg_on" value="1"/>
+      </list>
+
+      <!-- Enable Host0 -->
+      <list id="id_update_enable_host0" key="/CONFIG/SYSTEM/UPDATE/enable_host0"
+            title="msg_update_enable_host0">
+        <list_item id="id_update_enable_host0_disable" title="msg_disable" value="0"/>
+        <list_item id="id_update_enable_host0_enable" title="msg_enable" value="1"/>
+      </list>
+
+      <!-- NP System Update Check -->
+      <list id="id_update_enable_tool_pup_check" key="/CONFIG/SYSTEM/UPDATE/enable_tool_pup_check"
+            title="msg_update_enable_tool_pup_check">
+        <list_item id="id_update_enable_tool_pup_check_off" title="msg_off" value="0"/>
+        <list_item id="id_update_enable_tool_pup_check_on" title="msg_on" value="1"/>
+      </list>
+
+      <!-- Enable Media -->
+      <list id="id_update_enable_media" key="/CONFIG/SYSTEM/UPDATE/enable_media"
+            title="msg_update_enable_media">
+        <list_item id="id_update_enable_media_off" title="msg_off" value="0"/>
+        <list_item id="id_update_enable_media_on" title="msg_on" value="1"/>
+      </list>
+
+    </setting_list>
+
+    <!-- Network -->
+    <setting_list id="id_network" title="msg_network" icon="tex_spanner" style="edit">
+      
+      <!-- Packet Capture -->
+      <list id="id_network_packet_capture" key="/CONFIG/NET/enable_tcpdump_log"
+            title="msg_network_packet_capture">
+        <list_item id="id_network_packet_capture_off" title="msg_off" value="0"/>
+        <list_item id="id_network_packet_capture_on" title="msg_on" value="1"/>
+      </list>
+
+      <!-- Network Emulation -->
+      <list id="id_network_emulation_type" key="/CONFIG/NET/emulation_type"
+            title="msg_network_emulation">
+        <list_item id="id_network_emulation_type_disabled" title="msg_disabled" value="0"/>
+        <list_item id="id_network_emulation_type_1" title="msg_1" value="1"/>
+        <list_item id="id_network_emulation_type_2" title="msg_2" value="2"/>
+        <list_item id="id_network_emulation_type_3" title="msg_3" value="3"/>
+        <list_item id="id_network_emulation_type_4" title="msg_4" value="4"/>
+      </list>
+
+      <list id="id_network_emulation_if" key="/CONFIG/NET/emulation_if" title="">
+        <list_item id="id_network_emulation_if_usb_ethernet" title="msg_usb_ethernet" value="1"/>
+        <list_item id="id_network_emulation_if_wifi" title="msg_wifi" value="2"/>
+      </list>
+
+      <!-- Intermittent Connection -->
+      <list id="id_network_intermittent_connection" key="/CONFIG/NET/icm_type"
+            title="msg_network_intermittent_connection" success_dialog_message="msg_restart_system">
+        <list_item id="id_network_intermittent_connection_off" title="msg_off" value="0"/>
+        <list_item id="id_network_intermittent_connection_on" title="msg_on" value="1" />
+      </list>
+
+      <!-- Fake 3G Interface -->
+      <list id="id_network_fake_3g_interface" key="/CONFIG/NET/fake_3g_if"
+            title="msg_network_fake_3g_interface" success_dialog_message="msg_restart_system">
+        <list_item id="id_network_fake_3g_interface_off" title="msg_off" value="0"/>
+        <list_item id="id_network_fake_3g_interface_on" title="msg_on" value="1" />
+      </list>
+
+      <!-- DNS for 3G Connection -->
+      <setting_list id="id_network_dns_for_3g_connection" title="msg_network_dns_for_3g_connection" style="edit">
+        <!-- Primary DNS -->
+        <text_field id="id_network_dns_for_3g_connection_primary" key="/CONFIG/NET/primary_dns_for_3g"
+                    title="msg_network_dns_for_3g_connection_primary" keyboard_type="basic_latin" max_length="15" 
+                    success_dialog_message="msg_restart_system"/>
+        <!-- Secondary DNS -->
+        <text_field id="id_network_dns_for_3g_connection_secondary" key="/CONFIG/NET/secondary_dns_for_3g"
+                    title="msg_network_dns_for_3g_connection_secondary" keyboard_type="basic_latin" max_length="15" 
+                    success_dialog_message="msg_restart_system"/>
+
+      </setting_list>
+
+      <!-- NAT Traversal Information -->
+      <setting_list id="id_network_nat_traversal_info" title="msg_network_nat_traversal_info">
+        <user_custom id="id_network_user_custom_nat_traversal_info"/>
+      </setting_list>
+
+      <!-- PSP Adhoc SSID prefix -->
+      <text_field id="id_network_psp_adhoc_ssid_prefix" key="/CONFIG/NET/pspnet_adhoc_ssid_prefix"
+            title="msg_network_psp_adhoc_ssid_prefix"
+            keyboard_type="basic_latin" max_length="3"/>
+
+      <!-- SSL Cert Ignorable -->
+      <list id="id_network_ssl_cert_ignorable" key="/CONFIG/NET/ssl_cert_ignorable" 
+            title="msg_network_ssl_cert_ignorable">
+        <list_item id="id_network_ssl_cert_ignorable_off" title="msg_off" value="0"/>
+        <list_item id="id_network_ssl_cert_ignorable_on" title="msg_on" value="1" />
+      </list>
+
+    </setting_list>
+     
+    <!-- PlayStation™Network -->
+    <setting_list id="id_np" title="msg_np" icon="tex_spanner" style="edit">
+
+      <!-- Account Selection -->
+      <setting_list id="id_multi_accounts" title="msg_multi_accounts">
+
+        <!-- Create New Account -->
+        <setting_list id="id_multi_accounts_new_page" title="msg_multi_accounts_create_new_account" style="edit">
+          
+          <!-- アカウント名編集 -->
+          <text_field id="id_multi_accounts_new_name" title="msg_np_account_name" keyboard_type="basic_latin" min_length="1" max_length="31"/>
+
+          <!-- NP Environment -->
+          <text_field id="id_multi_accounts_new_np_env"
+                      title="msg_np_env"
+                      keyboard_type="basic_latin" max_length="8"/>
+
+          <!-- Nav-only NP -->
+          <list id="id_multi_accounts_new_np_nav_only" title="msg_np_nav_only">
+            <list_item id="id_multi_accounts_nav_only_off" title="msg_off" value="0"/>
+            <list_item id="id_multi_accounts_nav_only_on" title="msg_on" value="1"/>
+          </list>
+
+          <!-- Guest Birthday -->
+          <label id="id_multi_accounts_new_birthday" title="msg_guest_signin_birthday"/>
+          <text_field id="id_multi_accounts_new_yob" title="msg_guest_signin_year"
+                      keyboard_type="numeral" max_length="4"/>
+          <text_field id="id_multi_accounts_new_mob" title="msg_guest_signin_month"
+                      keyboard_type="numeral" max_length="2"/>
+          <text_field id="id_multi_accounts_new_dob" title="msg_guest_signin_day"
+                      keyboard_type="numeral" max_length="2"/>
+          
+          <!-- Guest Country -->
+          <text_field id="id_multi_accounts_new_country" title="msg_guest_signin_country" 
+                      keyboard_type="basic_latin" max_length="2"/>
+          
+          <!-- Guest Language -->
+          <text_field id="id_multi_accounts_new_language" title="msg_guest_signin_language"
+                      keyboard_type="basic_latin" max_length="2"/>
+          
+          <!-- Create -->
+          <button id="id_multi_accounts_new_create" title="msg_multi_accounts_create" confirm="msg_multi_accounts_create_confirm"/>
+        </setting_list>
+        
+        <spacer id="id_space_a"/>
+
+      </setting_list>
+
+      <!-- Account Local Settings -->
+      <label id="id_np_label_account_local_setting" title="msg_np_label_account_local_setting"/>
+      
+      <!-- 現在のアカウント名編集 -->
+      <text_field id="id_np_account_name" title="msg_np_account_name" keyboard_type="basic_latin" min_length="1" max_length="31"/>
+
+      <!-- NP Environment -->
+      <text_field id="id_np_env"
+                  title="msg_np_env" key="/CONFIG/NP/env"
+                  keyboard_type="basic_latin" max_length="8"
+                  success_dialog_message="msg_restart_system"/>
+
+      <!-- Nav-only NP -->
+      <list id="id_np_nav_only"
+            title="msg_np_nav_only"  key="/CONFIG/NP/nav_only">
+        <list_item id="id_np_nav_only_off" title="msg_off" value="0"/>
+        <list_item id="id_np_nav_only_on" title="msg_on" value="1"/>
+      </list>
+
+      <!-- Fake Plus -->
+      <list id="id_np_fake_plus"
+            title="msg_np_fake_plus"  key="/CONFIG/NP2/fake_plus">
+        <list_item id="id_np_fake_plus_off" title="msg_off" value="0"/>
+        <list_item id="id_np_fake_plus_on" title="msg_on" value="1"/>
+      </list>
+
+      <spacer id="id_space_b"/>
+      
+      <!-- Global Settings -->
+      <label id="id_np_label_grobal_setting" title="msg_np_label_grobal_setting"/>
+      
+      <!-- NP Debug -->
+      <list id="id_np_debug" key="/CONFIG/NP/debug" 
+            title="msg_np_debug">
+        <list_item id="id_np_debug_off" title="msg_off" value="0"/>
+        <list_item id="id_np_debug_on" title="msg_on" value="1"/>
+      </list>
+
+      <!-- In-Game Commerce Debug -->
+      <list id="id_np_in_game_commerce_debug" key="/CONFIG/NP/debug_ingame_commerce2"
+           title="msg_np_in_game_commerce_debug">
+        <list_item id="id_np_in_game_commerce_debug_off" title="msg_off" value="0"/>
+        <list_item id="id_np_in_game_commerce_debug_fake_sku_metadata" title="msg_fake_sku_and_metadata" value="1"/>
+        <list_item id="id_np_in_game_commerce_debug_empty" title="msg_empty_store" value="2"/>
+      </list>
+      
+      <!-- Service ID -->
+      <text_field id="id_np_service_id" key="/CONFIG/NP/title_id"
+                  title="msg_np_service_id"
+                  keyboard_type="basic_latin" max_length="19"/>
+
+      <!-- PlayStation®Store Ad Clock -->
+      <list id="id_np_ad_clock_diff"
+            title="msg_np_ad_clock_diff"
+            error_dialog_message= "msg_error_no_datetime_setting"
+            accept_not_changed ="on">
+        <list_item id="id_np_ad_clock_diff_off" title="msg_off" value="0"/>
+        <list_item id="id_np_ad_clock_diff_on" title="msg_on" value="1" />
+      </list>
+
+      <!-- Geo Filtering for PlayStation®Store -->
+      <list id="id_np_geo_filtering" key="/CONFIG/NP/np_geo_filtering"
+            title="msg_np_geo_filtering">
+        <list_item id="id_np_geo_filtering_normal" title="msg_normal" value="0" />
+        <list_item id="id_np_geo_filtering_always_succeed" title="msg_always_succeed" value="1" />
+        <list_item id="id_np_geo_filtering_always_fail" title="msg_always_fail" value="2" />
+      </list>
+
+      <!-- Upgradable App Debug -->
+      <list id="id_np_upgradable_app_debug" key="/CONFIG/NP/debug_upgradable"
+            title="msg_np_upgradable_app_debug">
+        <list_item id="id_np_upgradable_app_debug_off" title="msg_off" value="0" />
+        <list_item id="id_np_upgradable_app_debug_trial" title="msg_trial" value="1" />
+        <list_item id="id_np_upgradable_app_debug_full" title="msg_full" value="3" />
+      </list>
+
+      <!-- Patch Test -->
+      <list id="id_np_patch_test" key="/CONFIG/NP2/test_patch"
+            title="msg_np_patch_test">
+        <list_item id="id_np_patch_test_off" title="msg_off" value="0"/>
+        <list_item id="id_np_patch_test_on" title="msg_on" value="1" />
+      </list>
+
+      <!-- TPPS Proxy -->
+      <setting_list id="id_np_tpps_proxy" title="msg_np_tpps_proxy" style="edit">
+        <list id="id_np_tpps_proxy_flag" key="/CONFIG/NP2/tpps_proxy_flag"
+            title="msg_np_tpps_proxy">
+          <list_item id="id_np_tpps_proxy_flag_not_use" title="msg_not_use" value="0"/>
+          <list_item id="id_np_tpps_proxy_flag_use" title="msg_use" value="1"/>
+        </list>
+        <!-- Address -->
+        <text_field id="id_np_tpps_proxy_address" key="/CONFIG/NP2/tpps_proxy_server"
+                    title="msg_np_tpps_proxy_address" keyboard_type="url" max_length="255"/>
+        <!-- Port -->
+        <text_field id="id_np_tpps_proxy_port" key="/CONFIG/NP2/tpps_proxy_port"
+                    title="msg_np_tpps_proxy_port" keyboard_type="numeral" max_length="5"/>
+        <!-- User Name -->
+        <text_field id="id_np_tpps_proxy_user_name" key="/CONFIG/NP2/tpps_proxy_user_name"
+                    title="msg_np_tpps_proxy_user_name" keyboard_type="basic_latin" max_length="64"/>
+        <!-- Password -->
+        <text_field id="id_np_tpps_proxy_password" key="/CONFIG/NP2/tpps_proxy_password"
+                    title="msg_np_tpps_proxy_password" keyboard_type="basic_latin" max_length="64" password="on"/>
+
+      </setting_list>
+
+      <!-- Trophy Setup Dialog Debug -->
+      <list id="id_np_trophy_setup_dialog_debug" key="/CONFIG/NP2/trophy_setup_dialog_debug"
+            title="msg_np_trophy_setup_dialog_debug">
+        <list_item id="id_np_trophy_setup_dialog_debug_off" title="msg_off" value="0" />
+        <list_item id="id_np_trophy_setup_dialog_debug_always_fail" title="msg_always_fail" value="1" />
+      </list>
+
+      <!-- NPDRM Loose Setting -->
+      <list id="id_np_npdrm_loose_setting" key="/CONFIG/NP2/debug_drm_loose_bind"
+            title="msg_np_npdrm_loose_setting">
+        <list_item id="id_np_npdrm_loose_setting_off" title="msg_off" value="0" />
+        <list_item id="id_np_npdrm_loose_setting_allow_account_switching" title="msg_allow_account_switching" value="1" />
+      </list>
+
+      <!-- Web API Rate Limit Threshold -->
+      <list id="id_np_web_api_fake_rate_limit" key="/CONFIG/NP2/fake_ratelimit"
+            title="msg_np_web_api_fake_rate_limit">
+        <list_item id="id_np_web_api_fake_rate_limit_always_error" title="msg_always_error" value="0"/>
+        <list_item id="id_np_web_api_fake_rate_limit_10" title="msg_10_percent" value="10"/>
+        <list_item id="id_np_web_api_fake_rate_limit_20" title="msg_20_percent" value="20"/>
+        <list_item id="id_np_web_api_fake_rate_limit_30" title="msg_30_percent" value="30"/>
+        <list_item id="id_np_web_api_fake_rate_limit_40" title="msg_40_percent" value="40"/>
+        <list_item id="id_np_web_api_fake_rate_limit_50" title="msg_50_percent" value="50"/>
+        <list_item id="id_np_web_api_fake_rate_limit_60" title="msg_60_percent" value="60"/>
+        <list_item id="id_np_web_api_fake_rate_limit_70" title="msg_70_percent" value="70"/>
+        <list_item id="id_np_web_api_fake_rate_limit_80" title="msg_80_percent" value="80"/>
+        <list_item id="id_np_web_api_fake_rate_limit_90" title="msg_90_percent" value="90"/>
+        <list_item id="id_np_web_api_fake_rate_limit_100" title="msg_100_percent" value="100"/>
+      </list>
+
+      <!-- Ignore NpTitleId set by API in Development Mode -->
+      <list id="id_np_ignore_titleid" key="/CONFIG/NP2/ignore_titleid"
+            title="msg_np_ignore_titleid">
+        <list_item id="id_np_ignore_titleid_off" title="msg_off" value="0"/>
+        <list_item id="id_np_ignore_titleid_on" title="msg_on" value="1"/>
+      </list>
+
+    </setting_list>
+
+    
+    <!-- Mobile Network-->
+    <setting_list id="id_mobile" title="msg_mobile" icon="tex_spanner">
+
+      <!-- Carrier Test Mode -->
+       <list id="id_mobile_carrier_test_mode"
+            title="msg_mobile_carrier_test_mode" icon="tex_spanner">
+        <list_item id="id_mobile_carrier_test_mode_off" title="msg_off" value="0"/>
+        <list_item id="id_mobile_carrier_test_mode_on" title="msg_on" value="1"/>
+      </list>
+     
+      <!-- Carrier Test Information -->
+      <setting_list id="id_mobile_carrier_test_info" title="msg_mobile_carrier_test_info" icon="tex_spanner">
+        <user_custom id="id_mobile_user_custom_carrier_test_info"/>
+      </setting_list>
+
+      <!-- Carrier Test Operation -->
+      <setting_list id="id_mobile_carrier_test_operation" title="msg_mobile_carrier_test_operation" icon="tex_spanner" style="edit">
+
+        <!-- Delete All SMS Messages -->
+        <button id="id_mobile_delete_all_sms_msg" title="msg_mobile_delete_all_sms_msg" confirm="msg_delete_all_sms_confirm"/>
+        <!-- Forbidden Phone0 -->
+        <list id="id_mobile_forbidden_phone0" key="/CONFIG/TEL/forbidden_phone0"
+            title="msg_mobile_forbidden_phone0">
+          <list_item id="id_mobile_forbidden_phone0_off" title="msg_off" value="0"/>
+          <list_item id="idmobile_forbidden_phone0_on" title="msg_on" value="1" />
+        </list>
+        <!-- Reboot System -->
+        <button id="id_mobile_reboot_system" title="msg_mobile_reboot_system" confirm="msg_reboot_system_confirm"/>
+        <!-- Reboot System with Safe Mode -->
+        <button id="id_mobile_reboot_system_with_safe_mode" title="msg_mobile_reboot_system_with_safe_mode" confirm="msg_reboot_system_confirm"/>
+        <!-- Carrier test info detail -->
+        <list id="id_mobile_carrier_test_info_detail"
+            title="msg_mobile_carrier_test_info_detail">
+          <list_item id="id_mobile_carrier_test_info_detail_off" title="msg_off" value="0"/>
+          <list_item id="id_mobile_carrier_test_info_detail_on" title="msg_on" value="1" />
+        </list>
+
+      </setting_list>
+      
+      <!-- USB Setting -->
+      <list id="id_mobile_usb_setting"
+            title="msg_mobile_usb_setting"
+            key="/CONFIG/TEL/usb_setting"
+            error_dialog_message= "msg_only_for_3g_model"
+            icon="tex_spanner">
+        <list_item id="id_mobile_usb_setting_off" title="msg_off" value="0"/>
+        <list_item id="id_mobile_usb_setting_on" title="msg_on" value="1"/>
+      </list>
+    
+      <!-- Telephony Registries -->
+      <setting_list id="id_mobile_telephony_registry" title="msg_mobile_telephony_registry" icon="tex_spanner" style="edit">
+        <!-- Use Debug Settings -->
+        <list id="id_telephony_registry_use_debug_settings" title="msg_telephony_registry_use_debug_settings"
+              key="/CONFIG/TEL/use_debug_settings">
+          <list_item id="id_telephony_registry_use_debug_settings_off" title="msg_off" value="0"/>
+          <list_item id="id_telephony_registry_use_debug_settings_on" title="msg_on" value="1"/>
+        </list>
+        <!-- Is Com Exist -->
+        <text_field id="id_telephony_registry_is_com_exist" key="/CONFIG/TEL/is_com_exist"
+              title="msg_telephony_registry_is_com_exist" keyboard_type="numeral" max_length="3"/>
+        <!-- Target Operator -->
+        <text_field id="id_telephony_registry_target_operator" key="/CONFIG/TEL/target_operator"
+              title="msg_telephony_registry_target_operator" keyboard_type="numeral" max_length="3"/>
+        <!-- Product Target Operator -->
+        <text_field id="id_telephony_registry_product_target_operator" key="/CONFIG/TEL/product_target_operator"
+              title="msg_telephony_registry_product_target_operator" keyboard_type="numeral" max_length="3"/>
+        <!-- Antenna Disp Type -->
+        <text_field id="id_telephony_registry_antenna_disp_type" key="/CONFIG/TEL/antenna_disp_type"
+              title="msg_telephony_registry_antenna_disp_type" keyboard_type="numeral" max_length="3"/>
+        <!-- UID -->
+        <text_field id="id_telephony_registry_uid" key="/CONFIG/TEL/sim_unique_id"
+              title="msg_telephony_registry_uid" keyboard_type="numeral" max_length="20"/>
+        <!-- Operator Site -->
+        <text_field id="id_telephony_registry_operator_site" key="/CONFIG/TEL/operator_site"
+              title="msg_telephony_registry_operator_site" keyboard_type="url" max_length="511"/>
+      </setting_list>
+
+      <!-- Logging -->
+      <setting_list id="id_mobile_logging" title="msg_mobile_logging" icon="tex_spanner" style="edit">
+        <!-- Telephony -->
+        <list id="id_logging_telephony" title="msg_logging_telephony"
+              key="/CONFIG/TEL/dbg_log_tel">
+          <list_item id="id_logging_telephony_off" title="msg_off" value="0"/>
+          <list_item id="id_logging_telephony_usb" title="msg_usb" value="1"/>
+          <list_item id="id_logging_telephony_sd" title="msg_sd" value="2"/>
+        </list>
+        <!-- BBMC -->
+        <list id="id_logging_bbmc" title="msg_logging_bbmc"
+              key="/CONFIG/TEL/dbg_log_bbmc">
+          <list_item id="id_logging_bbmc_off" title="msg_off" value="0"/>
+          <list_item id="id_logging_bbmc_usb" title="msg_usb" value="1"/>
+          <list_item id="id_logging_bbmc_sd" title="msg_sd" value="2"/>
+        </list>
+        <!-- Network -->
+        <list id="id_logging_network" title="msg_logging_network"
+              key="/CONFIG/TEL/dbg_log_net">
+          <list_item id="id_logging_network_off" title="msg_off" value="0"/>
+          <list_item id="id_logging_network_usb" title="msg_usb" value="1"/>
+          <list_item id="id_logging_network_sd" title="msg_sd" value="2"/>
+        </list>
+      </setting_list>
+
+      <!-- Show Ads -->
+      <list id="id_mobile_show_ads" key="/CONFIG/TEL/show_operator_info"
+           title="msg_mobile_show_ads" icon="tex_spanner">
+        <list_item id="id_show_ads_off" title="msg_off" value="0"/>
+        <list_item id="id_show_ads_on" title="msg_on" value="1"/>
+      </list>
+
+    </setting_list>
+
+    
+    <!-- Location Data -->
+    <setting_list id="id_location" title="msg_location" icon="tex_spanner" style="edit">
+
+      <!-- Emulate Permission -->
+      <list id="id_location_debug_permission" key="/CONFIG/LOCATION/debug_permission"
+            title="msg_location_debug_permission">
+        <list_item id="id_debug_permission_off" title="msg_off" value="0"/>
+        <list_item id="id_debug_permission_on" title="msg_on" value="1"/>
+      </list>
+
+      <!-- Permission Status -->
+      <list id="id_location_debug_permission_status" key="/CONFIG/LOCATION/debug_permission_status"
+            title="msg_location_debug_permission_status">
+        <list_item id="debug_permission_status_disable" title="msg_disable" value="0"/>
+        <list_item id="debug_permission_status_not_yet_accessed" title="msg_not_yet_accessed" value="1"/>
+        <list_item id="debug_permission_status_deny" title="msg_deny" value="2"/>
+        <list_item id="debug_permission_status_allow" title="msg_allow" value="3"/>
+      </list>
+
+      <!-- Device Model -->
+      <list id="id_location_device_model" key="/CONFIG/LOCATION/emulation_mode"
+           title="msg_location_device_model">
+        <list_item id="id_device_model_sys_dependent" title="msg_sys_dependent_model" value="0"/>
+        <list_item id="id_device_model_emulation" title="msg_emulation_model" value="1"/>
+        <list_item id="id_device_model_wifi" title="msg_wifi_model" value="2"/>
+      </list>
+
+      <!-- Make AP Invisible -->
+      <list id="id_location_make_ap_invisible" key="/CONFIG/LOCATION/make_ap_invisible"
+            title="msg_location_make_ap_invisible">
+        <list_item id="id_make_ap_invisible_off" title="msg_off" value="0"/>
+        <list_item id="id_make_ap_invisible_on" title="msg_on" value="1"/>
+      </list>
+
+    </setting_list>
+
+    
+    <!-- System -->
+    <setting_list id="id_system" title="msg_system" icon="tex_spanner" style="edit">
+
+      <!-- ○ Button Behavior -->
+      <list id="id_system_button_behavior" key="/CONFIG/SYSTEM/button_assign"
+            title="msg_system_button_behavior">
+        <list_item id="id_tool_button_behavior_enter" title="msg_enter" value="0"/>
+        <list_item id="id_tool_button_behavior_back" title="msg_back" value="1"/>
+      </list>
+
+      <!-- Slow Card Mode -->
+      <list id="id_system_slow_card_mode" key="/DEVENV/TOOL/slow_card_mode"
+            title="msg_system_slow_card_mode" success_dialog_message="msg_restart_system">
+        <list_item id="id_tool_slow_card_mode_disable" title="msg_disable" value="0"/>
+        <list_item id="id_tool_slow_card_mode_enable" title="msg_enable" value="1"/>
+      </list>
+
+      <!-- TRC Check Notifications -->
+      <list id="id_system_trc_check_notifications" key="/CONFIG/SHELL/trc_check_notify"
+            title="msg_system_trc_check_notifications">
+        <list_item id="id_tool_trc_check_notifications_disable" title="msg_disable" value="0"/>
+        <list_item id="id_tool_trc_check_notifications_enable" title="msg_enable" value="1"/>
+      </list>
+
+      <!-- GPI Switch -->
+      <text_field id="id_system_gpi_switch"
+            title="msg_system_gpi_switch" keyboard_type="basic_latin" max_length="10"/>
+
+      <!-- Playlog Clock -->
+      <list id="id_system_playlog_clock" key="/CONFIG/SHELL/playlog_clock"
+            title="msg_system_playlog_clock"
+            success_dialog_message="msg_restart_system">
+        <list_item id="id_system_playlog_clock_local" title="msg_local" value="1"/>
+        <list_item id="id_system_playlog_clock_network" title="msg_network" value="0"/>
+      </list>
+
+      <!-- Boot Time Notifications -->
+      <list id="id_system_boot_time_notifications"
+            title="msg_system_boot_time_notifications">
+        <list_item id="id_system_boot_time_notifications_disable" title="msg_disable" value="0"/>
+        <list_item id="id_system_boot_time_notifications_enable" title="msg_enable" value="1"/>
+      </list>
+
+      <!-- Auto Standby -->
+      <list id="id_system_auto_standby"
+            title="msg_system_auto_standby">
+        <list_item id="id_system_auto_standby_off" title="msg_off" value="0"/>
+        <list_item id="id_system_auto_standby_on" title="msg_on" value="1"/>
+      </list>
+
+      <!-- Fake Remaining Battery Level -->
+      <setting_list id="id_system_fake_remaining_battery_level" title="msg_system_fake_remaining_battery_level" icon="tex_spanner" style="edit">
+
+        <!-- Current Level (%) -->
+        <text_field id="id_system_fake_remaining_battery_current_level"
+            title="msg_system_fake_remaining_battery_current_level" keyboard_type="numeral" max_length="3"/>
+        <!-- Time to Empty (sec) -->
+        <text_field id="id_system_fake_remaining_battery_time_to_empty"
+            title="msg_system_fake_remaining_battery_time_to_empty" keyboard_type="numeral" max_length="4"/>
+        <!-- Start -->
+        <button id="id_system_fake_remaining_battery_start" title="msg_system_fake_remaining_battery_start"/>
+
+      </setting_list>
+
+      <!-- HDMI Audio Output -->
+      <list id="id_system_hdmi_audio_output" key="/DEVENV/TOOL/hdmi_audio_mode"
+            title="msg_system_hdmi_audio_output" success_dialog_message="msg_restart_system">
+        <list_item id="id_system_hdmi_audio_output_off" title="msg_off" value="0"/>
+        <list_item id="id_system_hdmi_audio_output_on" title="msg_on" value="1"/>
+      </list>
+
+      <!-- HDMI RGB Full Range -->
+      <list id="id_system_hdmi_rgb_full_range" key="/DEVENV/TOOL/hdmi_color_range"
+            title="msg_system_hdmi_rgb_full_range" success_dialog_message="msg_reset_hdmi_cable">
+        <list_item id="id_system_hdmi_rgb_full_range_limited" title="msg_limited" value="0"/>
+        <list_item id="id_system_hdmi_rgb_full_range_full" title="msg_full" value="1"/>
+      </list>
+
+      <!-- Check Emu Compatible List -->
+      <list id="id_system_check_emu_compatible_list" key="/CONFIG/PSPEMU/enable_list"
+            title="msg_system_check_emu_compatible_list">
+        <list_item id="id_system_check_emu_compatible_list_off" title="msg_off" value="0"/>
+        <list_item id="id_system_check_emu_compatible_list_on" title="msg_on" value="1"/>
+      </list>
+
+      <!-- Skip Launchable Application Check -->
+      <list id="id_system_skip_launch_check" key="/CONFIG/SYSTEM/launch_check"
+            title="msg_system_skip_launch_check">
+        <list_item id="id_system_skip_launch_check_off" title="msg_off" value="0"/>
+        <list_item id="id_system_skip_launch_check_on" title="msg_on" value="1"/>
+      </list>
+
+      <!-- PRX Debug -->
+      <list id="id_system_prx_debug" key="/DEVENV/TOOL/prx_debug"
+            title="msg_system_prx_debug">
+        <list_item id="id_system_prx_debug_disable" title="msg_disable" value="0"/>
+        <list_item id="id_system_prx_debug_enable" title="msg_enable" value="1"/>
+      </list>
+
+      <!-- Shell Crash Test -->
+      <list id="id_system_shell_crash_test" key="/CONFIG/SHELL/test_crash"
+            title="msg_system_shell_crash_test">
+        <list_item id="id_system_shell_crash_test_off" title="msg_off" value="0"/>
+        <list_item id="id_system_shell_crash_test_on" title="msg_on" value="1"/>
+      </list>
+
+      <!-- System Application Crash Test -->
+      <button id="id_system_app_crash_test" title="msg_system_app_crash_test"/>
+
+      <!-- System Application(Dialog Mode) Crash Test -->
+      <button id="id_system_app_crash_test2" title="msg_system_app_crash_test2"/>
+
+      <!-- Debug Network Clock -->
+      <list id="id_system_debug_network_clock"
+            title="msg_system_debug_network_clock" accept_not_changed ="on">
+        <list_item id="id_system_debug_network_clock_off" title="msg_off" value="0"/>
+        <list_item id="id_system_debug_network_clock_on" title="msg_on" value="1"/>
+      </list>
+
+      <!-- Reset Network Clock -->
+      <button id="id_system_reset_network_clock" title="msg_system_reset_network_clock"
+              success_dialog_message="msg_system_reset_network_clock_success"/>
+
+      <!-- Special Backup Key -->
+      <list id="id_system_special_backup_key" key="/CONFIG/SPECIFIC/backup_key"
+            title="msg_system_special_backup_key">
+        <list_item id="id_system_special_backup_key_off" title="msg_off" value="0"/>
+        <list_item id="id_system_special_backup_key_on" title="msg_on" value="1"/>
+      </list>
+
+      <!-- Force AVLS Timer -->
+      <setting_list id="id_system_fake_avls_timer" title="msg_system_fake_avls_timer" style="edit">
+
+        <!-- Timer(sec) -->
+        <text_field id="id_system_fake_avls_timer_sec" title="msg_system_fake_avls_timer_sec"
+                    keyboard_type="numeral" max_length="6"/>
+
+        <!-- Set -->
+        <button id="id_system_fake_avls_timer_set" title="msg_system_fake_avls_timer_set"/>
+
+      </setting_list>
+
+      <!-- MC Emulation -->
+      <list id="id_system_mc_emulation" title="msg_system_mc_emulation">
+        <list_item id="id_system_mc_emulation_off" title="msg_off" value="1"/>
+        <list_item id="id_system_mc_emulation_on" title="msg_on" value="0"/>
+      </list>
+
+      <!-- Skip Patch Download on CMA -->
+      <list id="id_system_skip_patch_download" key="/CONFIG/SYSTEM/skip_patch_download"
+            title="msg_system_skip_patch_download">
+        <list_item id="id_system_skip_patch_download_off" title="msg_off" value="0"/>
+        <list_item id="id_system_skip_patch_download_on" title="msg_on" value="1"/>
+      </list>
+
+      <!-- Deadzone Check of Analog Sticks -->
+      <setting_list id="id_system_analog_stick_deadzone" title="msg_system_analog_stick_deadzone" style="edit">
+        <!-- Check Target of Analog Sticks -->
+        <list id="id_system_analog_stick_check_target" title="msg_system_analog_stick_check_target">
+          <list_item id="id_system_analog_stick_check_target_off" title="msg_off" value="0"/>
+          <list_item id="id_system_analog_stick_check_target_right" title="msg_analog_stick_right" value="1"/>
+          <list_item id="id_system_analog_stick_check_target_left" title="msg_analog_stick_left" value="2"/>
+          <list_item id="id_system_analog_stick_check_target_dual" title="msg_analog_stick_dual" value="3"/>
+        </list>
+        <!-- Check Mode -->
+        <list id="id_system_analog_stick_check_mode" title="msg_system_analog_stick_check_mode">
+          <list_item id="id_system_analog_stick_check_mode_deadzone_auto_walk" title="msg_check_mode_deadzone_auto_walk" value="0"/>
+          <list_item id="id_system_analog_stick_check_mode_max_value_limit" title="msg_check_mode_max_value_limit" value="1"/>
+        </list>
+      </setting_list>
+
+      <!-- Auto Creation of Folder on Home -->
+      <list id="id_system_auto_folder_creation" key="/CONFIG/SHELL/shell_auto_create_folder"
+            title="msg_system_auto_folder_creation">
+        <list_item id="id_system_auto_folder_creation_off" title="msg_off" value="0"/>
+        <list_item id="id_system_auto_folder_creation_on" title="msg_on" value="1"/>
+      </list>
+
+      <!-- Format Marlin Personal Data -->
+      <button id="id_system_format_marlin_personal_data" title="msg_system_format_marlin_personal_data" confirm="msg_format_marlin_personal_data_confirm"/>
+
+      <!-- Format Teleport List Data -->
+      <button id="id_system_format_teleport_list_data" title="msg_system_format_teleport_list_data" confirm="msg_format_teleport_list_data_confirm"/>
+
+      <!-- Force Rebuild Database -->
+      <setting_list id="id_system_force_rebuild_database" title="msg_system_force_rebuild_database">
+        <button id="id_system_force_rebuild_all_sys_db" title="msg_system_force_rebuild_all_sys_db" icon="tex_spanner" confirm="msg_force_rebuild_database_confirm"/>
+        <button id="id_system_force_rebuild_application_db" title="msg_system_force_rebuild_application_db" icon="tex_spanner" confirm="msg_force_rebuild_database_confirm"/>
+        <button id="id_system_force_rebuild_photo_db" title="msg_system_force_rebuild_photo_db" icon="tex_spanner" confirm="msg_force_rebuild_database_confirm"/>
+        <button id="id_system_force_rebuild_music_db" title="msg_system_force_rebuild_music_db" icon="tex_spanner" confirm="msg_force_rebuild_database_confirm"/>
+        <button id="id_system_force_rebuild_video_db" title="msg_system_force_rebuild_video_db" icon="tex_spanner" confirm="msg_force_rebuild_database_confirm"/>
+      </setting_list>
+
+      <!-- Initial Setup -->
+      <list id="id_system_initial_setup" key="/CONFIG/SYSTEM/initialize"
+            title="msg_system_initial_setup">
+        <list_item id="id_tool_initial_setup_not_completed" title="msg_not_completed" value="0"/>
+        <list_item id="id_tool_initial_setup_completed" title="msg_completed" value="1"/>
+      </list>
+
+      <!-- Region Settings  -->
+      <list id="id_system_region_settings"
+            title="msg_system_region_settings">
+        <list_item id="id_tool_region_settings_japan" title="msg_japan" value="1"/>
+        <list_item id="id_tool_region_settings_north_america" title="msg_north_america" value="2"/>
+        <list_item id="id_tool_region_settings_oceania" title="msg_oceania" value="3"/>
+        <list_item id="id_tool_region_settings_uk" title="msg_uk" value="4"/>
+        <list_item id="id_tool_region_settings_europe" title="msg_europe" value="5"/>
+        <list_item id="id_tool_region_settings_korea" title="msg_korea" value="6"/>
+        <list_item id="id_tool_region_settings_southest_asia" title="msg_southest_asia" value="7"/>
+        <list_item id="id_tool_region_settings_taiwan" title="msg_taiwan" value="8"/>
+        <list_item id="id_tool_region_settings_china" title="msg_china" value="13"/>
+        <list_item id="id_tool_region_settings_russia" title="msg_russia" value="9"/>
+        <list_item id="id_tool_region_settings_mexico" title="msg_mexico" value="10"/>
+        <list_item id="id_tool_region_settings_off" title="msg_off" value="11"/>
+      </list>
+
+      <!-- Fake Registry Error -->
+      <setting_list id="id_system_fake_registry_error" title="msg_system_fake_registry_error" style="edit">
+          
+          <!-- Error Code -->
+          <text_field id="id_system_fake_registry_error_code" title="msg_system_fake_registry_error_code" 
+                      keyboard_type="basic_latin" max_length="10"/>
+
+          <!-- Counter -->
+          <text_field id="id_system_fake_registry_error_counter" title="msg_system_fake_registry_error_counter"
+                      keyboard_type="numeral" max_length="4"/>
+          
+          <!-- Enable Fake Error -->
+          <button id="id_system_fake_registry_error_enable" title="msg_system_fake_registry_error_enable" 
+                  confirm="msg_fake_registry_error_enable_confirm"/>
+
+      </setting_list>
+
+      <!-- Restore Debug Settings -->
+      <setting_list id="id_system_restore_debug_settings" title="msg_system_restore_debug_settings" navi="ok_cancel">
+        <label id="id_init_debug_settings_info" title="msg_restore_debug_settings_info"/>
+        <spacer id="id_init_spacer1" height="20" />
+      </setting_list>
+
+      <!-- Show Information -->
+      <setting_list id="id_system_show_info" title="msg_system_show_info">
+        <user_custom id="id_system_user_custom_show_info"/>
+      </setting_list>
+
+      <!-- DUALSHOCK4 USB Control -->
+      <list id="id_system_dualshock4_usb_control" key="/CONFIG/SYSTEM/dualshock4_usb"
+            title="msg_system_dualshock4_usb_control">
+        <list_item id="id_system_dualshock4_usb_control_off" title="msg_off" value="0"/>
+        <list_item id="id_system_dualshock4_usb_control_on" title="msg_on" value="1"/>
+      </list>
+
+    </setting_list>
+
+
+    <!-- Core Dump -->
+    <setting_list id="id_coredump" title="msg_coredump" icon="tex_spanner" style="edit">
+
+      <!-- Dump Level -->
+      <list id="id_coredump_level" key="/CONFIG/COREDUMP/dump_level"
+            title="msg_coredump_level">
+        <list_item id="id_tool_dump_level_mini" title="msg_mini_dump" value="0"/>
+        <list_item id="id_tool_dump_level_full" title="msg_full_dump" value="1"/>
+      </list>
+
+      <!-- Uploader -->
+      <setting_list id="id_coredump_uploader" title="msg_coredump_uploader" style="edit">
+
+        <!-- Enable Uploader -->
+        <list id="id_coredump_uploader_enable" key="/CONFIG/COREDUMP/UPLOADER/enable_flag"
+              title="msg_coredump_uploader_enable">
+          <list_item id="id_uploader_enable_off" title="msg_off" value="0"/>
+          <list_item id="id_uploader_enable_on" title="msg_on" value="1"/>
+        </list>
+
+        <!-- Uploader URL -->
+        <text_field id="id_coredump_uploader_url" key="/CONFIG/COREDUMP/UPLOADER/url"
+                    title="msg_coredump_uploader_url" keyboard_type="url" max_length="255"/>
+
+        <!-- Auto Upload -->
+        <list id="id_coredump_uploader_auto" key="/CONFIG/COREDUMP/UPLOADER/auto_flag"
+              title="msg_coredump_uploader_auto">
+          <list_item id="id_uploader_auto_off" title="msg_off" value="0"/>
+          <list_item id="id_uploader_auto_on" title="msg_on" value="1"/>
+        </list>
+
+      </setting_list>
+
+      <!-- Crash Report -->
+      <setting_list id="id_coredump_cr" title="msg_coredump_cr" style="edit">
+
+        <!-- Keep Corefiles -->
+        <list id="id_coredump_cr_keep_corefiles" key="/CONFIG/COREDUMP/CRASHREPORT/keep_corefiles"
+              title="msg_coredump_cr_keep_corefiles">
+          <list_item id="id_cr_keep_corefiles_off" title="msg_off" value="0"/>
+          <list_item id="id_cr_keep_corefiles_on" title="msg_on" value="1"/>
+        </list>
+
+      </setting_list>
+
+      <!-- Copy -->
+      <button id="id_coredump_copy" title="msg_coredump_copy"/>
+
+      <!-- Delete -->
+      <button id="id_coredump_delete" title="msg_coredump_delete"/>
+
+    </setting_list>
+    
+
+    <!-- Activation -->
+    <setting_list id="id_activation" title="msg_activation" icon="tex_spanner">
+
+      <!-- Activate by Storage -->
+      <button id="id_activate_by_storage" title="msg_activate_by_storage" icon="tex_spanner"/>
+
+      <!-- Activate by Connecting PC -->
+      <button id="id_activate_by_connecting_pc" title="msg_activate_by_connecting_pc" icon="tex_spanner"/>
+
+      <!-- Show Expiration Date -->
+      <setting_list id="id_show_expire_date" title="msg_show_expire_date" icon="tex_spanner" style="edit">
+        <label id="id_show_expire_date_label" title="" style="heading"/>
+      </setting_list>
+
+      <!-- Show Activation Key -->
+      <setting_list id="id_show_activation_key" title="msg_show_activation_key" icon="tex_spanner" style="edit">
+        <label id="id_show_activation_key_label" title="msg_activation_key" style="heading"/>
+      </setting_list>
+      
+    </setting_list>
+
+
+    <!-- Photo Settings -->
+    <setting_list id="id_photo" title="msg_photo" icon="tex_spanner">
+
+      <!-- Enable QA ScreenShot -->
+      <list id="id_enable_qa_screenshot" key="/CONFIG/PHOTO/debug_screenshot"
+            title="msg_enable_qa_screenshot" icon="tex_spanner">
+        <list_item id="id_enable_qa_screenshot_off" title="msg_off" value="0"/>
+        <list_item id="id_enable_qa_screenshot_on" title="msg_on" value="1"/>
+      </list>
+
+      <!-- ScreenShot File Format -->
+      <list id="id_photo_screenshot_file_format" key="/CONFIG/PHOTO/debug_screenshot_format"
+            title="msg_photo_screenshot_file_format" icon="tex_spanner">
+        <list_item id="id_screenshot_file_format_jpeg" title="msg_jpeg" value="0"/>
+        <list_item id="id_screenshot_file_format_bmp" title="msg_bmp" value="1"/>
+      </list>
+
+      <!-- Export Photo DB -->
+      <button id="id_export_photo_db" title="msg_export_photo_db" icon="tex_spanner" confirm="msg_export_photo_db_confirm"/>
+
+      <!-- Import Photo DB -->
+      <button id="id_import_photo_db" title="msg_import_photo_db" icon="tex_spanner" confirm="msg_import_photo_db_confirm"/>
+
+    </setting_list>
+
+    <!-- Game -->
+    <setting_list id="id_game" title="msg_game" icon="tex_spanner" style="edit">
+
+      <!-- Debug Info -->
+      <list id="id_game_debug_info" key="/CONFIG/GAME/show_debug_info"
+            title="msg_game_debug_info">
+        <list_item id="id_game_debug_info_off" title="msg_off" value="0"/>
+        <list_item id="id_game_debug_info_on" title="msg_on" value="1"/>
+      </list>
+
+      <!-- Fake No Memory Card -->
+      <list id="id_game_fake_no_memory_card" key="/CONFIG/GAME/fake_no_memory_card"
+            title="msg_game_fake_no_memory_card">
+        <list_item id="id_game_fake_no_memory_card_off" title="msg_off" value="0"/>
+        <list_item id="id_game_fake_no_memory_card_on" title="msg_on" value="1"/>
+      </list>
+
+      <!-- Fake Free Space (FS) -->
+      <list id="id_game_fake_free_space" key="/CONFIG/GAME/fake_free_space"
+            title="msg_game_fake_free_space">
+        <list_item id="id_game_fake_free_space_off" title="msg_off" value="0"/>
+        <list_item id="id_game_fake_free_space_on" title="msg_on" value="1"/>
+      </list>
+
+      <!-- Fake Free Space (Quota) -->
+      <list id="id_game_fake_free_space_quota" key="/CONFIG/GAME/fake_free_space_quota"
+            title="msg_game_fake_free_space_quota">
+        <list_item id="id_game_fake_free_space_quota_off" title="msg_off" value="0"/>
+        <list_item id="id_game_fake_free_space_quota_on" title="msg_on" value="1"/>
+      </list>
+
+      <!-- Fake Contents Max -->
+      <list id="id_game_fake_contents_max" key="/CONFIG/GAME/fake_contents_max"
+            title="msg_game_fake_contents_max">
+        <list_item id="id_game_fake_contents_max_off" title="msg_off" value="0"/>
+        <list_item id="id_game_fake_contents_max_on" title="msg_on" value="1"/>
+      </list>
+
+      <!-- Fake Save Data Slot Broken -->
+      <list id="id_game_fake_save_data_slot_broken" 
+            title="msg_game_fake_save_data_slot_broken">
+        <list_item id="id_game_fake_save_data_slot_broken_off" title="msg_off" value="0"/>
+        <list_item id="id_game_fake_save_data_slot_broken_on" title="msg_on" value="-1"/>
+      </list>
+
+      <!-- Fake Trophy Earning -->
+      <list id="id_game_fake_trophy_earning" key="/CONFIG/GAME/fake_savedata_owner"
+            title="msg_game_fake_trophy_earning">
+        <list_item id="id_game_fake_trophy_earning_off" title="msg_off" value="0"/>
+        <list_item id="id_game_fake_trophy_earning_on" title="msg_on" value="1"/>
+      </list>
+
+      <!-- Init Safe Memory -->
+      <list id="id_game_init_safe_memory" key="/CONFIG/GAME/init_safememory"
+            title="msg_game_init_safe_memory">
+        <list_item id="id_game_init_safe_memory_off" title="msg_off" value="0"/>
+        <list_item id="id_game_init_safe_memory_on" title="msg_on" value="1"/>
+      </list>
+
+      <!-- Add-On Data (PS Vita) -->
+      <button id="id_game_add_data_psvita" title="msg_game_add_data_psvita"/>
+
+    </setting_list>
+
+    <!-- EMPR -->
+    <link id="id_empr" file="empr_settings.xml" title="msg_empr"  icon="tex_spanner"/>
+
+    <!-- Video Player -->
+    <setting_list id="id_video" title="msg_video" icon="tex_spanner" style="edit">
+
+      <!-- Profile Free -->
+      <list id="id_video_profile_free" title="msg_video_profile_free"
+            success_dialog_message="msg_restart_video_app">
+        <list_item id="id_video_profile_free_off" title="msg_off" value="0"/>
+        <list_item id="id_video_profile_free_on" title="msg_on" value="1"/>
+      </list>
+
+      <!-- Debug Mode -->
+      <list id="id_video_debug_mode" title="msg_video_debug_mode"
+            success_dialog_message="msg_restart_video_app">
+        <list_item id="id_video_debug_mode_off" title="msg_off" value="0"/>
+        <list_item id="id_video_debug_mode_on" title="msg_on" value="1"/>
+      </list>
+
+      <!-- 60i Display Mode -->
+      <list id="id_video_60i_display_mode" title="msg_video_60i_display_mode"
+            success_dialog_message="msg_restart_video_app">
+        <list_item id="id_video_60i_display_mode_30p" title="msg_30p" value="1"/>
+        <list_item id="id_video_60i_display_mode_60p" title="msg_60p" value="0"/>
+      </list>
+
+    </setting_list>
+
+    <!-- Console Info -->
+    <setting_list id="id_console" title="msg_console" icon="tex_spanner" style="edit">
+
+      <!-- Interval Time -->
+      <text_field id="id_console_interval_time" key="/CONFIG/SYSTEM/CONSOLE_INFO/inoperative_time"
+            title="msg_console_interval_time" keyboard_type="numeral" max_length="9"/>
+
+    </setting_list>
+
+    <!-- Graphics Library (libgxm) -->
+    <setting_list id="id_libgxm" title="msg_libgxm" icon="tex_spanner" style="edit">
+
+      <!-- Use Debug Version of libgxm for Game -->
+      <list id="id_libgxm_debug_for_game" key="/DEVENV/TOOL/game_uses_gxmdbg"
+            title="msg_libgxm_debug_for_game">
+        <list_item id="id_libgxm_debug_for_game_disable" title="msg_disable" value="0"/>
+        <list_item id="id_libgxm_debug_for_game_enable" title="msg_enable" value="1"/>
+      </list>
+
+    </setting_list>
+
+    <!-- PS Now -->
+    <setting_list id="id_psnow" title="msg_psnow" icon="tex_spanner" style="edit">
+
+      <!-- App cached URL -->
+      <text_field id="id_psnow_app_cached_url" key="/CONFIG/PSNOW/app_cached_url"
+            title="msg_psnow_app_cached_url" keyboard_type="url" max_length="255"/>
+
+    </setting_list>
+
+    <!-- DTCP-IP -->
+    <setting_list id="id_dtcpip" title="msg_dtcpip" icon="tex_spanner">
+
+      <!-- Reset -->
+      <button id="id_dtcpip_reset" title="msg_dtcpip_reset" icon="tex_spanner" 
+              success_dialog_message="msg_dtcpip_reset_success"/>
+
+    </setting_list>
+
+    <!-- Launch Application -->
+    <setting_list id="id_launch" title="msg_launch" icon="tex_spanner">
+
+      <!-- Package Installer -->
+      <button id="id_launch_package_installer" title="msg_launch_package_installer" icon="tex_spanner"/>
+
+      <!-- PS Store -->
+      <button id="id_launch_ps_store" title="msg_launch_ps_store" icon="tex_spanner"/>
+
+    </setting_list>
+
+    <!-- IDU Settings -->
+    <setting_list id="id_idu" title="msg_idu" icon="tex_spanner" style="edit">
+
+      <!-- Operation Mode -->
+      <list id="id_idu_operation_mode" title="msg_idu_operation_mode">
+        <list_item id="id_operation_mode_cex_normal" title="msg_cex_normal" value="0"/>
+        <list_item id="id_operation_mode_idu" title="msg_idu_mode" value="1"/>
+      </list>
+
+      <!-- IDU Auto System Update -->
+      <list id="id_idu_auto_system_update" key="/CONFIG/SYSTEM/UPDATE/idu_auto_start"
+            title="msg_idu_auto_system_update">
+        <list_item id="id_idu_auto_system_update_off" title="msg_off" value="0"/>
+        <list_item id="id_idu_auto_system_update_on" title="msg_on" value="1"/>
+      </list>
+
+    </setting_list>
+
+    <!-- Content Downloader -->
+    <link id="id_downloader" title="msg_downloader" icon="tex_spanner"
+          file="idu_settings.xml" target_id="download"/>
+
+  </setting_list>
+
+  <!-- CoreDump -->
+  <setting_list id="coredump_copy" title="msg_coredump_copy">
+    <user_custom id="coredump_copy_panel"/>
+  </setting_list>
+
+  <setting_list id="coredump_delete" title="msg_coredump_delete">
+    <user_custom id="coredump_delete_panel"/>
+  </setting_list>
+
+  <!-- Game -->
+  <setting_list id="data_management" title="">
+    <setting_list id="data_management_dummy" title="" rotate="push_only">
+      <user_custom id="data_management_dummy_item"/>
+    </setting_list>
+  </setting_list>
+
+</system_settings>
+<?xml version="1.0" encoding="utf-8"?>
+<system_settings version="1.0" plugin="debug_settings_plugin">
+
+  <!-- Account Selection -->
+  <setting_list id="id_multi_accounts_page" title="" style="edit">
+    <label id="id_multi_accounts_np_env" title="msg_np_env"/>
+    <label id="id_multi_accounts_signin_id" title="msg_signin_id"/>
+    <spacer id="id_multi_accounts_space_a"/>
+    <button id="id_multi_accounts_switch" title="msg_multi_accounts_switch" confirm="msg_multi_accounts_switch_confirm"/>
+    <button id="id_multi_accounts_delete" title="msg_multi_accounts_delete" confirm="msg_multi_accounts_delete_confirm"/>
+  </setting_list>
+
+</system_settings>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<system_settings version="1.0" plugin="debug_settings_plugin">
+
+  <!-- PlayStation®Store Ad Clock (detail)-->
+  <setting_list id="id_np_ad_clock_diff_detail" title="msg_np_ad_clock_diff" 
+                navi_left="id_np_ad_clock_diff_cancel_button" navi_right="id_np_ad_clock_diff_ok_button">
+    <user_custom id="id_np_ad_clock_diff_detail_dummy"/>
+  </setting_list>
+
+</system_settings>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<system_settings version="1.0" plugin="debug_settings_plugin">
+
+  <!-- Debug Network Clock (detail)-->
+  <setting_list id="id_system_debug_network_clock_detail"  title="msg_system_debug_network_clock"
+                navi_left="id_system_debug_network_clock_cancel_button" navi_right="id_system_debug_network_clock_ok_button">
+    <user_custom id="id_system_user_custom_debug_network_clock"/>
+  </setting_list>
+
+</system_settings>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<system_settings version="1.0" plugin="debug_settings_plugin">
+
+  <!-- Fake Save Data Slot Broken (detail) -->
+  <setting_list id="id_game_fake_save_data_slot_broken_detail" title="msg_game_fake_save_data_slot_broken" style="edit">
+    <!-- Target Slot -->
+    <text_field id="id_game_target_slot"
+                title="msg_fake_save_data_target_slot"
+                keyboard_type="numeral" max_length="3"/>
+  </setting_list>
+</system_settings>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: psn_settings.xml 142251 2015-10-28 07:45:26Z xkazaanat $ -->
+<system_settings version="1.0" plugin="psn_settings_plugin" back_button_color="0.0, 55.0, 145.0, 0.95">
+  <!-- PlayStation(R)Network設定 -->
+  <setting_list id="psn_settings" title="msg_psn">
+
+    <!--
+				未 Sign Up
+			-->
+
+		<!-- PlayStation(R)Networkへようこそ! -->
+    <user_custom id="wellcome"/>
+
+    <button id="signup" icon="tex_spanner" title="msg_signup"/>
+    <button id="quick_signup" icon="tex_spanner" title="★ Quick Sign Up"/>
+
+    <!-- 
+				 Sign Up 済み & Sign In
+			-->
+
+		<!-- 登録されているサインインID(Eメールアドレス) -->
+    <user_custom id="signin_id"/>
+
+
+		<!-- サインイン/サインアウト -->
+    <button id="signin"
+						icon="tex_spanner"
+						title="msg_sign_in"/>
+
+    <button id="signout"
+						icon="tex_spanner"
+						title="msg_sign_out"/>
+
+		<!-- プロファイル設定 -->
+		<setting_list id="profile"
+									style="edit"
+									icon="tex_spanner"
+									title="msg_profile"
+									navi_left="cancel"
+									navi_center="policies"
+									navi_right="send">
+
+			<user_custom id="preview"/>
+
+			<!-- アバター -->
+			<label id="avatar" title="msg_avatar" height="80"/>
+
+			<spacer id="avtar_space"/>
+
+			<!-- アバターパネル -->
+			<label id="panel" title="msg_panel"/>
+
+			<spacer id="panel_space" height="30"/>
+
+			<!-- オンラインID -->
+			<label id="online_id" title="msg_online_id"/>
+
+			<!-- 自己紹介 -->
+			<text_field id="about_me" title="msg_about_me"
+									max_length="21"
+									min_length="0"/>
+
+			<!-- よく使う言語 -->
+			<list id="my_language1" title=" "/>
+			<list id="my_language2" title=" "/>
+			<list id="my_language3" title=" "/>
+
+		</setting_list>
+
+    <!-- アカウント管理 -->
+    <button id="account_management"
+						icon="tex_spanner"
+						title="msg_account_information"/>
+
+		<!-- 自動アップデート設定 -->
+		<setting_list id="auto_update"
+									icon="tex_spanner"
+									title="msg_automatic_update_settings">
+			<toggle_switch id="auto_update_enable"
+										 icon="tex_spanner"
+										 title="msg_update_automatically"/>
+			<toggle_switch id="auto_update_application"
+										 icon="tex_app_download_icon"
+										 title="msg_download_application_updatefile"/>
+			<toggle_switch id="auto_update_trophy"
+										 icon="tex_torophy_sync_icon"
+										 title="msg_sync_trophy_info_with_server"/>
+			<toggle_switch id="auto_update_save_data"
+										 icon="tex_save_upload_icon"
+										 hint="msg_upload_saveddata_online_storage_info"
+										 title="msg_upload_saveddata_online_storage"/>
+		</setting_list>
+
+		<!-- サブアカウント管理 -->
+		<button id="subaccount_management"
+						icon="tex_spanner"
+						title="msg_sub_account_management"/>
+
+		<!-- 機器認証 -->
+    <setting_list id="activation"
+									icon="tex_spanner" title="msg_system_activation">
+
+			<setting_list id="game_activation"
+										icon="tex_spanner" title="msg_game">
+				<setting_list id="activate_game"
+											navi_right="OK"
+											navi_left="CANCEL"
+											icon="tex_spanner" title="msg_activate">
+					<user_custom id="activate_text_game"/>
+				</setting_list>
+				<setting_list id="deactivate_game"
+											navi_right="OK"
+											navi_left="CANCEL"
+											icon="tex_spanner" title="msg_deactivate">
+					<user_custom id="deactivate_text_game"/>
+				</setting_list>
+			</setting_list>
+
+			<setting_list id="video_activation"
+										icon="tex_spanner" title="msg_video_music">
+				<setting_list id="activate_video"
+											navi_right="OK"
+											navi_left="CANCEL"
+											icon="tex_spanner" title="msg_activate">
+					<user_custom id="activate_text_video"/>
+				</setting_list>
+				<setting_list id="deactivate_video"
+											navi_right="OK"
+											navi_left="CANCEL"
+											icon="tex_spanner" title="msg_deactivate">
+					<user_custom id="deactivate_text_video"/>
+				</setting_list>
+			</setting_list>
+
+			<setting_list id="psm_activation"
+										icon="tex_spanner" title="msg_psmobile">
+				<setting_list id="activate_psm"
+											navi_right="OK"
+											navi_left="CANCEL"
+											icon="tex_spanner" title="msg_activate">
+					<user_custom id="activate_text_psm"/>
+				</setting_list>
+				<setting_list id="deactivate_psm"
+											navi_right="OK"
+											navi_left="CANCEL"
+											icon="tex_spanner" title="msg_deactivate">
+					<user_custom id="deactivate_text_psm"/>
+				</setting_list>
+			</setting_list>
+
+			<user_custom id="activation_desc"/>
+
+		</setting_list>
+
+		<!-- プライバシー設定 -->
+		<button id="privacy_setting"
+						icon="tex_spanner"
+						title="msg_privacy_settings"/>
+
+		<!-- Facebook設定画面 -->
+		<setting_list id="facebook"
+									icon="tex_spanner"
+									title="msg_facebook"
+									rotate="full">
+			<user_custom id="facebook_not_available"/>
+		</setting_list>
+
+		<!-- Twitter設定画面 -->
+		<setting_list id="twitter"
+									icon="tex_spanner"
+									title="msg_twitter"
+									rotate="full">
+			<user_custom id="list"/>
+		</setting_list>
+    
+    <!-- Twitterアカウント情報削除 -->
+    <setting_list id="twitter_delete_account"
+                  title="msg_delete_account_information"
+                  icon="tex_spanner"
+                  navi_left="cancel"
+                  navi_right="delete">
+      <user_custom id="twitter_delete_account_desc"/>
+    </setting_list>
+
+  </setting_list>
+
+
+  <!-- パネル選択画面 -->
+  <setting_list id="select_panel" title="msg_panel" style="edit"
+								rotate="full">
+		<user_custom id="panel_list"/>
+  </setting_list>
+
+
+  <!-- EULA同意画面 -->
+  <setting_list id="eula" title="msg_tosua_pp" rotate="full">
+		<user_custom id="eula_list"/>
+  </setting_list>
+
+</system_settings>
+<!--
+		Local Variables:
+		coding:utf-8
+		tab-width:2
+		End:
+  -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: psn_settings_account_management.xml 104702 2012-09-27 12:21:50Z udagawa $ -->
+<system_settings version="1.0" plugin="psn_settings_plugin">
+  <!-- アカウント管理 -->
+  <setting_list id="account_management"
+								style="edit"
+								icon="tex_spanner"
+								title="msg_account_information"
+								navi_left="cancel"
+								navi_center="policies"
+								navi_right="send">
+
+		<!-- サインインID -->
+		<text_field id="change_signin_id" title="msg_signin_id"
+								max_length="63"
+								min_length="6"
+								keyboard_type="mail_address"/>
+
+		<!-- パスワード -->
+		<text_field id="password1" title="msg_pw"
+								hint=" "
+								max_length="30"
+								min_length="8"
+								password="on"/>
+		<text_field id="password2" title="msg_password_reenter"
+								max_length="30"
+								min_length="8"
+								password="on"/>
+
+		<spacer id="am_line2" line="on"/>
+
+		<!-- 言語 -->
+		<list id="language" title="msg_language"/>
+		<label id="language_ro" title="msg_language"/>
+
+		<spacer id="am_line3" line="on"/>
+
+		<!-- 名前 -->
+		<text_field id="name_first" title="msg_first_name"
+								max_length="32"
+								min_length="1"
+								keyboard_type="default"/>
+		<text_field id="name_last" title="msg_last_name"
+								max_length="32"
+								min_length="1"
+								keyboard_type="default"/>
+		<label id="name_first_ro" title="msg_first_name"/>
+		<label id="name_last_ro" title="msg_last_name"/>
+		<label id="gender" title="msg_gender_optional"/>
+		<user_custom id="name_cannot_change_notice"/>
+
+		<spacer id="am_line4" line="on"/>
+
+		<!-- 住所 -->
+		<label id="addr_country" title="msg_country_residence"/>
+		<text_field id="addr_postcode" title="msg_postal_code"
+								max_length="10"
+								min_length="1"/>
+		<list id="addr_state_list" title="msg_state"/>
+		<text_field id="addr_state" title="msg_state"
+								max_length="32"
+								min_length="1"/>
+		<list id="addr_city_list" title="msg_city"/>
+		<text_field id="addr_city" title="msg_city"
+								max_length="32"
+								min_length="1"/>
+		<text_field id="address1" title="msg_address1"
+								max_length="32"
+								min_length="1"/>
+		<text_field id="address2" title="msg_address2"
+								max_length="32"
+								min_length="0"/>
+		<text_field id="address3" title="msg_address3"
+								max_length="32"
+								min_length="0"/>
+
+		<spacer id="optin_line5" line="on"/>
+
+		<!-- 配信メールの設定 -->
+		<user_custom id="optin_desc"/>
+
+		<toggle_switch id="optin" title="msg_optin_yes_psn"/>
+
+		<toggle_switch id="optin_partner" title="msg_optin_yes_psnpartner"/>
+
+		<user_custom id="optin_mail_send_desc"/>
+
+	</setting_list> <!-- account_management -->
+
+</system_settings>
+<!--
+		Local Variables:
+		coding:utf-8
+		tab-width:2
+		End:
+  -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: psn_settings_avatar.xml 137377 2014-08-04 10:29:35Z xkazaanat $ -->
+<system_settings version="1.0" plugin="psn_settings_plugin" back_button_color="0.0, 55.0, 145.0, 0.95">
+  <!-- アバター選択画面 -->
+  <setting_list id="select_avatar" title="msg_avatar" style="edit"
+								rotate="full">
+		<list id="avatar_category" title=" ">
+			<list_item id="category1" title="Items / Miscellaneous" value="1"/>
+			<list_item id="category2" title="category2" value="2"/>
+		</list>
+		<user_custom id="avatar_list"/>
+  </setting_list>
+</system_settings>
+<!--
+		Local Variables:
+		coding:utf-8
+		tab-width:2
+		End:
+  -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: psn_settings_change_password.xml 95991 2012-06-05 10:11:44Z udagawa $ -->
+<system_settings version="1.0" plugin="psn_settings_plugin">
+  <!-- パスワード設定 -->
+  <setting_list id="change_password"
+								style="edit"
+								title="msg_change_subaccount_pw"
+								navi_left="cancel"
+								navi_center="policies"
+								navi_right="send">
+		<label id="signin_id" title="msg_signin_id"/>
+		<text_field id="password1" title="msg_pw"
+								hint=" "
+								max_length="30"
+								min_length="8"
+								password="on"/>
+		<text_field id="password2" title="msg_password_reenter"
+								max_length="30"
+								min_length="8"
+								password="on"/>
+  </setting_list>
+</system_settings>
+<!--
+		Local Variables:
+		coding:utf-8
+		tab-width:2
+		End:
+  -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: psn_settings_change_subaccount.xml 139910 2014-11-20 06:03:11Z xkazaanat $ -->
+<system_settings version="1.0" plugin="psn_settings_plugin">
+  <!-- サブアカウント設定 -->
+  <setting_list id="change_subaccount"
+								title=""
+								style="edit"
+								navi_left="cancel"
+								navi_center="policies"
+								navi_right="send">
+		<list id="chat" title="msg_chat_ugm">
+			<list_item id="chat_permit" title="msg_allow" value="permit"/>
+			<list_item id="chat_deny" title="msg_do_not_allow" value="deny"/>
+		</list>
+		<user_custom id="chat_notice"/>
+		<toggle_switch id="content_restriction"
+									 title="msg_content_restriction"/>
+		<toggle_switch id="content_restriction_jp"
+									 hint="msg_content_restriction_info_jp"
+									 title="msg_content_restriction_jp"/>
+		<list id="purchase_limit"
+					hint="msg_spending_limit_monthly_info"
+					title="msg_spending_limit_monthly"/>
+		<!-- <user_custom id="limit_notice"/> -->
+		<spacer id="subaccount_password_spacer"/>
+		<link id="change_subaccount_password" title="msg_change_subaccount_pw"
+					file="psn_settings_change_password.xml"/>
+  </setting_list>
+</system_settings>
+<!--
+		Local Variables:
+		coding:utf-8
+		tab-width:2
+		End:
+  -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: psn_settings_deactivate_all.xml 48369 2011-04-14 15:01:39Z udagawa $ -->
+<system_settings version="1.0" plugin="psn_settings_plugin">
+  <!-- 全ての機器認証を解除画面 -->
+  <setting_list id="deactivate_all" navi_right="OK" title="msg_deactivate">
+		<user_custom id="deactivate_text"/>
+  </setting_list>
+</system_settings>
+<!--
+		Local Variables:
+		coding:utf-8
+		tab-width:2
+		End:
+  -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: psn_settings_policies.xml 137256 2014-08-01 12:10:40Z xkazaanat $ -->
+<system_settings version="1.0" plugin="psn_settings_plugin" back_button_color="0.0, 55.0, 145.0, 0.95">
+  <!-- プライバシーポリシー -->
+  <setting_list id="policies" title=" ">
+    <setting_list id="show_tosua" title="msg_tosua"
+									rotate="full">
+			<user_custom id="tosua"/>
+		</setting_list>
+		<setting_list id="show_pp" title="msg_pp"
+									rotate="full">
+			<user_custom id="pp"/>
+		</setting_list>
+		<setting_list id="show_about_us" title="msg_about_us"
+									rotate="full">
+			<user_custom id="about_us"/>
+		</setting_list>
+		<setting_list id="show_health_warnings" title="msg_health_warnings"
+									rotate="full">
+			<user_custom id="health_warnings"/>
+		</setting_list>
+		<setting_list id="show_about_ratings" title="msg_about_ratings_pc"
+									rotate="full">
+			<user_custom id="about_ratings"/>
+		</setting_list>
+		<setting_list id="show_cr_tm_notice" title="msg_copyright_trademark_notice"
+									rotate="full">
+			<user_custom id="cr_tm_notice"/>
+		</setting_list>
+		<setting_list id="show_sw_usage_terms_scee" title="msg_software_usage_terms_scee"
+									rotate="full">
+      <user_custom id="sw_usage_terms_scee"/>
+    </setting_list>
+  </setting_list>
+</system_settings>
+<!--
+		Local Variables:
+		coding:utf-8
+		tab-width:2
+		End:
+  -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: psn_settings_privacy_setting.xml 116732 2013-04-30 07:56:35Z udagawa $ -->
+<system_settings version="1.0" plugin="psn_settings_plugin">
+	<!-- プライバシー設定 -->
+	<setting_list id="privacy_setting"
+								style="edit"
+								icon="tex_spanner"
+								title="msg_privacy_settings"
+								navi_left="cancel"
+								navi_center="policies"
+								navi_right="send">
+		<list id="friend_list_privacy" title="msg_share_friends_list">
+			<list_item id="friend_any" title="msg_anyone" value="0"/>
+			<list_item id="friend_fof" title="msg_friends_of_friends" value="1"/>
+			<list_item id="friend_fo" title="msg_friends_only" value="2"/>
+			<list_item id="friend_ns" title="msg_do_not_share2" value="3"/>
+		</list>
+		<list id="activity_privacy" title="msg_share_activities">
+			<list_item id="activity_any" title="msg_anyone" value="0"/>
+			<list_item id="activity_fof" title="msg_friends_of_friends" value="1"/>
+			<list_item id="activity_fo" title="msg_friends_only" value="2"/>
+			<list_item id="activity_ns" title="msg_do_not_share2" value="3"/>
+		</list>
+		<user_custom id="privacy_setting_text"/>
+		<list id="friend_request"
+					title="msg_receive_friend_request">
+			<list_item id="frdreq_any" title="msg_from_anyone" value="0"/>
+			<list_item id="frdreq_fof" title="msg_from_friends_of_friends" value="1"/>
+			<list_item id="frdreq_ns" title="msg_do_not_receive" value="3"/>
+		</list>
+		<list id="message_receive"
+					title="msg_receive_message"
+					hint="msg_receive_message_info">
+			<list_item id="msgrcv_any" title="msg_from_anyone" value="0"/>
+			<list_item id="msgrcv_fo" title="msg_from_friends" value="2"/>
+			<list_item id="msgrcv_ns" title="msg_do_not_receive" value="3"/>
+		</list>
+		<list id="trophy_privacy"
+					title="msg_show_trophies"
+					hint="msg_share_trophies_info">
+			<list_item id="trophy_any" title="msg_anyone" value="0"/>
+			<list_item id="trophy_fof" title="msg_friends_of_friends" value="1"/>
+			<list_item id="trophy_fo" title="msg_friends_only" value="2"/>
+			<list_item id="trophy_ns" title="msg_do_not_share2" value="3"/>
+		</list>
+	</setting_list>
+</system_settings>
+<!--
+		Local Variables:
+		coding:utf-8
+		tab-width:2
+		End:
+  -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: psn_settings_subaccount_management.xml 137377 2014-08-04 10:29:35Z xkazaanat $ -->
+<system_settings version="1.0" plugin="psn_settings_plugin" back_button_color="0.0, 55.0, 145.0, 0.95">
+	<!-- サブアカウント管理 -->
+	<setting_list id="subaccount_management"
+								icon="tex_spanner"
+								title="msg_sub_account_management">
+		<user_custom id="subaccount_dummy"/>
+	</setting_list>
+</system_settings>
+<!--
+		Local Variables:
+		coding:utf-8
+		tab-width:2
+		End:
+  -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id$ -->
+
+<system_settings version="1.0" plugin="language_settings_plugin">
+
+  <!-- 文字入力設定 -->
+  <setting_list id="language_settings" title="msg_language">
+
+    <!-- システム言語 -->
+    <!-- min_widthは最長文言に合わせて手動で修正する必要あり -->
+    <list id="system_lang"
+          title="msg_system_language"
+          icon="tex_spanner"
+          min_width="542">
+      <!-- valueはlanguage_settings_handler.cppのテーブルに記述した値 (!=レジストリ値) -->
+      <!-- 記載順はVFに従う -->
+      <list_item id="system_lang_dk"    title="msg_system_language_dk"    value="0"/>
+      <list_item id="system_lang_de"    title="msg_system_language_de"    value="1"/>
+      <list_item id="system_lang_en_gb" title="msg_system_language_en_uk" value="18"/>
+      <list_item id="system_lang_en"    title="msg_system_language_en_us" value="2"/>
+      <list_item id="system_lang_es"    title="msg_system_language_es"    value="3"/>
+      <list_item id="system_lang_fr"    title="msg_system_language_fr"    value="4"/>
+      <list_item id="system_lang_it"    title="msg_system_language_it"    value="5"/>
+      <list_item id="system_lang_nl"    title="msg_system_language_nl"    value="6"/>
+      <list_item id="system_lang_no"    title="msg_system_language_no"    value="7"/>
+      <list_item id="system_lang_pl"    title="msg_system_language_pl"    value="8"/>
+      <list_item id="system_lang_pt_br" title="msg_system_language_pt_br" value="17"/>
+      <list_item id="system_lang_pt"    title="msg_system_language_pt_pt" value="9"/>
+      <list_item id="system_lang_ru"    title="msg_system_language_ru"    value="10"/>
+      <list_item id="system_lang_fi"    title="msg_system_language_fi"    value="11"/>
+      <list_item id="system_lang_se"    title="msg_system_language_se"    value="12"/>
+      <list_item id="system_lang_tr"    title="msg_system_language_tr"    value="19"/>
+      <list_item id="system_lang_jp"    title="msg_system_language_jp"    value="13"/>
+      <list_item id="system_lang_kr"    title="msg_system_language_kr"    value="14"/>
+      <list_item id="system_lang_cn_s"  title="msg_system_language_cn_s"  value="15"/>
+      <list_item id="system_lang_cn_t"  title="msg_system_language_cn_t"  value="16"/>
+    </list>
+
+    <!-- 入力言語 -->
+    <setting_list id="keyboard_settings" title="msg_input_languages"
+                  icon="tex_spanner">
+      <!-- キーボード設定 -->
+      <setting_list id="input_lang" title="msg_keyboards_add_terms"
+                    icon="tex_spanner"
+                    hint="msg_keyboards_add_terms_info">
+        <!-- 記載順はVFに従う -->
+        <link id="input_lang_dk" title="msg_language_dk" file="language_settings_input_general.xml"/>
+        <link id="input_lang_de" title="msg_language_de" file="language_settings_input_general.xml"/>
+        <link id="input_lang_en_uk" title="msg_language_en_uk" file="language_settings_input_general.xml"/>
+        <link id="input_lang_en_us" title="msg_language_en_us" file="language_settings_input_general.xml"/>
+        <link id="input_lang_es" title="msg_language_es" file="language_settings_input_general.xml"/>
+        <link id="input_lang_fr" title="msg_language_fr" file="language_settings_input_general.xml"/>
+        <link id="input_lang_it" title="msg_language_it" file="language_settings_input_general.xml"/>
+        <link id="input_lang_nl" title="msg_language_nl" file="language_settings_input_general.xml"/>
+        <link id="input_lang_no" title="msg_language_no" file="language_settings_input_general.xml"/>
+        <link id="input_lang_pl" title="msg_language_pl" file="language_settings_input_general.xml"/>
+        <link id="input_lang_pt_br" title="msg_language_pt_br" file="language_settings_input_general.xml"/>
+        <link id="input_lang_pt" title="msg_language_pt_pt" file="language_settings_input_general.xml"/>
+        <link id="input_lang_ru" title="msg_language_ru" file="language_settings_input_general.xml"/>
+        <link id="input_lang_fi" title="msg_language_fi" file="language_settings_input_general.xml"/>
+        <link id="input_lang_se" title="msg_language_se" file="language_settings_input_general.xml"/>
+        <link id="input_lang_tr" title="msg_language_tr" file="language_settings_input_general.xml"/>
+        <link id="input_lang_jp" title="msg_language_jp" file="language_settings_input_jp.xml"/>
+        <link id="input_lang_kr" title="msg_language_kr" file="language_settings_input_general.xml"/>
+        <link id="input_lang_cn_s" title="msg_language_cn_s" file="language_settings_input_general.xml"/>
+        <link id="input_lang_cn_tt" title="msg_language_cn_t_taiwan" file="language_settings_input_zh_t.xml"/>
+        <link id="input_lang_cn_th" title="msg_language_cn_t_hongkong" file="language_settings_input_general.xml"/>
+      </setting_list>
+
+      <!-- 自動大文字入力 -->
+      <toggle_switch id="auto_caps" title="msg_auto_caps"
+                     icon="tex_spanner"/>
+ 
+      <!-- 予測文字入力 -->
+      <toggle_switch id="predictive_text" title="msg_predictive_text_entry"
+                     icon="tex_spanner"/>
+    </setting_list>
+
+    <!-- DEBUG -->
+    <!--
+    <button id="debug1" title="debug1"/>
+    <button id="debug2" title="debug2"/>
+    -->
+    
+  </setting_list>
+</system_settings>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id$ -->
+
+<system_settings version="1.0" plugin="language_settings_plugin">
+
+  <!-- 文字入力設定 -->
+  <setting_list id="language_settings_input_general" title="msg_input_lang_general">
+    <!-- 言語キーボード -->
+    <toggle_switch id="input_keyboard" title=""/>
+
+    <!-- 単語の登録/編集 -->
+    <setting_list id="term_list_page" title="msg_add_edit_term">
+      <!-- user_customエレメントを配置しておき、その中に編集フォームをレイアウトする -->
+      <user_custom id="term_list"/>
+    </setting_list>
+
+  </setting_list>
+</system_settings>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id$ -->
+
+<system_settings version="1.0" plugin="language_settings_plugin">
+
+  <!-- 文字入力設定 -->
+  <setting_list id="language_settings_input_jp" title="msg_language_jp">
+    <!-- 標準 (QWERTY) -->
+    <toggle_switch id="input_jp_standard" title="msg_standard_qwerty"/>
+
+    <!-- 五十音 -->
+    <toggle_switch id="input_jp_gojuon" title="msg_50on"/>
+
+    <!-- 単語の登録/編集 -->
+    <setting_list id="term_list_page" title="msg_add_edit_term">
+      <!-- user_customエレメントを配置しておき、その中に編集フォームをレイアウトする -->
+      <user_custom id="term_list"/>
+    </setting_list>
+
+  </setting_list>
+</system_settings>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id$ -->
+
+<system_settings version="1.0" plugin="language_settings_plugin">
+
+  <!-- 文字入力設定 -->
+  <setting_list id="language_settings_input_zh_tt" title="msg_language_cn_t_taiwan">
+    <!-- 拼音 -->
+    <toggle_switch id="input_tt_pinyin" title="msg_pinyin"/>
+
+    <!-- 注音 -->
+    <toggle_switch id="input_tt_zhuyin" title="msg_zhuyin"/>
+
+    <!-- 蒼頡 -->
+    <toggle_switch id="input_tt_cangjie" title="msg_cangjie"/>
+  </setting_list>
+</system_settings><?xml version="1.0" encoding="utf-8"?>
+<!-- $Id$ -->
+
+<system_settings version="1.0" plugin="language_settings_plugin">
+
+  <!-- 単語の登録/編集 (編集画面) -->
+  <setting_list id="term_edit_page" title="msg_add_term" rotate="full"
+                navi_right="term_edit_ok" navi_left="term_edit_cancel">
+    <!-- user_customエレメントを配置しておき、その中に編集フォームをレイアウトする -->
+    <user_custom id="term_edit"/>
+  </setting_list>
+
+</system_settings>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<system_settings version="1.0" plugin="security_settings_plugin">
+
+  <!-- セキュリティ設定 -->
+  <setting_list id="setting_list_security_settings" title="msg_pc_security">
+    
+    <!-- 画面ロック -->
+    <setting_list id="setting_list_screen_lock"
+                  title="msg_screen_lock_passcode"
+                  icon="tex_spanner"
+                  authentication="screen_lock">
+
+      <!-- ロック解除時にパスコードを確認する -->
+      <toggle_switch id="toggle_switch_unlock_control_screen_lock"
+                     title="msg_require_passcode_unlock"
+                     icon="tex_spanner"/>
+
+      <!-- パスコードを変更する -->
+      <button id="button_pw_change_screen_lock"
+              title="msg_change_passcode"
+              icon="tex_spanner"/>
+      
+    </setting_list>
+
+  </setting_list>
+
+</system_settings>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<system_settings version="1.0" plugin="datetime_settings_plugin">
+
+  <!-- 日付＆時刻 -->
+  <setting_list id="setting_list_datetime" title="msg_date_time">
+
+    <!-- 日付＆時刻設定 -->
+    <setting_list id="setting_list_datetime_settings"
+                  icon="tex_spanner"
+                  title="msg_date_time_settings">
+
+      <!-- インターネット経由で設定する -->
+      <setting_list id="setting_list_set_via_internet"
+                    icon="tex_spanner"
+                    title="msg_set_via_internet">
+
+        <!-- 自動で設定する -->
+        <toggle_switch id="toggle_switch_set_automatically"
+                       icon="tex_spanner"
+                       title="msg_set_automatically"
+                       key="/CONFIG/DATE/set_automatically"
+                       hint="msg_set_automatically_info2"/>
+        
+        <!-- 今すぐ設定する -->
+        <button id="button_set_via_internet"
+                icon="tex_spanner"
+                title="msg_set_now"/>
+
+      </setting_list>
+
+      <!-- 手動で設定する -->
+      <setting_list id="setting_list_set_manual"
+                    icon="tex_spanner"
+                    title="msg_set_manually"
+                    navi_left="set_manual_cancel_button"
+                    navi_right="set_manual_ok_button">
+        <user_custom id="user_custom_set_manual"/>
+      </setting_list>
+
+    </setting_list>
+
+    <!-- タイムゾーン -->
+    <list id="list_timezone"
+          icon="tex_spanner"
+          title="msg_timezone"
+          key="/CONFIG/DATE/time_zone"
+          min_width="740">
+      <list_item id="list_item_timezone_samoa_american"           title="msg_tz_american_samoa"           value="0"/>
+      <list_item id="list_item_timezone_midway_islands"           title="msg_tz_midway_islands"           value="1"/>
+      <list_item id="list_item_timezone_hawaii"                   title="msg_tz_hawaii"                   value="2"/>
+      <list_item id="list_item_timezone_alaska"                   title="msg_tz_alaska"                   value="3"/>
+      <list_item id="list_item_timezone_pacific_time_us_canada"   title="msg_tz_pacific_time_us_canada"   value="4"/>
+      <list_item id="list_item_timezone_tijuana"                  title="msg_tz_tijuana"                  value="5"/>
+      <list_item id="list_item_timezone_mountain_time_us_canada"  title="msg_tz_mountain_time_us_canada"  value="6"/>
+      <list_item id="list_item_timezone_arizona"                  title="msg_tz_arizona"                  value="110"/>
+      <list_item id="list_item_timezone_chihuahua"                title="msg_tz_chihuahua"                value="7"/>
+      <list_item id="list_item_timezone_san_jose"                 title="msg_tz_san_jose"                 value="8"/>
+      <list_item id="list_item_timezone_central_america"          title="msg_tz_central_america"          value="111"/>
+      <list_item id="list_item_timezone_central_time_us_canada"   title="msg_tz_central_time_us_canada"   value="9"/>
+      <list_item id="list_item_timezone_guadalajara"              title="msg_tz_guadalajara"              value="112"/>
+      <list_item id="list_item_timezone_mexico_city"              title="msg_tz_mexico_city"              value="10"/>
+      <list_item id="list_item_timezone_monterrey"                title="msg_tz_monterrey"                value="113"/>
+      <list_item id="list_item_timezone_quito"                    title="msg_tz_quito"                    value="11"/>
+      <list_item id="list_item_timezone_eastern_time_us_canada"   title="msg_tz_eastern_time_us_canada"   value="12"/>
+      <list_item id="list_item_timezone_panama_city"              title="msg_tz_panama_city"              value="13"/>
+      <list_item id="list_item_timezone_bogota"                   title="msg_tz_bogota"                   value="14"/>
+      <list_item id="list_item_timezone_lima"                     title="msg_tz_lima"                     value="15"/>
+      <list_item id="list_item_timezone_caracas"                  title="msg_tz_caracas"                  value="16"/>
+      <list_item id="list_item_timezone_santiago"                 title="msg_tz_santiago"                 value="17"/>
+      <list_item id="list_item_timezone_manaus"                   title="msg_tz_manaus"                   value="114"/>
+      <list_item id="list_item_timezone_atlantic_canada"          title="msg_tz_atlantic_canada"          value="18"/>
+      <list_item id="list_item_timezone_blanc_sablon"             title="msg_tz_blanc_sablon"             value="115"/>
+      <list_item id="list_item_timezone_puerto_rico"              title="msg_tz_puerto_rico"              value="19"/>
+      <list_item id="list_item_timezone_la_paz"                   title="msg_tz_la_paz"                   value="20"/>
+      <list_item id="list_item_timezone_newfoundland"             title="msg_tz_newfoundland"             value="21"/>
+      <list_item id="list_item_timezone_sao_paulo"                title="msg_tz_sao_paulo"                value="22"/>
+      <list_item id="list_item_timezone_rio_de_janeiro"           title="msg_tz_rio_de_janeiro"           value="116"/>
+      <list_item id="list_item_timezone_buenos_aires"             title="msg_tz_buenos_aires"             value="23"/>
+      <list_item id="list_item_timezone_mid_atlantic"             title="msg_tz_mid_atlantic"             value="117"/>
+      <list_item id="list_item_timezone_coordinated_universal_time_minus02"  title="msg_tz_coordinated_universal_time_minus02"   value="118"/>
+      <list_item id="list_item_timezone_azores"                   title="msg_tz_azores"                   value="24"/>
+      <list_item id="list_item_timezone_casablanca"               title="msg_tz_casablanca"               value="25"/>
+      <list_item id="list_item_timezone_dublin"                   title="msg_tz_dublin"                   value="26"/>
+      <list_item id="list_item_timezone_lisbon"                   title="msg_tz_lisbon"                   value="27"/>
+      <list_item id="list_item_timezone_reykjavik"                title="msg_tz_reykjavik"                value="28"/>
+      <list_item id="list_item_timezone_london"                   title="msg_tz_london"                   value="29"/>
+      <list_item id="list_item_timezone_amsterdam"                title="msg_tz_amsterdam"                value="30"/>
+      <list_item id="list_item_timezone_algiers"                  title="msg_tz_algiers"                  value="31"/>
+      <list_item id="list_item_timezone_andorra_la_vella"         title="msg_tz_andorra_la_vella"         value="32"/>
+      <list_item id="list_item_timezone_vienna"                   title="msg_tz_vienna"                   value="33"/>
+      <list_item id="list_item_timezone_windhoek"                 title="msg_tz_windhoek"                 value="34"/>
+      <list_item id="list_item_timezone_oslo"                     title="msg_tz_oslo"                     value="35"/>
+      <list_item id="list_item_timezone_copenhagen"               title="msg_tz_copenhagen"               value="36"/>
+      <list_item id="list_item_timezone_zagreb"                   title="msg_tz_zagreb"                   value="37"/>
+      <list_item id="list_item_timezone_sarajevo"                 title="msg_tz_sarajevo"                 value="38"/>
+      <list_item id="list_item_timezone_san_marino"               title="msg_tz_san_marino"               value="39"/>
+      <list_item id="list_item_timezone_skopje"                   title="msg_tz_skopje"                   value="40"/>
+      <list_item id="list_item_timezone_stockholm"                title="msg_tz_stockholm"                value="41"/>
+      <list_item id="list_item_timezone_tunis"                    title="msg_tz_tunis"                    value="42"/>
+      <list_item id="list_item_timezone_tirana"                   title="msg_tz_tirana"                   value="43"/>
+      <list_item id="list_item_timezone_paris"                    title="msg_tz_paris"                    value="44"/>
+      <list_item id="list_item_timezone_valletta"                 title="msg_tz_valletta"                 value="45"/>
+      <list_item id="list_item_timezone_vaduz"                    title="msg_tz_vaduz"                    value="46"/>
+      <list_item id="list_item_timezone_budapest"                 title="msg_tz_budapest"                 value="47"/>
+      <list_item id="list_item_timezone_bratislava"               title="msg_tz_bratislava"               value="48"/>
+      <list_item id="list_item_timezone_prague"                   title="msg_tz_prague"                   value="49"/>
+      <list_item id="list_item_timezone_brussels"                 title="msg_tz_brussels"                 value="50"/>
+      <list_item id="list_item_timezone_belgrade"                 title="msg_tz_belgrade"                 value="51"/>
+      <list_item id="list_item_timezone_berlin"                   title="msg_tz_berlin"                   value="52"/>
+      <list_item id="list_item_timezone_bern"                     title="msg_tz_bern"                     value="53"/>
+      <list_item id="list_item_timezone_madrid"                   title="msg_tz_madrid"                   value="54"/>
+      <list_item id="list_item_timezone_monaco"                   title="msg_tz_monaco"                   value="55"/>
+      <list_item id="list_item_timezone_ljubljana"                title="msg_tz_ljubljana"                value="56"/>
+      <list_item id="list_item_timezone_luxembourg"               title="msg_tz_luxembourg"               value="57"/>
+      <list_item id="list_item_timezone_rome"                     title="msg_tz_rome"                     value="58"/>
+      <list_item id="list_item_timezone_warsaw"                   title="msg_tz_warsaw"                   value="59"/>
+      <list_item id="list_item_timezone_athens"                   title="msg_tz_athens"                   value="60"/>
+      <list_item id="list_item_timezone_amman"                    title="msg_tz_amman"                    value="61"/>
+      <list_item id="list_item_timezone_istanbul"                 title="msg_tz_istanbul"                 value="62"/>
+      <list_item id="list_item_timezone_jerusalem"                title="msg_tz_jerusalem"                value="63"/>
+      <list_item id="list_item_timezone_cairo"                    title="msg_tz_cairo"                    value="64"/>
+      <list_item id="list_item_timezone_kiev"                     title="msg_tz_kiev"                     value="65"/>
+      <list_item id="list_item_timezone_sofia"                    title="msg_tz_sofia"                    value="66"/>
+      <list_item id="list_item_timezone_damascus"                 title="msg_tz_damascus"                 value="67"/>
+      <list_item id="list_item_timezone_tallinn"                  title="msg_tz_tallinn"                  value="68"/>
+      <list_item id="list_item_timezone_nicosia"                  title="msg_tz_nicosia"                  value="69"/>
+      <list_item id="list_item_timezone_vilnius"                  title="msg_tz_vilnius"                  value="70"/>
+      <list_item id="list_item_timezone_bucharest"                title="msg_tz_bucharest"                value="71"/>
+      <list_item id="list_item_timezone_beirut"                   title="msg_tz_beirut"                   value="72"/>
+      <list_item id="list_item_timezone_helsinki"                 title="msg_tz_helsinki"                 value="73"/>
+      <list_item id="list_item_timezone_johannesburg"             title="msg_tz_johannesburg"             value="75"/>
+      <list_item id="list_item_timezone_riga"                     title="msg_tz_riga"                     value="76"/>
+      <list_item id="list_item_timezone_kuwait_city"              title="msg_tz_kuwait_city"              value="77"/>
+      <list_item id="list_item_timezone_baghdad"                  title="msg_tz_baghdad"                  value="78"/>
+      <list_item id="list_item_timezone_manama"                   title="msg_tz_manama"                   value="79"/>
+      <list_item id="list_item_timezone_minsk"                    title="msg_tz_minsk"                    value="74"/>
+      <list_item id="list_item_timezone_riyadh"                   title="msg_tz_riyadh"                   value="81"/>
+      <list_item id="list_item_timezone_moscow"                   title="msg_tz_moscow"                   value="80"/>
+      <list_item id="list_item_timezone_tehran"                   title="msg_tz_tehran"                   value="82"/>
+      <list_item id="list_item_timezone_abu_dhabi"                title="msg_tz_abu_dhabi"                value="83"/>
+      <list_item id="list_item_timezone_yerevan"                  title="msg_tz_yerevan"                  value="84"/>
+      <list_item id="list_item_timezone_tbilisi"                  title="msg_tz_tbilisi"                  value="85"/>
+      <list_item id="list_item_timezone_baku"                     title="msg_tz_baku"                     value="86"/>
+      <list_item id="list_item_timezone_muscat"                   title="msg_tz_muscat"                   value="87"/>
+      <list_item id="list_item_timezone_kabul"                    title="msg_tz_kabul"                    value="88"/>
+      <list_item id="list_item_timezone_karachi"                  title="msg_tz_karachi"                  value="89"/>
+      <list_item id="list_item_timezone_tashkent"                 title="msg_tz_tashkent"                 value="90"/>
+      <list_item id="list_item_timezone_calcutta"                 title="msg_tz_calcutta"                 value="92"/>
+      <list_item id="list_item_timezone_kathmandu"                title="msg_tz_kathmandu"                value="93"/>
+      <list_item id="list_item_timezone_bishkek"                  title="msg_tz_bishkek"                  value="91"/>
+      <list_item id="list_item_timezone_astana"                   title="msg_tz_astana"                   value="94"/>
+      <list_item id="list_item_timezone_dhaka"                    title="msg_tz_dhaka"                    value="95"/>
+      <list_item id="list_item_timezone_bangkok"                  title="msg_tz_bangkok"                  value="96"/>
+      <list_item id="list_item_timezone_kuala_lumpur"             title="msg_tz_kuala_lumpur"             value="97"/>
+      <list_item id="list_item_timezone_singapore"                title="msg_tz_singapore"                value="98"/>
+      <list_item id="list_item_timezone_taipei"                   title="msg_tz_taipei"                   value="99"/>
+      <list_item id="list_item_timezone_perth"                    title="msg_tz_perth"                    value="100"/>
+      <list_item id="list_item_timezone_beijing"                  title="msg_tz_beijing"                  value="101"/>
+      <list_item id="list_item_timezone_hong_kong"                title="msg_tz_hong_kong"                value="102"/>
+      <list_item id="list_item_timezone_seoul"                    title="msg_tz_seoul"                    value="103"/>
+      <list_item id="list_item_timezone_tokyo"                    title="msg_tz_tokyo"                    value="104"/>
+      <list_item id="list_item_timezone_adelaide"                 title="msg_tz_adelaide"                 value="105"/>
+      <list_item id="list_item_timezone_darwin"                   title="msg_tz_darwin"                   value="119"/>
+      <list_item id="list_item_timezone_sydney"                   title="msg_tz_sydney"                   value="106"/>
+      <list_item id="list_item_timezone_brisbane"                 title="msg_tz_brisbane"                 value="120"/>
+      <list_item id="list_item_timezone_noumea"                   title="msg_tz_noumea"                   value="121"/>
+      <list_item id="list_item_timezone_wellington"               title="msg_tz_wellington"               value="107"/>
+      <list_item id="list_item_timezone_suva"                     title="msg_tz_suva"                     value="108"/>
+      <list_item id="list_item_timezone_samoa_independent"        title="msg_tz_independent_state_of_samoa" value="109"/>
+    </list>
+
+    <!-- 自動でサマータイムに設定する -->
+    <toggle_switch id="toggle_switch_auto_summer_time"
+                   icon="tex_spanner"
+                   title="msg_adjust_daylight_saving_automatically"
+                   key="/CONFIG/DATE/auto_summer_time"/>
+
+    <!-- 日付表示 -->
+    <list id="list_date_format"
+          icon="tex_spanner"
+          title="msg_date_format"
+          key="/CONFIG/DATE/date_format">
+      <list_item id="list_item_date_format_ymd" title="msg_ymd" value="0"/>
+      <list_item id="list_item_date_format_dmy" title="msg_dmy" value="1"/>
+      <list_item id="list_item_date_format_mdy" title="msg_mdy" value="2"/>
+    </list>
+
+    <!-- 時間表示 -->
+    <list id="list_time_format"
+          icon="tex_spanner"
+          title="msg_time_format"
+          key="/CONFIG/DATE/time_format">
+      <list_item id="list_item_time_format_12" title="msg_time_format_12" value="0"/>
+      <list_item id="list_item_time_format_24" title="msg_time_format_24" value="1"/>
+    </list>
+
+  </setting_list>
+</system_settings>
+<?xml version="1.0" encoding="utf-8"?>
+<system_settings version="1.0" plugin="sound_settings_plugin">
+
+  <!-- サウンド＆ディスプレイ -->
+  <setting_list id="sound_settings" title="msg_sound_display">
+
+    <!-- 明るさ (1G/2G) -->
+    <setting_list id="display_brightness" title="msg_brightness" icon="tex_spanner">
+      <user_custom id="display_brightness_setting"/>
+      <!-- DEBUG AC状態Fake 
+      <toggle_switch id="debug_ac_status2" title="DEBUG AC Status ON" icon="tex_spanner"/>
+      -->
+    </setting_list>
+    <!-- DEBUG AC状態Fake 
+    <toggle_switch id="debug_ac_status1" title="DEBUG AC Status ON" icon="tex_spanner"/>
+    -->
+    
+    <!-- 解像度 (Dolce) -->
+    <list id="resolution" title="msg_resolution" icon="tex_spanner"
+          key="/CONFIG/DISPLAY/hdmi_resolution_mode">
+      <list_item id="resolution_0" title="msg_automatic" value="0"/>
+      <list_item id="resolution_2" title="msg_720p" value="2"/>
+      <list_item id="resolution_1" title="msg_1080i" value="1"/>
+      <list_item id="resolution_3" title="msg_480p" value="3"/>
+    </list>
+
+    <!-- RGBレンジ (Dolce) -->
+    <list id="rgb_range" title="msg_rgb_range" icon="tex_spanner" hint="msg_rgb_range_info"
+          key="/CONFIG/DISPLAY/rgb_range_mode">
+      <list_item id="rgb_range_0" title="msg_automatic_recommended" value="0"/>
+      <list_item id="rgb_range_1" title="msg_limited" value="1"/>
+      <list_item id="rgb_range_2" title="msg_full_rgb" value="2"/>
+    </list>
+
+    <!-- 表示エリア設定 (Dolce) -->
+    <button id="display_area" title="msg_display_area_settings" icon="tex_spanner"/>
+    
+    <!-- スクリーンセーバー (Dolce) -->
+    <list id="screensaver" title="msg_start_screensaver" icon="tex_spanner"
+          key="/CONFIG/DISPLAY/dimming_interval">
+      <list_item id="screensaver_1" title="" value="300"/>
+      <list_item id="screensaver_2" title="" value="900"/>
+      <list_item id="screensaver_3" title="" value="1800"/>
+      <list_item id="screensaver_0" title="msg_off" value="0"/>
+    </list>
+
+    <!-- システムのミュージック -->
+    <toggle_switch id="bgm" key="/CONFIG/SHELL/bgm"
+                   title="msg_system_music" icon="tex_spanner"/>
+    
+    <!-- AVLS (1G/2G) -->
+    <toggle_switch id="avls" key="/CONFIG/SOUND/avls"
+                   title="msg_avls" hint="msg_avls_info" icon="tex_spanner"/>
+
+    <!-- 自動で消音する (1G/2G) -->
+    <toggle_switch id="mute_automatically" key="/CONFIG/SOUND/speaker_mute"
+                   title="msg_mute_automatically" hint="msg_mute_automatically_info" icon="tex_spanner"/>
+
+   
+  </setting_list>
+</system_settings>
+<?xml version="1.0" encoding="utf-8"?>
+<system_settings version="1.0" plugin="system_update_plugin">
+
+  <!-- システムアップデート -->
+  <setting_list id="update_settings" title="msg_system_update">
+
+    <setting_list id="id_main_network" title="msg_system_update" icon="tex_spanner"
+                   hint="msg_update_wifi_info" rotate="full,push_only">
+      <user_custom id="main_network"/>
+    </setting_list>
+    
+    <setting_list id="id_main_ps3" title="msg_system_update" icon="tex_spanner"
+                  hint="msg_update_ps3_info2" rotate="full,push_only">
+      <user_custom id="main_ps3"/>
+    </setting_list>
+    
+    <setting_list id="id_main_pc" title="msg_system_update" icon="tex_spanner"
+                  hint="msg_update_pc_info2" rotate="full,push_only">
+      <user_custom id="main_pc"/>
+    </setting_list>
+    
+    <setting_list id="id_main_sd" title="msg_system_update" icon="tex_spanner"
+                  rotate="full,push_only">
+      <user_custom id="main_sd"/>
+    </setting_list>
+    <setting_list id="id_main_mtp" title="msg_system_update" icon="tex_spanner"
+                  rotate="full,push_only">
+      <user_custom id="main_mtp"/>
+    </setting_list>
+
+    <setting_list id="id_main_dummy" title="msg_system_update"
+                  rotate="full,push_only">
+      <user_custom id="main_dummy"/>
+    </setting_list>
+
+
+  </setting_list>
+</system_settings>
+<?xml version="1.0" encoding="utf-8"?>
+<system_settings version="1.0" plugin="system_update_plugin">
+
+  <!-- システムアップデート -->
+  <setting_list id="update_settings" title="msg_firmware_update">
+
+    <setting_list id="id_main_network" title="msg_system_update" icon="tex_spanner"
+                   hint="msg_update_wifi_info" rotate="full,push_only">
+      <user_custom id="main_network"/>
+    </setting_list>
+    
+    <setting_list id="id_main_ps3" title="msg_system_update" icon="tex_spanner"
+                  hint="msg_update_ps3_info" rotate="full,push_only">
+      <user_custom id="main_ps3"/>
+    </setting_list>
+    
+    <setting_list id="id_main_pc" title="msg_system_update" icon="tex_spanner"
+                  hint="msg_update_pc_info" rotate="full,push_only">
+      <user_custom id="main_pc"/>
+    </setting_list>
+    
+    <setting_list id="id_main_sd" title="msg_system_update" icon="tex_spanner"
+                  rotate="full,push_only">
+      <user_custom id="main_sd"/>
+    </setting_list>
+    <setting_list id="id_main_mtp" title="msg_system_update" icon="tex_spanner"
+                  rotate="full,push_only">
+      <user_custom id="main_mtp"/>
+    </setting_list>
+
+    <setting_list id="id_main_dummy" title="msg_system_update"
+                  rotate="full,push_only">
+      <user_custom id="main_dummy"/>
+    </setting_list>
+
+
+  </setting_list>
+</system_settings>
+<?xml version="1.0" encoding="utf-8"?>
+<system_settings version="1.0" plugin="wifi_settings_plugin">
+
+  <!-- Wi-Fi設定 -->
+  <setting_list id="page_wifi_main" title="msg_wifi_settings">
+
+    <!-- Wi-Fi -->
+    <toggle_switch id="id_wifi_mode"
+                   title="msg_wifi"
+                   description=""
+                   icon="tex_spanner" />
+
+    <!-- アクセスポイント設定 -->
+    <label id="id_ap"
+           title="msg_ap"
+           hint="msg_ap_info"
+           icon="tex_spanner"/>
+
+    <!-- 検索中です (登録されたアクセスポイントも見つかったアクセスポイントもない時のみ表示) -->
+    <label id="id_searching"
+           title="msg_searching" />
+
+    <!-- 登録AP -->
+    <link id="link_saved_ap_01" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_02" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_03" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_04" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_05" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_06" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_07" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_08" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_09" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_10" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_11" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_12" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_13" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_14" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_15" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_16" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_17" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_18" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_19" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_20" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_21" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_22" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_23" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_24" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_25" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_26" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_27" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_28" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_29" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_30" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+
+    <!-- 周辺のAP -->
+    <button id="btn_scanned_ap_01" title="" height="70"/>
+    <button id="btn_scanned_ap_02" title="" height="70"/>
+    <button id="btn_scanned_ap_03" title="" height="70"/>
+    <button id="btn_scanned_ap_04" title="" height="70"/>
+    <button id="btn_scanned_ap_05" title="" height="70"/>
+    <button id="btn_scanned_ap_06" title="" height="70"/>
+    <button id="btn_scanned_ap_07" title="" height="70"/>
+    <button id="btn_scanned_ap_08" title="" height="70"/>
+    <button id="btn_scanned_ap_09" title="" height="70"/>
+    <button id="btn_scanned_ap_10" title="" height="70"/>
+    <!--
+    <button id="btn_scanned_ap_11" title="" />
+    <button id="btn_scanned_ap_12" title="" />
+    <button id="btn_scanned_ap_13" title="" />
+    <button id="btn_scanned_ap_14" title="" />
+    <button id="btn_scanned_ap_15" title="" />
+    <button id="btn_scanned_ap_16" title="" />
+    -->
+
+    <!-- 自動で登録する -->
+    <label id="page_wifi_save_automatically"
+           title="msg_save_ap_automatically"
+           icon="tex_spanner"/>
+
+    <setting_list id="page_wifi_wps"
+            title="msg_wps"
+			height="70"
+            rotate="full"
+            navi="ok_cancel">
+      <user_custom id="page_wifi_wps_dummy" />
+    </setting_list>
+    <setting_list id="page_wifi_aoss"
+            title="msg_aoss"
+			height="70"
+            rotate="full"
+            navi="ok_cancel">
+      <user_custom id="page_wifi_aoss_dummy" />
+    </setting_list>
+    <setting_list id="page_wifi_rakuraku"
+            title="msg_rakurakuwlanstart"
+			height="70"
+            rotate="full"
+            navi="ok_cancel">
+      <user_custom id="page_wifi_rakuraku_dummy" />
+    </setting_list>
+
+    <!-- 手動で登録する -->
+    <link id="link_start_save" title="msg_save_ap_manually" file="wifi_start_save.xml" icon="tex_spanner"/>
+
+    <!-- 接続状態(登録されたアクセスポイントがある時のみ有効) -->
+	<!-- 接続状態はWi-Fiから１階層上の「ネットワーク」に移動
+    <link id="link_wifi_connect_info" title="msg_internet_connection_status" file="wifi_saved_conn_state.xml" icon="tex_spanner"/>
+	-->
+
+    <!-- 接続テストをする -->
+	<!-- 接続テストはWi-Fiから１階層上の「ネットワーク」に移動
+    <link id="link_wifi_test_connection" title="msg_internet_connection_test" file="wifi_saved_conn_test.xml" icon="tex_spanner"/>
+	-->
+
+    <!-- Wi-Fi設定の案内 -->
+    <toggle_switch id="id_show_ap_settings"
+                   title="msg_show_ap_settings2"
+                   hint="msg_show_ap_settings_info2"
+                   key="/CONFIG/NET/enable_impose_scanlist"
+                   icon="tex_spanner" />
+
+    <!-- アドホックモードのチャンネル -->
+    <list id="id_adhoc_cannel"
+          title="msg_adhoc_channel"
+          hint="msg_adhoc_channel_info"
+ 		  icon="tex_spanner"
+          key="/CONFIG/NET/adhoc_channel">
+      <list_item id="id_adhoc_cannel_mode_auto"	title="msg_automatic"	value="0" />
+      <list_item id="id_adhoc_cannel_mode_1ch" 	title="1" 	value="1" />
+      <list_item id="id_adhoc_cannel_mode_6ch"	title="6"		value="6" />
+      <list_item id="id_adhoc_cannel_mode_11ch" title="11"	value="11" />
+    </list>
+
+  </setting_list>
+</system_settings>
+<?xml version="1.0" encoding="utf-8"?>
+<system_settings version="1.0" plugin="wifi_settings_plugin">
+
+  <!-- インターネット接続設定 (for Dolce) -->
+  <setting_list id="page_wifi_main_dolce" title="msg_internet_connection_settings">
+
+    <!-- インターネットに接続する -->
+    <toggle_switch id="id_wifi_mode"
+                   title="msg_connect_internet"
+                   description=""
+                   icon="tex_spanner" />
+
+    <!-- 接続方法 -->
+    <!-- ※Todo... SDK 2.500 では HINT(?)は 非表示 -->
+    <!-- label id="id_ap"
+           title="msg_connection_method"
+           hint="msg_ap_info"
+           icon="tex_spanner"/ -->
+    <label id="id_ap"
+           title="msg_connection_method"
+           icon="tex_spanner" />
+
+    <!-- LANケーブル -->
+    <link id="id_ether" title="msg_lan_cable" height="70" file="wifi_saved_ap_menu_dolce.xml"/>
+
+    <!-- 検索中です (登録されたアクセスポイントも見つかったアクセスポイントもない時のみ表示) -->
+    <label id="id_searching"
+           title="msg_searching" />
+
+    <!-- 登録AP -->
+    <link id="link_saved_ap_01" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_02" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_03" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_04" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_05" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_06" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_07" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_08" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_09" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_10" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_11" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_12" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_13" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_14" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_15" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_16" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_17" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_18" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_19" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_20" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_21" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_22" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_23" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_24" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_25" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_26" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_27" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_28" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_29" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+    <link id="link_saved_ap_30" title="" height="70" file="wifi_saved_ap_menu.xml"/>
+
+    <!-- 周辺のAP -->
+    <button id="btn_scanned_ap_01" title="" height="70"/>
+    <button id="btn_scanned_ap_02" title="" height="70"/>
+    <button id="btn_scanned_ap_03" title="" height="70"/>
+    <button id="btn_scanned_ap_04" title="" height="70"/>
+    <button id="btn_scanned_ap_05" title="" height="70"/>
+    <button id="btn_scanned_ap_06" title="" height="70"/>
+    <button id="btn_scanned_ap_07" title="" height="70"/>
+    <button id="btn_scanned_ap_08" title="" height="70"/>
+    <button id="btn_scanned_ap_09" title="" height="70"/>
+    <button id="btn_scanned_ap_10" title="" height="70"/>
+
+    <!-- 自動で登録する -->
+    <label id="page_wifi_save_automatically"
+           title="msg_save_ap_automatically"
+           icon="tex_spanner"/>
+
+    <setting_list id="page_wifi_wps"
+            title="msg_wps"
+			height="70"
+            rotate="full"
+            navi="ok_cancel">
+      <user_custom id="page_wifi_wps_dummy" />
+    </setting_list>
+    <setting_list id="page_wifi_aoss"
+            title="msg_aoss"
+			height="70"
+            rotate="full"
+            navi="ok_cancel">
+      <user_custom id="page_wifi_aoss_dummy" />
+    </setting_list>
+    <setting_list id="page_wifi_rakuraku"
+            title="msg_rakurakuwlanstart"
+			height="70"
+            rotate="full"
+            navi="ok_cancel">
+      <user_custom id="page_wifi_rakuraku_dummy" />
+    </setting_list>
+
+    <!-- 手動で登録する -->
+    <link id="link_start_save" title="msg_save_ap_manually" file="wifi_start_save.xml" icon="tex_spanner"/>
+
+    <!-- Wi-Fi設定の案内 -->
+    <toggle_switch id="id_show_ap_settings"
+                   title="msg_show_ap_settings2"
+                   hint="msg_show_ap_settings_info2"
+                   key="/CONFIG/NET/enable_impose_scanlist"
+                   icon="tex_spanner" />
+
+    <!-- アドホックモードのチャンネル -->
+    <list id="id_adhoc_cannel"
+          title="msg_adhoc_channel"
+          hint="msg_adhoc_channel_info"
+ 		  icon="tex_spanner"
+          key="/CONFIG/NET/adhoc_channel">
+      <list_item id="id_adhoc_cannel_mode_auto"	title="msg_automatic"	value="0" />
+      <list_item id="id_adhoc_cannel_mode_1ch" 	title="1" 	value="1" />
+      <list_item id="id_adhoc_cannel_mode_6ch"	title="6"		value="6" />
+      <list_item id="id_adhoc_cannel_mode_11ch" title="11"	value="11" />
+    </list>
+
+  </setting_list>
+</system_settings>
+<?xml version="1.0" encoding="utf-8"?>
+<system_settings version="1.0" plugin="wifi_settings_plugin">
+  <!-- 登録を始める -->
+  <setting_list id="page_wifi_start_save"
+								  title="msg_save_ap_manually">
+
+    <!-- 手動で入力する -->
+    <link id="link_save_manually" title="msg_enter_manually" file="wifi_save_manually.xml" icon="tex_spanner"/>
+
+    <!-- WPS PIN方式を使う -->
+    <setting_list id="page_wifi_wps_pin"
+            title="msg_use_wps_pin_method"
+            icon="tex_spanner"
+            rotate="full"
+            navi="ok_cancel">
+      <user_custom id="page_wifi_wps_pin_dummy" />
+    </setting_list>
+
+    <!-- USBイーサ（開発用） -->
+    <button id="id_btn_usbether" title="msg_tool_usb_ethernet" icon="tex_spanner"/>
+  </setting_list>
+</system_settings>
+<?xml version="1.0" encoding="utf-8"?>
+<system_settings version="1.0" plugin="wifi_settings_plugin">
+  <!-- 手動で入力する -->
+  <setting_list id="page_wifi_save_manually"
+                title="msg_enter_manually"
+				navi="ok_cancel"
+                style ="edit">
+    <!-- SSID -->
+    <text_field id="id_save_man_ssid" title="msg_ssid"
+                max_length="32"
+                min_length="0"
+                keyboard_type="default"
+                alphabet_preferred="on"
+                auto_capitalization="off"/>
+
+    <!-- セキュリティー -->
+    <list id="id_save_man_security"
+          title="msg_security_method" >
+      <list_item id="id_save_man_security_non" title="msg_none"	value="0" />
+      <list_item id="id_save_man_security_wep" title="msg_wep" value="1" />
+      <list_item id="id_save_man_security_wpa" title="msg_wpapsk_wpa2psk"	value="2" />
+    </list>
+
+    <!-- セキュリティーキー（WEP） -->
+    <text_field id="id_save_man_security_wep_key" title="msg_pw"
+                max_length="26"
+                min_length="0"
+                keyboard_type="basic_latin"/>
+
+    <!-- セキュリティーキー（WPA） -->
+    <text_field id="id_save_man_security_wpa_key" title="msg_pw"
+                max_length="64"
+                min_length="0"
+                keyboard_type="basic_latin"/>
+
+    <!-- パスワード表示 -->
+    <toggle_switch id="id_pw_show_or_not"
+                   title="msg_hide_pw"/>
+  </setting_list>
+</system_settings>
+<?xml version="1.0" encoding="utf-8"?>
+<system_settings version="1.0" plugin="wifi_settings_plugin">
+  <!-- 登録APメニュー -->
+  <setting_list id="page_wifi_saved_ap_menu"
+					title="">
+    <!-- 接続 -->
+    <button id="page_wifi_conn" title="msg_connect_vb" icon="tex_spanner"/>
+
+    <!-- 接続接続テストをする -->
+    <link id="link_wifi_test_connection" title="msg_internet_connection_test" file="wifi_saved_conn_test.xml" icon="tex_spanner"/>
+
+    <!-- 削除 -->
+    <button id="id_delete_ap" title="msg_delete" icon="tex_spanner"/>
+
+    <!-- 詳細設定 -->
+    <link id="link_saved_ap_edit" title="msg_advanced_settings" file="wifi_saved_ap_edit.xml" icon="tex_spanner"/>
+  </setting_list>
+</system_settings>
+<?xml version="1.0" encoding="utf-8"?>
+<system_settings version="1.0" plugin="wifi_settings_plugin">
+  <!-- 登録APメニュー -->
+  <setting_list id="page_wifi_saved_ap_menu_dolce"
+					title="msg_lan_cable">
+    <!-- 接続 -->
+    <button id="page_ethernet_conn" title="msg_connect_vb" icon="tex_spanner"/>
+
+    <!-- 接続接続テストをする -->
+    <button id="link_wifi_test_connection" title="msg_internet_connection_test" icon="tex_spanner"/>
+
+    <!-- かんたん設定 -->
+    <button id="id_easy_settings" title="msg_easy_settings" icon="tex_spanner"/>
+
+    <!-- 詳細設定 -->
+    <link id="link_saved_ap_edit" title="msg_advanced_settings" file="wifi_saved_ap_edit.xml" icon="tex_spanner"/>
+  </setting_list>
+</system_settings>
+<?xml version="1.0" encoding="utf-8"?>
+<system_settings version="1.0" plugin="wifi_settings_plugin">
+  <!-- 登録APメニュー -->
+  <setting_list id="page_wifi_ap_edit"
+					title="msg_advanced_settings"
+					navi="ok_cancel"
+					style ="edit">
+
+    <!-- 名前 -->
+    <text_field id="id_ap_conn_name"
+				title="msg_name"
+                max_length="32"
+                min_length="0"
+                keyboard_type="default"/>
+
+    <!-- SSID -->
+    <label id="id_ap_ssid"
+           title="msg_ssid"/>
+
+    <!-- セキュリティー -->
+    <label id="id_ap_security"
+           title="msg_security_method"/>
+
+    <!-- IPアドレス設定 -->
+    <list id="id_ip_addr_setting"
+          title="msg_ipaddress_settings" 
+          texture_type ="top">
+      <list_item id="id_ip_addr_auto" title="msg_automatic"	value="0" />
+      <list_item id="id_ip_addr_manual" title="msg_manual" value="1" />
+      <list_item id="id_ip_addr_pppoe" title="msg_pppoe"	value="2" />
+    </list>
+    <!-- IPアドレス -->
+    <text_field id="id_ip_addr"
+				title="msg_ip_address"
+                max_length="15"
+                min_length="0"
+                keyboard_type="extended_numeral"
+                no_space="on"
+                texture_type ="center"/>
+
+    <!-- サブネットマスク -->
+    <text_field id="id_netmask"
+				title="msg_subnetmask"
+                max_length="15"
+                min_length="0"
+                keyboard_type="extended_numeral"
+                no_space="on"
+                texture_type ="center"/>
+    
+    <!-- デフォルトゲートウェイ -->
+    <text_field id="id_default_gateway"
+				title="msg_default_gateway"
+                max_length="15"
+                min_length="0"
+                keyboard_type="extended_numeral"
+                no_space="on"
+                texture_type ="center"/>
+
+    <!-- PPPoEユーザーID -->
+    <text_field id="id_auth_name"
+				title="msg_pppoe_user_name"
+                max_length="127"
+                min_length="0"
+                keyboard_type="basic_latin"
+                texture_type ="center"/>
+    <!-- PPPoEパスワード -->
+    <text_field id="id_auth_key"
+				title="msg_pppoe_pw"
+                max_length="127"
+                min_length="0"
+                keyboard_type="basic_latin"
+				password="on"
+                texture_type ="center"/>
+    <!-- DHCP -->
+    <list id="id_dhcp_setting"
+          title="msg_dhcp_host_name"
+          texture_type ="center">
+      <list_item id="id_dhcp_unuse" title="msg_do_not_use" value="0" />
+      <list_item id="id_dhcp_use" title="msg_use"	value="1" />
+    </list>
+    <!-- DHCPホスト名 -->
+    <text_field id="id_dhcp_hostname"
+				title=""
+                max_length="255"
+                min_length="0"
+                keyboard_type="basic_latin"
+                texture_type ="center"/>
+    <!-- DNS -->
+    <list id="id_dns_setting"
+          title="msg_dns_settings" >
+      <list_item id="id_dns_auto" title="msg_automatic" value="0" />
+      <list_item id="id_dns_manual" title="msg_manual"	value="1" />
+    </list>
+    <!-- プライマリDNS -->
+    <text_field id="id_dns_primary"
+				title="msg_primedns"
+                max_length="15"
+                min_length="0"
+                keyboard_type="extended_numeral"
+                no_space="on"
+                texture_type ="center"/>
+    <!-- セカンダリDNS -->
+    <text_field id="id_dns_secondary"
+				title="msg_seconddns"
+                max_length="15"
+                min_length="0"
+                keyboard_type="extended_numeral"
+                no_space="on"
+                texture_type ="bottom"/>
+    <!-- HTTPプロキシサーバー -->
+    <list id="id_http_proxy_setting"
+          title="msg_proxyserver" >
+      <list_item id="id_http_proxy_unuse" title="msg_do_not_use" value="0" />
+      <list_item id="id_http_proxy_use" title="msg_use"	value="1" />
+    </list>
+    <!-- アドレス -->
+    <text_field id="id_http_proxy_server"
+				title="msg_address"
+                max_length="255"
+                min_length="0"
+                keyboard_type="basic_latin"
+                no_space="on"
+                texture_type ="center"/>
+    <!-- ポート -->
+    <text_field id="id_http_proxy_port"
+				title="msg_port"
+                max_length="5"
+                min_length="0"
+				        keyboard_type="numeral"
+                no_space="on"
+                texture_type ="bottom"/>
+    <!-- MTU設定 -->
+    <list id="id_mtu_settings"
+          title="msg_mtu_settings" >
+      <list_item id="id_mtu_use" title="msg_automatic" value="0" />
+      <list_item id="id_mtu_unuse" title="msg_manual"	value="1" />
+    </list>
+
+    <!-- MTU -->
+    <text_field id="id_mtu"
+				title="msg_mtu"
+                max_length="4"
+                min_length="0"
+				        keyboard_type="numeral"
+                no_space="on"
+                texture_type ="bottom"/>
+    
+    <spacer id="page_edit_spacer1" />
+
+    <!-- AUTO CONNECT -->
+    <toggle_switch id="id_auto_connect"
+                   title="msg_do_not_connect_ap_automatically" />
+
+    <spacer id="page_edit_spacer2" />
+
+  </setting_list>
+</system_settings>
+<?xml version="1.0" encoding="utf-8"?>
+<system_settings version="1.0" plugin="wifi_settings_plugin">
+  <!-- 接続状態 -->
+  <setting_list id="page_wifi_ap_conn_state"
+					title="msg_internet_connection_status"
+					style="edit">
+
+    <!-- ネットワーク -->
+    <label id="id_network"
+           title="msg_network"/>
+
+    <!-- 接続名 -->
+    <label id="id_conn_name"
+           title="msg_name"/>
+
+    <!-- 電波強度 -->
+    <label id="id_rssi"
+           title="msg_signal_strength"/>
+
+    <!-- SSID -->
+    <label id="id_ssid"
+           title="msg_ssid"/>
+
+    <!-- BSSID -->
+    <label id="id_bssid"
+           title="msg_bssid"/>
+
+    <!-- チャンネル -->
+    <label id="id_channel"
+           title="msg_channel"/>
+
+    <!-- セキュリティー -->
+    <label id="id_security"
+           title="msg_security_method"/>
+
+    <!-- WEPキー -->
+    <label id="id_wep_key"
+           title="msg_wep"/>
+
+    <!-- WPAキー -->
+    <label id="id_wpa_key"
+           title="msg_wpapsk_wpa2psk"/>
+
+    <!-- IPアドレス設定 -->
+    <label id="id_ip_addr_setting"
+          title="msg_ipaddress_settings"/>
+
+    <!-- PPPoEユーザーID -->
+    <label id="id_auth_name"
+		   title="msg_pppoe_user_name"/>
+
+    <!-- PPPoEパスワード -->
+    <label id="id_auth_key"
+		   title="msg_pppoe_pw"/>
+
+    <!-- DHCPホスト名 -->
+    <label id="id_dhcp_hostname"
+		   title="msg_dhcp_host_name"/>
+
+    <!-- IPアドレス -->
+    <label id="id_ip_addr"
+		   title="msg_ip_address"/>
+
+    <!-- サブネットマスク -->
+    <label id="id_netmask"
+		   title="msg_subnetmask"/>
+
+    <!-- デフォルトルータ -->
+    <label id="id_default_gateway"
+				title="msg_default_gateway"/>
+
+    <!-- プライマリDNS -->
+    <label id="id_dns_primary"
+		   title="msg_primedns"/>
+
+    <!-- セカンダリDNS -->
+    <label id="id_dns_secondary"
+		   title="msg_seconddns"/>
+
+    <!-- MACアドレス -->
+    <label id="id_mac_address"
+		   title="msg_mac_address"/>
+
+    <!-- MTU -->
+    <label id="id_mtu"
+		   title="msg_mtu"/>
+
+    <!-- HTTPプロキシサーバー -->
+    <label id="id_http_proxy_setting"
+          title="msg_proxyserver"/>
+
+    <!-- アドレス -->
+    <label id="id_http_proxy_server"
+		   title=""/>
+
+    <!-- ポート -->
+    <label id="id_http_proxy_port"
+		   title=""/>
+
+    <!-- NATタイプ -->
+    <label id="id_nat_type"
+		   title="msg_nat_type"/>
+
+  </setting_list>
+</system_settings>
+<?xml version="1.0" encoding="utf-8"?>
+<system_settings version="1.0" plugin="wifi_settings_plugin">
+  <!-- 接続テスト -->
+  <setting_list id="page_wifi_ap_conn_test"
+					title="msg_internet_connection_test"
+          navi="ok_cancel"
+					style="edit">
+
+    <!-- 名前 -->
+    <label id="id_name"
+           title="msg_name"/>
+
+    <!-- SSID -->
+    <label id="id_ssid"
+           title="msg_ssid"/>
+
+    <!-- IPアドレス取得 -->
+    <label id="id_obtain_ipaddress"
+           title="msg_obtain_ipaddress"/>
+
+    <!-- インターネット接続 -->
+    <label id="id_internet_conn"
+           title="msg_internet_connection"/>
+
+    <!-- PSNサインイン -->
+    <label id="id_psn_signin"
+           title="msg_psn_signin"/>
+
+    <!-- NATタイプ -->
+    <label id="id_nat_type"
+		   title="msg_nat_type"/>
+
+    <!-- 通信速度（ダウンロード） -->
+    <label id="id_conn_speed_download"
+          title="msg_connection_speed_download"/>
+
+    <!-- 通信速度（アップロード） -->
+    <label id="id_conn_speed_upload"
+		   title="msg_connection_speed_upload"/>
+
+    <!-- テスト結果解説 -->
+    <user_custom id="predicted_speed_desc"/>
+
+  </setting_list>
+</system_settings>
+<?xml version="1.0" encoding="utf-8"?>
+<system_settings version="1.0" plugin="wifi_settings_plugin">
+  <!-- PPPoE設定 -->
+  <setting_list id="page_easy_pppoe"
+					  title="msg_network"
+					  navi="ok_cancel"
+					  style ="edit">
+
+    <!-- PPPoEユーザーID -->
+    <text_field id="id_easy_auth_name"
+				title="msg_pppoe_user_name"
+                max_length="127"
+                min_length="0"
+                keyboard_type="basic_latin"
+                texture_type ="top"/>
+    <!-- PPPoEパスワード -->
+    <text_field id="id_easy_auth_key"
+				title="msg_pppoe_pw"
+                max_length="127"
+                min_length="0"
+                keyboard_type="basic_latin"
+				password="on"
+                texture_type ="bottom"/>
+  </setting_list>
+
+  <!-- Proxy設定 -->
+  <setting_list id="page_easy_proxy"
+					  title="msg_network"
+					  navi="ok_cancel"
+					  style ="edit">
+
+    <!-- HTTPプロキシサーバー -->
+    <list id="id_easy_http_proxy_setting"
+          title="msg_proxyserver" >
+      <list_item id="id_easy_http_proxy_unuse" title="msg_do_not_use" value="0" />
+      <list_item id="id_easy_http_proxy_use" title="msg_use"	value="1" />
+    </list>
+    <!-- アドレス -->
+    <text_field id="id_easy_http_proxy_server"
+				title="msg_address"
+                max_length="255"
+                min_length="0"
+                keyboard_type="basic_latin"
+                no_space="on"
+                texture_type ="center"/>
+    <!-- ポート -->
+    <text_field id="id_easy_http_proxy_port"
+				title="msg_port"
+                max_length="5"
+                min_length="0"
+				        keyboard_type="numeral"
+                no_space="on"
+                texture_type ="bottom"/>
+  </setting_list>
+
+  <!-- かんたん設定完了 -->
+  <setting_list id="page_easy_complete"
+					  title="msg_network"
+					  navi_right="id_easy_ok"
+					  style ="edit">
+
+    <spacer id="page_easy_complete_spacer_top" height="40"/>
+    <label id="page_easy_complete_title" title="msg_easy_settings_complete" style="heading"/>
+    <spacer id="page_easy_complete_spacer_middle" height="100"/>
+    <button id="id_easy_conn_test" title="msg_internet_connection_test"/>
+  </setting_list>
+</system_settings>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id$ -->
+
+<system_settings version="1.0" plugin="powersave_settings_plugin">
+
+  <!-- 省電力設定 -->
+  <setting_list id="powersave_settings" title="msg_power_saving_settings">
+    <!-- 自動でスタンバイモードにする -->
+    <!-- 
+    参照：
+    Bug 11342 および メール「[IRIS]Displayの劣化/焼きつきと対策について」より
+    Bug 49038 自動サスペンドのデフォルト値を3分に設定する
+    Bug 50735 [Setting] 省電力設定 自動スタンバイの選択肢を追加する
+    Bug 79753 [Settings] 1G/2Gの自動スタンバイの選択肢に「30分」を追加する
+    TOOL向け設定
+     - 設定値：　切、1分後、3分後、5分後、10分後、30分後、60分後
+     - 初期値：　切
+    CEX向け設定
+     - 設定値：　1分後、3分後、5分後、10分後、30分後
+     - 初期値：　3分後
+    ※ 減光（Dim)は[上記設定時間-15秒]で発動、OLED OFFは[上記設定時間]で発動する。
+    -->
+    <list id="auto_standby" title="msg_enter_standby_mode_automatically" icon="tex_spanner"
+          key="/CONFIG/POWER_SAVING/suspend_interval">
+      <list_item id="auto_standby_0" title="★ Off" value="0"/>
+      <list_item id="auto_standby_1" title="" value="60"/>
+      <list_item id="auto_standby_2" title="" value="180"/>
+      <list_item id="auto_standby_3" title="" value="300"/>
+      <list_item id="auto_standby_4" title="" value="600"/>
+      <list_item id="auto_standby_5" title="" value="1800"/>
+      <list_item id="auto_standby_01" title="★ After 60 Minutes" value="3600"/>
+    </list>
+    <list id="auto_standby@dolce" title="msg_enter_standby_mode_automatically" icon="tex_spanner"
+          key="/CONFIG/POWER_SAVING/suspend_interval">
+      <list_item id="auto_standby@dolce_1" title="msg_after_1hour" value="3600"/>
+      <list_item id="auto_standby@dolce_2" title="msg_after_2hours" value="7200"/>
+      <list_item id="auto_standby@dolce_3" title="msg_after_3hours" value="10800"/>
+      <list_item id="auto_standby@dolce_4" title="msg_after_4hours" value="14400"/>
+      <list_item id="auto_standby@dolce_0" title="msg_off" value="0"/>
+    </list>
+
+    <!-- コントローラー自動電源オフ (Dolce) -->
+    <list id="turn_off_controller" title="msg_turn_off_wireless_controller_automatically" icon="tex_spanner"
+          key="/CONFIG/POWER_SAVING/controller_off_interval">
+      <list_item id="turn_off_controller_1" title="" value="600"/>
+      <list_item id="turn_off_controller_2" title="" value="1800"/>
+      <list_item id="turn_off_controller_3" title="" value="3600"/>
+      <list_item id="turn_off_controller_0" title="msg_off" value="0"/>
+    </list>
+    
+    <!-- Wi-Fiを省電力モードで使う -->
+    <toggle_switch id="wifi_power_save_mode" key="/CONFIG/NET/wifi_power_save"
+                   title="msg_wifi_power_save_mode" icon="tex_spanner"/>
+
+  </setting_list>
+  
+</system_settings>
+<?xml version="1.0" encoding="utf-8"?>
+<system_settings version="1.0" plugin="telephony_settings_plugin">
+
+	<setting_list id="telephony_top" title="msg_mobile_network_settings">
+    <!-- COMファームアップデート -->
+    <button id="telephony_firm_update_button" title="msg_firmware_update" icon="tex_spanner"/>
+
+		<!-- ネットワーク関連 -->
+		<toggle_switch id="switch_generation_connection" title="msg_mobile_network" icon="tex_spanner" hint="msg_mobile_network_info" description=""/>
+		
+		<!-- データローミング -->
+		<toggle_switch id="switch_data_roaming" title="msg_data_roaming" icon="tex_spanner"/>
+		
+		<!-- モバイルネットワークからのお問い合わせ -->
+		<setting_list id="telephony_operator_message" title="msg_operator_notices" icon="tex_spanner">
+			<user_custom id="telephony_msg_list"/>
+		</setting_list>
+
+		<!-- SIM -->
+		<button id="telephony_sim_settings_button" title="msg_sim_card_settings" icon="tex_spanner"/>
+		<!-- オペレータ選択 -->
+		<button id="telephony_operator_settings_button" title="msg_operator_settings" icon="tex_spanner" hint="msg_operator_settings_info"/>
+		<!-- APN設定 -->
+		<button id="telephony_apn_settings_button" title="msg_apn_settings" icon="tex_spanner" hint="msg_apn_settings_info"/>
+  </setting_list>
+
+</system_settings>
+<?xml version="1.0" encoding="utf-8"?>
+<system_settings version="1.0" plugin="telephony_settings_plugin">
+
+	<setting_list id="telephony_misc_gui" title="msg_operator_settings">
+		
+		<!-- Operator Search Result -->
+		<setting_list id="telephony_operator_search_result" title="msg_operator_settings">
+			<user_custom id="telephony_operator_search_custom"/>
+		</setting_list>
+		
+		<!-- Operator Message Detail -->
+		<setting_list id="telephony_operator_message_detail" title="">
+			<user_custom id="telephony_message_detail"/>
+		</setting_list>
+
+    <setting_list id="telephony_apn_list" title="msg_apn_settings">
+      <user_custom id="telephony_apn_list_top"/>
+      <button id="telephony_set_apn_manually" title="msg_set_manually"/>
+    </setting_list>
+    
+		<setting_list id="telephony_apn_settings" title="msg_set_manually" icon="tex_spanner" style="edit" navi="ok_cancel">
+			<!-- 各テキストフィールドのmax_lengthはBBMCに定義されている長さ(終端文字を除く) -->
+			<text_field id="telephony_apn_name" title="msg_apn" keyboard_type="basic_latin" max_length="100"/>
+			<text_field id="telephony_apn_user" title="msg_user_name" keyboard_type="basic_latin" max_length="126"/>
+			<text_field id="telephony_apn_pass_word" title="msg_pw" keyboard_type="basic_latin" max_length="126" password="on"/>
+      <spacer id="apn_spacer_0"/>
+			<button id="telephony_apn_reset" title="msg_delete"/>
+		</setting_list>
+
+		<!-- SIM -->
+		<setting_list id="telephony_sim_settings" title="msg_sim_card_settings" icon="tex_spanner">
+			<toggle_switch id="switch_sim_pin_lock" title="msg_lock_sim_card" hint="msg_lock_sim_card_info" icon="tex_spanner"/>
+			<button id="button_pin_change" title="msg_change_pin" icon="tex_spanner"/>
+		</setting_list>
+
+		<!-- オペレータ設定 自動/手動選択 -->
+		<setting_list id="telephony_operator_settings_top" title="msg_operator_settings" icon="tex_spanner">
+			<button id="button_operator_settings_auto" title="msg_automatic" icon="tex_check"/>
+			<button id="button_operator_settings_manual" title="msg_manual" icon="tex_check"/>
+		</setting_list>
+		
+		<!-- オペレータ選択 -->
+		<setting_list id="telephony_operator_settings" title="msg_operator_settings" icon="tex_spanner" hint="msg_operator_settings_info">
+			<user_custom id="telephony_operator_result"/>
+		</setting_list>
+		
+	</setting_list>
+
+</system_settings>
+<?xml version="1.0" encoding="utf-8"?>
+<system_settings version="1.0" plugin="telephony_settings_plugin">
+
+	<setting_list id="telephony_top_cs" title="msg_mobile_network_settings">
+
+		<!-- SIM Lock 解除 -->
+		<button id="telephony_sim_unlock_button" title="msg_unlock_system_simlock" icon="tex_spanner"/>
+	</setting_list>
+
+</system_settings>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<system_settings version="1.0" plugin="location_settings_plugin">
+
+  <!-- 位置データ -->
+  <setting_list id="location_settings" title="msg_location_data">
+    <user_custom id="list"/>
+  </setting_list>
+
+</system_settings>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<system_settings version="1.0" plugin="network_settings_plugin">
+
+  <!-- ネットワーク設定 -->
+  <setting_list id="network_settings"
+                title="msg_network"
+                icon="tex_network">
+
+    <!-- Wi-Fi設定 -->
+    <link id="wifi_settings"
+          file="wifi_settings.xml"
+          title="msg_wifi_settings"
+          icon="tex_spanner"/>
+
+    <!-- インターネット接続設定 -->
+    <link id="wifi_settings_dolce"
+          file="wifi_settings_dolce.xml"
+          title="msg_internet_connection_settings"
+          icon="tex_spanner"/>
+
+    <!-- モバイルネットワーク設定 -->
+    <link id="telephony_settings"
+          file="telephony_settings.xml"
+          title="msg_mobile_network_settings"
+          icon="tex_spanner"/>
+
+    <link id="telephony_cs"
+          file="telephony_cs.xml"
+          title="msg_mobile_network_settings"
+          icon="tex_spanner"/>
+
+    <!-- インターネット接続テスト -->
+    <link id="inet_connection_test"
+          file="wifi_saved_conn_test.xml"
+          title="msg_internet_connection_test"
+          icon="tex_spanner"/>
+
+    <!-- インターネット接続状態 -->
+    <link id="inet_connection_status"
+          file="wifi_saved_conn_state.xml"
+          title="msg_internet_connection_status"
+          icon="tex_spanner"/>
+  </setting_list>
+
+</system_settings>
+<?xml version="1.0" encoding="utf-8"?>
+<system_settings version="1.0" plugin="idu_settings_plugin">
+
+  <setting_list id="idu_settings" title="IDU Settings" icon="tex_spanner">
+
+    <!-- ○ Button Behavior -->
+    <list id="id_system_button_behavior"
+          title="○ Button Behavior"
+          icon="tex_spanner"
+          key="/CONFIG/SYSTEM/button_assign">
+      <list_item id="id_tool_button_behavior_enter" title="Enter" value="0"/>
+      <list_item id="id_tool_button_behavior_back" title="Back" value="1"/>
+    </list>
+
+    <!-- Content Downloader -->
+    <setting_list id="download" title="Content Downloader" icon="tex_spanner"
+      navi_left="download_footer_cancel" navi_center="download_footer_select_all" navi_right="download_footer_exec">
+      <user_custom id="download_dummy"/>
+    </setting_list>
+
+    <!-- Sound Output Device Selection -->
+    <list id="id_sound_output_device"
+          title="Sound Output Device Selection"
+          icon="tex_spanner"
+          key="/CONFIG/SOUND/sound_output">
+      <list_item id="id_sound_output_device_default" title="Default" value="0"/>
+      <list_item id="id_sound_output_device_speaker" title="Speaker" value="1"/>
+    </list>
+
+    <!-- Wait Time to Start Video Playback -->
+    <list id="id_wait_time_to_start_video_playback"
+          title="Wait Time to Start Video Playback"
+          icon="tex_spanner"
+          key="/CONFIG/SPECIFIC/idu_video_latency">
+      <list_item id="id_wait_time_to_start_video_playback_5min" title="5 minutes" value="300"/>
+      <list_item id="id_wait_time_to_start_video_playback_30min" title="30 minutes" value="1800"/>
+      <list_item id="id_wait_time_to_start_video_playback_off" title="Off" value="0"/>
+    </list>
+    
+    <!-- PS4 Link -->
+    <toggle_switch id="ps4_link" title="Show PS4 Link Icon" icon="tex_spanner" key="/CONFIG/SPECIFIC/idu_ps4link" />
+    
+    <!-- Format Memory Card for Pre-installed Media -->
+    <button id="format_mc" title="Format Memory Card for Pre-installed Media" icon="tex_spanner"/>
+
+    <!-- Cleanup Unnecessary Files -->
+    <button id="cleanup_mc"     title="Cleanup Unnecessary Files (For Games only)" icon="tex_spanner"/>
+    <button id="cleanup_mc_idu" title="Cleanup Unnecessary Files (For Games, Movies and Background Images)" icon="tex_spanner"/>
+
+    <!-- Check Memory Card -->
+    <button id="check_mc"     title="Check Memory Card (For Games only)" icon="tex_spanner"/>
+    <button id="check_mc_idu" title="Check Memory Card (For Games, Movies and Background Images)" icon="tex_spanner"/>
+
+  </setting_list>
+
+</system_settings>
+<?xml version="1.0" encoding="utf-8"?>
+<system_settings version="1.0" plugin="empr_settings_plugin">
+
+  <!-- EMPR設定 -->
+    <setting_list id="empr_settings" title="msg_empr">
+
+    <!-- MSC 領域の作成 -->
+    <setting_list id="id_create_partition" 
+                   title="msg_create_partition" 
+                   icon="tex_spanner">
+
+      <setting_list id="id_create_partition_low"
+                     title=""
+                     icon="tex_spanner" >
+        <user_custom id="create_partition_low"/>
+      </setting_list>
+
+      <setting_list id="id_create_partition_middle"
+                     title=""
+                     icon="tex_spanner" >
+        <user_custom id="create_partition_middle"/>
+      </setting_list>
+      
+      <setting_list id="id_create_partition_high"
+                     title=""
+                     icon="tex_spanner" >
+        <user_custom id="create_partition_high"/>
+      </setting_list>
+      
+    </setting_list>
+
+  <!-- MSC 領域の削除 -->
+    <setting_list id="id_delete_partition" 
+                   title="msg_delete_partition"  
+                   icon="tex_spanner" >
+      <user_custom id="delete_partition"/>
+    </setting_list>
+
+    <!-- 接続開始 -->
+    <setting_list id="id_start_msc" 
+                   title=""  
+                   icon="tex_spanner" 
+                  navi_left="set_manual_cancel_button" >
+      <user_custom id="start_msc"/>
+    </setting_list>
+  
+    <!-- デバッグ設定  -->
+      <setting_list id="id_setting_scsi" title="msg_debug_str" icon="tex_spanner"  style="edit" >
+        <list id="id_productid_str" title="msg_productid_str">
+          <list_item id="id_psp" title="msg_productid_psvita" value="0"/>
+          <list_item id="id_psvita" title="msg_productid_psp" value="1"/>
+          <list_item id="id_pspss" title="msg_productid_pspss" value="2"/>
+        </list>
+
+        <list id="id_wait_str" title="msg_wait_str">
+          <list_item id="id_def" title="msg_wait_def" value="0"/>
+          <list_item id="id_1sec" title="msg_wait_1sec" value="1"/>
+          <list_item id="id_3sec" title="msg_wait_3sec" value="2"/>
+          <list_item id="id_5sec" title="msg_wait_5sec" value="3"/>
+          <list_item id="id_10sec" title="msg_wait_10sec" value="4"/>
+        </list>
+
+        <list id="id_filename_str" title="msg_filename_str">
+          <list_item id="id_media_id" title="msg_media_id" value="0"/>
+          <list_item id="id_fat_img" title="msg_fat_img" value="1"/>
+        </list>
+        
+        <list id="id_useapputil" title="msg_useapputil" >
+          <list_item id="id_useapputil_off" title="msg_off" value="0"/>
+          <list_item id="id_useapputil_on" title="msg_on" value="1"/>
+        </list>
+      
+      </setting_list>
+
+    </setting_list>
+
+</system_settings>
+<?xml version="1.0" encoding="utf-8"?>
+<system_settings version="1.0" plugin="notification_settings_plugin">
+
+  <!-- お知らせ -->
+  <setting_list id="notification_settings" title="msg_notifications">
+    <user_custom id="list"/>
+  </setting_list>
+</system_settings>
+<?xml version="1.0" encoding="utf-8"?>
+<system_settings version="1.0" plugin="notification_settings_plugin">
+
+  <!-- 通知状態 -->
+  <setting_list id="notification_settings_status" title="">
+
+    <!-- 画面に表示する -->
+    <toggle_switch id="notification_display"
+                   title="msg_display_on_screen" icon="tex_spanner"/>
+
+    <!-- PSボタンを光らせる -->
+    <toggle_switch id="notification_ps_button"
+                   title="msg_light_up_psbutton" icon="tex_spanner"/>
+
+    <!-- 音を鳴らす -->
+    <toggle_switch id="notification_sound"
+                   title="msg_make_sound" icon="tex_spanner"/>
+
+  </setting_list>
+</system_settings>
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<system_settings version="1.0" plugin="peripherals_settings_plugin">
+
+  <!-- 周辺機器 -->
+  <setting_list id="peripherals_settings" title="msg_accessories">
+
+    <!-- ワイヤレスコントローラー(for Dolce) -->
+    <button id="wireless_controller" title="msg_wireless_controllers" icon="tex_spanner"/>
+
+	  <!-- Bluetooth®設定 -->
+    <link id="bluetooth_settings" title="msg_bt_devices" file="bluetooth_settings.xml" icon="tex_spanner"/>
+
+	  <!-- BDリモートコントローラーを登録する -->
+    <button id="bd_remocon_register" title="msg_register_bd_remote_controller" icon="tex_spanner"/>
+
+	  <!-- 外付けキーボード -->
+	  <setting_list id="keyboard_settings" title="msg_external_keyboard" icon="tex_spanner">
+		  <!-- キーボードのタイプ  -->
+      <!-- Bug86420:オプションメニューの幅を全言語での最大長にあわせた幅に固定する -->
+		  <list id="id_keyboard_type" title="msg_type" min_width="643">
+			  <list_item id="type_dk" title="msg_language_dk" value="0"/>
+			  <list_item id="type_de" title="msg_language_de_de" value="1"/>
+			  <list_item id="type_de_sw" title="msg_language_de_ch" value="2"/>
+			  <list_item id="type_en_us" title="msg_language_en_us" value="3"/>
+        <list_item id="type_en_uk" title="msg_language_en_uk" value="4"/>
+			  <list_item id="type_es" title="msg_language_es" value="5"/>
+			  <list_item id="type_fi"	 title="msg_language_fi" value="6"/>
+        <list_item id="type_fr" title="msg_language_fr_fr" value="7"/>
+			  <list_item id="type_be" title="msg_language_fr_be" value="8"/>
+			  <list_item id="type_fr_ca" title="msg_language_fr_ca" value="9"/>
+			  <list_item id="type_fr_sw" title="msg_language_fr_ch" value="10"/>
+			  <list_item id="type_it" title="msg_language_it" value="11"/>
+			  <list_item id="type_nl" title="msg_language_nl" value="12"/>
+			  <list_item id="type_no" title="msg_language_no" value="13"/>
+			  <list_item id="type_pl" title="msg_language_pl" value="14"/>
+			  <list_item id="type_pt_br" title="msg_language_pt_br" value="15"/>
+			  <list_item id="type_pt_po" title="msg_language_pt_pt" value="16"/>
+			  <list_item id="type_ru" title="msg_language_ru" value="17"/>
+			  <list_item id="type_se" title="msg_language_se" value="18"/>
+			  <list_item id="type_tr" title="msg_language_tr" value="19"/>
+			  <list_item id="type_jp" title="msg_language_jp" value="20"/>
+			  <list_item id="type_kr" title="msg_language_kr" value="21"/>
+			  <list_item id="type_cn_s" title="msg_language_cn_s" value="22"/>
+			  <list_item id="type_cn_t" title="msg_language_cn_t" value="23"/>
+		  </list>
+		  <!-- キーボードの入力方式(繁体中文)  -->
+		  <list id="id_keyboard_input_mode1" title="msg_tc_input_method">
+			  <list_item id="mode_zhuyin" title="msg_zhuyin" value="0"/>
+			  <list_item id="mode_pinyin_taiwan" title="msg_pinyin_taiwan" value="1"/>
+        <list_item id="mode_pinyin_hongkong" title="msg_pinyin_hongkong" value="2"/>
+			  <list_item id="mode_cangjie" title="msg_cangjie" value="3"/>
+		  </list>
+		  <!-- キーボードの入力方式  -->
+		  <list id="id_keyboard_input_mode2" title="msg_ja_input_method">
+			  <list_item id="mode_romaji" title="msg_ja_romaji" value="0"/>
+			  <list_item id="mode_kana" title="msg_ja_kana" value="1"/>
+		  </list>
+		  <!-- キーリピート(開始までの時間) -->
+		  <list id="id_keyrepeat_delay" title="msg_key_repeat_delay">
+			  <list_item id="short" title="msg_short" value="0"/>
+			  <list_item id="normal" title="msg_nrml" value="1"/>
+			  <list_item id="long" title="msg_long" value="2"/>
+		  </list>
+		  <!-- キーリピート(速さ) -->
+		  <list id="id_keyrepeat_rate" title="msg_key_repeat_rate">
+			  <list_item id="fast" title="msg_fast" value="0"/>
+			  <list_item id="regular" title="msg_nrml" value="1"/>
+			  <list_item id="slow" title="msg_slow" value="2"/>
+		  </list>
+	  </setting_list>
+
+  </setting_list>
+
+  <!--ワイヤレスコントローラー(for Dolce)--> 
+  <setting_list id="controller_settings" title="msg_wireless_controllers" icon="tex_spanner">
+		  
+    <!--コントローラー番号-->   
+		<list id="id_controller_assign" title="msg_controller_number" icon="tex_spanner">
+			<list_item id="list_item_value_1" title="1" value="1"/>
+			<list_item id="list_item_value_2" title="2" value="2"/>
+      <list_item id="list_item_value_3" title="3" value="3"/>
+      <list_item id="list_item_value_4" title="4" value="4"/>
+    </list>
+		  
+    <!--コントローラー振動機能--> 
+		<toggle_switch id="id_controller_vibration_func"
+                    key="/CONFIG/SYSTEM/controller_vibration"
+                    title="msg_enable_vibration"
+                    icon="tex_spanner"/>
+	</setting_list>
+
+</system_settings>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<system_settings version="1.0" plugin="theme_settings_plugin">
+
+  <!-- テーマ＆背景 -->
+  <setting_list id="theme_settings" title="msg_theme_background">
+
+    <!-- テーマ -->
+    <setting_list id="setting_list_custom_themes" icon="tex_spanner" title="msg_theme">
+      <user_custom id="user_custom_custom_themes"/>
+    </setting_list>
+
+    <!-- スタート画面 -->
+    <setting_list id="setting_list_start_screen" title="msg_start_screen">
+      <user_custom id="user_custom_start_screen"/>
+    </setting_list>
+
+    <!-- ホーム画面の背景 -->
+    <setting_list id="setting_list_home_screen" title="msg_home_screen_backgrounds">
+      <user_custom id="user_custom_home_screen"/>
+    </setting_list>
+
+  </setting_list>
+
+  <!-- テーマ 詳細 -->
+  <setting_list id="setting_list_custom_theme_detail" title="">
+    <user_custom id="user_custom_custom_theme_detail"/>
+  </setting_list>
+
+  <!-- テーマ 情報 -->
+  <setting_list id="setting_list_custom_theme_information" title="" style="edit">
+    <user_custom id="user_custom_custom_theme_information"/>
+    <label id="label_custom_theme_information_name" title="msg_name" />
+    <label id="label_custom_theme_information_provider" title="msg_provider" />
+		<label id="label_custom_theme_information_updated" title="msg_updated" />
+		<label id="label_custom_theme_information_size" title="msg_size" />
+		<label id="label_custom_theme_information_version" title="msg_version" />
+  </setting_list>
+
+  <!-- スタート画面 確認 -->
+  <setting_list id="setting_list_start_screen_confirm" title="">
+    <user_custom id="user_custom_start_screen_confirm"/>
+  </setting_list>
+
+</system_settings>
+<?xml version="1.0" encoding="utf-8"?>
+<system_settings version="1.0" plugin="accessibility_plugin">
+
+  <!-- アクセシビリティー -->
+  <setting_list id="accessibility" title="msg_accessibility">
+
+    <!-- ズーム -->
+    <setting_list id="zoom" title="msg_zoom">
+      <!-- ズーム -->
+      <toggle_switch id="zoom_enable"
+                     title="msg_zoom"
+                     icon="tex_spanner"
+                     key="/CONFIG/ACCESSIBILITY/zoom"/>
+      <!-- 操作説明 -->
+      <user_custom id="zoom_guide"/>
+    </setting_list>
+
+    <!-- 色を反転する -->
+    <toggle_switch id="invert_color"
+                   title="msg_acc_invert_colors"
+                   icon="tex_spanner"
+                   key="/CONFIG/ACCESSIBILITY/invert_color"/>
+
+    <!-- 大きな文字 -->
+    <toggle_switch id="large_text"
+                   title="msg_acc_larger_text"
+                   icon="tex_spanner"
+                   key="/CONFIG/ACCESSIBILITY/large_text"/>
+
+    <!-- 太い文字 -->
+    <toggle_switch id="bold_text"
+                   title="msg_acc_bold_text"
+                   icon="tex_spanner"
+                   key="/CONFIG/ACCESSIBILITY/bold_text"/>
+
+    <!-- ハイコントラスト -->
+    <toggle_switch id="high_contrast"
+                   title="msg_acc_contrast"
+                   hint="msg_acc_contrast_info"
+                   icon="tex_spanner"
+                   key="/CONFIG/ACCESSIBILITY/contrast"/>
+
+    <!-- クローズドキャプション -->
+    <setting_list id="closed_caption" title="msg_closed_captioning" icon="tex_spanner">
+      <!-- クローズドキャプションを表示する -->
+      <toggle_switch id="cc_enable"
+                     title="msg_show_closed_captioning"
+                     icon="tex_spanner"
+                     key="/CONFIG/ACCESSIBILITY/CC/enable_cc"/>
+      <!-- コンテンツが指定したとおりにクローズドキャプションを表示する -->
+      <toggle_switch id="cc_content_specified"
+                     title="msg_display_cc_content_specified"
+                     icon="tex_spanner"
+                     key="/CONFIG/ACCESSIBILITY/CC/content_specific"/>
+      <!-- 詳細設定(CC) -->
+      <link id="advanced_settings"
+            title="msg_advanced_settings"
+            file="accessibility.xml"
+            target_id="cc_advanced_settings"
+            icon="tex_spanner"/>
+    </setting_list>
+
+    <!-- ボタンの割り当て -->
+    <setting_list id="button_assign" title="msg_acc_button_assign" icon="tex_spanner">
+      <!-- ボタンの割り当てを有効にする -->
+      <toggle_switch id="button_assign_enable"
+                     title="msg_acc_button_assign_enable"
+                     icon="tex_spanner"
+                     key="/CONFIG/ACCESSIBILITY/keyremap_enable"/>
+      <!-- ボタンの割り当てを変更する -->
+      <setting_list id="button_change"
+                    title="msg_acc_button_change"
+                    icon="tex_spanner"
+                    navi_left="navi_cancel"
+                    navi_right="navi_confirm_kakutei"
+                    navi_center="navi_reset"
+                    rotate="full">
+        <list id="up" title="up"></list>
+        <list id="down" title="down"></list>
+        <list id="left" title="left"></list>
+        <list id="right" title="right"></list>
+        <list id="triangle" title="triangle"></list>
+        <list id="circle" title="circle"></list>
+        <list id="cross" title="cross"></list>
+        <list id="square" title="square"></list>
+        <list id="L1" title="L1"></list>
+        <list id="R1" title="R1"></list>
+        <list id="L2" title="L2"></list>
+        <list id="R2" title="R2"></list>
+        <list id="L3" title="L3"></list>
+        <list id="R3" title="R3"></list>
+        <list id="L" title="L"></list>
+        <list id="R" title="R"></list>
+      </setting_list>
+      <!-- ボタン割り当て状態 -->
+      <user_custom id="keyremapping_view"/>
+    </setting_list>
+
+    <!-- クイックメニューに追加する -->
+    <toggle_switch id="quick_menu"
+                   title="msg_acc_quick_menu"
+                   hint="msg_acc_quick_menu_info"
+                   icon="tex_spanner"
+                   key="/CONFIG/ACCESSIBILITY/shortcut"/>
+
+  </setting_list>
+
+
+  <!--詳細設定(CC)-->
+  <setting_list id="cc_advanced_settings" title="msg_advanced_settings">
+    <label id="character_setting" title="msg_cc_characters" icon="tex_spanner"/>
+    <list id="character_font" title="msg_cc_characters_font" key="/CONFIG/ACCESSIBILITY/CC/font_type">
+    </list>
+    <list id="character_size" title="msg_cc_characters_size" key="/CONFIG/ACCESSIBILITY/CC/char_size">
+    </list>
+    <list id="character_color" title="msg_cc_characters_color" key="/CONFIG/ACCESSIBILITY/CC/char_color">
+      <list_item id="character_color_default" title="msg_magenta"   value="-1" /><!-- 実際は表示されないが、英語で一番長い文字列にしておく -->
+      <list_item id="character_color_white"   title="msg_white"     value="0" />
+      <list_item id="character_color_black"   title="msg_black"     value="1" />
+      <list_item id="character_color_red"     title="msg_red"       value="2" />
+      <list_item id="character_color_green"   title="msg_green"     value="3" />
+      <list_item id="character_color_blue"    title="msg_blue"      value="4" />
+      <list_item id="character_color_yellow"  title="msg_yellow"    value="5" />
+      <list_item id="character_color_magenta" title="msg_magenta"   value="6" />
+      <list_item id="character_color_cyan"    title="msg_cyan"      value="7" />
+    </list>
+    <list id="character_edge" title="msg_cc_characters_edge" key="/CONFIG/ACCESSIBILITY/CC/char_edge">
+      <list_item id="character_edge_default"    title="msg_cc_edge_none"          value="-1" /><!-- 実際は表示されないが、英語で一番長い文字列にしておく -->
+      <list_item id="character_edge_none"       title="msg_cc_edge_none"          value="0" />
+      <list_item id="character_edge_raised"     title="msg_cc_edge_raised"        value="1" />
+      <list_item id="character_edge_depressed"  title="msg_cc_edge_depressed"     value="2" />
+      <list_item id="character_edge_uniform"    title="msg_cc_edge_uniform"       value="3" />
+      <list_item id="character_edge_dropshadow" title="msg_cc_edge_drop_shadowed" value="4" />
+    </list>
+    <list id="character_edge_color" title="msg_cc_characters_edge_color" key="/CONFIG/ACCESSIBILITY/CC/char_edge_color">
+      <list_item id="character_edge_color_default" title="msg_magenta"   value="-1" /><!-- 実際は表示されないが、英語で一番長い文字列にしておく -->
+      <list_item id="character_edge_color_white"   title="msg_white"     value="0" />
+      <list_item id="character_edge_color_black"   title="msg_black"     value="1" />
+      <list_item id="character_edge_color_red"     title="msg_red"       value="2" />
+      <list_item id="character_edge_color_green"   title="msg_green"     value="3" />
+      <list_item id="character_edge_color_blue"    title="msg_blue"      value="4" />
+      <list_item id="character_edge_color_yellow"  title="msg_yellow"    value="5" />
+      <list_item id="character_edge_color_magenta" title="msg_magenta"   value="6" />
+      <list_item id="character_edge_color_cyan"    title="msg_cyan"      value="7" />
+    </list>
+    <list id="character_opacity" title="msg_cc_characters_opacity" key="/CONFIG/ACCESSIBILITY/CC/char_opacity">
+    </list>
+    <label id="background_setting" title="msg_cc_captions" icon="tex_spanner"/>
+    <list id="character_bg_color" title="msg_cc_captions_background_color" key="/CONFIG/ACCESSIBILITY/CC/char_bg_color">
+      <list_item id="character_bg_color_default" title="msg_magenta"   value="-1" /><!-- 実際は表示されないが、英語で一番長い文字列にしておく -->
+      <list_item id="character_bg_color_white"   title="msg_white"     value="0" />
+      <list_item id="character_bg_color_black"   title="msg_black"     value="1" />
+      <list_item id="character_bg_color_red"     title="msg_red"       value="2" />
+      <list_item id="character_bg_color_green"   title="msg_green"     value="3" />
+      <list_item id="character_bg_color_blue"    title="msg_blue"      value="4" />
+      <list_item id="character_bg_color_yellow"  title="msg_yellow"    value="5" />
+      <list_item id="character_bg_color_magenta" title="msg_magenta"   value="6" />
+      <list_item id="character_bg_color_cyan"    title="msg_cyan"      value="7" />
+    </list>
+    <list id="character_bg_opacity" title="msg_cc_captions_background_opacity" key="/CONFIG/ACCESSIBILITY/CC/char_bg_opacity">
+    </list>
+    <list id="window_color" title="msg_cc_captions_window_color" key="/CONFIG/ACCESSIBILITY/CC/window_color">
+      <list_item id="window_color_default" title="msg_magenta"   value="-1" /><!-- 実際は表示されないが、英語で一番長い文字列にしておく -->
+      <list_item id="window_color_white"   title="msg_white"     value="0" />
+      <list_item id="window_color_black"   title="msg_black"     value="1" />
+      <list_item id="window_color_red"     title="msg_red"       value="2" />
+      <list_item id="window_color_green"   title="msg_green"     value="3" />
+      <list_item id="window_color_blue"    title="msg_blue"      value="4" />
+      <list_item id="window_color_yellow"  title="msg_yellow"    value="5" />
+      <list_item id="window_color_magenta" title="msg_magenta"   value="6" />
+      <list_item id="window_color_cyan"    title="msg_cyan"      value="7" />
+    </list>
+    <list id="window_opacity" title="msg_cc_captions_window_opacity" key="/CONFIG/ACCESSIBILITY/CC/window_opacity">
+    </list>
+    <button id="reset_settings" title="msg_reset_vb" icon="tex_spanner"/>
+
+  </setting_list>
+  
+</system_settings>

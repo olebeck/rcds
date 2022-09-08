@@ -9,6 +9,7 @@ key:f8d60eac(0) id:mailer_address_plugin
 
 # <pagetable>
 key:248a20b6(0) id:background
+key:6b3e42cf(0) id:texture_bg
 key:d1e956da(0) id:text_label
 key:183569ba(0) id:style_busyindicator
 key:1332d6fc(0) id:busyindicator

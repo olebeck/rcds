@@ -12,6 +12,7 @@ key:2e9374eb(0) id:template_content_zone_layout
 # <texturetable>
 key:48770190(0) id:tex_btn_left
 key:997a11f0(0) id:tex_btn_right
+key:eb135fb2(0) id:tex_bar_base
 
 # <styletable>
 key:e95f1628(0) id:planeobj

@@ -1,5 +1,7 @@
 import hashlib
+from io import BytesIO, StringIO
 import os, json
+import string
 from xml.etree import ElementTree as ET
 
 
@@ -90,12 +92,34 @@ def match_hashes(filename: str, ids: dict[str,str]):
             print()
 
 
+def load_hashes_xmls(filename: str) -> dict:
+    " loads multiple xmls and gets ids from them "
+    ret = {}
+    with open(filename, "r", encoding="utf8", errors="ignore") as f:
+        data = f.read()
+    parts2 = data.split("<?xml")
+    for doc in parts2:
+        doc = "".join([c for c in doc if c in string.printable])
+        if len(doc) == 0:
+            continue
+        x = ET.parse(StringIO("<?xml"+doc))
+        for elem in x.findall(".//*[@id]"):
+            name = elem.get("id")
+            ret[name2id(name)] = name
+    return ret
+
+
 def load_all_hashes():
     " returns all hashes "
     ids = load_hashes_json("hashes.json")
     for sony_rcd in os.listdir("sony_rcds"):
         ids.update(load_hashes_rcd("sony_rcds/"+sony_rcd))
-    ids.update(load_hashes_txt("devkit-strings.txt"))
+    
+    for string_file in os.listdir("strings"):
+        ids.update(load_hashes_txt("strings/"+string_file))
+
+    for xml_file in os.listdir("xml_with_ids"):
+        ids.update(load_hashes_xmls("xml_with_ids/"+xml_file))
     return ids
 
 

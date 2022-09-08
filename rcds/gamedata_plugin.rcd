@@ -50,6 +50,8 @@ key:414fac00(0) id:filelist_texture_appdata_item_default
 # <stringtable>
 
 # <templatetable>
+key:2c4a0f78(0) id:template_basic_item
+key:73cfe0d0(0) id:widget_basic_item
 key:1796a1a0(0) id:filelist_template_psp2addcont_title_item
 key:33068592(0) id:filelist_widget_appdata_item
 key:334875e4(0) id:filelist_widget_appdata_item_button

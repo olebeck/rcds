@@ -23,6 +23,7 @@ key:3c6de1b7(0) id:title
 key:264f39ca(0) id:line
 key:2537055e(0) id:msg_bullet
 key:383fd7bf(0) id:warning
+key:6cd7e7b8(0) id:page_complete
 key:5b400951(0) id:important
 key:e18a89f9(0) id:busy
 key:ba195a37(0) id:_common_texture_busy
@@ -88,3 +89,7 @@ key:46f815eb(0) id:msg_pw
 key:e5c8438e(0) id:caption
 
 # <idtable>
+key:c131f95f(0) id:signin_id_error
+key:d32c5677(0) id:password_error
+key:5f33b745(0) id:name_error
+key:a071fa97(0) id:address_error

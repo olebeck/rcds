@@ -10,6 +10,7 @@ key:5495dd29(0) id:PartyPlugin
 # <stringtable>
 
 # <styletable>
+key:a5f1a63e(0) id:style_page
 key:11a0399f(0) id:style_plane_test
 key:e95f1628(0) id:planeobj
 key:2fae8301(0) id:style_plane_opaque

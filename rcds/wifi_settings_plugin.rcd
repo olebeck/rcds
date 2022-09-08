@@ -51,6 +51,7 @@ key:35e0295d(0) id:_common_texture_text_box
 key:a56e4ba2(0) id:text_obj1
 key:01f875b1(0) id:textobj
 key:e95f1628(0) id:planeobj
+key:fbd879ae(0) id:tex_icon_active
 key:22ff88bd(0) id:glow_obj
 key:28ccf273(0) id:label_obj
 key:9c96918b(0) id:bg_obj
@@ -112,6 +113,7 @@ key:f239aa56(0) id:plane_obj1
 key:94ff1839(0) id:_common_default_style_dialog_text_box_basicauth
 
 # <texturetable>
+key:9718c305(0) id:tex_icon_inactive
 key:757ab4e8(0) id:tex_rssi_off
 key:f933cf36(0) id:tex_rssi_0
 key:f5b0408b(0) id:tex_rssi_1

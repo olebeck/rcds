@@ -136,6 +136,7 @@ key:19227149(0) id:plane_select_left_up
 key:1934a97a(0) id:tex_rssi_3
 key:194dbde1(0) id:overlay_parts_plane_control_panel
 key:1990b712(0) id:text_list_view_correspondent_list_title
+key:19925962(0) id:tex_volume
 key:19a7ee98(0) id:dialog_text_box2
 key:1ab2dc93(0) id:text_obj5
 key:1aba2b98(0) id:ps1mc_navi_copyui_ok_txt
@@ -166,6 +167,7 @@ key:1fba2e5c(0) id:corner_top_left
 key:1ff0f88b(0) id:touch_select_menu_not_assign_button
 key:202f570c(0) id:menuitem_icon
 key:20413274(0) id:_common_sound_button_enter
+key:207b877e(0) id:layout
 key:20ae028a(0) id:_common_template_textbox2
 key:20af5776(0) id:filelist_widget_photo_slide_mask_l_plane
 key:20bb5bfd(0) id:listitem_target_application
@@ -246,6 +248,7 @@ key:2b357b03(0) id:_common_snd44
 key:2b4c8bc4(0) id:_common_style_dialog_text_with_shadow
 key:2b4d3820(0) id:tex_info
 key:2b6394e9(0) id:_common_sound_list_item
+key:2c4a0f78(0) id:template_basic_item
 key:2c5b8b18(0) id:base_fill
 key:2cf36f10(0) id:list_item_template_givenname_center
 key:2d3c466c(0) id:page_playdisplay
@@ -397,6 +400,7 @@ key:4494c5de(0) id:msg_more
 key:44b10012(0) id:list_item_06_template
 key:44d0bfd7(0) id:ps1mc_slot_00_rollarrowleft
 key:452217aa(0) id:_common_default_style_group
+key:45528d6d(0) id:page_backbutton_area
 key:45be9610(0) id:_common_texture_icon_mask64
 key:45d66d6d(0) id:msg_no_song_available
 key:45db3c9c(0) id:connecting_button_cancel
@@ -453,6 +457,7 @@ key:4de01ed9(0) id:dialog_check_box_text1
 key:4e959b67(0) id:filelist_texture_photo_default
 key:4eb6e6dc(0) id:_common_texture_option_menu_base_down
 key:4eb85640(0) id:_common_plane_obj
+key:4ed910c6(0) id:page_playpanel
 key:4f4d8310(0) id:labelobj_style
 key:4f5c3486(0) id:vita
 key:4f8b5b48(0) id:registing_dot_r14_glow
@@ -547,6 +552,7 @@ key:5e732355(0) id:message_text
 key:5e85b495(0) id:tex_rssi_4
 key:5eb53d38(0) id:_common_texture_dbar_base
 key:5ef3e76a(0) id:ps1mc_navi_copyarrow00
+key:5f33b745(0) id:name_error
 key:5f567045(0) id:cant_disp_caution_plane
 key:5f7b332b(0) id:_common_style_plane_transparent
 key:5f99494f(0) id:tex_broken
@@ -628,6 +634,7 @@ key:6a9d56b4(0) id:_common_template_dialog_label_progressbar1
 key:6ae99955(0) id:name
 key:6aea837f(0) id:_common_style_mapview_1
 key:6b0bcb0e(0) id:plane_screen_mode_custom
+key:6b3e42cf(0) id:texture_bg
 key:6b3ea39e(0) id:_common_style_text_activityLV1_mention
 key:6b56caf8(0) id:_common_sound_corner_button_menu
 key:6b659da4(0) id:template_directbar
@@ -640,6 +647,7 @@ key:6bfce67e(0) id:list_item_template_givenname
 key:6c8427d8(0) id:_common_snd28
 key:6c933f1d(0) id:button_restore
 key:6cab7c19(0) id:list_item_button05
+key:6cd7e7b8(0) id:page_complete
 key:6ce85f25(0) id:style_list_view_default
 key:6d076113(0) id:_common_style_plane_copy_dialog_image
 key:6d110058(0) id:msg_all
@@ -693,6 +701,7 @@ key:734c3c67(0) id:hint
 key:7374487a(0) id:_common_default_style_dialog_box
 key:739c6d94(0) id:return_button_text
 key:73ce01e5(0) id:msg_issued_by
+key:73cfe0d0(0) id:widget_basic_item
 key:74319925(0) id:_common_texture_button
 key:74780b2a(0) id:_common_style_plane_3x1
 key:74812341(0) id:list_item_template_familyname_phonetic
@@ -732,6 +741,7 @@ key:7afecf52(0) id:style_text_avatar_user_name
 key:7b234e40(0) id:image_thumbnail
 key:7b335aa5(0) id:manual_area
 key:7b7fcc78(0) id:button
+key:7c0a25c0(0) id:up
 key:7c11e410(0) id:_common_texture_sidebar_glow
 key:7cab656a(0) id:footer_button_back
 key:7d0776ad(0) id:msg_loading_yomikomi
@@ -767,6 +777,7 @@ key:82114e1e(0) id:setting_list_glow_obj
 key:8211f03f(0) id:main_page_button_close
 key:8230661d(0) id:text_base
 key:825cfa90(0) id:flow_null
+key:827607d0(0) id:tex_bar_progress
 key:829809fc(0) id:_common_snd23
 key:829c3804(0) id:dummy
 key:83110daa(0) id:filelist_template_photo_list
@@ -889,10 +900,12 @@ key:96bfa72c(0) id:page_lock_screen
 key:96e3f741(0) id:tex_qualcomm
 key:96fa303b(0) id:touch_key_bottom_right_plane
 key:970b3dde(0) id:msg_start_cma_guide2
+key:9718c305(0) id:tex_icon_inactive
 key:97764502(0) id:_common_texture_option_menu_base_up
 key:97980b69(0) id:ps1mc_navi_menu_copy_button
 key:9802d5cb(0) id:registing_dot_r15_glow
 key:981a0a19(0) id:skip_button
+key:987b0ad3(0) id:tex_trackthumb
 key:98c6276d(0) id:_common_style_text_type1
 key:98ea34c6(0) id:ps1mc_navi_menu_delete_text
 key:98ec4581(0) id:touch_select_left_down_text
@@ -940,6 +953,7 @@ key:9ff476f3(0) id:_common_default_style_scrollbar2d
 key:a0606e99(0) id:plane_select_right_down
 key:a060aed9(0) id:msg_no
 key:a06f56d8(0) id:filelist_widget_photo_host_list_button
+key:a071fa97(0) id:address_error
 key:a0ad1a56(0) id:_common_snd35
 key:a0b259a1(0) id:_common_template_dialog_password_base
 key:a0dbfcdc(0) id:plane_dimmer
@@ -964,6 +978,7 @@ key:a52d5052(0) id:guide_col_cross
 key:a54ea377(0) id:videoplayer_texture_expired
 key:a55587c6(0) id:list_item_4th_text
 key:a56e4ba2(0) id:text_obj1
+key:a5f1a63e(0) id:style_page
 key:a67a1db5(0) id:security_value
 key:a67cb5df(0) id:tex_settings_bg
 key:a67e765b(0) id:remoteplay_livearea_button
@@ -991,6 +1006,7 @@ key:aa3e58d1(0) id:_common_texture_default_avatar64
 key:aa622db2(0) id:registing_dot_l6_glow
 key:aa6d8a82(0) id:registing_internet
 key:aaa55287(0) id:back2_glow_right_plane_grp
+key:ab142617(0) id:tex_progress_bar_base
 key:ab2c69c5(0) id:tex_spin_line_shadow
 key:ab42c0f2(0) id:guide_col_triangle
 key:abf2353a(0) id:_common_template_popup_list_view_popup_bg
@@ -1118,6 +1134,7 @@ key:c0b8fbb7(0) id:style_plane_transparent
 key:c0e0dccd(0) id:filelist_template_common_check_box
 key:c100772a(0) id:_common_snd39
 key:c111dc69(0) id:list_item_calendar_frame_list_view
+key:c131f95f(0) id:signin_id_error
 key:c1727c4d(0) id:tex_Fontworks
 key:c17d7980(0) id:_common_sound_button_cancel
 key:c18cc083(0) id:plane_back_touch_r
@@ -1165,6 +1182,7 @@ key:c9addaa4(0) id:highlight
 key:c9ca4203(0) id:_common_style_text_copy_dialog_desc
 key:c9cd242d(0) id:page_option
 key:ca325a04(0) id:dialog_text_box
+key:ca8b2890(0) id:filelist_texture_music_loading
 key:ca8bf85b(0) id:touch_key_top_right_plane
 key:ca98f7dd(0) id:search_button_cancel_text
 key:ca9a7b9e(0) id:bar_back_obj
@@ -1213,6 +1231,7 @@ key:d24c6d80(0) id:template_empty_info
 key:d25151e5(0) id:tex_albums
 key:d27a1f11(0) id:right
 key:d2c8f0c2(0) id:scrollbar
+key:d32c5677(0) id:password_error
 key:d354f750(0) id:dialog_label4
 key:d370d266(0) id:framerate_button_caption_text
 key:d3735647(0) id:remoteplay_manual_viewer_group
@@ -1339,6 +1358,7 @@ key:e9341d12(0) id:_common_snd31
 key:e95f1628(0) id:planeobj
 key:e9694c76(0) id:scrollbar_style
 key:e992869a(0) id:back4_glow_top_left_plane_grp
+key:e9a6c577(0) id:tex_musictrack
 key:e9b9c88b(0) id:rich_text
 key:e9c61c2c(0) id:dialog_view
 key:e9dbc9fd(0) id:_common_template_lv1x_dialog
@@ -1348,6 +1368,7 @@ key:ea26d907(0) id:tex_noimage
 key:ea8d6f43(0) id:tex_artists
 key:eae29b08(0) id:start_remoteplay_button
 key:eafa0a2f(0) id:dialog_progressbar_text
+key:eb135fb2(0) id:tex_bar_base
 key:eb3b8f6e(0) id:glowobj
 key:eb898299(0) id:_common_default_style_trash_button
 key:eb98f8d9(0) id:filelist_widget_music_track_number
@@ -1358,6 +1379,7 @@ key:ec05706f(0) id:_common_template_popup_list_view_context_menu
 key:ec0bdfd4(0) id:tex_analog_r_right
 key:ec7354f4(0) id:plane_glow
 key:ece4b374(0) id:touch_select_menu_down_button
+key:ed0f806f(0) id:tex_back
 key:ed19c50e(0) id:style_text_setting_value_list_item
 key:ed28ef5d(0) id:music_display_time_current_text
 key:ed3441bf(0) id:msg_settings
@@ -1392,6 +1414,7 @@ key:f274f688(0) id:msg_other
 key:f2d90990(0) id:button_del_person
 key:f2e47359(0) id:style_text
 key:f2ea7dbe(0) id:_common_template_popup_list_view_popup_frame
+key:f3239179(0) id:tex_progress_bar_fore
 key:f32b67c7(0) id:value
 key:f3488f99(0) id:_common_style_list_item_transparent
 key:f4935ed7(0) id:tex_songs
@@ -1433,6 +1456,7 @@ key:fa5da1f3(0) id:filelist_widget_photo_item_panorama_icon
 key:fabd21d6(0) id:select_remote_button
 key:faf34011(0) id:check_box_setting_item
 key:fb2979d5(0) id:_common_texture_corner_button_base
+key:fbd879ae(0) id:tex_icon_active
 key:fbf214ea(0) id:_common_texture_copy_paste_menu_button_single
 key:fbf54c6c(0) id:about_me
 key:fc1f4de9(0) id:_common_default_style_radio_button
@@ -2918,7 +2942,6 @@ key:ffef2d9b(0) id:registing_dot_r6_glow
 # key:1973223b(0) id:None
 # key:197e45ea(0) id:None
 # key:1986d1bf(0) id:None
-# key:19925962(0) id:None
 # key:199bc2c6(0) id:None
 # key:19a03412(0) id:None
 # key:19a054a9(0) id:None
@@ -3323,7 +3346,6 @@ key:ffef2d9b(0) id:registing_dot_r6_glow
 # key:2070dc65(0) id:None
 # key:2071f3b6(0) id:None
 # key:2074f691(0) id:None
-# key:207b877e(0) id:None
 # key:2086846e(0) id:None
 # key:20895a2b(0) id:None
 # key:208bd7ff(0) id:None
@@ -4043,7 +4065,6 @@ key:ffef2d9b(0) id:registing_dot_r6_glow
 # key:2c3a1969(0) id:None
 # key:2c4298ce(0) id:None
 # key:2c43cd7f(0) id:None
-# key:2c4a0f78(0) id:None
 # key:2c5048ad(0) id:None
 # key:2c55f48c(0) id:None
 # key:2c572f12(0) id:None
@@ -5463,7 +5484,6 @@ key:ffef2d9b(0) id:registing_dot_r6_glow
 # key:4543fd2d(0) id:None
 # key:454b1eb0(0) id:None
 # key:454f7016(0) id:None
-# key:45528d6d(0) id:None
 # key:4552a416(0) id:None
 # key:4552a5ce(0) id:None
 # key:4553ddd5(0) id:None
@@ -6040,7 +6060,6 @@ key:ffef2d9b(0) id:registing_dot_r6_glow
 # key:4ed1524d(0) id:None
 # key:4ed2c25f(0) id:None
 # key:4ed55241(0) id:None
-# key:4ed910c6(0) id:None
 # key:4ee50295(0) id:None
 # key:4eeed661(0) id:None
 # key:4ef44c11(0) id:None
@@ -6996,7 +7015,6 @@ key:ffef2d9b(0) id:registing_dot_r6_glow
 # key:5f303372(0) id:None
 # key:5f310f23(0) id:None
 # key:5f31f3d9(0) id:None
-# key:5f33b745(0) id:None
 # key:5f3711c8(0) id:None
 # key:5f406eb7(0) id:None
 # key:5f423ab3(0) id:None
@@ -7662,7 +7680,6 @@ key:ffef2d9b(0) id:registing_dot_r6_glow
 # key:6b2f60c1(0) id:None
 # key:6b3292fc(0) id:None
 # key:6b33e6e5(0) id:None
-# key:6b3e42cf(0) id:None
 # key:6b414bff(0) id:None
 # key:6b44e725(0) id:None
 # key:6b4d55e6(0) id:None
@@ -7746,7 +7763,6 @@ key:ffef2d9b(0) id:registing_dot_r6_glow
 # key:6cd072eb(0) id:None
 # key:6cd50606(0) id:None
 # key:6cd7b01d(0) id:None
-# key:6cd7e7b8(0) id:None
 # key:6cdc0a57(0) id:None
 # key:6cde000c(0) id:None
 # key:6cdeca75(0) id:None
@@ -8142,7 +8158,6 @@ key:ffef2d9b(0) id:registing_dot_r6_glow
 # key:73b6d468(0) id:None
 # key:73bc0ed2(0) id:None
 # key:73cbae84(0) id:None
-# key:73cfe0d0(0) id:None
 # key:73dc31f5(0) id:None
 # key:73ef271f(0) id:None
 # key:73f13637(0) id:None
@@ -8592,7 +8607,6 @@ key:ffef2d9b(0) id:registing_dot_r6_glow
 # key:7bf55073(0) id:None
 # key:7bf6f75a(0) id:None
 # key:7c0111fd(0) id:None
-# key:7c0a25c0(0) id:None
 # key:7c0c1e69(0) id:None
 # key:7c0c82d9(0) id:None
 # key:7c148dc9(0) id:None
@@ -8973,7 +8987,6 @@ key:ffef2d9b(0) id:registing_dot_r6_glow
 # key:8267508d(0) id:None
 # key:82713de5(0) id:None
 # key:82716b63(0) id:None
-# key:827607d0(0) id:None
 # key:8276b9c5(0) id:None
 # key:8279add0(0) id:None
 # key:8279d22b(0) id:None
@@ -10158,7 +10171,6 @@ key:ffef2d9b(0) id:registing_dot_r6_glow
 # key:9705e3e5(0) id:None
 # key:970705a2(0) id:None
 # key:9710d87a(0) id:None
-# key:9718c305(0) id:None
 # key:9722dbf2(0) id:None
 # key:97254043(0) id:None
 # key:97348139(0) id:None
@@ -10224,7 +10236,6 @@ key:ffef2d9b(0) id:registing_dot_r6_glow
 # key:9871fbcb(0) id:None
 # key:987306e9(0) id:None
 # key:9879d3d9(0) id:None
-# key:987b0ad3(0) id:None
 # key:987be748(0) id:None
 # key:988b5551(0) id:None
 # key:988d555c(0) id:None
@@ -10688,7 +10699,6 @@ key:ffef2d9b(0) id:registing_dot_r6_glow
 # key:a06ab7d0(0) id:None
 # key:a0705101(0) id:None
 # key:a071924b(0) id:None
-# key:a071fa97(0) id:None
 # key:a073f686(0) id:None
 # key:a0769d48(0) id:None
 # key:a08327de(0) id:None
@@ -11022,7 +11032,6 @@ key:ffef2d9b(0) id:registing_dot_r6_glow
 # key:a5e9a251(0) id:None
 # key:a5eccf71(0) id:None
 # key:a5edc245(0) id:None
-# key:a5f1a63e(0) id:None
 # key:a5f5a250(0) id:None
 # key:a5f69f00(0) id:None
 # key:a5faef75(0) id:None
@@ -11341,7 +11350,6 @@ key:ffef2d9b(0) id:registing_dot_r6_glow
 # key:ab07e81c(0) id:None
 # key:ab0b6ea2(0) id:None
 # key:ab130a33(0) id:None
-# key:ab142617(0) id:None
 # key:ab15322b(0) id:None
 # key:ab19d306(0) id:None
 # key:ab1c2b44(0) id:None
@@ -12561,7 +12569,6 @@ key:ffef2d9b(0) id:registing_dot_r6_glow
 # key:c122be1d(0) id:None
 # key:c12a124e(0) id:None
 # key:c131e345(0) id:None
-# key:c131f95f(0) id:None
 # key:c1352a38(0) id:None
 # key:c137a0b3(0) id:None
 # key:c138c359(0) id:None
@@ -13106,7 +13113,6 @@ key:ffef2d9b(0) id:registing_dot_r6_glow
 # key:ca8688e3(0) id:None
 # key:ca89dc36(0) id:None
 # key:ca8ac238(0) id:None
-# key:ca8b2890(0) id:None
 # key:ca8e8a48(0) id:None
 # key:ca951833(0) id:None
 # key:ca9bc8df(0) id:None
@@ -13620,7 +13626,6 @@ key:ffef2d9b(0) id:registing_dot_r6_glow
 # key:d32142b7(0) id:None
 # key:d324cab5(0) id:None
 # key:d3255d7c(0) id:None
-# key:d32c5677(0) id:None
 # key:d32c7023(0) id:None
 # key:d3317601(0) id:None
 # key:d33302d4(0) id:None
@@ -14964,7 +14969,6 @@ key:ffef2d9b(0) id:registing_dot_r6_glow
 # key:e99f5ba8(0) id:None
 # key:e9a2abc7(0) id:None
 # key:e9a2b2ab(0) id:None
-# key:e9a6c577(0) id:None
 # key:e9ac0b30(0) id:None
 # key:e9ad18b1(0) id:None
 # key:e9b05051(0) id:None
@@ -15048,7 +15052,6 @@ key:ffef2d9b(0) id:registing_dot_r6_glow
 # key:eaf33055(0) id:None
 # key:eafb88a9(0) id:None
 # key:eafc8bf7(0) id:None
-# key:eb135fb2(0) id:None
 # key:eb251303(0) id:None
 # key:eb25831e(0) id:None
 # key:eb2868d7(0) id:None
@@ -15165,7 +15168,6 @@ key:ffef2d9b(0) id:registing_dot_r6_glow
 # key:ed04ae07(0) id:None
 # key:ed05a75d(0) id:None
 # key:ed0e5c2c(0) id:None
-# key:ed0f806f(0) id:None
 # key:ed165853(0) id:None
 # key:ed16b8af(0) id:None
 # key:ed2882f0(0) id:None
@@ -15544,7 +15546,6 @@ key:ffef2d9b(0) id:registing_dot_r6_glow
 # key:f3151822(0) id:None
 # key:f31a4519(0) id:None
 # key:f32068fa(0) id:None
-# key:f3239179(0) id:None
 # key:f32ae2f4(0) id:None
 # key:f3362047(0) id:None
 # key:f33bc019(0) id:None
@@ -16015,7 +16016,6 @@ key:ffef2d9b(0) id:registing_dot_r6_glow
 # key:fbd20383(0) id:None
 # key:fbd3cc6b(0) id:None
 # key:fbd4db40(0) id:None
-# key:fbd879ae(0) id:None
 # key:fbda5e08(0) id:None
 # key:fbdf6ce2(0) id:None
 # key:fbe2afe1(0) id:None

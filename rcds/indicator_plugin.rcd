@@ -16,6 +16,7 @@ key:9f5a6f89(0) id:type1
 # <templatetable>
 key:89ffad08(0) id:datetime
 key:31eec9ed(0) id:text_layout
+key:207b877e(0) id:layout
 key:c6f5e77c(0) id:flight_mode
 key:90be1658(0) id:position
 key:ba195a37(0) id:_common_texture_busy

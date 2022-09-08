@@ -29,6 +29,8 @@ key:b9fbcf7d(0) id:_common_default_style_button
 key:4956fadd(0) id:guide
 
 # <templatetable>
+key:2c4a0f78(0) id:template_basic_item
+key:73cfe0d0(0) id:widget_basic_item
 key:21b278b4(0) id:filelist_template_common_shadow
 key:69b13d29(0) id:filelist_widget_common_shadow
 key:852dcca3(0) id:filelist_widget_common_shadow_body
