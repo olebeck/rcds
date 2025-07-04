@@ -1,0 +1,20 @@
+#
+#
+#               tel_manager_plugin - resource debug symbol file
+#
+#
+
+
+# <pagetable>
+key:5fcd170e(0) id:page_main
+key:ee3d4a6f(0) id:button_style1
+key:230d4d65(0) id:page_main_button1
+key:7505d64a(0) id:default
+
+# <styletable>
+key:01f875b1(0) id:textobj
+key:e95f1628(0) id:planeobj
+
+# <stringtable>
+
+# <texturetable>

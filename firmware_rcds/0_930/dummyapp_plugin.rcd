@@ -1,0 +1,42 @@
+# SCE CONFIDENTIAL
+#
+#
+#      Copyright (C) 2010 Sony Computer Entertainment Inc.
+#                        All Rights Reserved.
+#
+#
+#               dummyapp_plugin - resource debug symbol file
+#
+#
+
+# <pagetable>
+key:5fcd170e(0) id:page_main
+key:b28b7af6(1) id:main
+key:d97527fc(1) id:layout_horizontal
+key:9e32521d(1) id:car
+key:e9f30969(1) id:widget_button0
+key:d6148947(1) id:widget_button1
+key:6f76f44f(1) id:widget_button2
+key:90147c61(1) id:widget_button3
+key:6fc38abe(1) id:widget_button4
+key:0e323cfd(1) id:widget_button5
+
+# <styletable>
+key:dd2a2442(0) id:style_main
+key:72a92b05(1) id:obj_plane
+key:facb449e(0) id:style_button0
+key:fad65a2d(1) id:bg_obj_icon
+key:8eb31782(1) id:label_obj_icon
+
+# <stringtable>
+key:0bed67d8(0) id:label0
+key:aeb15940(0) id:label1
+key:c0a0a3bb(0) id:label2
+key:42b64dcd(0) id:label3
+key:d16accd5(0) id:label4
+key:e017a096(0) id:label5
+
+# <texturetable>
+key:05d8058a(0) id:tex_main,src:texture/main.png,type:texture/png
+key:449ffb16(0) id:tex_car,src:texture/car.png,type:texture/png
+

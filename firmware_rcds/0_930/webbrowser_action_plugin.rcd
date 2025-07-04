@@ -1,0 +1,98 @@
+# SCE CONFIDENTIAL
+#
+#
+#      Copyright (C) 2010 Sony Computer Entertainment Inc.
+#                        All Rights Reserved.
+#
+#
+#               webbrowser_action_plugin - resource debug symbol file
+#
+#
+
+# <pagetable>
+key:ab8357ac(0) id:action_main_page
+key:b21c7186(1) id:action_main_parent
+key:9b232bf9(1) id:action_layout
+key:0a2f2cd9(1) id:landscape
+key:25c60488(1) id:portrait
+key:1ee25a5a(1) id:action_main_title_parent
+key:cdda0903(1) id:action_main_title_box
+key:81e54759(1) id:deault
+key:4722f6ce(1) id:action_main_title_icon
+key:07b6bf73(1) id:tate
+key:574e0875(1) id:action_main_title
+key:0ca4a2bb(1) id:action_main_cancel_btn
+key:df247f6c(1) id:action_main_urlboss
+key:0da9378d(1) id:action_main_url_text
+key:d0f3e2e5(1) id:action_main_list
+key:d0410f14(0) id:action_command_page
+key:53ba50ef(1) id:action_command_parent
+key:df6fa5de(1) id:action_command_title
+key:e0bab223(1) id:action_command_url_text
+key:b48235f5(1) id:action_command_boxboss
+key:de516d54(1) id:action_command_box
+key:87ff77d1(1) id:action_command_open_url_btn
+key:1bf562c0(1) id:action_command_newopen_url_btn
+key:26c2d2c1(1) id:action_command_saveimage_btn
+key:13fc9a8c(1) id:action_command_send_mail_btn
+key:78747360(1) id:action_command_sepalate_1
+key:c9402dfd(1) id:action_command_cancel_btn
+
+# <styletable>
+key:9cb5062f(0) id:action_plane_style_background
+key:8faffadc(1) id:plane_back_g
+key:09a66b2e(0) id:action_plane_style_trans
+key:442bd541(1) id:plane_back_toumei
+key:ed67ead6(0) id:action_plane_style_texture
+key:82b928c9(1) id:plane_obj_shiro
+key:cfcf49af(0) id:box_style_action
+key:29d6f4f4(0) id:action_box_style_title
+key:d51d42ed(0) id:text_style_url
+key:3cc94efa(1) id:textobj_afefe
+key:e95f1628(1) id:planeobj
+key:d6025849(0) id:action_text_style_title
+key:e6b494d1(1) id:action_text_style_title_ta
+key:b2f893ac(1) id:action_text_style_title_pa
+key:003cec1a(0) id:action_listview_style_btn
+key:4ca10b24(1) id:action_listview_style_btn_pl
+key:1d2b35fe(0) id:action_imgbutton_style
+key:5d9d1f25(1) id:action_imgbutton_style_bg
+key:a9ceb2fb(1) id:action_imgbutton_style_label
+key:acd80c7b(1) id:action_imgbutton_style_image_obj
+key:d3402683(1) id:action_imgbutton_style_backobje
+key:99f2a6d9(0) id:action_listitem_style
+key:e01bd79b(1) id:action_listitem_style_bg
+
+# <stringtable>
+key:8f4a7b7d(0) id:msg_action_title
+key:e1f43cc6(0) id:msg_add_bookmark
+key:2f96908f(0) id:msg_add_shortcut
+key:bca6e9fa(0) id:msg_send_mail
+key:a7c19939(0) id:msg_open_url
+key:7c39f13a(0) id:msg_newopen_url
+key:6a5fe8fe(0) id:msg_save_image
+key:97449109(0) id:msg_post_tweet
+key:11346db5(0) id:msg_close_wnd
+key:a0401bb4(0) id:msg_cancel
+key:3fce5e57(0) id:msg_action_config
+
+# <texturetable>
+key:14536dfd(0) id:action_texture_close,src:texture/close_btn.png,type:texture/png
+key:42f9bff0(0) id:action_texture_thunder,src:texture/action_normal.png,type:texture/png
+key:d49ad904(0) id:action_texture_url_bg,src:texture/list_90px.png,type:texture/png
+key:6b0ffeb6(0) id:action_texture_bookmark,src:texture/Icon_Bookmark.png,type:texture/png
+key:293cbd5b(0) id:action_texture_sendmail,src:texture/Email_NewMessage.png,type:texture/png
+key:c7d553aa(0) id:action_texture_shortcut,src:texture/Email_Reply.png,type:texture/png
+key:d97603a4(0) id:action_texture_tweet,src:texture/tweet.png,type:texture/png
+key:7d130fe6(0) id:action_texture_open_url,src:texture/wnd_list.png,type:texture/png
+key:5c9b30ba(0) id:action_texture_newopen_url,src:texture/wnd_list.png,type:texture/png
+key:f152aa88(0) id:action_texture_saveimage,src:texture/wnd_list.png,type:texture/png
+key:3e81f849(0) id:action_texture_config,src:texture/setting.png,type:texture/png
+
+# <templatetable>
+key:928485e8(0) id:actionwindow_template_listitem
+key:d48bea5c(1) id:actionwindow_list_item
+key:68bb405a(1) id:actionwindow_list_item_plane
+key:84c60cb3(1) id:actionwindow_list_item_plane_layhint
+key:f1b22df7(1) id:actionwindow_list_item_button
+

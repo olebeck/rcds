@@ -1,0 +1,72 @@
+#
+#
+#               webbrowser_menu_plugin - resource debug symbol file
+#
+#
+
+
+# <pagetable>
+key:5e9535b3(0) id:page_top
+key:fed93072(0) id:menu_stlye_kamaboko_top
+key:bf226b35(0) id:menu_strider_top
+key:07b6bf73(0) id:tate
+key:0a2f2cd9(0) id:landscape
+key:25c60488(0) id:portrait
+key:dbb3c7fb(0) id:menu_style_plane_trans
+key:ca36f25d(0) id:menu_top_tlans_baser
+key:a39b3558(0) id:menu_style_plane_background
+key:abe689b1(0) id:wb_tb_top
+key:67f635d4(0) id:wbb_menu_progressbase
+key:f7433da4(0) id:menu_tlans_C
+key:06cf7a1a(0) id:text_style_htmltitle
+key:4faaf199(0) id:wb_title
+key:0b1d5c1b(0) id:menu_tlans_B
+key:813068ed(0) id:button_style_menu_url
+key:545270bd(0) id:menu_url_btn
+key:cdc370e5(0) id:wbb_menu_urlbg
+key:1f77e7b7(0) id:progressbar_style_url
+key:4e74efba(0) id:wb_progless
+key:75fe59f6(0) id:_common_default_style_plane
+key:2af9506c(0) id:menu_favicon_plane
+key:062e436f(0) id:wbb_menu_bkmicon
+key:b9fbcf7d(0) id:_common_default_style_button
+key:493e9bef(0) id:menu_reload_btn
+key:91f6a745(0) id:wbb_menu_reload
+key:2ace3fc1(0) id:wb_sslicon
+key:dc91e66a(0) id:wbb_menu_sslicon
+key:dd286c53(0) id:wb_secicon
+key:b1298919(0) id:wbb_menu_secicon
+key:6e8e5cb0(0) id:page_bottom
+key:6d70fd51(0) id:wb_tb_bottom
+key:fd560875(0) id:wbb_menu_bg
+key:c3267983(0) id:menu_tlans_a
+key:bd80307e(0) id:wb_action
+key:aa6ad775(0) id:wbb_menu_action
+key:bc2622a7(0) id:wb_bookmark
+key:4e6ac627(0) id:wbb_menu_bookmark
+key:cc244c48(0) id:wb_search
+key:59bca066(0) id:wbb_menu_search
+key:a2b3f5b0(0) id:wb_next
+key:e3b3d105(0) id:wbb_menu_next
+key:23baeda6(0) id:wb_prev
+key:98936be1(0) id:wbb_menu_back
+
+# <styletable>
+key:ddbbc1de(0) id:plane_obj3
+key:1c4fbcb6(0) id:plane_obj4
+key:90d16812(0) id:menu_stlye_kamaboko_bottom
+key:63f3404f(0) id:afefe_text_obj
+key:baf23d85(0) id:afefe_plane_obj
+key:73819373(0) id:text_style_htmltitle_ta
+key:408aa894(0) id:text_style_htmltitle_pa
+key:2a38395d(0) id:base_obj_style
+key:582bb3ca(0) id:bar_fore_obj_style
+key:099eb524(0) id:wbb_menu_progressbar
+
+# <stringtable>
+
+# <texturetable>
+key:82164f25(0) id:wbb_menu_setting
+key:6682694b(0) id:wbb_menu_stop
+key:45269176(0) id:wbb_menu_cdlgexit
+key:8c2d12c1(0) id:wbb_debug_ps

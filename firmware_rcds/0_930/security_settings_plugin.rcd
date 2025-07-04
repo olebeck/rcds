@@ -1,0 +1,28 @@
+# SCE CONFIDENTIAL
+#
+#
+#      Copyright (C) 2010 Sony Computer Entertainment Inc.
+#                        All Rights Reserved.
+#
+#
+#               security_settings_plugin - resource debug symbol file
+#
+#
+
+# <stringtable>
+key:dc0179bc(0) id:msg_change_passcode
+key:3c165504(0) id:msg_level_variable
+key:3d5e5125(0) id:msg_off
+key:672aaf09(0) id:msg_parental_controls
+key:ae5236d0(0) id:msg_pc_security
+key:60a3a441(0) id:msg_require_passcode_unlock
+key:b353b7d9(0) id:msg_screen_lock_passcode
+key:486410c1(0) id:msg_start_control_browser
+key:50d7be63(0) id:msg_start_control_content
+key:2c6b5501(0) id:msg_start_control_content_info
+key:34fcb859(0) id:msg_sim_card_lock
+key:17f0ebdf(0) id:msg_lock_sim_card
+
+# <texturetable>
+key:68ecc7c3(0) id:tex_spanner,src:../../../common/resource/filelist/texture/spanner.png,type:texture/png
+

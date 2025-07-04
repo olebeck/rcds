@@ -1,0 +1,19 @@
+#
+#
+#               sample_dialog_plugin - resource debug symbol file
+#
+#
+
+
+# <pagetable>
+key:7b9e3561(0) id:page0
+key:3b65ec3c(0) id:background_style
+key:248a20b6(0) id:background
+key:7c52501e(0) id:background_layout
+key:ca8a4537(0) id:message_style
+key:6f9b9af3(0) id:message
+key:5725a2ee(0) id:message_layout
+key:e42f94ee(0) id:close_button
+key:834cb028(0) id:close_button_layout
+
+# <styletable>

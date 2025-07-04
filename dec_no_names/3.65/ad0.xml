@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal" id="0x67c0dd46">
+    <templatetable>
+        <template id="0x2e9374eb">
+            <group id="0x10a55ba8">
+                <layout_hint pos="0, -43, 0" size="840, 414"/>
+            </group>
+        </template>
+    </templatetable>
+</resource>

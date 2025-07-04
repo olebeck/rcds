@@ -1,0 +1,16 @@
+# SCE CONFIDENTIAL
+#
+#
+#      Copyright (C) 2010 Sony Computer Entertainment Inc.
+#                        All Rights Reserved.
+#
+#
+#               musiccore_plugin - resource debug symbol file
+#
+#
+
+# <stringtable>
+key:a386bc6f(0) id:msg_error_no_1
+key:54acd735(0) id:msg_error_no_2
+key:07448631(0) id:msg_error_no_3
+

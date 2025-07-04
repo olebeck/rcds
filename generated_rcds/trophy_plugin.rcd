@@ -1,0 +1,36 @@
+#
+#
+#               trophy_plugin - resource debug symbol file
+#
+#
+
+
+# <pagetable>
+key:5f7b332b(0) id:_common_style_plane_transparent
+key:9f5a6f89(0) id:type1
+key:5fcd170e(0) id:page_main
+key:ec3d26a9(0) id:plane_background
+key:5ef7041d(0) id:tex_header
+key:ccaf766c(0) id:button_to_local
+
+# <styletable>
+key:01f875b1(0) id:textobj
+key:9c96918b(0) id:bg_obj
+key:22ff88bd(0) id:glow_obj
+key:a56e4ba2(0) id:text_obj1
+
+# <texturetable>
+key:abdf7c9d(0) id:tex_trophy_platinum26
+key:df6d6000(0) id:tex_trophy_gold26
+key:b99d971a(0) id:tex_trophy_silver26
+key:31a2b441(0) id:tex_trophy_bronze26
+
+# <stringtable>
+
+# <templatetable>
+key:501d508e(0) id:_common_default_style_progressbar
+key:665c3d2f(0) id:_common_default_style_box
+key:9f20f898(0) id:_common_default_style_check_box
+key:67f05a01(0) id:_common_style_dialog_text
+
+# <soundindextable>

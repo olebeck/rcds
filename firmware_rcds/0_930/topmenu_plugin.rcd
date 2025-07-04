@@ -1,0 +1,73 @@
+# SCE CONFIDENTIAL
+#
+#
+#      Copyright (C) 2010 Sony Computer Entertainment Inc.
+#                        All Rights Reserved.
+#
+#
+#               topmenu_plugin - resource debug symbol file
+#
+#
+
+# <pagetable>
+key:5e9535b3(0) id:page_top
+key:e768ecb1(1) id:widget_plane_livespace_bg
+key:d97527fc(1) id:layout_horizontal
+key:9cc405a3(1) id:widget_scroll_view_top
+key:9f7c030d(0) id:page_fade
+key:1613da49(1) id:widget_plane_fade
+
+# <styletable>
+key:80bea281(0) id:style_page_top
+key:5ac8d198(1) id:light_obj0
+key:883adc54(0) id:style_livespace_bg
+key:e95f1628(1) id:planeobj
+key:cbc8c268(0) id:style_scroll_view_top
+key:9bf2c38e(1) id:obj_plane_top
+key:d57d7fb4(0) id:style_top_tab
+key:34bbc4ab(1) id:obj_plane_top_tab
+key:03c69492(0) id:style_liveboard_tab
+key:abf9b2ed(0) id:style_liveboard_client
+key:72a92b05(1) id:obj_plane
+key:a5aefd0b(0) id:style_plane_fade
+key:d06bccd6(1) id:obj_plane_fade
+key:f069aca8(0) id:style_button_overlook
+key:a29bb62d(0) id:style_plane_overlook
+key:d39b4f5e(0) id:style_liveboard_tab_close
+key:9c96918b(1) id:bg_obj
+key:529c1004(0) id:style_button_top_tab
+key:f7ea5fc0(0) id:style_text_apptitle
+key:01f875b1(1) id:textobj
+key:6cd0050b(0) id:style_text_finish
+
+# <stringtable>
+key:89d70b5b(0) id:rid_topmenu_string1
+key:da38860c(0) id:close
+key:dc151a5a(0) id:theme
+key:58d1bbce(0) id:add
+key:98c4b8f6(0) id:sort
+key:1d6fec8a(0) id:app_delete
+key:d14809f0(0) id:decide
+key:4fd0653c(0) id:cancel
+key:bebce46d(0) id:msg_application_closed
+
+# <texturetable>
+key:88832a29(0) id:tex_empty_lb_window,src:texture/empty_lb_window.gim,type:texture/gim
+key:9e6f402c(0) id:tex_livespace_bg,src:texture/topbg.gim,type:texture/gim
+
+# <templatetable>
+key:dc3e5384(0) id:template_top_tab
+key:2ce60c7f(1) id:widget_group_top_tab
+key:45224063(1) id:widget_plane_top_tab
+key:eb5c6f62(1) id:widget_button_top_tab_left
+key:1526e816(1) id:widget_button_top_tab_right
+key:ec6a584c(0) id:template_liveboard_tab
+key:b34a295b(1) id:widget_group_liveboard_tab
+key:36bfb30f(1) id:widget_plane_liveboard_client
+key:1879abe4(1) id:widget_button_liveboard_tab_close
+key:e0c99087(1) id:widget_text_finish
+key:18cf71c2(0) id:template_button_overlook
+key:9249919c(1) id:widget_button_overlook
+key:6d547dee(1) id:widget_text_apptitle
+key:1a2579d4(1) id:widget_plane_overlook
+

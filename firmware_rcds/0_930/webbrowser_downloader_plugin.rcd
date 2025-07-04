@@ -1,0 +1,43 @@
+# SCE CONFIDENTIAL
+#
+#
+#      Copyright (C) 2010 Sony Computer Entertainment Inc.
+#                        All Rights Reserved.
+#
+#
+#               webbrowser_downloader_plugin - resource debug symbol file
+#
+#
+
+# <pagetable>
+key:09197730(0) id:downloader_main_view
+key:82c6c500(1) id:downloader_main_parent
+key:07b6bf73(1) id:tate
+key:0a2f2cd9(1) id:landscape
+key:25c60488(1) id:portrait
+key:069d578d(0) id:downloader_notify_view_page
+key:ba05d76a(1) id:downloader_notify_parent
+key:2f472c2c(1) id:downloader_notify_view_button_cancel
+key:c257ef25(1) id:downloader_notify_view_button_ok
+key:0da37daa(0) id:downloader_progress_view_page
+key:56df16fb(1) id:downloader_progress_parent
+key:d82e9a43(1) id:downloader_progress_view_button_background
+key:6d0482b7(1) id:downloader_progress_view_button_cancel
+key:79e62ac2(1) id:downloader_text_title
+key:f543ded0(1) id:downloader_text_message
+key:1a0fade5(1) id:downloader_text_progress
+key:3187d156(1) id:downloader_progless_progress_bar
+key:63a8385d(0) id:downloader_overwrite_view_page
+key:f5e21756(1) id:downloader_overwrite_parent
+
+# <styletable>
+key:422365e1(0) id:plane_style_dark_plane
+key:f239aa56(1) id:plane_obj1
+
+# <stringtable>
+key:e3dfea26(0) id:msg_downloader_notify_view_wait_title
+key:0a237da2(0) id:msg_downloader_notify_view_wait_message
+key:dd3386e2(0) id:msg_downloader_progress_view_download_now
+
+# <texturetable>
+

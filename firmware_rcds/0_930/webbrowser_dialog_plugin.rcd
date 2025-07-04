@@ -1,0 +1,85 @@
+# SCE CONFIDENTIAL
+#
+#
+#      Copyright (C) 2010 Sony Computer Entertainment Inc.
+#                        All Rights Reserved.
+#
+#
+#               webbrowser_dialog_plugin - resource debug symbol file
+#
+#
+
+# <pagetable>
+key:304de776(0) id:webbrowser_main_page
+key:05f4708f(1) id:main_page_bg
+key:308958e8(1) id:main_page_bg_tate
+key:0a2f2cd9(1) id:landscape
+key:25c60488(1) id:portrait
+key:9573096e(0) id:page_bg
+key:286ded77(1) id:back_bround
+key:07b6bf73(1) id:tate
+key:af7af5d1(0) id:page_webcdlg_menu_top
+key:ab8fc563(1) id:webcdlg_menu_top
+key:fdf595d0(1) id:webcdlg_title
+key:631c6b49(1) id:webcdlg_sslicon
+key:52ae3339(1) id:webcdlg_secicon
+key:a5adfc49(1) id:webcdlg_progless
+key:be79baa9(0) id:page_webcdlg_menu_bottom
+key:f19f0e83(1) id:webcdlg_menu_bottom
+key:7399bcd4(1) id:wb_tb_bottom_tate
+key:901efa80(1) id:webcdlg_dlgexit
+key:3e43c8d3(1) id:wb_dlgexit_tate
+key:f7959f96(1) id:webcdlg_prev
+key:71229ecb(1) id:wb_prev_tate
+key:7d37858c(1) id:webcdlg_next
+key:924d4e7f(1) id:wb_next_tate
+key:e7069810(1) id:webcdlg_reload
+key:fcf40bda(1) id:webcdlg_fullbrowser
+
+# <styletable>
+key:68b87019(0) id:plane_style_white
+key:f239aa56(1) id:plane_obj1
+key:16975d70(0) id:plane_style_red
+key:74ecb2f5(1) id:plane_obj_red
+key:b9b5f37e(0) id:plane_progless
+key:a246c545(1) id:plane_obj2
+key:dbb3c7fb(0) id:menu_style_plane_trans
+key:ddbbc1de(1) id:plane_obj3
+key:a39b3558(0) id:menu_style_plane_background
+key:1c4fbcb6(1) id:plane_obj4
+key:fed93072(0) id:menu_stlye_kamaboko_top
+key:90d16812(0) id:menu_stlye_kamaboko_bottom
+key:813068ed(0) id:button_style_menu_url
+key:baf23d85(1) id:afefe_plane_obj
+key:63f3404f(1) id:afefe_text_obj
+key:5391f7da(0) id:button_style_menu_def
+key:b046f497(1) id:button_style_menu_def_po
+key:59dfcfaa(1) id:button_style_menu_def_to
+key:06cf7a1a(0) id:text_style_htmltitle
+key:73819373(1) id:text_style_htmltitle_ta
+key:408aa894(1) id:text_style_htmltitle_pa
+key:1f77e7b7(0) id:progressbar_style_url
+key:2a38395d(1) id:base_obj_style
+key:582bb3ca(1) id:bar_fore_obj_style
+
+# <stringtable>
+key:627ca6da(0) id:msg_em_full
+key:ccf21bc0(0) id:msg_em_full_variable_freespace
+key:c51aa4a4(0) id:msg_error_occurred
+key:632b6733(0) id:msg_wait
+
+# <texturetable>
+key:6968bb9e(0) id:webcdlg_menu_secicon,src:../../../../app/webbrowser/src/resource/texture/Icon_Protect.png,type:texture/png
+key:3b50e92d(0) id:webcdlg_menu_sslicon,src:../../../../app/webbrowser/src/resource/texture/Icon_SSL.png,type:texture/png
+key:c87dcd42(0) id:webcdlg_menu_bg,src:../../../../app/webbrowser/src/resource/texture/ToolBar_base.png,type:texture/png
+key:dbf59ee0(0) id:webcdlg_menu_back,src:../../../../app/webbrowser/src/resource/texture/Icon_back.png,type:texture/png
+key:23e7eba0(0) id:webcdlg_menu_next,src:../../../../app/webbrowser/src/resource/texture/Icon_Forward.png,type:texture/png
+key:2ac47227(0) id:webcdlg_menu_stop,src:../../../../app/webbrowser/src/resource/texture/Icon_Pause.png,type:texture/png
+key:7007e3ab(0) id:webcdlg_menu_reload,src:../../../../app/webbrowser/src/resource/texture/Icon_Reload.png,type:texture/png
+key:70e67079(0) id:webcdlg_menu_cdlgexit,src:../../../../app/webbrowser/src/resource/texture/pageback.png,type:texture/png
+key:5fa30d0e(0) id:webcdlg_menu_fullbrowser,src:../../../../app/webbrowser/src/resource/texture/wnd_list.png,type:texture/png
+key:1233d543(0) id:webcdlg_menu_progressbar,src:../../../../app/webbrowser/src/resource/texture/ProgressBar_web.png,type:texture/png
+key:422c14be(0) id:webcdlg_menu_progressbase,src:../../../../app/webbrowser/src/resource/texture/ProgressBar_Base_web.png,type:texture/png
+
+# <templatetable>
+

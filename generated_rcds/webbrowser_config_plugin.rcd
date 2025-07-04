@@ -1,0 +1,61 @@
+#
+#
+#               webbrowser_config_plugin - resource debug symbol file
+#
+#
+
+
+# <pagetable>
+key:51597683(0) id:config_page
+key:0b8c0153(0) id:plane_style_dark
+key:2d450223(0) id:config_main_parent
+key:07b6bf73(0) id:tate
+key:0a2f2cd9(0) id:landscape
+key:25c60488(0) id:portrait
+key:e2ad9302(0) id:_common_default_style_text
+key:b4e66521(0) id:config_main_title
+key:6fc5b8be(0) id:msg_config_title
+key:83fcc573(0) id:scroll_view_style1
+key:c8e58a1f(0) id:scroll_view
+key:98436ec0(0) id:plane_style_gray
+key:25d7db51(0) id:config_parent
+key:83f17b17(0) id:cookie_text
+key:fad80a60(0) id:msg_cookie
+key:530ed6bf(0) id:java_text
+key:a9e712e5(0) id:msg_javascript
+key:da606632(0) id:plugin_text
+key:db158dfd(0) id:msg_flash
+key:37274361(0) id:search_text
+key:a671b7bc(0) id:msg_search_engine
+key:da4e4168(0) id:auto_text
+key:30fd9956(0) id:msg_auto_input
+key:dc75a96f(0) id:limit_text
+key:af29562e(0) id:msg_start_limit
+key:4fdf3f53(0) id:delcookie_text
+key:23854491(0) id:msg_cookie_del
+key:b9fbcf7d(0) id:_common_default_style_button
+key:6500f5b7(0) id:cookie_btn
+key:a6fc1474(0) id:msg_switch_on
+key:e8bd0b7b(0) id:java_btn
+key:48d0ba54(0) id:plugin_btn
+key:0cd56b94(0) id:auto_input_btn
+key:b9646134(0) id:limit_btn
+key:75fe59f6(0) id:_common_default_style_plane
+key:8f3fe69a(0) id:config_bottom
+key:729536ef(0) id:ok_btn
+key:27d3542d(0) id:msg_commit
+key:60c29264(0) id:cancel_btn
+key:a0401bb4(0) id:msg_cancel
+key:01592f43(0) id:select_search_engine_page
+
+# <styletable>
+key:16ca0b50(0) id:planeobj_style1
+key:f239aa56(0) id:plane_obj1
+key:34f8e0ef(0) id:config_text_style_title_ta
+key:58ebd228(0) id:config_text_style_title
+key:cb0882e3(0) id:config_text_style_title_pa
+
+# <texturetable>
+key:c26525df(0) id:config_texture_spna
+
+# <stringtable>

@@ -1,0 +1,159 @@
+# SCE CONFIDENTIAL
+#
+#
+#      Copyright (C) 2010 Sony Computer Entertainment Inc.
+#                        All Rights Reserved.
+#
+#
+#               applauncher_plugin - resource debug symbol file
+#
+#
+
+# <pagetable>
+key:dbe17fce(0) id:page_debug_icon
+key:a6c31bf2(1) id:widget_plane_debug
+key:d97527fc(1) id:layout_horizontal
+key:ab6b8adc(1) id:widget_button_addicon
+key:3e6dcc94(1) id:widget_button_delicon
+key:12f4d959(1) id:widget_button_addtab_debug
+key:419516b1(1) id:widget_button_deltab
+key:4288b856(1) id:widget_button_ps
+
+# <styletable>
+key:547118ec(0) id:style_scroll_view_top_tab
+key:34bbc4ab(1) id:obj_plane_top_tab
+key:3ac49d37(0) id:style_plane_tab_applauncher
+key:80c07403(1) id:obj_plane_tab_applauncher
+key:899b24c6(0) id:style_plane_sub_apptab
+key:72a92b05(1) id:obj_plane
+key:b345ee10(0) id:style_icon
+key:fad65a2d(1) id:bg_obj_icon
+key:8eb31782(1) id:label_obj_icon
+key:1eab7788(0) id:style_button_apptab_close
+key:9c96918b(1) id:bg_obj
+key:4cf0d00b(0) id:style_button_settheme
+key:9b7c0625(0) id:style_button_addtab
+key:3013f46b(0) id:style_button_liveboard_close
+key:bf588ad0(1) id:bg_obj_liveboard_close
+key:769c7726(0) id:style_button_close
+key:28ccf273(1) id:label_obj
+key:ec50e7f7(0) id:style_plane_debug
+key:4092cb0a(0) id:style_dummy_icon
+key:65fdb884(0) id:style_window
+key:2bea4662(0) id:style_plane_client
+key:a966d8ac(1) id:bg_obj_plane
+key:922ac10e(0) id:style_client_box
+key:835b7d9e(1) id:plane_obj
+key:8b78c691(0) id:style_info_window_back
+key:8e9f0274(0) id:style_app_icon
+key:7549b253(0) id:style_plane_item
+key:13bb02b9(0) id:style_plane_client_box
+key:1422d314(0) id:style_info_list
+key:8d07923e(0) id:list_item_style
+key:c5cca233(0) id:style_scroll_view
+key:6520f7e3(0) id:style_text_fit_align_left
+key:ee38688f(1) id:textobj_style
+key:106dfc2d(1) id:planeobj_style
+key:cc1fa90c(0) id:style_text_fit_align_right
+key:f5e8cdfd(0) id:style_button_fit_align_left_wo_bg
+key:0e1c4391(0) id:style_delwindow
+key:f5920bcf(0) id:style_button_fit_bg
+key:b230a3de(0) id:style_position
+key:11bf5957(1) id:obj_plane_position
+key:3db82e60(0) id:style_pageposition
+key:75fafa80(0) id:style_plane_theme_setting
+key:ab1e7dde(0) id:style_list_view_theme
+key:8d9fcb07(1) id:bg_obj_style
+key:b90a836d(0) id:style_list_item_theme_icon
+
+# <stringtable>
+key:f1811d32(0) id:msg_delete
+key:06c1714b(0) id:msg_delete_this_application_conf
+key:0bb94aca(0) id:msg_name
+key:3782e139(0) id:msg_start_control
+key:bcd53a45(0) id:msg_updated
+key:29c686ec(0) id:msg_size
+key:2a6326f2(0) id:msg_version
+key:40d2b66c(0) id:msg_starts
+key:1c2c0e54(0) id:msg_expires
+key:5747ec79(0) id:msg_remaining_time
+
+# <texturetable>
+key:d8cdfae1(0) id:tex_edit_tabbg,src:texture/tab_frame.gim,type:texture/gim
+key:23ab06c5(0) id:tex_tab_plus,src:texture/tab_add.gim,type:texture/gim
+key:02024c2c(0) id:tex_theme_change,src:texture/theme_change.gim,type:texture/gim
+key:1f535038(0) id:tex_tab_del,src:texture/tab_del.gim,type:texture/gim
+key:a952ef1e(0) id:tex_iconpos,src:texture/icon_sign.gim,type:texture/gim
+key:1ddd0e08(0) id:tex_app_icon,src:texture/Icon_home.gim,type:texture/gim
+key:3b9f2abe(0) id:tex_home_icon32,src:texture/Icon_28_home.gim,type:texture/gim
+key:266627f6(0) id:tex_page_position_bg,src:texture/tab_indicator_bg.gim,type:texture/gim
+key:21ad6d05(0) id:tex_page_position_glow,src:texture/tab_indicator_glow.gim,type:texture/gim
+key:26cb225b(0) id:tex_dialog_line,src:texture/information/dialog_line.gim,type:texture/gim
+key:f1455f7e(0) id:tex_dialog_button_bg,src:texture/information/del_btn_frame.gim,type:texture/gim
+key:ed0f806f(0) id:tex_back,src:texture/information/back_btn.gim,type:texture/gim
+key:e14351ac(0) id:tex_icon_signal,src:texture/icon_signal.gim,type:texture/gim
+
+# <templatetable>
+key:c65c4136(0) id:template_scroll_view_top_tab
+key:0e61b084(1) id:widget_scroll_view_top_tab
+key:a147ab4e(0) id:template_group_toptab_applauncher
+key:39bda15f(1) id:widget_group_toptab_applauncher
+key:795b9e68(0) id:template_tab_applauncher
+key:b17f498d(1) id:widget_plane_tab_applauncher
+key:c6063e76(1) id:widget_plane_sub_apptab
+key:8b6c584a(1) id:widget_button_apptab_close
+key:6a33d160(1) id:widget_button_settheme
+key:89186f18(0) id:template_button_addtab
+key:83a42a08(1) id:widget_button_addtab
+key:6c3ff63c(0) id:template_icon
+key:ad1f8d6c(1) id:button_icon
+key:114f1c4a(0) id:template_dummy_icon
+key:562bcb0a(1) id:dummy_icon
+key:55324130(0) id:template_button_liveboard_close
+key:6d89b539(1) id:button_liveboard_close
+key:72ae9f22(0) id:template_pageposition
+key:6d895c97(1) id:pageposition
+key:b7df37a0(1) id:layout_pageposition
+key:09c61366(0) id:template_position
+key:90be1658(1) id:position
+key:3d5ab77e(1) id:layout_position
+key:2f5918af(0) id:template_theme_dialog
+key:cad4d4a8(1) id:widget_plane_theme_setting
+key:4d929bf6(1) id:widget_list_viewt_theme
+key:07b6bf73(1) id:tate
+key:58c067cb(1) id:widget_button_theme_setting_close
+key:7f01ea94(0) id:template_theme_icon
+key:11c5aa2f(1) id:widget_list_item_theme_icon
+key:1d9bc410(1) id:widget_button_theme_icon
+key:6677a4d5(0) id:template_information_dialog
+key:0cd9299d(1) id:widget_plane_info_window
+key:8c751bdc(1) id:layout_info_window
+key:c41e5f3f(1) id:widget_plane_info_client
+key:aa21c75b(1) id:info_list
+key:233bd300(1) id:widget_button_info_window_back
+key:a723ea18(1) id:widget_button_app_delete
+key:fea43112(0) id:template_delete_dialog
+key:0cedad3c(1) id:widget_plane_del_window
+key:18aade38(1) id:widget_plane_del_client
+key:234323cf(1) id:confirming_message
+key:4c63b09e(1) id:layout_box
+key:f01482c6(1) id:layout_menu_box
+key:2c48cbca(1) id:decide_button
+key:7505d64a(1) id:default
+key:28be1c5c(1) id:cancel_button
+key:abf8514e(0) id:template_app_icon
+key:08cbd18b(1) id:widget_plane_app_icon
+key:c46fc6e8(0) id:template_info_item
+key:3a7d9767(1) id:item
+key:6254df7b(1) id:widget_text_key
+key:a66d9069(1) id:layout_left
+key:ff7c6472(1) id:widget_text_value
+key:94690f33(1) id:layout_right
+key:88a8be5a(0) id:template_info_item_value_button
+key:4025b4b3(1) id:item_value_button
+key:8a7f5fc6(1) id:widget_text_key1
+key:410a512c(1) id:widget_button_value
+key:0c3f5ebd(0) id:template_info_list_item
+key:63678fee(1) id:list_item
+key:2152cd89(1) id:layout_item
+

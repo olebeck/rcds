@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal">
+    <templatetable>
+        <template id="0x7033e35f">
+            <plane style="0xa299eee8" id="0x8d33f3e5">
+                <layout_hint id="0xda39a3ee"/>
+            </plane>
+            <list_view style="0x079b7dff" id="0x9fea87ee">
+                <layout_hint id="0xda39a3ee"/>
+            </list_view>
+        </template>
+        <template id="0x17a1ffcb">
+            <list_item style="0xf3488f99" id="0x42d318e6">
+                <layout_hint id="0xda39a3ee"/>
+                <text style="0x1e18cd29" id="0x99fc01de">
+                    <layout_hint adjust="0, 2, 0" id="0xda39a3ee" size="780, 0, 0"/>
+                </text>
+            </list_item>
+        </template>
+        <template id="0x24a17750">
+            <progressbar w_label="0xedf138c6" label_pos_mode="4" id="0xb009985d" label_mode="0">
+                <layout_hint size="660, 20" align="0, 0" adjust="0, 0" id="0xda39a3ee" pos="0, 0"/>
+                <text style="0x5a9de7d3" id="0xedf138c6">
+                    <layout_hint adjust="2, 2" id="0xda39a3ee"/>
+                </text>
+            </progressbar>
+        </template>
+    </templatetable>
+    <styletable>
+        <style_list_view sbar_v_margin="3, 3, 9" bg_obj="0xe95f1628" id="0x079b7dff">
+            <planeobj color="0, 0, 0, 0" id="0xe95f1628"/>
+        </style_list_view>
+        <style_text textobj="0x01f875b1" id="0x1e18cd29">
+            <textobj font_size="26" color="1, 1, 1, 1" text_align="0" line_pitch="40" word_wrap="1" id="0x01f875b1"/>
+        </style_text>
+        <style_text textobj="0x01f875b1" top_margin="16" id="0x5a9de7d3">
+            <textobj color="1, 1, 1, 1" font_size="24" id="0x01f875b1" word_wrap="0"/>
+        </style_text>
+        <style_plane id="0xa299eee8" planeobj="0xe95f1628">
+            <planeobj texture0="0x1d602a80" id="0xe95f1628"/>
+        </style_plane>
+    </styletable>
+    <stringtable>
+        <locale src="ja.bin" compress="on" id="ja"/>
+        <locale src="en.bin" compress="on" id="en"/>
+        <locale src="en-gb.bin" compress="on" id="en-gb"/>
+        <locale src="fr.bin" compress="on" id="fr"/>
+        <locale src="es.bin" compress="on" id="es"/>
+        <locale src="de.bin" compress="on" id="de"/>
+        <locale src="it.bin" compress="on" id="it"/>
+        <locale src="nl.bin" compress="on" id="nl"/>
+        <locale src="pt.bin" compress="on" id="pt"/>
+        <locale src="ru.bin" compress="on" id="ru"/>
+        <locale src="ko.bin" compress="on" id="ko"/>
+        <locale src="zh-t.bin" compress="on" id="zh-t"/>
+        <locale src="zh-s.bin" compress="on" id="zh-s"/>
+        <locale src="fi.bin" compress="on" id="fi"/>
+        <locale src="sv.bin" compress="on" id="sv"/>
+        <locale src="da.bin" compress="on" id="da"/>
+        <locale src="no.bin" compress="on" id="no"/>
+        <locale src="pl.bin" compress="on" id="pl"/>
+        <locale src="pt-br.bin" compress="on" id="pt-br"/>
+        <locale src="tr.bin" compress="on" id="tr"/>
+    </stringtable>
+    <texturetable>
+        <texture src="0x1d602a80.bin" compress="on" id="0x1d602a80" type="texture/gim" div_mode="3x3"/>
+    </texturetable>
+</resource>

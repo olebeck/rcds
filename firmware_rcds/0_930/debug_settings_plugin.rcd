@@ -1,0 +1,36 @@
+# SCE CONFIDENTIAL
+#
+#
+#      Copyright (C) 2010 Sony Computer Entertainment Inc.
+#                        All Rights Reserved.
+#
+#
+#               debug_settings_plugin - resource debug symbol file
+#
+#
+
+# <stringtable>
+key:403ce27a(0) id:msg_on
+key:3d5e5125(0) id:msg_off
+key:d58f9b93(0) id:msg_tool_debug_settings
+key:f54f9155(0) id:msg_tool_psn_settings
+key:8ca2b1e0(0) id:msg_tool_np_environment
+key:6a3a13b6(0) id:msg_tool_np_debug
+key:2852363f(0) id:msg_tool_np_debug_nav
+key:d05b9011(0) id:msg_tool_np_title_id
+key:8b651932(0) id:msg_tool_psstore_ad_clockmsg_tool_psstore_ad_clock
+key:c36f562e(0) id:msg_tool_geo_filtering_for_psstore
+key:a546beb9(0) id:msg_tool_normal
+key:a1019ccc(0) id:msg_tool_always_succeed
+key:398d06b4(0) id:msg_tool_always_fail
+key:527fc07a(0) id:msg_tool_restart_reflect_setting
+key:573c7407(0) id:msg_tool_error_no_datetime_setting
+key:01a6a7ec(0) id:msg_tool_system_update
+key:80ab77c7(0) id:msg_tool_system_update_pup_list_flag
+key:32ffeb93(0) id:msg_tool_system_update_enable_host0
+key:3b7cb711(0) id:msg_tool_sd
+key:44c68d85(0) id:msg_tool_host0
+
+# <texturetable>
+key:68ecc7c3(0) id:tex_spanner,src:../../../common/resource/filelist/texture/spanner.png,type:texture/png
+

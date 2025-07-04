@@ -1,0 +1,133 @@
+# SCE CONFIDENTIAL
+#
+#
+#      Copyright (C) 2010 Sony Computer Entertainment Inc.
+#                        All Rights Reserved.
+#
+#
+#               language_settings_plugin - resource debug symbol file
+#
+#
+
+# <pagetable>
+key:4eb6378f(0) id:page_osk
+key:4a47ae31(1) id:osk_background
+key:ece8472d(1) id:osk_title_plane
+key:960a8393(1) id:osk_title_text
+key:8d7f3ef7(1) id:osk_textarea
+
+# <styletable>
+key:526c4b0e(0) id:style_plane_background
+key:de30768c(0) id:style_plane_header
+key:e95f1628(1) id:planeobj
+key:088b1347(0) id:style_plane_footer
+key:000ed2fb(0) id:style_plane_content
+key:11a1fcbb(0) id:style_text_header
+key:01f875b1(1) id:textobj
+key:6e89c805(0) id:style_text_label
+key:80196e40(0) id:style_textbox
+key:d6dfc646(0) id:style_term_list
+key:ef7fe400(1) id:bgobj
+key:70317ec7(0) id:style_term_list_item
+key:78cfd4a3(0) id:style_term_list_item_button
+key:956850af(0) id:style_term_list_item_label
+key:1cc47b5d(0) id:style_textbox_dialog
+
+# <stringtable>
+key:393b2b6d(0) id:msg_add_edit_term
+key:331a021d(0) id:msg_add_term
+key:677c5487(0) id:msg_auto_caps
+key:6f20bbb3(0) id:msg_cangjie
+key:f1811d32(0) id:msg_delete
+key:c499b57e(0) id:msg_delete_term_conf
+key:268384dc(0) id:msg_input_languages
+key:af74ae57(0) id:msg_keyboards
+key:3b761af1(0) id:msg_language
+key:f4a1bece(0) id:msg_language_cn_s
+key:a14ba7b6(0) id:msg_language_cn_t
+key:49c27c58(0) id:msg_language_de
+key:3d6973f3(0) id:msg_language_dk
+key:37608530(0) id:msg_language_en_uk_dictionary
+key:055c7721(0) id:msg_language_en_us_dictionary
+key:a91f9530(0) id:msg_language_es
+key:ca92ad66(0) id:msg_language_fi
+key:513f808d(0) id:msg_language_fr
+key:13920c03(0) id:msg_language_it
+key:904c585a(0) id:msg_language_jp
+key:e8b1b5d7(0) id:msg_language_kr
+key:b1252afc(0) id:msg_language_nl
+key:5de49fac(0) id:msg_language_no
+key:66063d05(0) id:msg_language_pl
+key:be0b69e3(0) id:msg_language_pt
+key:b7343627(0) id:msg_language_ru
+key:c37070ef(0) id:msg_language_se
+key:1d59551b(0) id:msg_pinyin
+key:2a656434(0) id:msg_system_language
+key:6234fcc8(0) id:msg_system_language_cn_s
+key:745bd7f4(0) id:msg_system_language_cn_t
+key:7dfcfb59(0) id:msg_system_language_de
+key:f5e0cc3d(0) id:msg_system_language_dk
+key:0aa8fb00(0) id:msg_system_language_en
+key:18355faa(0) id:msg_system_language_es
+key:6e79a394(0) id:msg_system_language_fi
+key:48285c8e(0) id:msg_system_language_fr
+key:3c2f44e7(0) id:msg_system_language_it
+key:e7495cce(0) id:msg_system_language_jp
+key:0fffe029(0) id:msg_system_language_kr
+key:c53644a6(0) id:msg_system_language_nl
+key:476fa812(0) id:msg_system_language_no
+key:21dbd393(0) id:msg_system_language_pl
+key:b18d4c8c(0) id:msg_system_language_pt
+key:309246e6(0) id:msg_system_language_ru
+key:d5c378dd(0) id:msg_system_language_se
+key:37b31096(0) id:msg_tango
+key:632b6733(0) id:msg_wait
+key:013e66ff(0) id:msg_yomi
+key:7e1a5aa0(0) id:msg_zhuyin
+
+# <texturetable>
+key:aff3e0cf(0) id:tex_check,src:../../../common/resource/paf/texture/button/checkbox_check.png,type:texture/png
+key:ed0f806f(0) id:tex_back,src:../../../common/resource/paf/texture/button/back_button.png,type:texture/png
+key:68ecc7c3(0) id:tex_spanner,src:../../../common/resource/filelist/texture/spanner.png,type:texture/png
+key:c0fbeec9(0) id:tex_list_70px,src:../../../common/resource/filelist/texture/list_70px.png,type:texture/png
+key:06efcfdc(0) id:tex_header_h48,src:../../../common/resource/filelist/texture/header_h48.png,type:texture/png
+key:3bcae1d1(0) id:tex_textbox,src:../../../common/resource/paf/texture/button/text_box_h33_v33.png,type:texture/png
+key:46a816e2(0) id:tex_loading,src:texture/loading.gim,type:texture/gim
+
+# <templatetable>
+key:a8931f90(0) id:wait_dialog
+key:768e69aa(1) id:dialog_box1
+key:7505d64a(1) id:default
+key:f8cd9c44(1) id:wait_dialog_box
+key:30576a79(1) id:wait_dialog_icon
+key:b4283e3b(1) id:dialog_text
+key:bf2c425a(0) id:template_base_page
+key:842cfb91(1) id:base_page_background
+key:0a2f2cd9(1) id:landscape
+key:6844f24d(1) id:base_page_head_plane
+key:02207615(1) id:base_page_title_text
+key:ecfcb7ac(1) id:base_page_content_plane
+key:bd58f7a1(0) id:template_term_list
+key:64ed3d48(1) id:term_list
+key:38f06fb0(1) id:term_list_normal_panel
+key:a20371f2(1) id:back_button
+key:638ff21d(1) id:term_list_delete_panel
+key:28be1c5c(1) id:cancel_button
+key:b3694fdf(1) id:delete_button
+key:1df7b758(0) id:template_term_list_item
+key:db3f8f73(1) id:term_list_item
+key:0dd6d65a(1) id:term_list_item_button
+key:8f1e4d6b(1) id:term_list_item_check
+key:4b1a007e(1) id:term_list_item_label
+key:bb53dd34(0) id:template_term_edit_base
+key:cf11991c(1) id:term_edit_content
+key:656ecb7e(1) id:term_edit_foot_panel
+key:cb4f8ca9(1) id:ok_button
+key:18c0ca8a(0) id:template_term_edit_a
+key:8a2a93e1(1) id:term_edit_a_term_text
+key:e7962045(0) id:template_term_edit_b
+key:99a4e201(1) id:term_edit_b_yomi_label
+key:9992d2f4(1) id:term_edit_b_yomi_text
+key:e004e5b2(1) id:term_edit_b_term_label
+key:ea811e3e(1) id:term_edit_b_term_text
+

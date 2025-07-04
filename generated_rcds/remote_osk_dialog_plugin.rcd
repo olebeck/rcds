@@ -1,0 +1,26 @@
+#
+#
+#               remote_osk_dialog_plugin - resource debug symbol file
+#
+#
+
+
+# <pagetable>
+key:4eb6378f(0) id:page_osk
+
+# <styletable>
+key:1eb1ff8a(0) id:textobj_item_title
+key:01f875b1(0) id:textobj
+key:36d2eea1(0) id:textobj_ime_text_box
+
+# <templatetable>
+key:9c40c65f(0) id:title_texbase
+key:20413274(0) id:_common_sound_button_enter
+key:b9fbcf7d(0) id:_common_default_style_button
+key:c321c694(0) id:msg_send_vb
+key:bc88b09a(0) id:osk_type1
+
+# <texturetable>
+key:28be1c5c(0) id:cancel_button
+
+# <stringtable>

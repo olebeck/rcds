@@ -1,0 +1,124 @@
+#
+#
+#               camera_liveboard_plugin - resource debug symbol file
+#
+#
+
+
+# <pagetable>
+key:040e6437(0) id:page_liveview
+key:13be1205(0) id:style_plane_camera_body
+key:fde92fd8(0) id:plane_camera_body
+key:9f5a6f89(0) id:type1
+key:b082644b(0) id:style_plane_camera_display
+key:fcee58e7(0) id:plane_camera_display
+key:caacea67(0) id:style_plane_camera_shutter
+key:c75194e6(0) id:plane_camera_shutter
+key:09aeee77(0) id:style_button_camera_inout
+key:7098e175(0) id:button_camera_inout
+key:b6eab2ae(0) id:style_button_camera_inout2
+key:ce6bb142(0) id:button_camera_inout2
+key:280aedd6(0) id:style_button_camera_setting
+key:851b54d2(0) id:button_camera_setting
+key:50462e38(0) id:style_button_camera_viewer
+key:39e21430(0) id:button_camera_viewer
+key:fb19273b(0) id:style_button_camera_shutter
+key:ff106454(0) id:button_camera_shutter
+key:9d8ee38a(0) id:page_viewer
+key:7c91ddf8(0) id:style_plane_black_bg
+key:46699da2(0) id:plane_black_bg
+key:0c3f7752(0) id:style_plane_viewer_bg
+key:ff575919(0) id:plane_viewer_bg
+key:c00a768d(0) id:style_plane_viewer_image
+key:894e4d42(0) id:plane_viewer_image
+key:d9de4f04(0) id:style_button_viewer_close
+key:6f1194fe(0) id:button_viewer_close
+key:33406eb4(0) id:style_button_viewer_action
+key:a5ef48e0(0) id:button_viewer_action
+key:b52b8240(0) id:style_button_viewer_delete
+key:1709370a(0) id:button_viewer_delete
+key:36277d01(0) id:page_camera_settings
+key:c4a6508b(0) id:template_slide_menu
+key:09fdc4e9(0) id:page_camera_sub_settings
+key:bd660ad7(0) id:template_slide_option_menu
+key:48af271e(0) id:page_camera_action_menu
+
+# <styletable>
+key:b714eeb7(0) id:style_plane_slide_menu_base
+key:e95f1628(0) id:planeobj
+key:50512037(0) id:style_plane_slide_menu_header
+key:80c361ea(0) id:style_box_slide_menu_header_title
+key:e9c4cb20(0) id:style_plane_slide_menu_header_icon
+key:01f875b1(0) id:textobj
+key:014e867d(0) id:style_text_slide_menu_header_title
+key:9c96918b(0) id:bg_obj
+key:769c7726(0) id:style_button_close
+key:98f7eabd(0) id:tex_slide_menu_close
+key:a4a4b7a5(0) id:style_list_view_slide_menu
+key:6bd81215(0) id:style_list_item_slide_menu_item
+key:db9f3d40(0) id:image_back_obj
+key:28ccf273(0) id:label_obj
+key:d3979b63(0) id:image_obj
+key:159707a9(0) id:style_button_slide_menu_item
+key:a33f3042(0) id:tex_slide_menu_list_70
+key:e7375a99(0) id:tex_slide_menu_spanner
+key:e5d5ce87(0) id:style_text_slide_menu_item_label1
+key:5b25a28c(0) id:style_plane_slide_menu_item_label1
+key:43aadbcd(0) id:style_plane_slide_option_menu_base
+key:5ee01f02(0) id:style_list_view_slide_option_menu
+key:62eb1c6e(0) id:style_list_item_slide_option_menu_item
+key:88af578e(0) id:style_button_slide_option_menu_item
+key:0aff128e(0) id:style_plane_camera_bg
+key:bb742ca2(0) id:tex_bg
+key:7ab09339(0) id:tex_camera_display
+key:b84a9d5a(0) id:tex_camera_out
+key:d0043bf5(0) id:tex_camera_in
+key:ca514174(0) id:tex_camera_setting_poped
+key:ad1abd2e(0) id:tex_camera_viewer_poped
+key:9bd8c035(0) id:tex_camera_shutter_poped
+key:ad00a24f(0) id:style_plane_camera_thumbnail
+key:b14f2415(0) id:tex_camera_thumbnail
+key:ed4a08be(0) id:tex_camera_close
+key:c4078e16(0) id:tex_camera_action
+key:a132268a(0) id:tex_camera_delete
+
+# <stringtable>
+
+# <templatetable>
+key:25b91919(0) id:plane_slide_menu_base
+key:3d31f98d(0) id:landscape960x544
+key:b0cdef2c(0) id:list_view_slide_menu
+key:88c71f6a(0) id:template_slide_menu_header
+key:7cce659a(0) id:plane_slide_menu_header
+key:56d30518(0) id:box_slide_menu_header_title
+key:fed2efa9(0) id:plane_slide_menu_header_icon
+key:4fcf83d1(0) id:tex_settings_normal
+key:156de763(0) id:text_slide_menu_header_title
+key:844f87cf(0) id:button_slide_menu_header_close
+key:80954abf(0) id:template_slide_menu_item
+key:e2fe5391(0) id:list_item_slide_menu_item
+key:2dad55e3(0) id:image_button_slide_menu_item
+key:b7dd0148(0) id:text_slide_menu_item_label1
+key:c5fff3d0(0) id:plane_slide_menu_item_label2
+key:f9c97353(0) id:plane_slide_option_menu_base
+key:6e1557ea(0) id:list_view_slide_option_menu
+key:a1d6a2eb(0) id:template_slide_option_menu_item
+key:ea2594b8(0) id:list_item_slide_option_menu_item
+key:db59b643(0) id:image_button_slide_option_menu_item
+key:c9bc14e4(0) id:template_camera_thumbnail
+key:08186bc2(0) id:plane_camera_thumbnail
+
+# <texturetable>
+key:038eb6f4(0) id:tex_slide_menu_settings
+key:890bdeeb(0) id:tex_slide_menu_action
+key:b47bc1c9(0) id:tex_slide_menu_check
+key:7f30e42f(0) id:tex_camera_shugger_pushed
+key:4d2e5b90(0) id:tex_camera_setting_pushed
+key:3d1c8672(0) id:tex_camera_viewer_pushed
+
+# <soundtable>
+key:a68f7d06(0) id:sound_camera_shutter_01
+key:d3bd46e1(0) id:sound_camera_shutter_02
+key:5d0e8fc8(0) id:sound_camera_shutter_03
+key:0f6228b8(0) id:sound_camera_shutter_04
+key:794f3d75(0) id:sound_camera_shutter_05

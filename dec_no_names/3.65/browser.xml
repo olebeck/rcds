@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal" id="0x25471f3f">
+    <templatetable>
+        <template id="0x2e9374eb">
+            <group id="0x3c5b4927">
+                <layout_hint pos="240, 66, 0"/>
+            </group>
+            <group id="0x10a55ba8">
+                <layout_hint pos="-174, 130, 0" size="472, 50"/>
+            </group>
+            <group id="0x1361f380">
+                <layout_hint pos="-174, 80, 0" size="472, 50"/>
+            </group>
+            <group id="0xb3e92cd9">
+                <layout_hint pos="-174, 30, 0" size="472, 50"/>
+            </group>
+            <group id="0xb4a9beb2">
+                <layout_hint pos="-174, -20, 0" size="472, 50"/>
+            </group>
+            <group id="0xb44d9ee4">
+                <layout_hint pos="-174, -70, 0" size="472, 50"/>
+            </group>
+            <group id="0x10fa6163">
+                <layout_hint pos="-174, -120, 0" size="472, 50"/>
+            </group>
+            <group id="0x414305d6">
+                <layout_hint pos="-174, -170, 0" size="472, 50"/>
+            </group>
+            <group id="0xc6a9e3eb">
+                <layout_hint pos="-174, -220, 0" size="472, 50"/>
+            </group>
+            <group id="0x93523401">
+                <layout_hint align="0, 0, 0" pos="240, -81, 0" size="282, 108"/>
+            </group>
+            <group id="0x5f9c21ca">
+                <layout_hint align="0, 0, 0" pos="240, -191, 0" size="282, 108"/>
+            </group>
+        </template>
+    </templatetable>
+</resource>

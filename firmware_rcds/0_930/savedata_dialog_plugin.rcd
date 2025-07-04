@@ -1,0 +1,120 @@
+# SCE CONFIDENTIAL
+#
+#
+#      Copyright (C) 2010 Sony Computer Entertainment Inc.
+#                        All Rights Reserved.
+#
+#
+#               savedata_dialog_plugin - resource debug symbol file
+#
+#
+
+# <pagetable>
+key:f322b410(0) id:page_fixed
+
+# <styletable>
+key:3f62ae5e(0) id:item_base_style
+key:cf074b58(1) id:planeobj_item_base
+key:e54656d1(0) id:icon0_style
+key:2b4807f8(1) id:planeobj_icon0
+key:37b8719d(0) id:basic_plane_style
+key:ef0c4f4e(1) id:planeobj_basic
+key:9d1d1068(0) id:text_item_title_style
+key:1eb1ff8a(1) id:textobj_item_title
+key:c3b479c6(0) id:text_item_subtitle_style
+key:8f7bf1eb(1) id:textobj_item_subtitle
+key:92fd288f(0) id:_common_default_style_dialog_button
+key:f239aa56(1) id:plane_obj1
+key:a56e4ba2(1) id:text_obj1
+
+# <stringtable>
+key:40f5de7e(0) id:msg_cancel_load_conf
+key:8f12f051(0) id:msg_cancel_save_conf
+key:627ca6da(0) id:msg_em_full
+key:ccf21bc0(0) id:msg_em_full_variable_freespace
+key:c8fad0b6(0) id:msg_error_file_corrupted
+key:1ed31027(0) id:msg_error_load
+key:6c015092(0) id:msg_error_no_saveddata
+key:c51aa4a4(0) id:msg_error_occurred
+key:29cce1fb(0) id:msg_error_save
+key:30db2375(0) id:msg_free_space
+key:df5c87c2(0) id:msg_load
+key:1fa2f412(0) id:msg_load_completed
+key:edaf5b81(0) id:msg_loading
+key:b2b0e85f(0) id:msg_new_saveddata
+key:3928b074(0) id:msg_save
+key:d4124b4c(0) id:msg_save_completed
+key:e385ca9b(0) id:msg_save_data_conf
+key:eb243c4c(0) id:msg_saving
+key:a87f8405(0) id:msg_this_saveddata_load_conf
+key:5da6ca98(0) id:msg_this_saveddata_overwrite_conf
+
+# <texturetable>
+key:4cf7846b(0) id:tex_button1,src:texture/button.gim,type:texture/gim
+key:23aaad77(0) id:tex_list_item,src:texture/list.png,type:texture/png
+key:fa1ebed8(0) id:tex_icon0_sample,src:texture/SaveData_Default.png,type:texture/png
+
+# <templatetable>
+key:f32d4a33(0) id:savedata_list_item
+key:28e158cd(1) id:savedata_list_item_base
+key:1ace60d8(1) id:list_item_base_type1
+key:e92d9e43(1) id:landscape_padkey_footside
+key:f26a4b0d(1) id:thumbnail
+key:9f5a6f89(1) id:type1
+key:6839672e(1) id:text_item_title
+key:22f48534(1) id:text_item_sub_title
+key:bb848439(1) id:text_item_empty_title
+key:2c4a0f78(0) id:template_basic_item
+key:73cfe0d0(1) id:widget_basic_item
+key:7c7ac910(1) id:widget_basic_item_button
+key:a0fdc2cd(1) id:savedata_list_item_base2
+key:d9797e4f(1) id:thumbnail22
+key:9b57bee9(1) id:text_item_title2
+key:d10e5e21(1) id:text_item_sub_title2
+key:d3948d06(1) id:text_item_empty_title2
+key:55a358ca(0) id:template_fixed_0
+key:4c8f69e3(1) id:widget_fixed_0_item
+key:75aa7816(1) id:widget_fixed_0_item_button
+key:50c65c71(0) id:template_fixed_1
+key:9a9bd293(1) id:widget_fixed_1_item
+key:3c7063b5(1) id:widget_fixed_1_item_button
+key:00a3276e(0) id:_common_t1b0_dialog_template
+key:4dd3f804(1) id:t1b0_dialog
+key:7505d64a(1) id:default
+key:e6addc3d(1) id:t1b0_dialog_box1
+key:38e27a53(1) id:t1b0_dialog_text1
+key:980811e8(1) id:t1b0_dialog_text1_scrollbar
+key:d9aae587(0) id:_common_t1b1_dialog_template
+key:56f61279(1) id:t1b1_dialog
+key:db059b1c(1) id:t1b1_dialog_box1
+key:aa13dc14(1) id:t1b1_dialog_text1
+key:55219d22(1) id:t1b1_dialog_text1_scrollbar
+key:8c0077b1(1) id:t1b1_dialog_button1
+key:d29478b9(0) id:_common_t1b2_dialog_template
+key:a432af40(1) id:t1b2_dialog
+key:6d0686e2(1) id:t1b2_dialog_box1
+key:2c214acc(1) id:t1b2_dialog_text1
+key:9a6b1ba2(1) id:t1b2_dialog_text1_scrollbar
+key:d428d3c7(1) id:t1b2_dialog_box2
+key:8cac6653(1) id:t1b2_dialog_button1
+key:bae3a99c(1) id:t1b2_dialog_button2
+key:612ba499(0) id:_common_t1p1b1_dialog_template
+key:548c2e7a(1) id:t1p1b1_dialog
+key:7eed5900(1) id:t1p1b1_dialog_box1
+key:322cd4c6(1) id:t1p1b1_dialog_text1
+key:054dfa94(1) id:t1p1b1_dialog_text1_scrollbar
+key:4404228e(1) id:t1p1b1_dialog_box2
+key:9f22fa77(1) id:t1p1b1_dialog_progressbar1_label1
+key:295cf6fa(1) id:t1p1b1_dialog_progressbar1
+key:4408800e(1) id:t1p1b1_dialog_progressbar_text
+key:9b7ef7e0(1) id:t1p1b1_dialog_button1
+key:1694807c(0) id:_common_t1p1_dialog_template
+key:20b8b9e9(1) id:t1p1_dialog
+key:74395309(1) id:t1p1_dialog_box1
+key:014cd46c(1) id:t1p1_dialog_text1
+key:db57017c(1) id:t1p1_dialog_text1_scrollbar
+key:9b0840ff(1) id:t1p1_dialog_box2
+key:a8db3e2b(1) id:t1p1_dialog_progressbar1_label1
+key:5080316c(1) id:t1p1_dialog_progressbar1
+key:176cc38c(1) id:t1p1_dialog_progressbar_text
+

@@ -1,0 +1,58 @@
+#
+#
+#               grief_report_dialog_general_plugin - resource debug symbol file
+#
+#
+
+
+# <pagetable>
+key:27a21885(0) id:title_text_style
+key:19163009(0) id:text_title
+key:9f5a6f89(0) id:type1
+key:bb576907(0) id:sound_button_back
+key:adcd9adf(0) id:msg_cancel_vb
+key:f734412e(0) id:layout_button_input_cancel
+key:ac019bcd(0) id:sound_button_ok
+key:805beca6(0) id:msg_ok
+key:9fb628cc(0) id:layout_button_input_fixation
+key:20b1c88f(0) id:msg_from
+key:f274f688(0) id:msg_other
+key:c321c694(0) id:msg_send_vb
+key:a060aed9(0) id:msg_no
+key:18a9da04(0) id:msg_yes
+key:2f0c3670(0) id:msg_try_followings
+
+# <styletable>
+key:01f875b1(0) id:textobj
+key:9c96918b(0) id:bg_obj
+key:16ca0b50(0) id:planeobj_style1
+key:574170e5(0) id:default_text_style
+key:a246c545(0) id:plane_obj2
+key:a56e4ba2(0) id:text_obj1
+key:f239aa56(0) id:plane_obj1
+key:9b7bed4b(0) id:_common_texture_button_glow
+key:76d78e98(0) id:pulldown_label_obj
+key:e95f1628(0) id:planeobj
+key:34bbc4ab(0) id:obj_plane_top_tab
+key:547118ec(0) id:style_scroll_view_top_tab
+
+# <texturetable>
+
+# <stringtable>
+
+# <templatetable>
+key:99db021a(0) id:template_dialog_player_info
+key:58564d76(0) id:group_dialog_player_info
+key:c381323b(0) id:plane_dialog_avatar
+key:cf94918d(0) id:layout_plane_dialog_avatar
+key:6e968b47(0) id:text_dialog_online_id
+key:e9a2abc7(0) id:layout_text_dialog_online_id
+key:75fe59f6(0) id:_common_default_style_plane
+key:5b219f0a(0) id:dialog_title_line
+key:91685156(0) id:_common_texture_ruled_line
+
+# <soundindextable>
+key:48d64cf1(0) id:_common_snd01
+key:5c756da0(0) id:_common_snd02
+key:e8b9a154(0) id:_common_snd03
+key:9c746313(0) id:_common_snd06

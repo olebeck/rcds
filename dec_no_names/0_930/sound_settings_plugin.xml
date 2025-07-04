@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal">
+    <stringtable>
+        <locale src="en.bin" id="en"/>
+        <locale src="ja.bin" id="ja"/>
+        <locale src="fr.bin" id="fr"/>
+        <locale src="es.bin" id="es"/>
+        <locale src="de.bin" id="de"/>
+        <locale src="it.bin" id="it"/>
+        <locale src="nl.bin" id="nl"/>
+        <locale src="pt.bin" id="pt"/>
+        <locale src="ru.bin" id="ru"/>
+        <locale src="ko.bin" id="ko"/>
+        <locale src="zh-t.bin" id="zh-t"/>
+        <locale src="zh-s.bin" id="zh-s"/>
+        <locale src="fi.bin" id="fi"/>
+        <locale src="sv.bin" id="sv"/>
+        <locale src="da.bin" id="da"/>
+        <locale src="no.bin" id="no"/>
+        <locale src="pl.bin" id="pl"/>
+    </stringtable>
+</resource>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal">
+    <stringtable>
+        <locale src="en.bin" compress="on" id="en"/>
+    </stringtable>
+    <templatetable>
+        <template fast_open="1" id="0xa596d040">
+            <check_box style="0x9f20f898" id="0x0ef4a5af">
+                <layout_hint size="46, 46" anchor="1, 0" pos="-42, 0"/>
+            </check_box>
+        </template>
+    </templatetable>
+    <styletable/>
+    <texturetable>
+        <texture src="0x043a874f.bin" compress="on" id="0x043a874f" type="texture/gim"/>
+        <texture src="0x1f710b78.bin" type="texture/png" id="0x1f710b78"/>
+        <texture src="0xcb025a3d.bin" type="texture/png" id="0xcb025a3d"/>
+        <texture src="0x5ae7ab06.bin" type="texture/png" id="0x5ae7ab06"/>
+    </texturetable>
+</resource>

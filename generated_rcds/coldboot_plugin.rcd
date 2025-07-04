@@ -1,0 +1,18 @@
+#
+#
+#               coldboot_plugin - resource debug symbol file
+#
+#
+
+
+# <pagetable>
+key:14d5b36a(0) id:style_plane_bg
+key:d97527fc(0) id:layout_horizontal
+
+# <styletable>
+key:e95f1628(0) id:planeobj
+key:01f875b1(0) id:textobj
+
+# <stringtable>
+
+# <texturetable>

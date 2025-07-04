@@ -1,0 +1,112 @@
+# SCE CONFIDENTIAL
+#
+#
+#      Copyright (C) 2010 Sony Computer Entertainment Inc.
+#                        All Rights Reserved.
+#
+#
+#               psn_settings_plugin - resource debug symbol file
+#
+#
+
+# <styletable>
+key:6ea6497d(0) id:avatar_button_style
+key:835b7d9e(1) id:plane_obj
+
+# <stringtable>
+key:8d0153e9(0) id:msg_account
+key:59d72900(0) id:msg_account_information
+key:e642f89e(0) id:msg_error_sign_in
+key:940a47e8(0) id:msg_error_wrong_singin_id_pw
+key:0d2b7c26(0) id:msg_no_account_signup
+key:a01c2e52(0) id:msg_not_signed_in
+key:decc99d2(0) id:msg_privacy_settings
+key:22bf40ed(0) id:msg_psn
+key:566822be(0) id:msg_sign_in
+key:b3edcc0f(0) id:msg_sign_out
+key:bdc51345(0) id:msg_signing_in
+key:9b6239c1(0) id:msg_signup_for_psn
+key:ecc040fa(0) id:msg_sub_account_management
+key:b22530a2(0) id:msg_system_activation
+key:4b9feba4(0) id:msg_privacy_policy
+key:9873cae5(0) id:msg_confirm
+key:7bf1ccd4(0) id:msg_language_ja
+key:a7e3318f(0) id:msg_language_en
+key:513f808d(0) id:msg_language_fr
+key:a91f9530(0) id:msg_language_es
+key:49c27c58(0) id:msg_language_de
+key:13920c03(0) id:msg_language_it
+key:b1252afc(0) id:msg_language_nl
+key:be0b69e3(0) id:msg_language_pt
+key:b7343627(0) id:msg_language_ru
+key:f1780c99(0) id:msg_language_ko
+key:f5c8142e(0) id:msg_language_ch
+key:532c4c9b(0) id:msg_language_zh
+key:ca92ad66(0) id:msg_language_fi
+key:71e610a7(0) id:msg_language_sv
+key:2b5edd41(0) id:msg_language_da
+key:5de49fac(0) id:msg_language_no
+key:66063d05(0) id:msg_language_pl
+key:b3402159(0) id:msg_current_signin_id
+key:956f88e5(0) id:msg_delete_account
+key:8dd7500c(0) id:msg_unbind_account_explanation
+key:49639ffe(0) id:msg_delete_account_conf
+key:3d4388d9(0) id:msgshare_deleted
+key:538428cf(0) id:msg_error_label
+key:29bf08ac(0) id:msg_error_wrong_idpw
+key:41600dd4(0) id:msg_psn_account_information
+key:6009974e(0) id:msg_id_email
+key:c7d931d5(0) id:msg_change_signin_id
+key:017a25c2(0) id:msg_change_password
+key:0d8be588(0) id:msgnetconf_password
+key:cef39400(0) id:msg_password_re_psn
+key:0bb94aca(0) id:msg_name
+key:39197ac2(0) id:msg_address_psn
+key:9ed3d6a7(0) id:msg_avatar_psn
+key:a9e8a538(0) id:msg_change_avatar
+key:851dd883(0) id:msg_myprofile
+key:4e866199(0) id:msg_notification_preferences_psn
+key:c46415bc(0) id:msg_parental_control_psn
+key:e54ed9bf(0) id:msg_change_password_psn
+key:3de6601a(0) id:msg_profile_info_psn
+key:f24d22fc(0) id:msg_notification_preferences_info_psn
+key:7c535817(0) id:msg_sub_account_management_info_psn
+key:8b153b28(0) id:msg_change_name
+key:a630b6ff(0) id:msg_last_name_psn
+key:d9b43147(0) id:msg_first_name_psn
+key:aa63b10c(0) id:msg_country_psn
+key:af2fe197(0) id:msg_postal_code_psn
+key:2c1c0eab(0) id:msg_state_psn
+key:939647aa(0) id:msg_city_psn
+key:8abe49b3(0) id:msg_address1_psn
+key:1162e4f4(0) id:msg_address2_psn
+key:31d8abcc(0) id:msg_address3_psn
+key:3ad0df7c(0) id:msg_change_address
+key:40010fbf(0) id:msg_online_id
+key:0907fabd(0) id:msg_about_me
+key:69fa75df(0) id:msg_my_lang
+key:7fc81a0a(0) id:msg_change_profile
+key:758da58d(0) id:msg_optin_psn
+key:b2e7a9ba(0) id:msgsystem_yes
+key:ad2587da(0) id:msgsystem_no
+key:aa0fc1ff(0) id:msg_chat
+key:683f0f55(0) id:msg_content_restriction
+key:25cae559(0) id:msg_purchase_limit
+key:89882ede(0) id:msg_permit
+key:3ed90c0f(0) id:msg_deny
+key:b8a37c4e(0) id:msg_system_activation_deactivation_info_psn
+key:e64c1608(0) id:msg_select_content_type_psn
+key:294eb380(0) id:msg_system_activation_info_psn
+key:cc0f782e(0) id:msgshare_game
+key:9777f7b3(0) id:msgtop_video
+key:7f8b5d9e(0) id:msg_activate_system_psn
+key:2f079b87(0) id:msg_deactivate_system_psn
+key:1fb71893(0) id:msg_execute_to_send
+
+# <texturetable>
+key:68ecc7c3(0) id:tex_spanner,src:../../../common/resource/filelist/texture/spanner.png,type:texture/png
+
+# <templatetable>
+key:5d8a730d(0) id:template_avatar_button
+key:083db300(1) id:avatar_button
+

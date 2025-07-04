@@ -1,0 +1,44 @@
+#
+#
+#               account_bind_plugin - resource debug symbol file
+#
+#
+
+
+# <stringtable>
+
+# <styletable>
+key:f0e75c4b(0) id:textobj1
+key:8f56c33f(0) id:planeobj1
+key:4540d406(0) id:style_text_label_left
+key:6e89c805(0) id:style_text_label
+key:e58c4ff4(0) id:_common_sound_text_box
+key:eb3b8f6e(0) id:glowobj
+key:760651fe(0) id:texture_text_box
+key:e95f1628(0) id:planeobj
+key:34dd2465(0) id:labelobj
+key:ef7fe400(0) id:bgobj
+key:cead273b(0) id:style_button_footer
+key:74319925(0) id:_common_texture_button
+key:9b7bed4b(0) id:_common_texture_button_glow
+
+# <texturetable>
+
+# <pagetable>
+key:ed906fd3(0) id:page_wizard_bg
+key:75a8ba83(0) id:page_wizard_fg
+key:c1c0718b(0) id:msg_signin_id
+key:9fb3fbc9(0) id:signin_input_1
+key:46f815eb(0) id:msg_pw
+key:1b42b9de(0) id:signin_input_2
+key:632b6733(0) id:msg_wait
+key:e18a89f9(0) id:busy
+key:ba195a37(0) id:_common_texture_busy
+
+# <templatetable>
+key:772a9311(0) id:plane_toolbar
+key:c17d7980(0) id:_common_sound_button_cancel
+key:adcd9adf(0) id:msg_cancel_vb
+key:20413274(0) id:_common_sound_button_enter
+key:805beca6(0) id:msg_ok
+key:27b537bd(0) id:msg_signup

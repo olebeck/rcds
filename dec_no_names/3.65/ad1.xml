@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal" id="0x0a1eddd8">
+    <templatetable>
+        <template id="0x2e9374eb">
+            <group id="0x10a55ba8">
+                <layout_hint pos="-266, 42, 0" size="308, 244"/>
+            </group>
+            <group id="0x1361f380">
+                <layout_hint pos="-266, -128, 0" size="308, 96"/>
+            </group>
+            <group id="0xb3e92cd9">
+                <layout_hint pos="-266, -213, 0" size="308, 74"/>
+            </group>
+            <group id="0xb4a9beb2">
+                <layout_hint pos="154, 113, 0" size="532, 102"/>
+            </group>
+            <group id="0xb44d9ee4">
+                <layout_hint pos="154, 11, 0" size="532, 102"/>
+            </group>
+            <group id="0x10fa6163">
+                <layout_hint pos="154, -91" size="532, 102"/>
+            </group>
+            <group id="0x414305d6">
+                <layout_hint pos="154, -196, 0" size="532, 108"/>
+            </group>
+        </template>
+    </templatetable>
+</resource>

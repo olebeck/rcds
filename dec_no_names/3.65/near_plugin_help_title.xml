@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal" id="0x15338acc">
+    <pagetable>
+        <page id="0xa8905b82">
+            <group id="0xa32dc571">
+                <layout_hint origin="0, 0, 0" align="0, 0, 0" pos="0, 0, 0" adjust="0, 0, 0" alpha="1" rot="0, 0, 0" id="0xcd0b8881" size="0, 0, 0"/>
+                <plane style="0x3e94ca13" id="0xf1d5a085" texture="0x4c7d2aed">
+                    <layout_hint origin="0, 0, 0" align="0, 0, 0" pos="0, -16, 0" adjust="0, 0, 0" alpha="1" rot="0, 0, 0" id="0x384106c8" size="960, 512, 0"/>
+                    <list_view style="0xcd17a376" id="0xe19916b3">
+                        <layout_hint origin="0, 0, 0" align="0, 0, 0" pos="0, 0, 0" adjust="0, 0, 0" alpha="1" rot="0, 0, 0" id="0xd52a4a57" size="960, 512, 0"/>
+                    </list_view>
+                    <drop_shadow_button shadow_color="0, 0, 0, 0.8" shadow_press_blur_factor="1" shadow_scale="1.35, 1.35, 0, 0" shadow_texture_no="23" shadow_press_pos="-1, -1, 0" shadow_pos="-6, -8, 0" texture="0x63e5dcd5" shadow_ofs="0, 0, 0, 0" shadow_press_color="0, 0, 0, 1" style="0xcefa88d6" shadow_blur_factor="3" id="0x702f9443">
+                        <layout_hint origin="0, 0, 0" align="0, 0, 0" pos="-447, 228, 0" adjust="0, 0, 0" alpha="1" rot="0, 0, 0" id="0x0ca4ef11" size="48, 48, 0"/>
+                    </drop_shadow_button>
+                </plane>
+            </group>
+        </page>
+    </pagetable>
+    <styletable>
+        <style_plane color="1, 1, 1, 1" id="0x3e94ca13" planeobj="0xb720e29e">
+            <planeobj scale_mode_y="0" scale_mode_x="0" tex_region="0, 0, 15, 8" blend="1" id="0xb720e29e" scale_value="1, 1, 1"/>
+        </style_plane>
+        <style_plane color="1, 1, 1, 1" id="0x77b1b67e" planeobj="0x12a644a9">
+            <planeobj scale_mode_y="0" scale_mode_x="0" tex_region="0, 0, 60, 1" blend="1" id="0x12a644a9" scale_value="1, 1, 1"/>
+        </style_plane>
+        <style_plane color="1, 1, 1, 1" id="0x801f6ebc" planeobj="0xc553ad56">
+            <planeobj scale_mode_y="0" scale_mode_x="0" tex_region="0, 0, 1, 1" blend="1" id="0xc553ad56" scale_value="1, 1, 1"/>
+        </style_plane>
+        <style_plane color="1, 1, 1, 1" id="0x4b6db0e0"/>
+        <style_text bottom_margin="0" right_margin="0" color="1, 1, 1, 1" top_margin="0" left_margin="0" textobj="0x0cb7dbc2" id="0xb9ce70ae">
+            <textobj shadow_color="0, 0, 0, 0.4" align_y="1" align_x="0" oblique="0" underline_color="0, 0, 0, 0" word_wrap="0" emboss="0" underline="0" strike_color="0, 0, 0, 0" back_color="0, 0, 0, 0" id="0x0cb7dbc2" adjust_x="0" adjust_y="0" strike="0" ellipsis="0" line_space="0" bold="1" line_pitch="0" shadow="0" font_size="22" mask="0" font_color="0, 0, 0, 1"/>
+        </style_text>
+        <style_text bottom_margin="0" right_margin="0" color="1, 1, 1, 1" top_margin="0" left_margin="0" textobj="0xeda07a18" id="0xb58d59bd">
+            <textobj shadow_color="0, 0, 0, 0.4" align_y="1" align_x="0" oblique="0" underline_color="0, 0, 0, 0" word_wrap="1" emboss="0" underline="0" strike_color="0, 0, 0, 0" back_color="0, 0, 0, 0" id="0xeda07a18" adjust_x="0" adjust_y="0" strike="0" ellipsis="0" line_space="6" bold="0" line_pitch="0" shadow="0" font_size="22" mask="0" font_color="0, 0, 0, 1"/>
+        </style_text>
+        <style_text bottom_margin="16" right_margin="0" color="1, 1, 1, 1" top_margin="0" left_margin="0" textobj="0x1ee3b885" id="0x68bda8f7">
+            <textobj shadow_color="0, 0, 0, 0.4" align_y="1" align_x="0" oblique="0" underline_color="0, 0, 0, 0" word_wrap="1" emboss="0" underline="0" strike_color="0, 0, 0, 0" back_color="0, 0, 0, 0" id="0x1ee3b885" adjust_x="0" adjust_y="0" strike="0" ellipsis="0" line_space="6" bold="0" line_pitch="0" shadow="0" font_size="22" mask="0" font_color="0, 0, 0, 1"/>
+        </style_text>
+        <style_drop_shadow_button color="1, 1, 1, 1" bg_obj="0x2bf1832b" id="0xcefa88d6">
+            <planeobj scale_mode_y="0" scale_mode_x="0" tex_region="0, 0, 1, 1" blend="1" id="0x2bf1832b" scale_value="1, 1, 1"/>
+        </style_drop_shadow_button>
+        <style_list_view color="0.5, 0.5, 0.5, 0" id="0xcd17a376"/>
+        <style_list_item color="0, 0, 0, 0" id="0xf67a1615"/>
+    </styletable>
+    <texturetable>
+        <texture src="0x4c7d2aed.bin" compress="on" id="0x4c7d2aed" type="texture/gim"/>
+        <texture src="0x63e5dcd5.bin" compress="on" id="0x63e5dcd5" type="texture/gim"/>
+        <texture src="0xeed0fb14.bin" compress="on" id="0xeed0fb14" type="texture/gim"/>
+        <texture src="0x4aa1a144.bin" compress="on" id="0x4aa1a144" type="texture/gim"/>
+        <texture src="0x9ed6c3a8.bin" compress="on" id="0x9ed6c3a8" type="texture/gim"/>
+        <texture src="0xaf880646.bin" compress="on" id="0xaf880646" type="texture/gim"/>
+        <texture src="0x0fde9f24.bin" compress="on" id="0x0fde9f24" type="texture/gim"/>
+        <texture src="0x271d9b3d.bin" compress="on" id="0x271d9b3d" type="texture/gim"/>
+        <texture src="0x03060b01.bin" compress="on" id="0x03060b01" type="texture/gim"/>
+        <texture src="0xd6363fda.bin" compress="on" id="0xd6363fda" type="texture/gim"/>
+        <texture src="0x5f1cf8d2.bin" compress="on" id="0x5f1cf8d2" type="texture/gim"/>
+        <texture src="0xcce2da81.bin" compress="on" id="0xcce2da81" type="texture/gim"/>
+        <texture src="0x8bcd7eea.bin" compress="on" id="0x8bcd7eea" type="texture/gim"/>
+        <texture src="0xcc92f388.bin" compress="on" id="0xcc92f388" type="texture/gim"/>
+    </texturetable>
+    <templatetable>
+        <template id="0xd875eeba">
+            <list_item style="0xf67a1615" id="0x2951329f">
+                <layout_hint origin="0, 0, 0" align="0, 0, 0" pos="0, 0, 0" adjust="0, 0, 0" alpha="1" rot="0, 0, 0" id="0x96196a2e" size="960, 46, 0"/>
+                <plane style="0x77b1b67e" id="0xbf077f9e" texture="0xeed0fb14">
+                    <layout_hint origin="0, 0, 0" align="0, 0, 0" pos="0, -15, 0" adjust="0, 0, 0" alpha="1" rot="0, 0, 0" id="0x1a799520" size="960, 16, 0"/>
+                </plane>
+                <plane style="0x801f6ebc" id="0x79723dbd" texture="0x4aa1a144">
+                    <layout_hint origin="0, 0, 0" align="0, 0, 0" pos="-375, 0, 0" adjust="0, 0, 0" alpha="1" rot="0, 0, 0" id="0x57309924" size="40, 40, 0"/>
+                </plane>
+                <text auto_scroll="0" style="0xb9ce70ae" id="0xc913706e">
+                    <layout_hint origin="0, 0, 0" align="0, 0, 0" pos="-104, 0, 0" adjust="0, 0, 0" alpha="1" rot="0, 0, 0" id="0xe91e7116" size="480, 30, 0"/>
+                </text>
+            </list_item>
+        </template>
+        <template id="0x4a39fe90">
+            <list_item style="0xf67a1615" id="0xbdc74720">
+                <layout_hint origin="1, 2, 0" align="0, 0, 0" pos="0, 0, 0" adjust="0, 0, 0" alpha="1" rot="0, 0, 0" id="0x251c0e3b" size="960, 130, 0"/>
+                <plane style="0x4b6db0e0" id="0xb7e5442c">
+                    <layout_hint origin="0, 0, 0" align="1, 2, 0" pos="86, -9, 0" adjust="0, 0, 0" alpha="1" rot="0, 0, 0" id="0x3963ec58" size="192, 108, 0"/>
+                </plane>
+                <text auto_scroll="0" style="0xb9ce70ae" id="0x7cb150ec">
+                    <layout_hint origin="0, 0, 0" align="1, 2, 0" pos="290, -9, 0" adjust="2, 0, 0" alpha="1" rot="0, 0, 0" id="0x447b6a7f" size="640, 30, 0"/>
+                </text>
+                <text auto_scroll="0" style="0xb58d59bd" id="0x6d673ce3">
+                    <layout_hint origin="0, 0, 0" align="1, 2, 0" pos="290, -45, 0" adjust="0, 2, 0" alpha="1" rot="0, 0, 0" id="0xb00d9272" size="640, 72, 0"/>
+                </text>
+                <plane style="0x77b1b67e" id="0x85a40829" texture="0xeed0fb14">
+                    <layout_hint origin="0, 0, 0" align="1, 0, 0" pos="0, -122, 0" adjust="0, 0, 0" alpha="1" rot="0, 0, 0" id="0x204ac0d6" size="960, 16, 0"/>
+                </plane>
+            </list_item>
+        </template>
+        <template id="0xbf38fd21">
+            <list_item style="0xf67a1615" id="0x82186423">
+                <layout_hint origin="1, 2, 0" align="0, 0, 0" pos="0, 0, 0" adjust="0, 0, 0" alpha="1" rot="0, 0, 0" id="0xadc3e6cb" size="960, 80, 0"/>
+                <plane style="0x4b6db0e0" id="0x83999742">
+                    <layout_hint origin="0, 0, 0" align="1, 2, 0" pos="88, -4, 0" adjust="0, 0, 0" alpha="1" rot="0, 0, 0" id="0xff2ab91d" size="72, 72, 0"/>
+                </plane>
+                <text auto_scroll="0" style="0xb9ce70ae" id="0xf227a257">
+                    <layout_hint origin="0, 0, 0" align="1, 2, 0" pos="174, -5, 0" adjust="2, 0, 0" alpha="1" rot="0, 0, 0" id="0xd789c446" size="720, 30, 0"/>
+                </text>
+                <text auto_scroll="0" style="0x68bda8f7" id="0xaf988f2f">
+                    <layout_hint origin="0, 0, 0" align="1, 2, 0" pos="174, -41, 0" adjust="0, 2, 0" alpha="1" rot="0, 0, 0" id="0xa848d296" size="720, 30, 0"/>
+                </text>
+                <plane style="0x77b1b67e" id="0xb0d1fdde" texture="0xeed0fb14">
+                    <layout_hint origin="0, 0, 0" align="1, 0, 0" pos="0, -72, 0" adjust="0, 0, 0" alpha="1" rot="0, 0, 0" id="0x9fec75a8" size="960, 16, 0"/>
+                </plane>
+            </list_item>
+        </template>
+        <template id="0x66b07cdd">
+            <list_item style="0xf67a1615" id="0x560bfbdd">
+                <layout_hint origin="1, 2, 0" align="0, 0, 0" pos="0, 0, 0" adjust="0, 0, 0" alpha="1" rot="0, 0, 0" id="0x82716b63" size="960, 32, 0"/>
+                <plane style="0x801f6ebc" id="0x2cbadda5" texture="0x9ed6c3a8">
+                    <layout_hint origin="0, 0, 0" align="0, 0, 0" pos="480, -16, 0" adjust="0, 0, 0" alpha="1" rot="0, 0, 0" id="0x63e25b98" size="960, 16, 0"/>
+                </plane>
+            </list_item>
+        </template>
+    </templatetable>
+    <sounddatatable/>
+    <filetable/>
+    <stringtable>
+        <locale src="ja.bin" compress="on" id="ja"/>
+        <locale src="en.bin" compress="on" id="en"/>
+        <locale src="en-gb.bin" compress="on" id="en-gb"/>
+        <locale src="zh-s.bin" compress="on" id="zh-s"/>
+        <locale src="zh-t.bin" compress="on" id="zh-t"/>
+        <locale src="da.bin" compress="on" id="da"/>
+        <locale src="nl.bin" compress="on" id="nl"/>
+        <locale src="fi.bin" compress="on" id="fi"/>
+        <locale src="fr.bin" compress="on" id="fr"/>
+        <locale src="de.bin" compress="on" id="de"/>
+        <locale src="it.bin" compress="on" id="it"/>
+        <locale src="ko.bin" compress="on" id="ko"/>
+        <locale src="no.bin" compress="on" id="no"/>
+        <locale src="pl.bin" compress="on" id="pl"/>
+        <locale src="pt.bin" compress="on" id="pt"/>
+        <locale src="ru.bin" compress="on" id="ru"/>
+        <locale src="es.bin" compress="on" id="es"/>
+        <locale src="sv.bin" compress="on" id="sv"/>
+        <locale src="pt-br.bin" compress="on" id="pt-br"/>
+        <locale src="tr.bin" compress="on" id="tr"/>
+    </stringtable>
+</resource>

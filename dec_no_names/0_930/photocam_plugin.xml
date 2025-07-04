@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal" id="0xd47bde8f">
+    <pagetable>
+        <page id="0x0434416f">
+            <plane style="0x75fe59f6" id="0x4572510b" texture="0x6e3e2156">
+                <layout_hint align="0, 0, 0" size="960, 544, 0" id="0x3d31f98d" pos="0, 0, 0"/>
+            </plane>
+        </page>
+    </pagetable>
+    <styletable/>
+    <stringtable/>
+    <templatetable/>
+    <texturetable>
+        <texture map="texture/normal_map" type="texture/png" id="0x6e3e2156" src="0x6e3e2156.bin"/>
+    </texturetable>
+</resource>

@@ -1,0 +1,118 @@
+#
+#
+#               PartyPlugin - resource debug symbol file
+#
+#
+
+
+# <stringtable>
+
+# <styletable>
+key:a5f1a63e(0) id:style_page
+key:11a0399f(0) id:style_plane_test
+key:e95f1628(0) id:planeobj
+key:2fae8301(0) id:style_plane_opaque
+key:c0b8fbb7(0) id:style_plane_transparent
+key:526c4b0e(0) id:style_plane_background
+key:079b7dff(0) id:style_list_view
+key:ef7fe400(0) id:bgobj
+key:20413274(0) id:_common_sound_button_enter
+key:a246c545(0) id:plane_obj2
+key:a56e4ba2(0) id:text_obj1
+key:f239aa56(0) id:plane_obj1
+key:74319925(0) id:_common_texture_button
+key:9b7bed4b(0) id:_common_texture_button_glow
+key:eb3b8f6e(0) id:glowobj
+key:34389aa1(0) id:_common_texture_icon_glow
+key:c17d7980(0) id:_common_sound_button_cancel
+key:d4159055(0) id:style_button_back
+key:25d6d211(0) id:_common_sound_button_back
+key:a7f5dbb2(0) id:_common_texture_list_glow_70px
+key:54cb6584(0) id:imageobj
+key:7a5c31cc(0) id:_common_sound_image_button
+key:01f875b1(0) id:textobj
+key:18c7bc48(0) id:style_text_title
+key:5e82116f(0) id:style_text_party_friend_item
+key:0e68bf41(0) id:style_text_party_game_name
+key:7afecf52(0) id:style_text_avatar_user_name
+key:451d6489(0) id:style_box_default
+key:eef8a778(0) id:shadow_obj
+key:e58c4ff4(0) id:_common_sound_text_box
+key:35e0295d(0) id:_common_texture_text_box
+key:25e6bd57(0) id:style_send_text_box_body
+key:2cae0566(0) id:style_plane_default
+key:6ce85f25(0) id:style_list_view_default
+key:12824c8f(0) id:style_list_item_default
+
+# <texturetable>
+key:09ab3ce5(0) id:tex_default_avatar
+
+# <templatetable>
+key:ec3d26a9(0) id:plane_background
+key:3267a4bb(0) id:button_cancel
+key:11c027f5(0) id:_common_texture_close_button
+key:0eb7bcf5(0) id:plane_avatar
+key:41c9b9c4(0) id:button_accept
+key:ed3441bf(0) id:msg_settings
+key:9a2f4f6a(0) id:msg_chat_prioritize_party
+key:13fe6244(0) id:text_party_name
+key:51280325(0) id:template_list_item_party_friend_owner
+key:f3fcd96c(0) id:list_item_party_friend
+key:3de0e5c0(0) id:plane_list_item
+key:84969131(0) id:button_list_item
+key:26671281(0) id:button_avatar
+key:db0d1008(0) id:text_friend_name
+key:7e353eeb(0) id:plane_slot1
+key:4f9bfe69(0) id:plane_slot2
+key:e9eb8076(0) id:plane_slot3
+key:399259a5(0) id:plane_slot4
+key:f6e82557(0) id:plane_slot5
+key:04166666(0) id:plane_slot6
+key:958ba493(0) id:plane_slot7
+key:618a98c8(0) id:plane_slot8
+key:348fb89e(0) id:template_list_item_party_friend_member
+key:0639602f(0) id:template_list_item_party_favorite
+key:0fbf01c2(0) id:list_item_party_favorite
+key:cd1b09c0(0) id:text_favorite_name
+key:9ffc1edc(0) id:button_favorite
+key:92b40098(0) id:template_list_item_party_invitation
+key:6ebc68de(0) id:list_item_party_invitation
+key:4f33be20(0) id:plane_invitation
+key:35ca8ee7(0) id:_common_style_corner_bottom_left
+key:d7220c5c(0) id:_common_style_corner_bottom_right
+key:b64df9e2(0) id:template_list_item_party_member
+key:7b5c4e98(0) id:list_item_party_member
+key:3c19c80a(0) id:text_member_name
+key:9c416393(0) id:plane_controller
+key:0f0b953f(0) id:text_game_name
+key:441133d4(0) id:button_game
+key:60501e4b(0) id:_common_texture_dialog_frame
+key:65fe4933(0) id:_common_texture_dialog_fill_white
+key:805beca6(0) id:msg_ok
+key:81924eae(0) id:template_page_chat
+key:a97afcda(0) id:button_back
+key:18532047(0) id:text_box_chat_message
+key:310b392f(0) id:list_item_chat_message
+key:feecad87(0) id:text_chat_message_from
+key:c50a0f45(0) id:text_chat_message
+key:38986fb3(0) id:template_list_item_event
+key:0ace4d57(0) id:list_item_event
+key:0a37be54(0) id:text_event
+key:f1811d32(0) id:msg_delete
+key:89c9473b(0) id:plane_list_view
+key:7505d64a(0) id:default
+key:7374487a(0) id:_common_default_style_dialog_box
+key:81e54759(0) id:deault
+key:b9fbcf7d(0) id:_common_default_style_button
+key:75fe59f6(0) id:_common_default_style_plane
+key:0ec240c5(0) id:text_game_title
+key:afdef9d0(0) id:_common_texture_transparent
+key:cd157588(0) id:button_send
+key:c321c694(0) id:msg_send_vb
+key:8d9ac876(0) id:psm_template_dest_icon
+key:d5cff5e3(0) id:button_ok
+
+# <pagetable>
+key:adfd96f4(0) id:page_base
+
+# <sounddatatable>

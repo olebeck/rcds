@@ -1,0 +1,19 @@
+#
+#
+#               email_first_plugin - resource debug symbol file
+#
+#
+
+
+# <pagetable>
+key:665c3d2f(0) id:_common_default_style_box
+
+# <styletable>
+key:e95f1628(0) id:planeobj
+key:01f875b1(0) id:textobj
+
+# <texturetable>
+
+# <stringtable>
+
+# <templatetable>

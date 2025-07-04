@@ -1,0 +1,78 @@
+# SCE CONFIDENTIAL
+#
+#
+#      Copyright (C) 2010 Sony Computer Entertainment Inc.
+#                        All Rights Reserved.
+#
+#
+#               webbrowser_menu_plugin - resource debug symbol file
+#
+#
+
+# <pagetable>
+key:5e9535b3(0) id:page_top
+key:bf226b35(1) id:menu_strider_top
+key:07b6bf73(1) id:tate
+key:0a2f2cd9(1) id:landscape
+key:25c60488(1) id:portrait
+key:ca36f25d(1) id:menu_top_tlans_baser
+key:abe689b1(1) id:wb_tb_top
+key:f7433da4(1) id:menu_tlans_C
+key:4faaf199(1) id:wb_title
+key:0b1d5c1b(1) id:menu_tlans_B
+key:545270bd(1) id:menu_url_btn
+key:4e74efba(1) id:wb_progless
+key:2af9506c(1) id:menu_favicon_plane
+key:493e9bef(1) id:menu_reload_btn
+key:2ace3fc1(1) id:wb_sslicon
+key:dd286c53(1) id:wb_secicon
+key:6e8e5cb0(0) id:page_bottom
+key:6d70fd51(1) id:wb_tb_bottom
+key:c3267983(1) id:menu_tlans_a
+key:bd80307e(1) id:wb_action
+key:bc2622a7(1) id:wb_bookmark
+key:cc244c48(1) id:wb_search
+key:a2b3f5b0(1) id:wb_next
+key:23baeda6(1) id:wb_prev
+
+# <styletable>
+key:dbb3c7fb(0) id:menu_style_plane_trans
+key:ddbbc1de(1) id:plane_obj3
+key:a39b3558(0) id:menu_style_plane_background
+key:1c4fbcb6(1) id:plane_obj4
+key:fed93072(0) id:menu_stlye_kamaboko_top
+key:90d16812(0) id:menu_stlye_kamaboko_bottom
+key:813068ed(0) id:button_style_menu_url
+key:baf23d85(1) id:afefe_plane_obj
+key:63f3404f(1) id:afefe_text_obj
+key:06cf7a1a(0) id:text_style_htmltitle
+key:73819373(1) id:text_style_htmltitle_ta
+key:408aa894(1) id:text_style_htmltitle_pa
+key:1f77e7b7(0) id:progressbar_style_url
+key:2a38395d(1) id:base_obj_style
+key:582bb3ca(1) id:bar_fore_obj_style
+
+# <stringtable>
+key:1aba059e(0) id:webbrowser_core_string1
+key:dc3272ce(0) id:app_title1
+key:ebe19ea3(0) id:not_faund
+
+# <texturetable>
+key:062e436f(0) id:wbb_menu_bkmicon,src:texture/bkmicon.png,type:texture/png
+key:b1298919(0) id:wbb_menu_secicon,src:texture/Icon_Protect.png,type:texture/png
+key:dc91e66a(0) id:wbb_menu_sslicon,src:texture/Icon_SSL.png,type:texture/png
+key:fd560875(0) id:wbb_menu_bg,src:texture/ToolBar_base.png,type:texture/png
+key:cdc370e5(0) id:wbb_menu_urlbg,src:texture/urlbg.png,type:texture/png
+key:98936be1(0) id:wbb_menu_back,src:texture/Icon_back.png,type:texture/png
+key:e3b3d105(0) id:wbb_menu_next,src:texture/Icon_Forward.png,type:texture/png
+key:aa6ad775(0) id:wbb_menu_action,src:texture/Icon_Action.png,type:texture/png
+key:59bca066(0) id:wbb_menu_search,src:texture/Icon_Search.png,type:texture/png
+key:4e6ac627(0) id:wbb_menu_bookmark,src:texture/Icon_Bookmark.png,type:texture/png
+key:82164f25(0) id:wbb_menu_setting,src:texture/setting.png,type:texture/png
+key:6682694b(0) id:wbb_menu_stop,src:texture/Icon_Pause.png,type:texture/png
+key:91f6a745(0) id:wbb_menu_reload,src:texture/Icon_Reload.png,type:texture/png
+key:45269176(0) id:wbb_menu_cdlgexit,src:texture/cdlg_exit.png,type:texture/png
+key:099eb524(0) id:wbb_menu_progressbar,src:texture/ProgressBar_web.png,type:texture/png
+key:67f635d4(0) id:wbb_menu_progressbase,src:texture/ProgressBar_Base_web.png,type:texture/png
+key:8c2d12c1(0) id:wbb_debug_ps,src:texture/ps_btn.png,type:texture/png
+

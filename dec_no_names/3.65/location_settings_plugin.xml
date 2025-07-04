@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal">
+    <stringtable>
+        <locale src="ja.bin" compress="on" id="ja"/>
+        <locale src="en-gb.bin" compress="on" id="en-gb"/>
+        <locale src="en.bin" compress="on" id="en"/>
+        <locale src="fr.bin" compress="on" id="fr"/>
+        <locale src="es.bin" compress="on" id="es"/>
+        <locale src="de.bin" compress="on" id="de"/>
+        <locale src="it.bin" compress="on" id="it"/>
+        <locale src="nl.bin" compress="on" id="nl"/>
+        <locale src="pt-br.bin" compress="on" id="pt-br"/>
+        <locale src="pt.bin" compress="on" id="pt"/>
+        <locale src="ru.bin" compress="on" id="ru"/>
+        <locale src="ko.bin" compress="on" id="ko"/>
+        <locale src="zh-t.bin" compress="on" id="zh-t"/>
+        <locale src="zh-s.bin" compress="on" id="zh-s"/>
+        <locale src="fi.bin" compress="on" id="fi"/>
+        <locale src="sv.bin" compress="on" id="sv"/>
+        <locale src="da.bin" compress="on" id="da"/>
+        <locale src="no.bin" compress="on" id="no"/>
+        <locale src="pl.bin" compress="on" id="pl"/>
+        <locale src="tr.bin" compress="on" id="tr"/>
+    </stringtable>
+    <texturetable>
+        <texture src="0x1ddd0e08.bin" compress="on" id="0x1ddd0e08" type="texture/gim"/>
+        <texture src="0x6f57e251.bin" compress="on" id="0x6f57e251" type="texture/gim"/>
+        <texture src="0xd644fb58.bin" compress="on" id="0xd644fb58" type="texture/gim"/>
+        <texture src="0xe4c0127d.bin" compress="on" id="0xe4c0127d" type="texture/gim"/>
+    </texturetable>
+    <templatetable>
+        <template id="0x3f187491">
+            <file_list style="0x7038364b" id="0x38b62be4">
+                <layout_hint align="0, 0" size="960, 448" id="0x0a2f2cd9" pos="0, 0"/>
+            </file_list>
+        </template>
+        <template fast_open="1" id="0xaf37fb60">
+            <list_item style="0xf3488f99" id="0x63678fee">
+                <layout_hint align="0, 0" size="840, 80" id="0x0a2f2cd9" pos="0, 0"/>
+                <text style="0x491380e8" id="0x2fbcdeae">
+                    <layout_hint size="399, 0" align="1, 4" adjust="0, 2" id="0xda39a3ee" pos="-272, 0"/>
+                    <plane style="0x5f7b332b" id="0x202f570c">
+                        <layout_hint pos="-30, 0" id="0xda39a3ee" adjust="0, 0" alpha="0" anchor="1, 5" size="60, 60"/>
+                    </plane>
+                    <button sound="0x20413274" style="0xa95f1f0e" id="0xf0d5fab6">
+                        <layout_hint align="0, 0" pos="40, 0" id="0xda39a3ee" adjust="0, 0" anchor="2, 5" size="64, 64"/>
+                        <focus_hint focus_shape="5" focus_size="54, 54"/>
+                    </button>
+                    <check_box style="0x9f20f898" id="0x86d6de69">
+                        <layout_hint align="2, 0" size="46, 46" pos="602, 0" anchor="1, 5" id="0xda39a3ee"/>
+                        <focus_hint focus_shape="0" focus_size="47, 47"/>
+                    </check_box>
+                </text>
+            </list_item>
+        </template>
+        <template fast_open="1" id="0xe80c8623">
+            <list_item style="0xf3488f99" id="0x63678fee">
+                <layout_hint align="0, 0" size="840, 80" id="0x0a2f2cd9" pos="0, 0"/>
+                <text style="0x5d025c6e" id="0x2fbcdeae">
+                    <layout_hint size="398, 0" align="1, 4" adjust="0, 2" id="0xda39a3ee" pos="-206, 0"/>
+                    <plane style="0x5f7b332b" id="0x202f570c">
+                        <layout_hint pos="-40, 0" id="0xda39a3ee" adjust="0, 0" alpha="0" anchor="1, 5" size="60, 60"/>
+                    </plane>
+                    <check_box style="0x9f20f898" id="0x86d6de69">
+                        <layout_hint align="2, 0" size="46, 46" pos="538, 0" anchor="1, 5" id="0xda39a3ee"/>
+                        <focus_hint focus_shape="0" focus_size="47, 47"/>
+                    </check_box>
+                </text>
+            </list_item>
+        </template>
+    </templatetable>
+    <styletable>
+        <style_text textobj="0x01f875b1" id="0x491380e8">
+            <textobj font_size="28" bold="1" color="1, 1, 1, 1" max_line_count="2" line_pitch="28" word_wrap="1" ellipsis="1" id="0x01f875b1"/>
+        </style_text>
+        <style_text textobj="0x01f875b1" id="0x5d025c6e">
+            <textobj font_size="28" bold="1" color="1, 1, 1, 1" max_line_count="2" line_pitch="28" word_wrap="0" ellipsis="1" id="0x01f875b1"/>
+        </style_text>
+        <style_button id="0xa95f1f0e" bg_obj="0x8d9fcb07" glow_obj="0x22ff88bd">
+            <planeobj texture0="0xd644fb58" id="0x8d9fcb07"/>
+            <planeobj texture0="0xe4c0127d" blend="2" id="0x22ff88bd"/>
+        </style_button>
+    </styletable>
+</resource>

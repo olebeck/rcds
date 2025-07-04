@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal">
+    <styletable>
+        <style_text textobj="0x01f875b1" id="0x3c288ee9">
+            <textobj color="0.9, 0.9, 0.9, 1" ellipsis="1" point="6" bold="0" id="0x01f875b1"/>
+        </style_text>
+        <style_button bg_obj="0x8d9fcb07" id="0x2f652005">
+            <planeobj texture0="0x29b91f26" id="0x8d9fcb07"/>
+        </style_button>
+        <style_plane color="0.9, 0.9, 0, 9, 1" id="0xf8191c96" planeobj="0xe95f1628">
+            <planeobj texture0="0x0bfc1adc" id="0xe95f1628"/>
+        </style_plane>
+        <style_text textobj="0x01f875b1" id="0x73a5ac3a">
+            <textobj bold="0" point="8" color="0.9, 0.9, 0.9, 1" word_wrap="1" ellipsis="1" id="0x01f875b1"/>
+        </style_text>
+        <style_plane id="0xc8ab88fa" planeobj="0xe95f1628">
+            <planeobj color="1, 1, 1, 0.8" id="0xe95f1628" div_border_ratio_h="0.48" div_mode="2"/>
+        </style_plane>
+    </styletable>
+    <templatetable>
+        <template id="0xc4ad4138">
+            <list_item style="0x8afabb31" id="0xc01f990f">
+                <layout_hint adjust="1, 0, 0" size="0, 64, 0"/>
+                <button style="0x2f652005" id="0x526b27a1">
+                    <layout_hint adjust="0, 0" pos="0, 0" size="840, 80"/>
+                    <plane style="0xf8191c96" id="0x269034ae">
+                        <layout_hint alpha="0" adjust="0, 0" pos="-302, 0" size="56, 56"/>
+                    </plane>
+                    <text style="0x3c288ee9" id="0x1d70f2b5">
+                        <layout_hint align="1, 4" adjust="0, 2" pos="-268, 18" size="628, 0"/>
+                    </text>
+                    <text style="0x3c288ee9" id="0xea015797">
+                        <layout_hint align="1, 4" adjust="0, 2" pos="-268, -18" size="628, 0"/>
+                    </text>
+                </button>
+            </list_item>
+        </template>
+        <template id="0xc398ab5f">
+            <plane style="0x5f7b332b" id="0xc6b6b642">
+                <layout_hint adjust="0, 0" pos="0, 0" size="840, 20"/>
+                <plane style="0xc8ab88fa" id="0x04ff3436">
+                    <layout_hint adjust="0, 0" pos="0, 9" size="840, 1"/>
+                </plane>
+            </plane>
+            <text style="0x73a5ac3a" id="0xd91419b3" label="0x92237c92">
+                <layout_hint align="1, 4" adjust="0, 2" pos="-330, 0" size="700, 0"/>
+            </text>
+            <plane style="0x5f7b332b" id="0x0eaab4ba">
+                <layout_hint adjust="0, 0" pos="0, 0" size="840, 20"/>
+            </plane>
+            <text style="0x73a5ac3a" id="0xcd7232ae" label="0x92237c92">
+                <layout_hint align="1, 4" adjust="0, 2" pos="-330, 0" size="700, 0"/>
+            </text>
+            <plane style="0x5f7b332b" id="0x0dae96bb">
+                <layout_hint adjust="0, 0" pos="0, 0" size="840, 40"/>
+                <plane style="0xc8ab88fa" id="0x033f9708">
+                    <layout_hint adjust="0, 0" pos="0, 0" size="840, 1"/>
+                </plane>
+            </plane>
+            <text style="0x73a5ac3a" id="0xba61cd6e" label="0x92237c92">
+                <layout_hint align="1, 4" adjust="0, 2" pos="-330, 0" size="700, 0"/>
+            </text>
+        </template>
+    </templatetable>
+    <stringtable>
+        <locale src="ja.bin" id="ja"/>
+    </stringtable>
+    <texturetable>
+        <texture src="0x68ecc7c3.bin" type="texture/png" id="0x68ecc7c3"/>
+        <texture src="0x29b91f26.bin" type="texture/png" id="0x29b91f26"/>
+        <texture map="texture/normal_map" type="texture/gif" id="0x0bfc1adc" src="0x0bfc1adc.bin"/>
+        <texture src="0x06efcfdc.bin" type="texture/png" id="0x06efcfdc"/>
+    </texturetable>
+</resource>

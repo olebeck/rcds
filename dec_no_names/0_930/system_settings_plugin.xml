@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal" id="0x9977932c">
+    <stringtable>
+        <locale src="ja.bin" id="ja"/>
+        <locale src="en.bin" id="en"/>
+        <locale src="fr.bin" id="fr"/>
+        <locale src="es.bin" id="es"/>
+        <locale src="de.bin" id="de"/>
+        <locale src="it.bin" id="it"/>
+        <locale src="nl.bin" id="nl"/>
+        <locale src="pt.bin" id="pt"/>
+        <locale src="ru.bin" id="ru"/>
+        <locale src="ko.bin" id="ko"/>
+        <locale src="zh-t.bin" id="zh-t"/>
+        <locale src="zh-s.bin" id="zh-s"/>
+        <locale src="fi.bin" id="fi"/>
+        <locale src="sv.bin" id="sv"/>
+        <locale src="da.bin" id="da"/>
+        <locale src="no.bin" id="no"/>
+        <locale src="pl.bin" id="pl"/>
+    </stringtable>
+    <texturetable>
+        <texture src="0x68ecc7c3.bin" type="texture/png" id="0x68ecc7c3"/>
+        <texture src="0x77fd313c.bin" type="texture/png" id="0x77fd313c"/>
+        <texture src="0xe97b7ed2.bin" type="texture/gim" id="0xe97b7ed2"/>
+        <texture src="0x6572f940.bin" type="texture/gim" id="0x6572f940"/>
+        <texture src="0xe6d5c6e6.bin" type="texture/gim" id="0xe6d5c6e6"/>
+        <texture src="0xcb34f297.bin" type="texture/gim" id="0xcb34f297"/>
+        <texture src="0xc213d743.bin" type="texture/gim" id="0xc213d743"/>
+        <texture src="0x8854217a.bin" type="texture/gim" id="0x8854217a"/>
+        <texture src="0x6d4822bc.bin" type="texture/gim" id="0x6d4822bc"/>
+        <texture src="0x11ada51c.bin" type="texture/gim" id="0x11ada51c"/>
+        <texture src="0xb952887d.bin" type="texture/gim" id="0xb952887d"/>
+        <texture src="0x5b9e6456.bin" type="texture/gim" id="0x5b9e6456"/>
+        <texture src="0x1b92dca0.bin" type="texture/gim" id="0x1b92dca0"/>
+        <texture src="0xd73ab41a.bin" type="texture/gim" id="0xd73ab41a"/>
+        <texture src="0xdc6fe6c1.bin" type="texture/gim" id="0xdc6fe6c1"/>
+    </texturetable>
+</resource>

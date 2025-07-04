@@ -1,0 +1,96 @@
+#
+#
+#               np_message_dialog_impl_plugin - resource debug symbol file
+#
+#
+
+
+# <pagetable>
+key:9dc48037(0) id:page_psm_message_dialog
+key:28d16a42(0) id:style_plane_filled_bg
+key:1ace60d8(0) id:list_item_base_type1
+key:e92d9e43(0) id:landscape_padkey_footside
+key:8733afae(0) id:page_invitation_confirm
+key:30642470(0) id:page_psm_list
+key:4b62de31(0) id:page_psm_send
+key:9573096e(0) id:page_bg
+key:80f87c88(0) id:bg
+
+# <styletable>
+key:248a20b6(0) id:background
+key:2cae0566(0) id:style_plane_default
+key:e95f1628(0) id:planeobj
+key:cff77d23(0) id:style_plane_head
+key:183569ba(0) id:style_busyindicator
+key:c5cca233(0) id:style_scroll_view
+key:ef7fe400(0) id:bgobj
+key:01f875b1(0) id:textobj
+key:d25fe6a9(0) id:style_send_text_box
+key:25e6bd57(0) id:style_send_text_box_body
+key:27b56377(0) id:style_send_guide_text
+key:1cf24b4c(0) id:style_send_left_align_text
+key:a246c545(0) id:plane_obj2
+key:a56e4ba2(0) id:text_obj1
+key:f239aa56(0) id:plane_obj1
+key:74319925(0) id:_common_texture_button
+key:9b7bed4b(0) id:_common_texture_button_glow
+key:4a41bf69(0) id:style_send_text_box_to
+key:54cb6584(0) id:imageobj
+key:39334bf2(0) id:style_circle_image_button
+key:6ce85f25(0) id:style_list_view_default
+key:12824c8f(0) id:style_list_item_default
+key:75ba602f(0) id:style_image_button
+key:efe54ff6(0) id:style_game_icon_button
+key:0d12600a(0) id:style_footer_button
+key:7505d64a(0) id:default
+key:8d9fcb07(0) id:bg_obj_style
+key:8d07923e(0) id:list_item_style
+key:55bbea88(0) id:button_style_message
+key:ff21369a(0) id:style_text_white
+key:7f306d4d(0) id:close_button_style
+key:11c027f5(0) id:_common_texture_close_button
+
+# <templatetable>
+key:c17d7980(0) id:_common_sound_button_cancel
+key:b032e738(0) id:_common_style_close_button
+key:20413274(0) id:_common_sound_button_enter
+key:bcd53a45(0) id:msg_updated
+key:31eec9ed(0) id:text_layout
+key:35ca8ee7(0) id:_common_style_corner_bottom_left
+key:d7220c5c(0) id:_common_style_corner_bottom_right
+key:7374487a(0) id:_common_default_style_dialog_box
+key:3d3a73c1(0) id:page_invitation_confirm_scroll_view
+key:75fe59f6(0) id:_common_default_style_plane
+key:433b87d2(0) id:page_invitation_confirm_avatar_plane
+key:afdef9d0(0) id:_common_texture_transparent
+key:81e54759(0) id:deault
+key:bd9af01b(0) id:page_invitation_confirm_onlineid
+key:c8e58a1f(0) id:scroll_view
+key:27ad384a(0) id:list_item_template
+key:63678fee(0) id:list_item
+key:20c8e57e(0) id:page_invitation_list_box
+key:8d8581e3(0) id:page_invitation_list_avatar_plane
+key:380eb6de(0) id:list_item_select_button
+key:1a16eeea(0) id:page_invitation_list_msg_box_h
+key:069d5500(0) id:page_invitation_list_onlineid
+key:4cfd4f06(0) id:page_invitation_list_date_text
+key:ed05a75d(0) id:page_invitation_list_message_text
+key:1e0a1bce(0) id:page_invitation_list_index_icon_plane
+key:79e9415a(0) id:page_psm_send_scroll_view
+key:258766fe(0) id:page_psm_send_header
+key:b9fbcf7d(0) id:_common_default_style_button
+key:5ddc3d13(0) id:page_psm_send_header_to_line_1
+key:59699070(0) id:page_psm_send_body_game_icon_box
+key:581b75a7(0) id:page_psm_send_header_self_avatar_plane
+key:8d9ac876(0) id:psm_template_dest_icon
+key:c321c694(0) id:msg_send_vb
+key:adcd9adf(0) id:msg_cancel_vb
+key:805beca6(0) id:msg_ok
+key:9f20f898(0) id:_common_default_style_check_box
+key:40010fbf(0) id:msg_online_id
+
+# <stringtable>
+
+# <texturetable>
+key:00852e0f(0) id:texture_game
+key:4a47d432(0) id:texture_add

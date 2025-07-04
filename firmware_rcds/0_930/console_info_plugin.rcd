@@ -1,0 +1,35 @@
+# SCE CONFIDENTIAL
+#
+#
+#      Copyright (C) 2010 Sony Computer Entertainment Inc.
+#                        All Rights Reserved.
+#
+#
+#               console_info_plugin - resource debug symbol file
+#
+#
+
+# <stringtable>
+key:122fe2df(0) id:msg_about_system
+key:5f8f2e48(0) id:msg_application
+key:1ee4acaf(0) id:msg_date
+key:39aa0490(0) id:msg_error_code
+key:1bd23ba5(0) id:msg_error_history
+key:30db2375(0) id:msg_free_space
+key:db9483bf(0) id:msg_legal_information
+key:959cde22(0) id:msg_mac_address
+key:c9a81241(0) id:msg_message
+key:0e47e4cd(0) id:msg_nat_type
+key:e349e88a(0) id:msg_no_error_history
+key:6445d9d7(0) id:msg_system
+key:94b79ada(0) id:msg_system_software
+key:8c08ba43(0) id:msg_tool_mac_address_usb
+key:e1e9cdfa(0) id:msg_type_variable
+key:0370a5c7(0) id:msg_variable_days_ago
+key:3a2a7190(0) id:msg_variable_hours_ago
+key:a6d44f10(0) id:msg_variable_minutes_ago
+key:e0c1d39e(0) id:msg_variable_months_ago
+
+# <texturetable>
+key:68ecc7c3(0) id:tex_spanner,src:../../../common/resource/filelist/texture/spanner.png,type:texture/png
+

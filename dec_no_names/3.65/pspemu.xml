@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal" id="0xe2faaeee">
+    <templatetable>
+        <template id="0x2e9374eb">
+            <group id="0x3c5b4927">
+                <layout_hint pos="0, 54, 0"/>
+            </group>
+            <group id="0x10a55ba8">
+                <layout_hint pos="0, -144, 0" size="668, 144"/>
+            </group>
+        </template>
+    </templatetable>
+</resource>

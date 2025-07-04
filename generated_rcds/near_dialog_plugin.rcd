@@ -1,0 +1,70 @@
+#
+#
+#               near_dialog_plugin - resource debug symbol file
+#
+#
+
+
+# <pagetable>
+key:9573096e(0) id:page_bg
+
+# <styletable>
+key:3f62ae5e(0) id:item_base_style
+key:cf074b58(0) id:planeobj_item_base
+key:e54656d1(0) id:icon0_style
+key:2b4807f8(0) id:planeobj_icon0
+key:37b8719d(0) id:basic_plane_style
+key:ef0c4f4e(0) id:planeobj_basic
+key:1eb1ff8a(0) id:textobj_item_title
+key:9d1d1068(0) id:text_item_title_style
+key:8f7bf1eb(0) id:textobj_item_subtitle
+key:c3b479c6(0) id:text_item_subtitle_style
+key:cabd940f(0) id:style_box
+key:01f875b1(0) id:textobj
+key:13a35c9d(0) id:style_text_generic_page_align_right
+key:b5bd9c9b(0) id:style_text_generic_page_align_left
+
+# <templatetable>
+key:5515d341(0) id:_common_default_style_dialog
+key:4dd3f804(0) id:t1b0_dialog
+key:7505d64a(0) id:default
+key:7374487a(0) id:_common_default_style_dialog_box
+key:e6addc3d(0) id:t1b0_dialog_box1
+key:e6ea7d34(0) id:_common_default_style_dialog_text_box
+key:38e27a53(0) id:t1b0_dialog_text1
+key:980811e8(0) id:t1b0_dialog_text1_scrollbar
+key:3fc2179e(0) id:_common_default_style_scrollbar_touch
+key:56f61279(0) id:t1b1_dialog
+key:db059b1c(0) id:t1b1_dialog_box1
+key:aa13dc14(0) id:t1b1_dialog_text1
+key:55219d22(0) id:t1b1_dialog_text1_scrollbar
+key:92fd288f(0) id:_common_default_style_dialog_button
+key:8c0077b1(0) id:t1b1_dialog_button1
+key:805beca6(0) id:msg_ok
+key:a432af40(0) id:t1b2_dialog
+key:6d0686e2(0) id:t1b2_dialog_box1
+key:2c214acc(0) id:t1b2_dialog_text1
+key:9a6b1ba2(0) id:t1b2_dialog_text1_scrollbar
+key:d428d3c7(0) id:t1b2_dialog_box2
+key:8cac6653(0) id:t1b2_dialog_button1
+key:bae3a99c(0) id:t1b2_dialog_button2
+key:adcd9adf(0) id:msg_cancel_vb
+key:548c2e7a(0) id:t1p1b1_dialog
+key:7eed5900(0) id:t1p1b1_dialog_box1
+key:322cd4c6(0) id:t1p1b1_dialog_text1
+key:054dfa94(0) id:t1p1b1_dialog_text1_scrollbar
+key:4404228e(0) id:t1p1b1_dialog_box2
+key:c6e3b635(0) id:_common_style_text_progressbar_label
+key:9f22fa77(0) id:t1p1b1_dialog_progressbar1_label1
+key:501d508e(0) id:_common_default_style_progressbar
+key:4408800e(0) id:t1p1b1_dialog_progressbar_text
+key:295cf6fa(0) id:t1p1b1_dialog_progressbar1
+key:e2ad9302(0) id:_common_default_style_text
+key:9b7ef7e0(0) id:t1p1b1_dialog_button1
+key:0a2f2cd9(0) id:landscape
+key:9f5a6f89(0) id:type1
+
+# <stringtable>
+
+# <texturetable>
+key:4cf7846b(0) id:tex_button1

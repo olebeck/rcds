@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal" id="0x1fc6a513">
+    <pagetable>
+        <page id="0x5ec07d6b">
+            <group id="0x98c75d06">
+                <layout_hint origin="0, 0, 0" align="0, 0, 0" pos="0, 0, 0" id="0x4a875668" adjust="0, 0, 0" alpha="1" rot="0, 0, 0" anchor="4, 4, 4" size="0, 0, 0"/>
+            </group>
+        </page>
+        <page id="0xb1febced">
+            <group id="0x45fafb14">
+                <layout_hint origin="0, 0, 0" align="0, 0, 0" pos="0, 0, 0" id="0x371d0ca0" adjust="0, 0, 0" alpha="1" rot="0, 0, 0" anchor="4, 4, 4" size="0, 0, 0"/>
+                <plane style="0x44311758" id="0x2d492c7e" texture="0x758f4d31">
+                    <layout_hint origin="0, 0, 0" align="0, 0, 0" pos="-450, -16, 0" id="0x589af9fa" adjust="0, 0, 0" alpha="1" rot="0, 0, 0" anchor="4, 4, 4" size="60, 512, 0"/>
+                    <plane style="0x44311758" id="0xcc7ae97f" texture="0x6e8415ef">
+                        <layout_hint origin="0, 0, 0" align="0, 0, 0" pos="-6, 204, 0" id="0x875de3de" adjust="0, 0, 0" alpha="1" rot="0, 0, 0" anchor="4, 4, 4" size="72, 104, 0"/>
+                    </plane>
+                    <plane style="0x9c6f66cf" id="0x51ac33fc" texture="0xf8461e25">
+                        <layout_hint origin="0, 0, 0" align="0, 0, 0" pos="18, -52, 0" id="0x9a08b046" adjust="0, 0, 0" alpha="1" rot="0, 0, 0" anchor="4, 4, 4" size="24, 408, 0"/>
+                    </plane>
+                    <plane style="0x44311758" id="0x5b3ddb42" texture="0xa5fd06b7">
+                        <layout_hint origin="0, 0, 0" align="0, 0, 0" pos="-6, 216, 0" id="0xe979f8d9" adjust="0, 0, 0" alpha="1" rot="0, 0, 0" anchor="4, 4, 4" size="72, 104, 0"/>
+                    </plane>
+                    <plane style="0x44311758" id="0x0bfc1f07" texture="0x83cc8500">
+                        <layout_hint origin="0, 0, 0" align="0, 0, 0" pos="42, 0, 0" id="0x56f894e9" adjust="0, 0, 0" alpha="1" rot="0, 0, 0" anchor="4, 4, 4" size="24, 512, 0"/>
+                    </plane>
+                    <plane style="0x97457196" id="0x811f5152" texture="0x0676fb2d">
+                        <layout_hint origin="0, 0, 0" align="1, 0, 0" pos="54, -32, 0" id="0x7871afa4" adjust="0, 0, 0" alpha="1" rot="0, 0, 0" anchor="4, 4, 4" size="888, 448, 0"/>
+                    </plane>
+                    <plane style="0x44311758" id="0x809a1eda" texture="0x32a52e16">
+                        <layout_hint origin="0, 0, 0" align="1, 0, 0" pos="30, 0, 0" id="0x430dd554" adjust="0, 0, 0" alpha="1" rot="0, 0, 0" anchor="4, 4, 4" size="24, 512, 0"/>
+                    </plane>
+                    <plane style="0x54c8fdc8" id="0xb7bb95c4" texture="0xe66d43af">
+                        <layout_hint origin="0, 0, 0" align="1, 0, 0" pos="54, 224, 0" id="0x5dd65e64" adjust="0, 0, 0" alpha="1" rot="0, 0, 0" anchor="4, 4, 4" size="888, 64, 0"/>
+                        <plane style="0xc6906491" id="0x1e8bbb7b">
+                            <layout_hint origin="0, 0, 0" align="0, 0, 0" pos="0, -16, 0" id="0x6b7e0a85" adjust="0, 0, 0" alpha="1" rot="0, 0, 0" anchor="4, 4, 4" size="888, 1, 0"/>
+                        </plane>
+                    </plane>
+                    <plane style="0xa946ec37" id="0x2178767f">
+                        <layout_hint origin="0, 0, 0" align="0, 0, 0" pos="450, 0, 0" id="0x3f88053f" adjust="0, 0, 0" alpha="1" rot="0, 0, 0" anchor="4, 4, 4" size="960, 512, 0"/>
+                    </plane>
+                </plane>
+            </group>
+        </page>
+    </pagetable>
+    <styletable>
+        <style_plane color="1, 1, 1, 1" id="0x44311758" planeobj="0x49931184">
+            <planeobj scale_mode_y="0" scale_mode_x="0" tex_region="0, 0, 1, 1" blend="1" id="0x49931184" scale_value="1, 1, 1"/>
+        </style_plane>
+        <style_plane color="1, 1, 1, 1" id="0x9c6f66cf" planeobj="0x0530b0ac">
+            <planeobj scale_mode_y="0" scale_mode_x="0" tex_region="0, 0, 1, 17" blend="1" id="0x0530b0ac" scale_value="1, 1, 1"/>
+        </style_plane>
+        <style_plane color="1, 1, 1, 1" id="0x97457196" planeobj="0x02364edb">
+            <planeobj scale_mode_y="0" scale_mode_x="0" tex_region="0, 0, 55.5, 28" blend="1" id="0x02364edb" scale_value="1, 1, 1"/>
+        </style_plane>
+        <style_plane color="1, 1, 1, 1" id="0x54c8fdc8" planeobj="0xc3762afd">
+            <planeobj scale_mode_y="0" scale_mode_x="0" tex_region="0, -0.00900996, 1, 1.00901" blend="1" id="0xc3762afd" scale_value="1, 1, 1"/>
+        </style_plane>
+        <style_plane color="0.8, 0.752941, 0.733333, 1" id="0xc6906491"/>
+        <style_plane color="0, 0, 0, 0.3" id="0xa946ec37"/>
+    </styletable>
+    <texturetable>
+        <texture src="0x758f4d31.bin" div_ratio_h="0.333333, 0.333333" compress="on" div_ratio_v="0.333333, 0.333333" div_ratio_stretch="0, 0" type="texture/gim" id="0x758f4d31"/>
+        <texture src="0x6e8415ef.bin" div_ratio_h="0.333333, 0.333333" compress="on" div_ratio_v="0.333333, 0.333333" div_ratio_stretch="0, 0" type="texture/gim" id="0x6e8415ef"/>
+        <texture src="0xf8461e25.bin" div_ratio_h="0.333333, 0.333333" compress="on" div_ratio_v="0.333333, 0.333333" div_ratio_stretch="0, 0" type="texture/gim" id="0xf8461e25"/>
+        <texture src="0xa5fd06b7.bin" div_ratio_h="0.333333, 0.333333" compress="on" div_ratio_v="0.333333, 0.333333" div_ratio_stretch="0, 0" type="texture/gim" id="0xa5fd06b7"/>
+        <texture src="0x83cc8500.bin" div_ratio_h="0.333333, 0.333333" compress="on" div_ratio_v="0.333333, 0.333333" div_ratio_stretch="0, 0" type="texture/gim" id="0x83cc8500"/>
+        <texture src="0x0676fb2d.bin" div_ratio_h="0.333333, 0.333333" compress="on" div_ratio_v="0.333333, 0.333333" div_ratio_stretch="0, 0" type="texture/gim" id="0x0676fb2d"/>
+        <texture src="0x32a52e16.bin" div_ratio_h="0.333333, 0.333333" compress="on" div_ratio_v="0.333333, 0.333333" div_ratio_stretch="0, 0" type="texture/gim" id="0x32a52e16"/>
+        <texture src="0xe66d43af.bin" div_ratio_h="0.333333, 0.333333" compress="on" div_ratio_v="0.333333, 0.333333" div_ratio_stretch="0, 0" type="texture/gim" id="0xe66d43af"/>
+        <texture src="0xcd79abdc.bin" compress="on" id="0xcd79abdc" type="texture/gim"/>
+        <texture src="0x20bd1e15.bin" compress="on" id="0x20bd1e15" type="texture/gim"/>
+        <texture src="0xf58ada0f.bin" compress="on" id="0xf58ada0f" type="texture/gim"/>
+        <texture src="0xc0eaa94b.bin" compress="on" id="0xc0eaa94b" type="texture/gim"/>
+    </texturetable>
+    <stringtable>
+        <locale src="ja.bin" compress="on" id="ja"/>
+        <locale src="en.bin" compress="on" id="en"/>
+        <locale src="en-gb.bin" compress="on" id="en-gb"/>
+        <locale src="zh-s.bin" compress="on" id="zh-s"/>
+        <locale src="zh-t.bin" compress="on" id="zh-t"/>
+        <locale src="da.bin" compress="on" id="da"/>
+        <locale src="nl.bin" compress="on" id="nl"/>
+        <locale src="fi.bin" compress="on" id="fi"/>
+        <locale src="fr.bin" compress="on" id="fr"/>
+        <locale src="de.bin" compress="on" id="de"/>
+        <locale src="it.bin" compress="on" id="it"/>
+        <locale src="ko.bin" compress="on" id="ko"/>
+        <locale src="no.bin" compress="on" id="no"/>
+        <locale src="pl.bin" compress="on" id="pl"/>
+        <locale src="pt.bin" compress="on" id="pt"/>
+        <locale src="ru.bin" compress="on" id="ru"/>
+        <locale src="es.bin" compress="on" id="es"/>
+        <locale src="sv.bin" compress="on" id="sv"/>
+        <locale src="pt-br.bin" compress="on" id="pt-br"/>
+        <locale src="tr.bin" compress="on" id="tr"/>
+    </stringtable>
+    <templatetable/>
+    <sounddatatable/>
+    <filetable/>
+</resource>

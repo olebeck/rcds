@@ -1,0 +1,31 @@
+#
+#
+#               comboplay_plugin - resource debug symbol file
+#
+#
+
+
+# <pagetable>
+key:5032be3f(0) id:bg_page
+key:42d8c7ad(0) id:page_plane
+key:bb742ca2(0) id:tex_bg
+key:6d23b259(0) id:_common_style_scroll_view_transparent
+key:ceae599c(0) id:sbar_v
+key:ffb11291(0) id:_common_default_style_scrollbar
+key:75fe59f6(0) id:_common_default_style_plane
+key:6eeea1dc(0) id:tex_ps3
+key:20413274(0) id:_common_sound_button_enter
+key:b9fbcf7d(0) id:_common_default_style_button
+key:1efc6cbe(0) id:msg_next
+key:25d6d211(0) id:_common_sound_button_back
+key:aa2c6d2a(0) id:msg_back
+key:c17d7980(0) id:_common_sound_button_cancel
+key:adcd9adf(0) id:msg_cancel_vb
+key:02139f28(0) id:msg_downloading
+key:501d508e(0) id:_common_default_style_progressbar
+
+# <styletable>
+
+# <texturetable>
+
+# <stringtable>

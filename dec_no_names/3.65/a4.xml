@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal" id="0x8aa4bc39">
+    <templatetable>
+        <template id="0x2e9374eb">
+            <group id="0x10a55ba8">
+                <layout_hint pos="-290, 64, 0" size="260, 200"/>
+            </group>
+            <group id="0x1361f380">
+                <layout_hint pos="290, 64, 0" size="260, 200"/>
+            </group>
+            <group id="0x3c5b4927">
+                <layout_hint pos="0, 66, 0"/>
+            </group>
+            <group id="0xb3e92cd9">
+                <layout_hint pos="0, -71, 0" size="840, 70"/>
+            </group>
+            <group id="0xb4a9beb2">
+                <layout_hint pos="0, -141, 0" size="840, 70"/>
+            </group>
+            <group id="0xb44d9ee4">
+                <layout_hint pos="0, -211, 0" size="840, 70"/>
+            </group>
+        </template>
+    </templatetable>
+</resource>

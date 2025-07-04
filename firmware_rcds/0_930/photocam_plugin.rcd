@@ -1,0 +1,23 @@
+# SCE CONFIDENTIAL
+#
+#
+#      Copyright (C) 2010 Sony Computer Entertainment Inc.
+#                        All Rights Reserved.
+#
+#
+#               photocam_plugin - resource debug symbol file
+#
+#
+
+# <pagetable>
+key:0434416f(0) id:page_photo_list_bg
+key:4572510b(1) id:plane_photo_list_bg
+key:3d31f98d(1) id:landscape960x544
+
+# <styletable>
+
+# <texturetable>
+key:6e3e2156(0) id:tex_photo_list_bg,src:..\..\..\plugin\photocam_plugin\resource\texture\photo_list_bg_small.png,type:texture/png
+
+# <templatetable>
+

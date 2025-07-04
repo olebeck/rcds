@@ -1,0 +1,136 @@
+# SCE CONFIDENTIAL
+#
+#
+#      Copyright (C) 2010 Sony Computer Entertainment Inc.
+#                        All Rights Reserved.
+#
+#
+#               impose_net_plugin - resource debug symbol file
+#
+#
+
+# <pagetable>
+key:2e0103d2(0) id:page_impose_net_main
+key:ec3d26a9(1) id:plane_background
+key:0a2f2cd9(1) id:landscape
+key:25c60488(1) id:portrait
+key:bebf0207(1) id:main_page_title_plane
+key:d2290b7b(1) id:main_page_title_box
+key:4188a999(1) id:main_page_title_plane_icon
+key:857fda14(1) id:main_page_title_text
+key:f653aae6(1) id:button_impose_cancel
+key:7505d64a(1) id:default
+key:00eac0ad(1) id:scan_list
+key:396f0a9f(1) id:scanlist_scrollbar
+
+# <styletable>
+key:de30768c(0) id:style_plane_header
+key:e95f1628(1) id:planeobj
+key:11a1fcbb(0) id:style_text_header
+key:01f875b1(1) id:textobj
+key:2a0ab1ce(0) id:style_button_header
+key:8d9fcb07(1) id:bg_obj_style
+key:b75b7c7c(1) id:label_obj_style
+key:526c4b0e(0) id:style_plane_background
+key:cabd940f(0) id:style_box
+key:7ac17995(0) id:style_plane_regular
+key:c72cf1d7(0) id:style_plane_triangle
+key:d1a16c98(0) id:style_plane_icon
+key:3c288ee9(0) id:style_menuitem_text
+key:534ffb3b(0) id:style_menuitem_value
+key:2f652005(0) id:style_menuitem_button
+key:84f4956f(0) id:scrollbar_style_base
+key:75cbf56e(1) id:base_obj
+key:da1d47bb(1) id:slider_obj
+key:665c3d2f(0) id:_common_default_style_box
+key:7374487a(0) id:_common_default_style_dialog_box
+key:5515d341(0) id:_common_default_style_dialog
+key:3fc2179e(0) id:_common_default_style_scrollbar_touch
+key:16ca0b50(1) id:planeobj_style1
+key:4cb64afc(0) id:_common_style_scrollbar_touch_type1
+key:e2ad9302(0) id:_common_default_style_text
+key:a56e4ba2(1) id:text_obj1
+key:98c6276d(0) id:_common_style_text_type1
+key:c6e3b635(0) id:_common_style_text_progressbar_label
+key:24706503(0) id:_common_style_text_list_item
+key:53a6c8b5(1) id:text_obj
+key:75de2949(0) id:_common_style_text_activity_date
+key:cec1bf6b(1) id:text_obj2
+key:9e70ed5f(0) id:_common_style_text_activity_mention
+key:077df1c8(1) id:text_obj3
+key:b6875cbc(0) id:_common_style_text_activity_goods_comments_baloon
+key:17c26b2b(1) id:text_obj4
+key:bda672e9(0) id:_common_style_text_activity_pid
+key:1ab2dc93(1) id:text_obj5
+key:0553e87f(0) id:_common_default_style_text_box
+key:e6ea7d34(0) id:_common_default_style_dialog_text_box
+
+# <stringtable>
+key:f5d2e340(0) id:msg_wifi_settings
+key:3a4352af(0) id:msg_save_manually
+key:5fefc74b(0) id:msg_security
+key:036379e7(0) id:msg_security_key
+key:6a8f019f(0) id:msg_wep
+key:0c193a86(0) id:msg_wpa
+key:fb59ec87(0) id:msg_aoss
+key:1b44c32b(0) id:msg_rakurakuwlanstart
+key:e1e33705(0) id:msg_wps
+key:632b6733(0) id:msg_wait
+key:3d2a781f(0) id:msg_encryptionkey_enter
+key:643eb727(0) id:msg_wepkey
+key:f49a5a20(0) id:msg_wpakey
+key:805beca6(0) id:msg_ok
+key:a0401bb4(0) id:msg_cancel
+key:db05b3a9(0) id:msg_wifi_on_conf
+key:c42f213a(0) id:msg_connect_internet_conf
+key:a5f62069(0) id:msg_ap_encryptionkey_enter
+key:c51aa4a4(0) id:msg_error_occurred
+key:bbe6ee28(0) id:msg_test_dialog
+
+# <texturetable>
+key:fbd879ae(0) id:tex_icon_active,src:texture/active.png,type:texture/png
+key:9718c305(0) id:tex_icon_inactive,src:texture/inactive.png,type:texture/png
+key:3bcae1d1(0) id:tex_textbox,src:texture/textbox.gim,type:texture/gim
+key:757ab4e8(0) id:tex_rssi_off,src:texture/wifi_off.png,type:texture/png
+key:f933cf36(0) id:tex_rssi_0,src:texture/wifi_0.png,type:texture/png
+key:f5b0408b(0) id:tex_rssi_1,src:texture/wifi_1.png,type:texture/png
+key:03180661(0) id:tex_rssi_2,src:texture/wifi_2.png,type:texture/png
+key:1934a97a(0) id:tex_rssi_3,src:texture/wifi_3.png,type:texture/png
+key:5e85b495(0) id:tex_rssi_4,src:texture/wifi_4.png,type:texture/png
+key:46f9796b(0) id:tex_aoss,src:texture/aoss.png,type:texture/png
+key:1761f83d(0) id:tex_wps,src:texture/wps.png,type:texture/png
+key:e4482118(0) id:tex_rakuraku,src:texture/rakuraku.png,type:texture/png
+key:3bf938be(0) id:tex_secure_rock,src:texture/wifi_rock.png,type:texture/png
+key:68ecc7c3(0) id:tex_spanner,src:../../../../common/resource/filelist/texture/spanner.png,type:texture/png
+key:06efcfdc(0) id:tex_header_h48,src:../../../../common/resource/filelist/texture/header_h48.png,type:texture/png
+key:2ef2c7ae(0) id:tex_disclosure,src:../../../../common/resource/filelist/texture/disclosure.png,type:texture/png
+key:29b91f26(0) id:tex_list_80px,src:../../../../common/resource/filelist/texture/list_80px.png,type:texture/png
+key:61b7ddfa(0) id:tex_common_button_h36,src:../../../../common/resource/paf/texture/button/common_button_h36.png,type:texture/png
+key:5031e1d0(0) id:tex_scrollbar_lane_v43,src:../../../../common/resource/filelist/texture/scrollbar_lane_v43.png,type:texture/png
+key:d06a0449(0) id:tex_scrollbar_v43,src:../../../../common/resource/filelist/texture/scrollbar_v43.png,type:texture/png
+
+# <templatetable>
+key:5e6986b7(0) id:template_impose_list_item
+key:63678fee(1) id:list_item
+key:68b3cdc3(0) id:template_auto_setting_item
+key:224390d9(1) id:menuitem_button
+key:202f570c(1) id:menuitem_icon
+key:2fbcdeae(1) id:menuitem_title
+key:dd31503b(1) id:menuitem_triangle
+key:17b2576d(0) id:template_scanned_ap_item
+key:63afeda2(0) id:_common_t2i1b2_dialog_template
+key:3f284869(1) id:t1i1b2_dialog
+key:c422c3dd(1) id:t1i1b2_dialog_box1
+key:2482e538(1) id:t1i1b2_dialog_text1
+key:7a765b66(1) id:t1i1b2_dialog_text1_scrollbar
+key:6b13e3d7(1) id:t1i1b2_dialog_blank_upper
+key:90eea98d(1) id:t1i1b2_dialog_text2
+key:084c9407(1) id:t1i1b2_dialog_text2_scrollbar
+key:a5f6dd8a(1) id:t1i1b2_dialog_blank_middle
+key:64a6c658(1) id:t1i1b2_dialog_text3
+key:5b641996(1) id:t1i1b2_dialog_text3_scrollbar
+key:8ee21b6e(1) id:t1i1b2_dialog_blank_lower
+key:6ff336d6(1) id:t1i1b2_dialog_box2
+key:7ba0dba0(1) id:t1i1b2_dialog_button1
+key:f0449dc8(1) id:t1i1b2_dialog_button2
+

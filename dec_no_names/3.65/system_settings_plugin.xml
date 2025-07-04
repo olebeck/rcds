@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal" id="0x9977932c">
+    <stringtable>
+        <locale src="ja.bin" compress="on" id="ja"/>
+        <locale src="en-gb.bin" compress="on" id="en-gb"/>
+        <locale src="en.bin" compress="on" id="en"/>
+        <locale src="fr.bin" compress="on" id="fr"/>
+        <locale src="es.bin" compress="on" id="es"/>
+        <locale src="de.bin" compress="on" id="de"/>
+        <locale src="it.bin" compress="on" id="it"/>
+        <locale src="nl.bin" compress="on" id="nl"/>
+        <locale src="pt-br.bin" compress="on" id="pt-br"/>
+        <locale src="pt.bin" compress="on" id="pt"/>
+        <locale src="ru.bin" compress="on" id="ru"/>
+        <locale src="ko.bin" compress="on" id="ko"/>
+        <locale src="zh-t.bin" compress="on" id="zh-t"/>
+        <locale src="zh-s.bin" compress="on" id="zh-s"/>
+        <locale src="fi.bin" compress="on" id="fi"/>
+        <locale src="sv.bin" compress="on" id="sv"/>
+        <locale src="da.bin" compress="on" id="da"/>
+        <locale src="no.bin" compress="on" id="no"/>
+        <locale src="pl.bin" compress="on" id="pl"/>
+        <locale src="tr.bin" compress="on" id="tr"/>
+    </stringtable>
+    <texturetable>
+        <texture src="0xd9984a1c.bin" compress="on" id="0xd9984a1c" type="texture/gim"/>
+        <texture src="0x203f77b8.bin" compress="on" id="0x203f77b8" type="texture/gim"/>
+        <texture src="0x755f4760.bin" compress="on" id="0x755f4760" type="texture/gim"/>
+        <texture src="0x99bf0163.bin" compress="on" id="0x99bf0163" type="texture/gim"/>
+        <texture src="0xdbfa479c.bin" compress="on" id="0xdbfa479c" type="texture/gim"/>
+        <texture src="0xf7cd75a9.bin" compress="on" id="0xf7cd75a9" type="texture/gim"/>
+        <texture src="0x1b9bdf87.bin" compress="on" id="0x1b9bdf87" type="texture/gim"/>
+        <texture src="0xfd6e99ec.bin" compress="on" id="0xfd6e99ec" type="texture/gim"/>
+        <texture src="0xaaa8294e.bin" compress="on" id="0xaaa8294e" type="texture/gim"/>
+        <texture src="0x3aa88f0e.bin" compress="on" id="0x3aa88f0e" type="texture/gim"/>
+        <texture src="0x6d4822bc.bin" compress="on" id="0x6d4822bc" type="texture/gim"/>
+        <texture src="0xcb2a108c.bin" compress="on" id="0xcb2a108c" type="texture/gim"/>
+        <texture src="0x8e2027fc.bin" compress="on" id="0x8e2027fc" type="texture/gim"/>
+        <texture src="0xc98d8eea.bin" compress="on" id="0xc98d8eea" type="texture/gim"/>
+        <texture src="0x7d17ab35.bin" compress="on" id="0x7d17ab35" type="texture/gim"/>
+        <texture src="0xedeedd53.bin" compress="on" id="0xedeedd53" type="texture/gim"/>
+        <texture src="0x6e1f4007.bin" compress="on" id="0x6e1f4007" type="texture/gim"/>
+    </texturetable>
+</resource>

@@ -1,0 +1,3 @@
+[submodule "acdc"]
+	path = acdc
+	url = https://github.com/isage/acdc

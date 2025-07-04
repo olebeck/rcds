@@ -1,0 +1,34 @@
+# SCE CONFIDENTIAL
+#
+#
+#      Copyright (C) 2010 Sony Computer Entertainment Inc.
+#                        All Rights Reserved.
+#
+#
+#               reset_plugin - resource debug symbol file
+#
+#
+
+# <stringtable>
+key:96a5263b(0) id:msg_format_restore
+key:2ab4d859(0) id:msg_format_sd
+key:591f19d7(0) id:msg_format_sd_conf
+key:62879a2c(0) id:msg_format_sd_info
+key:7c91b1aa(0) id:msg_format_vb
+key:987a4d40(0) id:msg_formatted
+key:8956880b(0) id:msg_formatting_notice
+key:01786497(0) id:msg_restore_activated_system_notice
+key:e7e11348(0) id:msg_restore_settings
+key:e0adc337(0) id:msg_restore_settings_conf
+key:758dbd23(0) id:msg_restore_settings_info
+key:8fec3b0d(0) id:msg_restore_system
+key:03b30e8e(0) id:msg_restore_system_conf
+key:f84a5cc3(0) id:msg_restore_system_info
+key:c87291ee(0) id:msg_restore_vb
+key:141c70c5(0) id:msg_restored_restart_system
+key:6de6166d(0) id:msg_restoring_notice
+key:fa3a46ee(0) id:msg_variable_percent
+
+# <texturetable>
+key:68ecc7c3(0) id:tex_spanner,src:../../../common/resource/filelist/texture/spanner.png,type:texture/png
+

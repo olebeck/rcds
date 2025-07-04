@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal" id="0x81f199d9">
+    <pagetable>
+        <page id="0x42ad35cf">
+            <plane style="0xf1a1c4d6" id="0x7c40dcbd">
+                <layout_hint id="0xd97527fc" size="960, 544, 0"/>
+                <group id="0xe09dda68">
+                    <layout_hint id="0xd97527fc" size="960, 544, 0"/>
+                    <plane_button style="0xb032e738" id="0xc0099932">
+                        <layout_hint pos="-442, 236, 0" size="46, 46, 0"/>
+                        <focus_hint left_id="0xc0099932" up_id="0xc0099932"/>
+                    </plane_button>
+                    <text style="0x18c7bc48" id="0xe152927b">
+                        <layout_hint align="0, 5, 0" pos="0, 224" size="816, 48"/>
+                    </text>
+                    <list_view style="0x749ca58b" id="0x705146e9" w_sbar_h="0x9356430c">
+                        <layout_hint pos="0, -32, 0" size="816, 480"/>
+                        <focus_hint up_id="0xc0099932"/>
+                        <scrollbar_touch style="0x12b74067" id="0x9356430c" scroll_type="1">
+                            <layout_hint size="0, 14"/>
+                        </scrollbar_touch>
+                    </list_view>
+                    <plane id="0x47c94853" texture="0x7897906d">
+                        <layout_hint size="60, 60"/>
+                    </plane>
+                </group>
+            </plane>
+        </page>
+    </pagetable>
+    <templatetable>
+        <template id="0xf4fc2953">
+            <plane id="0x211bed7e">
+                <layout_hint size="360, 192"/>
+            </plane>
+            <plane id="0xe0272c80" texture="0xe3d268a9">
+                <layout_hint size="360, 192"/>
+            </plane>
+            <plane_button style="0x5b98b484" id="0xb49aa1e0">
+                <layout_hint size="360, 192"/>
+                <focus_hint focus_shape="2"/>
+            </plane_button>
+        </template>
+    </templatetable>
+    <styletable>
+        <style_text color="1, 1, 1, 1" textobj="0xaaa069f6" id="0x18c7bc48">
+            <textobj font_size="32" bold="1" align_y="2" align_x="1" text_align="1" color="1, 1, 1, 1" ellipsis="1" id="0xaaa069f6"/>
+        </style_text>
+        <style_list_view color="0, 0, 0, 0" bg_obj="0x18b5926c" id="0x749ca58b">
+            <planeobj id="0x18b5926c"/>
+        </style_list_view>
+        <style_scrollbar_touch min_size="14" base_obj="0x75cbf56e" slider_obj="0xda1d47bb" id="0x12b74067">
+            <planeobj scale_mode_y="1" texture0="0x6ec95ce2" id="0x75cbf56e"/>
+            <planeobj scale_mode_y="1" texture0="0x447350aa" id="0xda1d47bb"/>
+        </style_scrollbar_touch>
+        <style_plane color="0, 0, 0, 0.7" id="0xf1a1c4d6" planeobj="0x72a92b05">
+            <planeobj id="0x72a92b05"/>
+        </style_plane>
+        <style_plane_button color="1, 1, 1, 1" image_obj="0x72a92b05" glow_obj="0x442fe41a" id="0x5b98b484">
+            <planeobj id="0x72a92b05"/>
+            <planeobj color="1, 1, 1, 1" texture0="0x86234b68" blend="2" id="0x442fe41a"/>
+        </style_plane_button>
+    </styletable>
+    <stringtable/>
+    <texturetable>
+        <texture src="0xe3d268a9.bin" compress="on" id="0xe3d268a9" type="texture/gim"/>
+        <texture src="0x86234b68.bin" div_ratio_h="0.45" compress="on" margin_v="5, 5" div_mode="3x3" margin_h="5, 5" div_ratio_v="0.45" type="texture/gim" id="0x86234b68"/>
+    </texturetable>
+</resource>

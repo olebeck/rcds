@@ -1,0 +1,50 @@
+# SCE CONFIDENTIAL
+#
+#
+#      Copyright (C) 2010 Sony Computer Entertainment Inc.
+#                        All Rights Reserved.
+#
+#
+#               auth_plugin - resource debug symbol file
+#
+#
+
+# <pagetable>
+key:deda8f16(0) id:page_auth_pw
+key:60db8ef3(1) id:plane_auth_pw
+key:01d47223(1) id:plane_auth_pw_title
+key:b1749be7(1) id:text_auth_pw_title
+key:0a2f2cd9(1) id:landscape
+key:43f341c0(1) id:plane_auth_pw_output_area
+key:db854b50(1) id:text_auth_pw_output_area_1
+key:2dca63fb(1) id:text_auth_pw_output_area_2
+key:beb43d9c(1) id:text_auth_pw_output_area_3
+key:93d55613(1) id:text_auth_pw_output_area_4
+key:eccd38f2(1) id:text_box_auth_pw
+key:25c60488(1) id:portrait
+
+# <styletable>
+key:587a75d4(0) id:style_plane_base_page
+key:1b36fcf6(0) id:style_plane_title_area
+key:5628b4f8(0) id:style_text_title_text
+key:01f875b1(1) id:textobj
+key:d3cd4c3a(0) id:style_plane_output_area
+key:bcbc21ec(0) id:style_text_output_area
+key:e95f1628(1) id:planeobj
+
+# <stringtable>
+key:dc0179bc(0) id:msg_change_passcode
+key:c83c86a8(0) id:msg_enter_current_passcode
+key:b68205fc(0) id:msg_enter_passcode
+key:386afa71(0) id:msg_error_passcode_incorrect
+key:d7729d8f(0) id:msg_error_passcode_mismatch
+key:03a07570(0) id:msg_reenter_new_passcode
+key:431e5b32(0) id:msg_reenter_passcode
+key:2cd8ffb3(0) id:msg_set_new_passcode
+key:1dfc949b(0) id:msg_set_pc_passcode
+key:8bd6afe9(0) id:msg_set_unlock_screen_passcode
+
+# <texturetable>
+key:caa929e7(0) id:tex_button,src:texture/text_button.png,type:texture/png
+key:c0375024(0) id:tex_output_area,src:texture/text_button.png,type:texture/png
+

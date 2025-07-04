@@ -1,0 +1,24 @@
+#
+#
+#               auth_plugin - resource debug symbol file
+#
+#
+
+
+# <stringtable>
+
+# <texturetable>
+key:c0375024(0) id:tex_output_area
+
+# <pagetable>
+
+# <styletable>
+key:e95f1628(0) id:planeobj
+key:01f875b1(0) id:textobj
+key:5628b4f8(0) id:style_text_title_text
+key:d3cd4c3a(0) id:style_plane_output_area
+
+# <templatetable>
+key:4852bd17(0) id:template_output_area
+key:665c3d2f(0) id:_common_default_style_box
+key:6b835e44(0) id:box_auth_pw_output_area

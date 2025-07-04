@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal" id="0xe1acd4d6">
+    <stringtable>
+        <locale src="en.bin" id="en"/>
+        <locale src="ja.bin" id="ja"/>
+    </stringtable>
+</resource>

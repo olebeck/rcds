@@ -1,0 +1,118 @@
+#
+#
+#               videoplayer_plugin - resource debug symbol file
+#
+#
+
+
+# <pagetable>
+key:a228a533(0) id:page_videoplane
+key:b6f4489d(0) id:plane_style_black_plane
+key:29fbc89b(0) id:draw_plane
+key:3d31f98d(0) id:landscape960x544
+key:689873ca(0) id:videoplane_gesture_guide_text
+key:1a610925(0) id:plane_style_tex_plane
+key:0a2f2cd9(0) id:landscape
+key:38268b01(0) id:half_hd
+key:9fbb0226(0) id:text_style_caption
+key:b54cf846(0) id:page_overlay_parts
+key:194dbde1(0) id:overlay_parts_plane_control_panel
+key:af854534(0) id:overlay_parts_plane_control_panel_frame
+key:d038ce11(0) id:overlay_parts_text_title
+key:57781bbf(0) id:overlay_parts_text_ignore
+key:00ad7447(0) id:overlay_parts_text_chapter
+key:95a710d3(0) id:control_panel_progressbar_touch_style
+key:d1e956da(0) id:text_label
+key:a4288464(0) id:overlay_parts_progressbar
+key:63bd09fe(0) id:icon_button_style
+key:37b4fb1d(0) id:overlay_parts_scnsch
+key:540b53bf(0) id:overlay_parts_pause
+key:d7442cdf(0) id:overlay_parts_back
+key:b214971c(0) id:overlay_parts_prev
+key:67c50da7(0) id:overlay_parts_next
+key:a454ea8d(0) id:overlay_parts_change_screen_mode
+key:d7220c5c(0) id:_common_style_corner_bottom_right
+key:0ebb0964(0) id:style_busyindicator_player
+key:ba195a37(0) id:_common_texture_busy
+key:35ca8ee7(0) id:_common_style_corner_bottom_left
+key:30396cea(0) id:style_slidebar
+key:d03fe56b(0) id:style_plane_volume_value
+key:19925962(0) id:tex_volume
+key:d97527fc(0) id:layout_horizontal
+key:461c502b(0) id:page_scenesearch
+key:364204f7(0) id:scnsch_base_plane
+key:da92fc9d(0) id:scnsch_cancel_button
+key:190f6e4e(0) id:scnsch_title_text
+key:16de26d8(0) id:msg_scene_search
+key:f56e07f6(0) id:scnsch_list
+key:a3430a82(0) id:scnsch_interval_text
+key:b032e738(0) id:_common_style_close_button
+
+# <styletable>
+key:ee38688f(0) id:textobj_style
+key:01f875b1(0) id:textobj
+key:83b10bc3(0) id:plane_style_transparent
+key:f239aa56(0) id:plane_obj1
+key:5958b95b(0) id:plane_style_black_transparent
+key:cca7db36(0) id:menu_text_obj
+key:b32a61e4(0) id:menu_plane_obj
+key:c2408b8c(0) id:bg_button_style_transparent
+key:3e63fc28(0) id:icon_plane_obj
+key:68cbac05(0) id:icon_glow_obj
+key:11c027f5(0) id:_common_texture_close_button
+key:f5b88e4a(0) id:_common_texture_close_button_glow
+key:76d78e98(0) id:pulldown_label_obj
+key:64206edd(0) id:pulldown_plane_obj
+key:65547d31(0) id:pulldown_button_style
+key:83bcb615(0) id:menu_button_style
+key:a0a879fd(0) id:box_style1
+key:75cbf56e(0) id:base_obj
+key:a6f7d9e6(0) id:bar_fore_obj
+key:da1d47bb(0) id:slider_obj
+key:855f12bb(0) id:slider_glow_obj
+key:22ff88bd(0) id:glow_obj
+key:8fc65573(0) id:bar_shadow_obj
+key:ca9a7b9e(0) id:bar_back_obj
+key:1c769873(0) id:signal_obj
+key:037d763a(0) id:base_shadow_obj
+key:53e25bfa(0) id:_common_texture_progressbar_base
+key:301ef5d2(0) id:_common_texture_progressbar_bar
+key:3315b17b(0) id:_common_texture_progressbar_bar_back
+key:a9315c75(0) id:_common_texture_progressbar_signal
+key:e3367205(0) id:_common_texture_progressbar_glow
+key:e767df9c(0) id:_common_texture_progressbar_shadow
+key:fd5cbb73(0) id:_common_texture_progressbar_slider
+key:0defb7f6(0) id:_common_texture_progressbar_slider_glow
+key:e95f1628(0) id:planeobj
+key:8d9fcb07(0) id:bg_obj_style
+key:e9e1dd38(0) id:list_view_pulldown_style
+key:d3979b63(0) id:image_obj
+key:9c96918b(0) id:bg_obj
+key:28ccf273(0) id:label_obj
+key:5628b4f8(0) id:style_text_title_text
+key:d3cd4c3a(0) id:style_plane_output_area
+key:c0375024(0) id:tex_output_area
+
+# <templatetable>
+key:5f7b332b(0) id:_common_style_plane_transparent
+key:f5507bf0(0) id:videoplayer_texture_teleport_switch_dolce
+key:4852bd17(0) id:template_output_area
+key:665c3d2f(0) id:_common_default_style_box
+key:6b835e44(0) id:box_auth_pw_output_area
+key:21b278b4(0) id:filelist_template_common_shadow
+key:69b13d29(0) id:filelist_widget_common_shadow
+key:852dcca3(0) id:filelist_widget_common_shadow_body
+key:5ad7ace9(0) id:filelist_texture_common_shadow
+key:c0e0dccd(0) id:filelist_template_common_check_box
+key:51c361d9(0) id:filelist_widget_common_check_box
+key:0c9f1494(0) id:_common_style_check_box_left
+key:8bbb66f7(0) id:filelist_widget_common_check_box_body
+key:b97bd73b(0) id:_common_style_check_box_type2_left_top
+
+# <stringtable>
+
+# <texturetable>
+key:29b91f26(0) id:tex_list_80px
+key:a73a105f(0) id:color_fill
+key:21db7070(0) id:color_border
+key:6dc5f70a(0) id:filelist_texture_common_loading

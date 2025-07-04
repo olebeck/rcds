@@ -1,0 +1,42 @@
+#
+#
+#               bluetooth_settings_plugin - resource debug symbol file
+#
+#
+
+
+# <stringtable>
+
+# <templatetable>
+key:3d16cd4e(0) id:_bt_dialog_template
+key:5515d341(0) id:_common_default_style_dialog
+key:3101acc3(0) id:bt_dialog
+key:5066f91c(0) id:base_frame
+key:60501e4b(0) id:_common_texture_dialog_frame
+key:bdb0eaff(0) id:_common_style_plane_dialog
+key:2c5b8b18(0) id:base_fill
+key:65fe4933(0) id:_common_texture_dialog_fill_white
+key:5f7b332b(0) id:_common_style_plane_transparent
+key:56c51469(0) id:menuitem_plane
+key:7374487a(0) id:_common_default_style_dialog_box
+key:f3c09db9(0) id:bt_dialog_box1
+key:bcdf7b19(0) id:bt_dialog_title
+key:c6765248(0) id:bt_dialog_box2
+key:7505d64a(0) id:default
+key:92fd288f(0) id:_common_default_style_dialog_button
+key:e966cfe2(0) id:bt_dialog_button_cancel
+key:adcd9adf(0) id:msg_cancel_vb
+key:eea3cbe2(0) id:bt_dialog_button_ok
+key:805beca6(0) id:msg_ok
+key:088b1347(0) id:style_plane_footer
+key:0a2f2cd9(0) id:landscape
+
+# <styletable>
+key:01f875b1(0) id:textobj
+key:e58c4ff4(0) id:_common_sound_text_box
+key:e95f1628(0) id:planeobj
+key:35e0295d(0) id:_common_texture_text_box
+key:5ef7041d(0) id:tex_header
+
+# <texturetable>
+key:dd569dde(0) id:tex_icon_headset

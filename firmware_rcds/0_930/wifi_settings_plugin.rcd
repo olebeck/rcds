@@ -1,0 +1,150 @@
+# SCE CONFIDENTIAL
+#
+#
+#      Copyright (C) 2010 Sony Computer Entertainment Inc.
+#                        All Rights Reserved.
+#
+#
+#               wifi_settings_plugin - resource debug symbol file
+#
+#
+
+# <styletable>
+key:665c3d2f(0) id:_common_default_style_box
+key:7374487a(0) id:_common_default_style_dialog_box
+key:5515d341(0) id:_common_default_style_dialog
+key:3fc2179e(0) id:_common_default_style_scrollbar_touch
+key:16ca0b50(1) id:planeobj_style1
+key:4cb64afc(0) id:_common_style_scrollbar_touch_type1
+key:e2ad9302(0) id:_common_default_style_text
+key:a56e4ba2(1) id:text_obj1
+key:98c6276d(0) id:_common_style_text_type1
+key:c6e3b635(0) id:_common_style_text_progressbar_label
+key:01f875b1(1) id:textobj
+key:24706503(0) id:_common_style_text_list_item
+key:53a6c8b5(1) id:text_obj
+key:75de2949(0) id:_common_style_text_activity_date
+key:cec1bf6b(1) id:text_obj2
+key:9e70ed5f(0) id:_common_style_text_activity_mention
+key:077df1c8(1) id:text_obj3
+key:b6875cbc(0) id:_common_style_text_activity_goods_comments_baloon
+key:17c26b2b(1) id:text_obj4
+key:bda672e9(0) id:_common_style_text_activity_pid
+key:1ab2dc93(1) id:text_obj5
+key:0553e87f(0) id:_common_default_style_text_box
+key:e6ea7d34(0) id:_common_default_style_dialog_text_box
+
+# <stringtable>
+key:a7cb4422(0) id:msg_address
+key:02ddc889(0) id:msg_adhoc_channel
+key:819688fc(0) id:msg_adhoc_channel_info
+key:9e08779c(0) id:msg_advanced_settings
+key:fb59ec87(0) id:msg_aoss
+key:2bd8e8a1(0) id:msg_ap
+key:2b6b7166(0) id:msg_ap_info
+key:8c361518(0) id:msg_ap_password_enter
+key:90eb777f(0) id:msg_automatic
+key:a825ae0e(0) id:msg_available
+key:5e258065(0) id:msg_checking
+key:663ad18f(0) id:msg_connect_vb
+key:da7e42d0(0) id:msg_connected
+key:b067f014(0) id:msg_connected_adhoc
+key:500e7607(0) id:msg_connecting
+key:c692b45c(0) id:msg_connecting_ap
+key:647052a5(0) id:msg_connection_speed_download
+key:5a46d2fc(0) id:msg_connection_speed_indemnity
+key:65b5a61f(0) id:msg_connection_speed_upload
+key:e0d23c4c(0) id:msg_connection_test
+key:648af0af(0) id:msg_connection_test_completed
+key:6cea6bfb(0) id:msg_default_gateway
+key:f1811d32(0) id:msg_delete
+key:e34f6afb(0) id:msg_delete_this_ap_conf
+key:4d9507ed(0) id:msg_dhcp_host_name
+key:ba9a4bb7(0) id:msg_dns_settings
+key:4bb54194(0) id:msg_do_not_connect_ap_automatically
+key:a9f8d581(0) id:msg_do_not_use
+key:2486d6fc(0) id:msg_failed
+key:33fb90ea(0) id:msg_http_proxy_port
+key:f1edb47c(0) id:msg_internet_connection
+key:7b445caa(0) id:msg_ip_address
+key:0e1a7455(0) id:msg_ipaddress_settings
+key:959cde22(0) id:msg_mac_address
+key:8361a949(0) id:msg_manual
+key:60632e80(0) id:msg_mtu
+key:0bb94aca(0) id:msg_name
+key:0e47e4cd(0) id:msg_nat_type
+key:ac3b04d3(0) id:msg_nat_type3_info
+key:8b69cf2f(0) id:msg_none
+key:4958c610(0) id:msg_not_available
+key:72209fa4(0) id:msg_not_connected_airplanemode
+key:2b061434(0) id:msg_not_connected_ap_not_found
+key:d3be11e8(0) id:msg_obtain_ipaddress
+key:df322bf4(0) id:msg_obtaining_ipaddress
+key:3d5e5125(0) id:msg_off
+key:0b56c5dc(0) id:msg_pppoe
+key:cb6235ff(0) id:msg_pppoe_pw
+key:e92078f3(0) id:msg_pppoe_user_name
+key:d369a89c(0) id:msg_primedns
+key:c44f2b7f(0) id:msg_proxyserver
+key:72762c59(0) id:msg_psn_signin
+key:46f815eb(0) id:msg_pw
+key:1b44c32b(0) id:msg_rakurakuwlanstart
+key:c51b5d1b(0) id:msg_router_no_ipfragments_info
+key:16e99f71(0) id:msg_save_automatically
+key:3a4352af(0) id:msg_save_manually
+key:3ef40b46(0) id:msg_searching
+key:518769f8(0) id:msg_seconddns
+key:5fefc74b(0) id:msg_security
+key:efa3808e(0) id:msg_show_ap_settings
+key:862306d3(0) id:msg_show_ap_settings_info
+key:6dcc3593(0) id:msg_signal_strength
+key:9225eb96(0) id:msg_ssid
+key:388564a6(0) id:msg_status
+key:2c9e9a1f(0) id:msg_subnetmask
+key:491d8a5a(0) id:msg_successful
+key:e464231a(0) id:msg_tool_usb_ethernet
+key:e1e9cdfa(0) id:msg_type_variable
+key:c30832d0(0) id:msg_upnp
+key:a4fd07fc(0) id:msg_use
+key:632b6733(0) id:msg_wait
+key:6a8f019f(0) id:msg_wep
+key:8f0ca453(0) id:msg_wifi
+key:f5d2e340(0) id:msg_wifi_settings
+key:4820e8ad(0) id:msg_wpa2psk_aes
+key:ce8d3f9e(0) id:msg_wpa2psk_tkip
+key:26d7bdcb(0) id:msg_wpapsk_aes
+key:f3a9c70c(0) id:msg_wpapsk_tkip
+key:d693b4ee(0) id:msg_wpapsk_wpa2psk
+key:e1e33705(0) id:msg_wps
+
+# <texturetable>
+key:fbd879ae(0) id:tex_icon_active,src:../../bluetooth_settings_plugin/resource/texture/active.png,type:texture/png
+key:9718c305(0) id:tex_icon_inactive,src:../../bluetooth_settings_plugin/resource/texture/inactive.png,type:texture/png
+key:68ecc7c3(0) id:tex_spanner,src:../../../common/resource/filelist/texture/spanner.png,type:texture/png
+key:3bcae1d1(0) id:tex_textbox,src:../../system_settings_main/resource/texture/textbox.gim,type:texture/gim
+key:757ab4e8(0) id:tex_rssi_off,src:texture/wifi_off.png,type:texture/png
+key:f933cf36(0) id:tex_rssi_0,src:texture/wifi_0.png,type:texture/png
+key:f5b0408b(0) id:tex_rssi_1,src:texture/wifi_1.png,type:texture/png
+key:03180661(0) id:tex_rssi_2,src:texture/wifi_2.png,type:texture/png
+key:1934a97a(0) id:tex_rssi_3,src:texture/wifi_3.png,type:texture/png
+key:5e85b495(0) id:tex_rssi_4,src:texture/wifi_4.png,type:texture/png
+key:3bf938be(0) id:tex_secure_rock,src:texture/wifi_rock.png,type:texture/png
+
+# <templatetable>
+key:63afeda2(0) id:_common_t2i1b2_dialog_template
+key:3f284869(1) id:t1i1b2_dialog
+key:7505d64a(1) id:default
+key:c422c3dd(1) id:t1i1b2_dialog_box1
+key:2482e538(1) id:t1i1b2_dialog_text1
+key:7a765b66(1) id:t1i1b2_dialog_text1_scrollbar
+key:6b13e3d7(1) id:t1i1b2_dialog_blank_upper
+key:90eea98d(1) id:t1i1b2_dialog_text2
+key:084c9407(1) id:t1i1b2_dialog_text2_scrollbar
+key:a5f6dd8a(1) id:t1i1b2_dialog_blank_middle
+key:64a6c658(1) id:t1i1b2_dialog_text3
+key:5b641996(1) id:t1i1b2_dialog_text3_scrollbar
+key:8ee21b6e(1) id:t1i1b2_dialog_blank_lower
+key:6ff336d6(1) id:t1i1b2_dialog_box2
+key:7ba0dba0(1) id:t1i1b2_dialog_button1
+key:f0449dc8(1) id:t1i1b2_dialog_button2
+

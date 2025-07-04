@@ -1,0 +1,17 @@
+#
+#
+#               npprofile_dialog_plugin - resource debug symbol file
+#
+#
+
+
+# <pagetable>
+key:9573096e(0) id:page_bg
+key:80f87c88(0) id:bg
+key:35ca8ee7(0) id:_common_style_corner_bottom_left
+key:a97afcda(0) id:button_back
+
+# <styletable>
+key:248a20b6(0) id:background
+
+# <texturetable>

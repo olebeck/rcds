@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal" id="0xb46d11f2">
+    <pagetable>
+        <page id="0xb0d306bc">
+            <plane id="0x484e5d7d">
+                <plane style="0xd612f859" id="0xe16b0438" texture="0x18d66d2d">
+                    <layout_hint align="0, 0, 0" pos="0, 208, 0" size="960, 64, 0"/>
+                    <text style="0x27a21885" id="0x7d878398">
+                        <layout_hint align="0, 0, 0" pos="0, 0, 0" adjust="0, 2, 0" alpha="1" rot="0, 0, 0" id="0x9f5a6f89" size="820, 0, 0"/>
+                    </text>
+                    <text style="0x7a1c80e8" id="0xa63fd26e">
+                        <layout_hint align="2, 1, 0" pos="406, 4, 0" adjust="0, 2, 0" alpha="1" rot="0, 0, 0" id="0x9f5a6f89" size="250, 0, 0"/>
+                    </text>
+                    <text style="0x7a1c80e8" id="0xe6626c23">
+                        <layout_hint align="2, 1, 0" pos="406, -18, 0" adjust="0, 2, 0" alpha="1" rot="0, 0, 0" id="0x9f5a6f89" size="250, 0, 0"/>
+                    </text>
+                </plane>
+                <button sound="0xbb576907" style="0xf00d6c43" id="0x067bb882">
+                    <layout_hint align="0, 0, 0" pos="-448, 208, 0" adjust="0, 0, 0" alpha="1" rot="0, 0, 0" id="0x9f5a6f89" size="46, 46, 0"/>
+                </button>
+                <plane_button sound="0x32a6785f" style="0xf680eccb" id="0x16741cb5">
+                    <layout_hint align="0, 0, 0" pos="444, 208, 0" adjust="0, 0, 0" alpha="1" rot="0, 0, 0" id="0x9f5a6f89" size="64, 64, 0"/>
+                    <focus_hint focus_shape="4" focus_size="78, 78, 0"/>
+                </plane_button>
+            </plane>
+        </page>
+    </pagetable>
+    <styletable>
+        <style_text color="1, 1, 1, 1" textobj="0x01f875b1" id="0x7a1c80e8">
+            <textobj font_size="16" align_y="2" align_x="2" text_align="0" color="1, 1, 1, 1" shadow="1" id="0x01f875b1"/>
+        </style_text>
+        <style_text color="1, 1, 1, 1" textobj="0x01f875b1" id="0x966dfb67">
+            <textobj font_size="28" bold="0" align_y="1" align_x="1" text_align="0" color="1, 1, 1, 1" word_wrap="1" shadow="1" id="0x01f875b1"/>
+        </style_text>
+        <style_plane color="1, 1, 1, 1" id="0xd612f859" planeobj="0x835b7d9e">
+            <planeobj id="0x835b7d9e"/>
+        </style_plane>
+        <style_text color="1, 1, 1, 1" textobj="0x01f875b1" id="0x27a21885">
+            <textobj font_size="32" bold="1" align_y="0" align_x="1" text_align="0" color="1, 1, 1, 1" shadow="1" id="0x01f875b1"/>
+        </style_text>
+        <style_button id="0xf00d6c43" bg_obj="0x9c96918b" glow_obj="0x22ff88bd">
+            <planeobj texture0="0x11c027f5" id="0x9c96918b"/>
+            <planeobj texture0="0xf5b88e4a" blend="2" id="0x22ff88bd"/>
+        </style_button>
+        <style_plane_button image_obj="0x9c96918b" glow_obj="0x22ff88bd" id="0xf680eccb">
+            <planeobj texture0="0xd8146ae7" id="0x9c96918b"/>
+            <planeobj texture0="0x34389aa1" blend="2" id="0x22ff88bd" scale_value="1.2, 1.2"/>
+        </style_plane_button>
+    </styletable>
+    <texturetable>
+        <texture src="0xd8146ae7.bin" compress="on" id="0xd8146ae7" type="texture/gim"/>
+        <texture src="0x18d66d2d.bin" div_ratio_h="0.49" compress="on" div_mode="3x3" div_ratio_v="0.33" type="texture/gim" id="0x18d66d2d"/>
+    </texturetable>
+    <stringtable>
+        <locale src="ja.bin" compress="on" id="ja"/>
+        <locale src="en.bin" compress="on" id="en"/>
+        <locale src="fr.bin" compress="on" id="fr"/>
+        <locale src="es.bin" compress="on" id="es"/>
+        <locale src="de.bin" compress="on" id="de"/>
+        <locale src="it.bin" compress="on" id="it"/>
+        <locale src="nl.bin" compress="on" id="nl"/>
+        <locale src="pt.bin" compress="on" id="pt"/>
+        <locale src="ru.bin" compress="on" id="ru"/>
+        <locale src="ko.bin" compress="on" id="ko"/>
+        <locale src="zh-t.bin" compress="on" id="zh-t"/>
+        <locale src="zh-s.bin" compress="on" id="zh-s"/>
+        <locale src="pt-br.bin" compress="on" id="pt-br"/>
+        <locale src="fi.bin" compress="on" id="fi"/>
+        <locale src="sv.bin" compress="on" id="sv"/>
+        <locale src="da.bin" compress="on" id="da"/>
+        <locale src="no.bin" compress="on" id="no"/>
+        <locale src="pl.bin" compress="on" id="pl"/>
+        <locale src="en-gb.bin" compress="on" id="en-gb"/>
+        <locale src="tr.bin" compress="on" id="tr"/>
+    </stringtable>
+    <templatetable>
+        <template id="0x5437d393">
+            <text style="0x966dfb67" id="0xe14084f3">
+                <layout_hint align="0, 0, 0" adjust="0, 2, 0" pos="0, 55, 0" size="700, 0, 0"/>
+            </text>
+        </template>
+        <template fast_open="1" id="0x2ef44d83">
+            <corner_button style="0xd7220c5c" id="0x47add6aa">
+                <layout_hint anchor="4, 4" pos="480, -506"/>
+            </corner_button>
+        </template>
+    </templatetable>
+    <soundindextable>
+        <sound_button id="0xac019bcd" decide="0x48d64cf1"/>
+        <sound_button id="0x418c09bd" decide="0x5c756da0"/>
+        <sound_button id="0xbb576907" decide="0xe8b9a154"/>
+        <sound_button id="0x32a6785f" decide="0x48d64cf1"/>
+    </soundindextable>
+</resource>

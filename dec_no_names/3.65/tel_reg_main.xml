@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal" id="0x31da83c7">
+    <pagetable>
+        <page id="0x9573096e">
+            <plane style="0x28d16a42" id="0xd04059f9">
+                <layout_hint adjust="0, 0" pos="0, 0" size="960, 544"/>
+            </plane>
+        </page>
+    </pagetable>
+    <styletable>
+        <style_plane color="1, 1, 1, 1" id="0x28d16a42" planeobj="0xe95f1628">
+            <planeobj texture0="0xbb742ca2" id="0xe95f1628"/>
+        </style_plane>
+    </styletable>
+    <texturetable>
+        <texture src="0xbb742ca2.bin" type="texture/gim" id="0xbb742ca2" compress="on"/>
+    </texturetable>
+</resource>

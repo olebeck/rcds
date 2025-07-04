@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal" id="0x1cc23512">
+    <pagetable>
+        <page id="0x9573096e">
+            <plane style="0xebe87352" id="0x80f87c88">
+                <layout_hint alpha="1" size="960, 544, 0" id="0x3ae98c8d" pos="0, 0, 0"/>
+                <plane style="0x7467f4ca" id="0xc98ee0cb">
+                    <layout_hint alpha="1" size="400, 80, 0" id="0x8f5c621e" pos="280, 200, 0"/>
+                </plane>
+            </plane>
+        </page>
+        <page id="0xc29ecedc">
+            <corner_button style="0x35ca8ee7" id="0xa97afcda"/>
+        </page>
+    </pagetable>
+    <styletable>
+        <style_plane color="0, 0, 0, 0.8" id="0xebe87352" planeobj="0x248a20b6"/>
+        <style_plane color="1, 1, 1, 1" id="0x7467f4ca" planeobj="0x0ddd2e1e"/>
+    </styletable>
+    <texturetable>
+        <texture src="0x4b5d8539.bin" compress="on" id="0x4b5d8539" type="texture/gim"/>
+    </texturetable>
+</resource>

@@ -1,0 +1,114 @@
+# SCE CONFIDENTIAL
+#
+#
+#      Copyright (C) 2010 Sony Computer Entertainment Inc.
+#                        All Rights Reserved.
+#
+#
+#               bluetooth_settings_plugin - resource debug symbol file
+#
+#
+
+# <styletable>
+key:665c3d2f(0) id:_common_default_style_box
+key:7374487a(0) id:_common_default_style_dialog_box
+key:5515d341(0) id:_common_default_style_dialog
+key:75fe59f6(0) id:_common_default_style_plane
+key:4eb85640(1) id:_common_plane_obj
+key:6f8f867d(0) id:_common_style_plane_1
+key:93964f21(1) id:_common_plane_obj1
+key:5f7b332b(0) id:_common_style_plane_transparent
+key:2fe7e8cc(0) id:_common_style_plane_aspect_size
+key:03ded7f1(1) id:_common_plane_obj_aspect_size
+key:5a44befc(0) id:_common_style_plane_1x3
+key:ba981783(1) id:_common_plane_obj_1x3
+key:74780b2a(0) id:_common_style_plane_3x1
+key:162402eb(1) id:_common_plane_obj_3x1
+key:57cd85ec(0) id:_common_style_plane_3x3
+key:9bee5287(1) id:_common_plane_obj_3x3
+key:097d4d06(0) id:_common_style_plane_3x3_dialog
+key:3fc2179e(0) id:_common_default_style_scrollbar_touch
+key:16ca0b50(1) id:planeobj_style1
+key:4cb64afc(0) id:_common_style_scrollbar_touch_type1
+key:e2ad9302(0) id:_common_default_style_text
+key:a56e4ba2(1) id:text_obj1
+key:98c6276d(0) id:_common_style_text_type1
+key:c6e3b635(0) id:_common_style_text_progressbar_label
+key:01f875b1(1) id:textobj
+key:24706503(0) id:_common_style_text_list_item
+key:53a6c8b5(1) id:text_obj
+key:75de2949(0) id:_common_style_text_activity_date
+key:cec1bf6b(1) id:text_obj2
+key:9e70ed5f(0) id:_common_style_text_activity_mention
+key:077df1c8(1) id:text_obj3
+key:b6875cbc(0) id:_common_style_text_activity_goods_comments_baloon
+key:17c26b2b(1) id:text_obj4
+key:bda672e9(0) id:_common_style_text_activity_pid
+key:1ab2dc93(1) id:text_obj5
+key:0553e87f(0) id:_common_default_style_text_box
+key:e6ea7d34(0) id:_common_default_style_dialog_text_box
+
+# <stringtable>
+key:d8319f09(0) id:msg_bt
+key:15a8e44a(0) id:msg_bt_audio_device
+key:7dc75496(0) id:msg_bt_device_name
+key:17c963b8(0) id:msg_bt_device_name_variable
+key:a53129c9(0) id:msg_bt_device_settings
+key:034e35b9(0) id:msg_bt_human_interface_device
+key:e78f890c(0) id:msg_bt_profile
+key:2680d0fe(0) id:msg_bt_search_information
+key:dd16a187(0) id:msg_bt_settings
+key:21210d3e(0) id:msg_bt_type
+key:3b713172(0) id:msg_confirm_bt_passkey_bt_device
+key:6b548fcb(0) id:msg_connect_this_bt_device_conf
+key:663ad18f(0) id:msg_connect_vb
+key:f1811d32(0) id:msg_delete
+key:8f0daa67(0) id:msg_disconnect
+key:8de3f0db(0) id:msg_enter_bt_passkey
+key:b4c9c269(0) id:msg_enter_bt_passkey_bt_device
+key:165439c8(0) id:msg_error_bt_device_connect
+key:240a5f0a(0) id:msg_error_bt_device_connect_bt_device_over
+key:2643fd75(0) id:msg_error_bt_device_connect_timeout
+key:6d350b5e(0) id:msg_error_connect_no_supported_profile
+key:ec65cf7e(0) id:msg_error_connect_wrong_passkey_cancelled
+key:456aa650(0) id:msg_mic_priority_bt
+key:b7a7f615(0) id:msg_mic_priority_bt_info
+key:5d9993a2(0) id:msg_network
+key:72209fa4(0) id:msg_not_connected_airplanemode
+key:3d5e5125(0) id:msg_off
+key:6cafade5(0) id:msg_operate_bt_device_to_connect
+key:39faba98(0) id:msg_passkey_variable
+key:3ef40b46(0) id:msg_searching
+key:632b6733(0) id:msg_wait
+
+# <texturetable>
+key:7a92fc3b(0) id:tex_icon_computer,src:texture/computer.png,type:texture/png
+key:dd569dde(0) id:tex_icon_headset,src:texture/headset.png,type:texture/png
+key:bddc8568(0) id:tex_icon_generic,src:texture/generic.png,type:texture/png
+key:9d0051bb(0) id:tex_icon_controller,src:texture/controller.png,type:texture/png
+key:fbd879ae(0) id:tex_icon_active,src:texture/active.png,type:texture/png
+key:9718c305(0) id:tex_icon_inactive,src:texture/inactive.png,type:texture/png
+key:b7a3f6ca(0) id:tex_icon_streaming,src:texture/streaming.png,type:texture/png
+key:3bcae1d1(0) id:tex_textbox,src:../../../common/resource/paf/texture/button/text_box_h33_v33.png,type:texture/png
+key:68ecc7c3(0) id:tex_spanner,src:../../../common/resource/filelist/texture/spanner.png,type:texture/png
+key:c0fbeec9(0) id:tex_list_70px,src:../../../common/resource/filelist/texture/list_70px.png,type:texture/png
+key:7215314f(0) id:tex_dialog_shadow,src:../../../common/resource/paf/texture/dialog/dialogue_popup_shadow_h33_v33.png,type:texture/png
+key:1cd21db1(0) id:tex_dialog_frame,src:../../../common/resource/paf/texture/dialog/dialogue_popup_frame_h33_v33.png,type:texture/png
+key:1ffe1fc6(0) id:tex_dialog_fill,src:../../../common/resource/paf/texture/dialog/dialogue_popup_fill_h33_v33.png,type:texture/png
+
+# <templatetable>
+key:3d16cd4e(0) id:_bt_dialog_template
+key:3101acc3(1) id:bt_dialog
+key:7505d64a(1) id:default
+key:11bb8f3a(1) id:base_plane
+key:ff1aeb0d(1) id:base_plane2
+key:1c724a9f(1) id:base_plane3
+key:f3c09db9(1) id:bt_dialog_box1
+key:bcdf7b19(1) id:bt_dialog_title
+key:d0e1615e(1) id:bt_dialog_title_scrollbar
+key:6c1ad96a(1) id:bt_dialog_center
+key:a82f9282(1) id:bt_dialog_center_scrollbar
+key:c6765248(1) id:bt_dialog_box2
+key:eea3cbe2(1) id:bt_dialog_button_ok
+key:e966cfe2(1) id:bt_dialog_button_cancel
+

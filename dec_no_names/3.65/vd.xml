@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal" id="0x4017b976">
+    <templatetable>
+        <template id="0x2e9374eb">
+            <group id="0x3c5b4927">
+                <layout_hint pos="250, 0, 0"/>
+            </group>
+            <group id="0x10a55ba8">
+                <layout_hint pos="-282, 30, 0" size="248, 176"/>
+            </group>
+            <group id="0x1361f380">
+                <layout_hint pos="-282, -94, 0" size="248, 72"/>
+            </group>
+            <group id="0xb3e92cd9">
+                <layout_hint pos="-34, -6, 0" size="248, 248"/>
+            </group>
+        </template>
+    </templatetable>
+</resource>

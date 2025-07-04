@@ -1,7 +1,9 @@
 from collections import defaultdict
 from re import M
-import sys, os, match_hashes
+import sys, os
 from xml.etree import ElementTree as ET
+
+import util
 
 if len(sys.argv) != 2:
     print("usage: check_hash.py <name>")
@@ -22,7 +24,7 @@ def find_matches(filename, ids) -> dict:
         for elem in table.findall(".//*"):
             for attrib in elem.keys():
                 val = elem.get(attrib)
-                if len(val) == 8 and match_hashes.is_hex(val) and val not in seen:
+                if len(val) == 8 and util.is_hex(val) and val not in seen:
                     if ids.get(val):
                         ret[val] += 1
                     seen.add(val)

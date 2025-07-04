@@ -1,0 +1,27 @@
+#
+#
+#               auth_reset_plugin - resource debug symbol file
+#
+#
+
+
+# <stringtable>
+
+# <texturetable>
+key:a67cb5df(0) id:tex_settings_bg
+
+# <pagetable>
+key:587a75d4(0) id:style_plane_base_page
+key:20413274(0) id:_common_sound_button_enter
+key:b9fbcf7d(0) id:_common_default_style_button
+key:805beca6(0) id:msg_ok
+key:665c3d2f(0) id:_common_default_style_box
+key:adcd9adf(0) id:msg_cancel_vb
+key:8fec3b0d(0) id:msg_restore_system
+key:6de6166d(0) id:msg_restoring_notice
+
+# <styletable>
+key:e95f1628(0) id:planeobj
+key:01f875b1(0) id:textobj
+
+# <templatetable>

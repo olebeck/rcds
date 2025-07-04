@@ -1,0 +1,48 @@
+# SCE CONFIDENTIAL
+#
+#
+#      Copyright (C) 2010 Sony Computer Entertainment Inc.
+#                        All Rights Reserved.
+#
+#
+#               system_settings_plugin - resource debug symbol file
+#
+#
+
+# <stringtable>
+key:82fd3444(0) id:msg_airplanemode
+key:94e323e8(0) id:msg_airplanemode_on
+key:e0448005(0) id:msg_application_data_management
+key:dd16a187(0) id:msg_bt_settings
+key:8655c932(0) id:msg_date_time
+key:96a5263b(0) id:msg_format_restore
+key:3b761af1(0) id:msg_language
+key:5d9993a2(0) id:msg_network
+key:ae5236d0(0) id:msg_pc_security
+key:db96a164(0) id:msg_power_saving_settings
+key:22bf40ed(0) id:msg_psn
+key:ed3441bf(0) id:msg_settings
+key:e5ae58b8(0) id:msg_sound_display
+key:6445d9d7(0) id:msg_system
+key:7f8f9dbc(0) id:msg_system_update
+key:f5d2e340(0) id:msg_wifi_settings
+key:bf3527eb(0) id:msg_mobile_network_settings
+key:5f50057e(0) id:msg_location_service
+
+# <texturetable>
+key:68ecc7c3(0) id:tex_spanner,src:../../../common/resource/filelist/texture/spanner.png,type:texture/png
+key:77fd313c(0) id:tex_settings,src:texture/settings_icon.png,type:texture/png
+key:e97b7ed2(0) id:tex_update,src:texture/Bar_Update.gim,type:texture/gim
+key:6572f940(0) id:tex_network_settings,src:texture/Bar_Network_settings.gim,type:texture/gim
+key:e6d5c6e6(0) id:tex_psn_settings,src:texture/PSN_settings.gim,type:texture/gim
+key:cb34f297(0) id:tex_data_manager,src:texture/Bar_Game_settings.gim,type:texture/gim
+key:c213d743(0) id:tex_sound,src:texture/Bar_Sound_settings.gim,type:texture/gim
+key:8854217a(0) id:tex_location_service,src:texture/Other_settings.gim,type:texture/gim
+key:6d4822bc(0) id:tex_security,src:texture/Bar_Security_settings.gim,type:texture/gim
+key:11ada51c(0) id:tex_date_settings,src:texture/Bar_Time_settings.gim,type:texture/gim
+key:b952887d(0) id:tex_lang,src:texture/Other_settings.gim,type:texture/gim
+key:5b9e6456(0) id:tex_console_info,src:texture/Bar_Remote_Play_settings.gim,type:texture/gim
+key:1b92dca0(0) id:tex_reset,src:texture/Other_settings.gim,type:texture/gim
+key:d73ab41a(0) id:tex_powersave_settings,src:texture/Bar_Powersave_settings.gim,type:texture/gim
+key:dc6fe6c1(0) id:tex_debug,src:texture/Other_settings.gim,type:texture/gim
+

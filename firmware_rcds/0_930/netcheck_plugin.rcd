@@ -1,0 +1,23 @@
+# SCE CONFIDENTIAL
+#
+#
+#      Copyright (C) 2010 Sony Computer Entertainment Inc.
+#                        All Rights Reserved.
+#
+#
+#               netcheck_plugin - resource debug symbol file
+#
+#
+
+# <stringtable>
+key:4c07677e(0) id:msg_adhoc_connecting
+key:4f1234e4(0) id:msg_connect_adhoc_conf
+key:c42f213a(0) id:msg_connect_internet_conf
+key:c51aa4a4(0) id:msg_error_occurred
+key:632b6733(0) id:msg_wait
+key:db05b3a9(0) id:msg_wifi_on_conf
+key:9d70658e(0) id:msg_psn_signup
+key:3d508784(0) id:msg_signup_cancel
+key:27b537bd(0) id:msg_signup
+key:61c1dc03(0) id:msg_psn_online_connect
+

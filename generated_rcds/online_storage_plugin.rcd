@@ -1,0 +1,97 @@
+#
+#
+#               online_storage_plugin - resource debug symbol file
+#
+#
+
+
+# <pagetable>
+key:9573096e(0) id:page_bg
+key:2d64872d(0) id:plane_style_bg
+key:80f87c88(0) id:bg
+key:b71c0e5a(0) id:text_style_title
+key:f00d6c43(0) id:button_style_close
+key:1bcd9ca1(0) id:top_gradation
+key:85a75b2e(0) id:bottom_gradation
+key:7e7ab560(0) id:page_content_info
+key:9fa39b7d(0) id:plane_bg
+key:9c9138bf(0) id:plane_base
+key:6d23b259(0) id:_common_style_scroll_view_transparent
+key:4112d880(0) id:vertical_scroll_bar
+key:e9c61c2c(0) id:dialog_view
+key:ffb11291(0) id:_common_default_style_scrollbar
+key:7374487a(0) id:_common_default_style_dialog_box
+key:019bc95d(0) id:dialog_view_box
+key:377cad88(0) id:text_content_info_title
+key:07b6bf73(0) id:tate
+key:35ca8ee7(0) id:_common_style_corner_bottom_left
+
+# <styletable>
+key:e95f1628(0) id:planeobj
+key:01f875b1(0) id:textobj
+key:ee38688f(0) id:textobj_style
+key:9c96918b(0) id:bg_obj
+key:22ff88bd(0) id:glow_obj
+key:11c027f5(0) id:_common_texture_close_button
+key:f5b88e4a(0) id:_common_texture_close_button_glow
+key:20413274(0) id:_common_sound_button_enter
+key:eb3b8f6e(0) id:glowobj
+key:8d9fcb07(0) id:bg_obj_style
+key:8815b977(0) id:content_info_list_item_style
+key:72a92b05(0) id:obj_plane
+key:45be9610(0) id:_common_texture_icon_mask64
+key:b75b7c7c(0) id:label_obj_style
+key:74319925(0) id:_common_texture_button
+key:9b7bed4b(0) id:_common_texture_button_glow
+
+# <stringtable>
+
+# <aliastable>
+
+# <texturetable>
+
+# <templatetable>
+key:72463716(0) id:template_content_info_list_item
+key:56d3d98e(0) id:list_item_content_info
+key:aa21c75b(0) id:info_list
+key:d27d3ddd(0) id:list_item_box
+key:7505d64a(0) id:default
+key:59bd0a3f(0) id:info
+key:5515d341(0) id:_common_default_style_dialog
+key:438c7285(0) id:dialog_base
+key:5066f91c(0) id:base_frame
+key:60501e4b(0) id:_common_texture_dialog_frame
+key:bdb0eaff(0) id:_common_style_plane_dialog
+key:2c5b8b18(0) id:base_fill
+key:65fe4933(0) id:_common_texture_dialog_fill_white
+key:2a35777a(0) id:dialog_image
+key:34b37956(0) id:dialog_title
+key:2fe7e8cc(0) id:_common_style_plane_aspect_size
+key:3a3b1f42(0) id:dialog_arrow
+key:24431b2c(0) id:_common_texture_copy_dialog_arrow
+key:ebc8a5d0(0) id:dialog_line
+key:91685156(0) id:_common_texture_ruled_line
+key:67f05a01(0) id:_common_style_dialog_text
+key:d0791765(0) id:dialog_text1
+key:5f7b332b(0) id:_common_style_plane_transparent
+key:ef6773d4(0) id:copy_dialog_common_items
+key:aa64febf(0) id:button_box
+key:41b7f005(0) id:_common_style_dialog_button_fix
+key:5049f5e4(0) id:dialog_button1
+key:bd559a97(0) id:dialog_button2
+key:21b278b4(0) id:filelist_template_common_shadow
+key:69b13d29(0) id:filelist_widget_common_shadow
+key:852dcca3(0) id:filelist_widget_common_shadow_body
+key:5ad7ace9(0) id:filelist_texture_common_shadow
+key:c0e0dccd(0) id:filelist_template_common_check_box
+key:51c361d9(0) id:filelist_widget_common_check_box
+key:0c9f1494(0) id:_common_style_check_box_left
+key:8bbb66f7(0) id:filelist_widget_common_check_box_body
+key:b97bd73b(0) id:_common_style_check_box_type2_left_top
+key:66ea7a2f(0) id:dialog_text2
+key:92fd288f(0) id:_common_default_style_dialog_button
+key:768e69aa(0) id:dialog_box1
+key:dc458595(0) id:_common_template_dialog_title
+key:918215f3(0) id:dialog_view_gradation
+key:8c8546bc(0) id:_common_texture_dialog_gradation_top
+key:524141ac(0) id:_common_texture_dialog_gradation_bottom

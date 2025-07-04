@@ -1,0 +1,139 @@
+# SCE CONFIDENTIAL
+#
+#
+#      Copyright (C) 2010 Sony Computer Entertainment Inc.
+#                        All Rights Reserved.
+#
+#
+#               camera_liveboard_plugin - resource debug symbol file
+#
+#
+
+# <pagetable>
+key:040e6437(0) id:page_liveview
+key:fde92fd8(1) id:plane_camera_body
+key:9f5a6f89(1) id:type1
+key:fcee58e7(1) id:plane_camera_display
+key:c75194e6(1) id:plane_camera_shutter
+key:7098e175(1) id:button_camera_inout
+key:ce6bb142(1) id:button_camera_inout2
+key:851b54d2(1) id:button_camera_setting
+key:39e21430(1) id:button_camera_viewer
+key:ff106454(1) id:button_camera_shutter
+key:9d8ee38a(0) id:page_viewer
+key:46699da2(1) id:plane_black_bg
+key:ff575919(1) id:plane_viewer_bg
+key:894e4d42(1) id:plane_viewer_image
+key:6f1194fe(1) id:button_viewer_close
+key:a5ef48e0(1) id:button_viewer_action
+key:1709370a(1) id:button_viewer_delete
+key:36277d01(0) id:page_camera_settings
+key:09fdc4e9(0) id:page_camera_sub_settings
+key:48af271e(0) id:page_camera_action_menu
+
+# <styletable>
+key:b714eeb7(0) id:style_plane_slide_menu_base
+key:e95f1628(1) id:planeobj
+key:50512037(0) id:style_plane_slide_menu_header
+key:80c361ea(0) id:style_box_slide_menu_header_title
+key:e9c4cb20(0) id:style_plane_slide_menu_header_icon
+key:014e867d(0) id:style_text_slide_menu_header_title
+key:01f875b1(1) id:textobj
+key:769c7726(0) id:style_button_close
+key:9c96918b(1) id:bg_obj
+key:a4a4b7a5(0) id:style_list_view_slide_menu
+key:6bd81215(0) id:style_list_item_slide_menu_item
+key:159707a9(0) id:style_button_slide_menu_item
+key:28ccf273(1) id:label_obj
+key:d3979b63(1) id:image_obj
+key:db9f3d40(1) id:image_back_obj
+key:e5d5ce87(0) id:style_text_slide_menu_item_label1
+key:5b25a28c(0) id:style_plane_slide_menu_item_label1
+key:43aadbcd(0) id:style_plane_slide_option_menu_base
+key:5ee01f02(0) id:style_list_view_slide_option_menu
+key:62eb1c6e(0) id:style_list_item_slide_option_menu_item
+key:88af578e(0) id:style_button_slide_option_menu_item
+key:0aff128e(0) id:style_plane_camera_bg
+key:13be1205(0) id:style_plane_camera_body
+key:b082644b(0) id:style_plane_camera_display
+key:caacea67(0) id:style_plane_camera_shutter
+key:09aeee77(0) id:style_button_camera_inout
+key:b6eab2ae(0) id:style_button_camera_inout2
+key:280aedd6(0) id:style_button_camera_setting
+key:50462e38(0) id:style_button_camera_viewer
+key:fb19273b(0) id:style_button_camera_shutter
+key:ad00a24f(0) id:style_plane_camera_thumbnail
+key:7c91ddf8(0) id:style_plane_black_bg
+key:0c3f7752(0) id:style_plane_viewer_bg
+key:c00a768d(0) id:style_plane_viewer_image
+key:d9de4f04(0) id:style_button_viewer_close
+key:33406eb4(0) id:style_button_viewer_action
+key:b52b8240(0) id:style_button_viewer_delete
+
+# <stringtable>
+key:cd4ca69d(0) id:msg_delete_this_image_conf
+key:74cd1f88(0) id:msg_error_delete_this_image
+key:529cbbbf(0) id:msg_image_size
+key:832a5219(0) id:msg_image_size_320_180
+key:32e4bb92(0) id:msg_image_size_320_240
+key:cf582f49(0) id:msg_image_size_480_270
+key:0fd050f6(0) id:msg_image_size_480_272
+key:531586bb(0) id:msg_image_size_480_480
+key:184d8f18(0) id:msg_image_size_640_360
+key:1e8574e5(0) id:msg_image_size_640_480
+key:8b69cf2f(0) id:msg_none
+key:805beca6(0) id:msg_ok
+
+# <texturetable>
+key:a33f3042(0) id:tex_slide_menu_list_70,src:..\..\..\xcommon\resource\slide_menu\texture\list_70px.png,type:texture/png
+key:98f7eabd(0) id:tex_slide_menu_close,src:..\..\..\xcommon\resource\slide_menu\texture\close_button.png,type:texture/png
+key:e7375a99(0) id:tex_slide_menu_spanner,src:..\..\..\xcommon\resource\slide_menu\texture\spanner.png,type:texture/png
+key:038eb6f4(0) id:tex_slide_menu_settings,src:..\..\..\xcommon\resource\slide_menu\texture\settings_normal.png,type:texture/png
+key:890bdeeb(0) id:tex_slide_menu_action,src:..\..\..\xcommon\resource\slide_menu\texture\action_normal.png,type:texture/png
+key:b47bc1c9(0) id:tex_slide_menu_check,src:..\..\..\xcommon\resource\slide_menu\texture\check.png,type:texture/png
+key:7ab09339(0) id:tex_camera_display,src:texture/camera_display_h33_v33.png,type:texture/png
+key:9bd8c035(0) id:tex_camera_shutter_poped,src:texture/shutter_normal.png,type:texture/png
+key:7f30e42f(0) id:tex_camera_shugger_pushed,src:texture/shutter_push.png,type:texture/png
+key:ca514174(0) id:tex_camera_setting_poped,src:texture/camera_settings_normal.png,type:texture/png
+key:4d2e5b90(0) id:tex_camera_setting_pushed,src:texture/camera_settings_push.png,type:texture/png
+key:d0043bf5(0) id:tex_camera_in,src:texture/camera_change_in.png,type:texture/png
+key:b84a9d5a(0) id:tex_camera_out,src:texture/camera_change_out.png,type:texture/png
+key:ad1abd2e(0) id:tex_camera_viewer_poped,src:texture/viewer_normal.png,type:texture/png
+key:3d1c8672(0) id:tex_camera_viewer_pushed,src:texture/viewer_push.png,type:texture/png
+key:b14f2415(0) id:tex_camera_thumbnail,src:texture/thumbnail_bg_h33_v33.png,type:texture/png
+key:ed4a08be(0) id:tex_camera_close,src:texture/close.png,type:texture/png
+key:a132268a(0) id:tex_camera_delete,src:texture/delete_normal.png,type:texture/png
+key:c4078e16(0) id:tex_camera_action,src:texture/action_normal.png,type:texture/png
+
+# <soundtable>
+key:a68f7d06(0) id:sound_camera_shutter_01,left:sound/Digi01-L.vag,right:sound/Digi01-R.vag,type:sound/vag
+key:d3bd46e1(0) id:sound_camera_shutter_02,left:sound/Digi02-L.vag,right:sound/Digi02-R.vag,type:sound/vag
+key:5d0e8fc8(0) id:sound_camera_shutter_03,left:sound/Camera01-L.vag,right:sound/Camera01-R.vag,type:sound/vag
+key:0f6228b8(0) id:sound_camera_shutter_04,left:sound/Camera02-L.vag,right:sound/Camera02-R.vag,type:sound/vag
+key:794f3d75(0) id:sound_camera_shutter_05,left:sound/Camera03-L.vag,right:sound/Camera03-R.vag,type:sound/vag
+
+# <templatetable>
+key:c4a6508b(0) id:template_slide_menu
+key:25b91919(1) id:plane_slide_menu_base
+key:3d31f98d(1) id:landscape960x544
+key:b0cdef2c(1) id:list_view_slide_menu
+key:88c71f6a(0) id:template_slide_menu_header
+key:7cce659a(1) id:plane_slide_menu_header
+key:56d30518(1) id:box_slide_menu_header_title
+key:fed2efa9(1) id:plane_slide_menu_header_icon
+key:156de763(1) id:text_slide_menu_header_title
+key:844f87cf(1) id:button_slide_menu_header_close
+key:80954abf(0) id:template_slide_menu_item
+key:e2fe5391(1) id:list_item_slide_menu_item
+key:2dad55e3(1) id:image_button_slide_menu_item
+key:b7dd0148(1) id:text_slide_menu_item_label1
+key:c5fff3d0(1) id:plane_slide_menu_item_label2
+key:bd660ad7(0) id:template_slide_option_menu
+key:f9c97353(1) id:plane_slide_option_menu_base
+key:6e1557ea(1) id:list_view_slide_option_menu
+key:a1d6a2eb(0) id:template_slide_option_menu_item
+key:ea2594b8(1) id:list_item_slide_option_menu_item
+key:db59b643(1) id:image_button_slide_option_menu_item
+key:c9bc14e4(0) id:template_camera_thumbnail
+key:08186bc2(1) id:plane_camera_thumbnail
+

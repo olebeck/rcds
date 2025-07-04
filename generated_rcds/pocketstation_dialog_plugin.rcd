@@ -1,0 +1,65 @@
+#
+#
+#               pocketstation_dialog_plugin - resource debug symbol file
+#
+#
+
+
+# <templatetable>
+key:244fd5c5(0) id:plane_back_ground_template
+key:d7300907(0) id:plane_back_ground
+key:e5c9881b(0) id:plane_page_header_template
+key:de30768c(0) id:style_plane_header
+key:594ed83b(0) id:plane_top_menu_header
+key:cabd940f(0) id:style_box
+key:0a2f2cd9(0) id:landscape
+key:11a1fcbb(0) id:style_text_header
+key:77e448f2(0) id:text_top_menu_title
+key:20ef7a84(0) id:_common_sound_plane_button_cancel
+key:b032e738(0) id:_common_style_close_button
+key:91eea89d(0) id:plane_page_footer_template
+key:35ca8ee7(0) id:_common_style_corner_bottom_left
+key:81b31207(0) id:corner_button_back
+key:cecaf9c5(0) id:list_view_top_menu_template
+key:5f7b332b(0) id:_common_style_plane_transparent
+key:ce561ed6(0) id:list_view_clip_area
+key:48919590(0) id:_common_sound_list_view
+key:749ca58b(0) id:list_view_style
+key:691b1b40(0) id:list_view_top_menu
+key:5874fe05(0) id:list_item_01_template
+key:8d07923e(0) id:list_item_style
+key:df27676a(0) id:list_item01
+key:20413274(0) id:_common_sound_button_enter
+key:526b27a1(0) id:list_item_button
+key:feba04f7(0) id:list_item_1st_text
+key:44417221(0) id:list_item_2nd_text
+key:dec6c66b(0) id:list_item_03_template
+key:c2256816(0) id:list_item03
+key:c72cf1d7(0) id:style_plane_triangle
+key:d3edbe97(0) id:list_item_04_template
+key:2ef748b9(0) id:list_item04
+key:ba195a37(0) id:_common_texture_busy
+key:6d23b259(0) id:_common_style_scroll_view_transparent
+key:d2c8f0c2(0) id:scrollbar
+
+# <styletable>
+key:74319925(0) id:_common_texture_button
+key:9b7bed4b(0) id:_common_texture_button_glow
+key:72a92b05(0) id:obj_plane
+key:8d9fcb07(0) id:bg_obj_style
+key:53a6c8b5(0) id:text_obj
+key:183569ba(0) id:style_busyindicator
+key:22ff88bd(0) id:glow_obj
+key:b75b7c7c(0) id:label_obj_style
+key:23aaad77(0) id:tex_list_item
+key:320bc447(0) id:style_plane_check_mark
+key:835b7d9e(0) id:plane_obj
+key:5ef7041d(0) id:tex_header
+key:e95f1628(0) id:planeobj
+key:1845d10d(0) id:_common_texture_disclosure
+
+# <stringtable>
+
+# <texturetable>
+key:96aacfcd(0) id:tex_back_ground
+key:c0f44e0c(0) id:tex_footer

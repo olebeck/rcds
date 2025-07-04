@@ -2,3 +2,4 @@
 /decompiled*/
 generate.py
 __pycache__
+dec_no_names/**/*.bin

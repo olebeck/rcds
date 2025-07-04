@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal" id="0x765df521">
+    <pagetable>
+        <page id="0x5fcd170e">
+            <button style="0xee3d4a6f" id="0x230d4d65" label="0xfff377b3">
+                <layout_hint id="0x7505d64a" size="300, 50, 0"/>
+            </button>
+        </page>
+    </pagetable>
+    <styletable>
+        <style_button color="1, 1, 1, 1" label_obj="0x01f875b1" bg_obj="0xe95f1628" id="0xee3d4a6f">
+            <planeobj id="0xe95f1628"/>
+            <textobj align_y="1" align_x="1" id="0x01f875b1" point="20"/>
+        </style_button>
+    </styletable>
+    <stringtable>
+        <locale src="ja.bin" id="ja"/>
+        <locale src="en.bin" id="en"/>
+    </stringtable>
+    <texturetable/>
+</resource>

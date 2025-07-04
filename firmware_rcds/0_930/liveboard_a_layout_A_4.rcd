@@ -1,0 +1,40 @@
+# SCE CONFIDENTIAL
+#
+#
+#      Copyright (C) 2010 Sony Computer Entertainment Inc.
+#                        All Rights Reserved.
+#
+#
+#               liveboard_a_layout_A_4 - resource debug symbol file
+#
+#
+
+# <styletable>
+key:efe8bd15(0) id:list_item_panelheader_style
+key:ad7ca1b1(1) id:panel_bg_style
+key:2a4dfc59(0) id:style_list_item
+key:87cc245f(1) id:obj_plane_listitem
+key:0f1450fd(0) id:list_item_button_style
+key:8d9fcb07(1) id:bg_obj_style
+key:b75b7c7c(1) id:label_obj_style
+key:81bf7e0a(0) id:list_item_panel_style
+
+# <stringtable>
+key:89d70b5b(0) id:rid_topmenu_string1
+
+# <texturetable>
+key:fa019a45(0) id:bg_null,src:../../liveboard_a_plugin/resource/texture/null.gim,type:texture/gim
+
+# <templatetable>
+key:093d5978(0) id:list_item_header
+key:0a7ad130(1) id:list_header
+key:d97527fc(1) id:layout_horizontal
+key:12edebfc(1) id:list_header_panel
+key:e1f185d6(1) id:infoarea
+key:2684356a(1) id:spc1
+key:7ee72c4e(1) id:spc2
+key:754d2e97(1) id:screenshot
+key:d11516d3(1) id:spc3
+key:67617bfe(1) id:spc4
+key:d5017916(1) id:spc5
+

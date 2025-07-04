@@ -1,0 +1,76 @@
+#
+#
+#               webbrowser_dialog_plugin - resource debug symbol file
+#
+#
+
+
+# <pagetable>
+key:304de776(0) id:webbrowser_main_page
+key:68b87019(0) id:plane_style_white
+key:05f4708f(0) id:main_page_bg
+key:308958e8(0) id:main_page_bg_tate
+key:0a2f2cd9(0) id:landscape
+key:25c60488(0) id:portrait
+key:9573096e(0) id:page_bg
+key:16975d70(0) id:plane_style_red
+key:286ded77(0) id:back_bround
+key:07b6bf73(0) id:tate
+key:af7af5d1(0) id:page_webcdlg_menu_top
+key:ab8fc563(0) id:webcdlg_menu_top
+key:c87dcd42(0) id:webcdlg_menu_bg
+key:06cf7a1a(0) id:text_style_htmltitle
+key:fdf595d0(0) id:webcdlg_title
+key:5391f7da(0) id:button_style_menu_def
+key:631c6b49(0) id:webcdlg_sslicon
+key:3b50e92d(0) id:webcdlg_menu_sslicon
+key:52ae3339(0) id:webcdlg_secicon
+key:6968bb9e(0) id:webcdlg_menu_secicon
+key:1f77e7b7(0) id:progressbar_style_url
+key:a5adfc49(0) id:webcdlg_progless
+key:be79baa9(0) id:page_webcdlg_menu_bottom
+key:f19f0e83(0) id:webcdlg_menu_bottom
+key:7399bcd4(0) id:wb_tb_bottom_tate
+key:901efa80(0) id:webcdlg_dlgexit
+key:70e67079(0) id:webcdlg_menu_cdlgexit
+key:3e43c8d3(0) id:wb_dlgexit_tate
+key:f7959f96(0) id:webcdlg_prev
+key:dbf59ee0(0) id:webcdlg_menu_back
+key:71229ecb(0) id:wb_prev_tate
+key:7d37858c(0) id:webcdlg_next
+key:23e7eba0(0) id:webcdlg_menu_next
+key:924d4e7f(0) id:wb_next_tate
+key:e7069810(0) id:webcdlg_reload
+key:7007e3ab(0) id:webcdlg_menu_reload
+key:fcf40bda(0) id:webcdlg_fullbrowser
+key:5fa30d0e(0) id:webcdlg_menu_fullbrowser
+
+# <styletable>
+key:f239aa56(0) id:plane_obj1
+key:74ecb2f5(0) id:plane_obj_red
+key:b9b5f37e(0) id:plane_progless
+key:a246c545(0) id:plane_obj2
+key:dbb3c7fb(0) id:menu_style_plane_trans
+key:ddbbc1de(0) id:plane_obj3
+key:a39b3558(0) id:menu_style_plane_background
+key:1c4fbcb6(0) id:plane_obj4
+key:fed93072(0) id:menu_stlye_kamaboko_top
+key:90d16812(0) id:menu_stlye_kamaboko_bottom
+key:63f3404f(0) id:afefe_text_obj
+key:baf23d85(0) id:afefe_plane_obj
+key:813068ed(0) id:button_style_menu_url
+key:59dfcfaa(0) id:button_style_menu_def_to
+key:b046f497(0) id:button_style_menu_def_po
+key:73819373(0) id:text_style_htmltitle_ta
+key:408aa894(0) id:text_style_htmltitle_pa
+key:2a38395d(0) id:base_obj_style
+key:582bb3ca(0) id:bar_fore_obj_style
+key:422c14be(0) id:webcdlg_menu_progressbase
+key:1233d543(0) id:webcdlg_menu_progressbar
+
+# <templatetable>
+
+# <stringtable>
+
+# <texturetable>
+key:2ac47227(0) id:webcdlg_menu_stop

@@ -1,0 +1,24 @@
+# SCE CONFIDENTIAL
+#
+#
+#      Copyright (C) 2010 Sony Computer Entertainment Inc.
+#                        All Rights Reserved.
+#
+#
+#               sample_dialog_plugin - resource debug symbol file
+#
+#
+
+# <pagetable>
+key:7b9e3561(0) id:page0
+key:248a20b6(1) id:background
+key:7c52501e(1) id:background_layout
+key:6f9b9af3(1) id:message
+key:5725a2ee(1) id:message_layout
+key:e42f94ee(1) id:close_button
+key:834cb028(1) id:close_button_layout
+
+# <styletable>
+key:3b65ec3c(0) id:background_style
+key:ca8a4537(0) id:message_style
+

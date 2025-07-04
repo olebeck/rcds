@@ -1,0 +1,79 @@
+#
+#
+#               near_plugin - resource debug symbol file
+#
+#
+
+
+# <pagetable>
+key:281b1f01(0) id:page_toparea
+key:d8fce2ac(0) id:page_flow
+key:825cfa90(0) id:flow_null
+key:dcb1a420(0) id:page_checkin
+key:c8c33d5d(0) id:page_ranking
+key:00932326(0) id:text_box_eula
+key:b9fbcf7d(0) id:_common_default_style_button
+key:cabd940f(0) id:style_box
+key:0a2f2cd9(0) id:landscape
+key:ac29b742(0) id:msg_accept
+key:25c60488(0) id:portrait
+key:de30768c(0) id:style_plane_header
+key:11a1fcbb(0) id:style_text_header
+key:b032e738(0) id:_common_style_close_button
+key:35ca8ee7(0) id:_common_style_corner_bottom_left
+key:9b8aee9c(0) id:page_radar_main
+key:e34934c4(0) id:page_title_profile
+
+# <styletable>
+key:16ca0b50(0) id:planeobj_style1
+key:ee3d4a6f(0) id:button_style1
+key:b522af2d(0) id:common_button_style1
+key:8d9fcb07(0) id:bg_obj_style
+key:8d07923e(0) id:list_item_style
+key:106dfc2d(0) id:planeobj_style
+key:1f408ad0(0) id:plane_style1
+key:b501eb4b(0) id:checkin_style_plane_3x3
+key:120f4542(0) id:checkin_plane_obj_3x3
+key:83ff9695(0) id:checkin_default_style_dialog
+key:e95f1628(0) id:planeobj
+key:01f875b1(0) id:textobj
+key:06efcfdc(0) id:tex_header_h48
+key:13a35c9d(0) id:style_text_generic_page_align_right
+key:b5bd9c9b(0) id:style_text_generic_page_align_left
+key:8242fc28(0) id:style_menutoggle_text_desc
+key:904d8dd6(0) id:style_menutoggle_text_title
+key:75cbf56e(0) id:base_obj
+key:da1d47bb(0) id:slider_obj
+key:6ec95ce2(0) id:_common_texture_scrollbar_base
+key:447350aa(0) id:_common_texture_scrollbar_slider
+key:a95f1f0e(0) id:style_button_hint
+key:22ff88bd(0) id:glow_obj
+key:2f652005(0) id:style_menuitem_button
+key:9c96918b(0) id:bg_obj
+key:29b91f26(0) id:tex_list_80px
+key:3ff83436(0) id:label_button
+key:855f12bb(0) id:slider_glow_obj
+key:11c027f5(0) id:_common_texture_close_button
+key:f5b88e4a(0) id:_common_texture_close_button_glow
+
+# <texturetable>
+key:c14ca673(0) id:common_texture_avatar_default
+key:03471dd1(0) id:tex_radar_user_chip
+
+# <stringtable>
+
+# <templatetable>
+key:936deedc(0) id:flow_list_item_template
+key:4112d880(0) id:vertical_scroll_bar
+key:9f5a6f89(0) id:type1
+key:805beca6(0) id:msg_ok
+key:99fd1289(0) id:menuitem_box_internal
+key:e211ce05(0) id:_common_style_busyindicator_8
+key:ba195a37(0) id:_common_texture_busy
+key:590fbe9f(0) id:ranking_list_item_template
+
+# <sounddatatable>
+
+# <soundindextable>
+key:ac019bcd(0) id:sound_button_ok
+key:48d64cf1(0) id:_common_snd01

@@ -1,0 +1,18 @@
+#
+#
+#               psm_manual_plugin - resource debug symbol file
+#
+#
+
+
+# <pagetable>
+key:91685156(0) id:_common_texture_ruled_line
+key:ed93a379(0) id:msg_intellectual_property_notices
+key:6d23b259(0) id:_common_style_scroll_view_transparent
+key:35ca8ee7(0) id:_common_style_corner_bottom_left
+
+# <styletable>
+
+# <stringtable>
+
+# <texturetable>

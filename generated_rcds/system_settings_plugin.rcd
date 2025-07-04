@@ -1,0 +1,14 @@
+#
+#
+#               system_settings_plugin - resource debug symbol file
+#
+#
+
+
+# <stringtable>
+
+# <texturetable>
+key:d9984a1c(0) id:tex_flight_mode
+key:99bf0163(0) id:tex_psn
+key:1b9bdf87(0) id:tex_notification
+key:6d4822bc(0) id:tex_security

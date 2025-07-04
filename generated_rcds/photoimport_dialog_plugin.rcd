@@ -1,0 +1,97 @@
+#
+#
+#               photoimport_dialog_plugin - resource debug symbol file
+#
+#
+
+
+# <pagetable>
+key:a72f5c9b(0) id:page_photo_browser
+key:75fe59f6(0) id:_common_default_style_plane
+key:9c9138bf(0) id:plane_base
+key:3d31f98d(0) id:landscape960x544
+key:b1a4211e(0) id:_common_sound_plane_button_back
+key:b032e738(0) id:_common_style_close_button
+key:a97afcda(0) id:button_back
+key:2fe7e8cc(0) id:_common_style_plane_aspect_size
+key:35ca8ee7(0) id:_common_style_corner_bottom_left
+
+# <styletable>
+key:5dbd3ece(0) id:filelist_style_photo_list_bg
+key:4dee4fa9(0) id:filelist_style_photo_list
+key:7a5c31cc(0) id:_common_sound_image_button
+key:86aacc1c(0) id:filelist_style_photo_list_button_image_back
+key:ffd2522e(0) id:filelist_style_photo_list_button_label
+key:4c7c12a3(0) id:filelist_style_photo_list_button_bg
+key:d3faa4c4(0) id:filelist_style_photo_list_button_image
+key:05539d97(0) id:filelist_style_photo_list_button
+key:1349482a(0) id:filelist_texture_photo_list_default
+key:261d7d24(0) id:filelist_style_photo_item_bg
+key:b3a2abcf(0) id:filelist_style_photo_item
+key:da547c1f(0) id:filelist_style_photo_item_button_image_back
+key:8a000bdd(0) id:filelist_style_photo_item_button_label
+key:958c539d(0) id:filelist_style_photo_item_button_bg
+key:278d0570(0) id:filelist_style_photo_item_button_image
+key:8cf1b748(0) id:filelist_style_photo_item_button
+key:1562e449(0) id:filelist_texture_photo_item_default
+key:e95f1628(0) id:planeobj
+key:141404cd(0) id:filelist_texture_photo_item_icon
+key:01f875b1(0) id:textobj
+key:b223ef9a(0) id:style_plane_toolbar_frame
+key:787fa287(0) id:lable_obj
+key:9c96918b(0) id:bg_obj
+key:97ae4783(0) id:style_image_button_sort
+key:74319925(0) id:_common_texture_button
+key:66026a52(0) id:style_text_filelist_title
+key:a84430a8(0) id:style_plane_filelist_segment
+key:9de34351(0) id:style_plane_filelist_titlebar
+key:8ca7a1ac(0) id:style_text_filelist_segment_title
+
+# <stringtable>
+
+# <templatetable>
+key:21b278b4(0) id:filelist_template_common_shadow
+key:69b13d29(0) id:filelist_widget_common_shadow
+key:852dcca3(0) id:filelist_widget_common_shadow_body
+key:5ad7ace9(0) id:filelist_texture_common_shadow
+key:c0e0dccd(0) id:filelist_template_common_check_box
+key:51c361d9(0) id:filelist_widget_common_check_box
+key:0c9f1494(0) id:_common_style_check_box_left
+key:8bbb66f7(0) id:filelist_widget_common_check_box_body
+key:b97bd73b(0) id:_common_style_check_box_type2_left_top
+key:83110daa(0) id:filelist_template_photo_list
+key:30cab372(0) id:filelist_widget_photo_list
+key:793794af(0) id:filelist_widget_photo_list_button
+key:6d429f40(0) id:filelist_template_photo_list_small
+key:b4baf03a(0) id:filelist_template_photo_item
+key:d521bf6c(0) id:filelist_widget_photo_item
+key:72d797bf(0) id:filelist_widget_photo_item_button
+key:ff40a92d(0) id:filelist_widget_photo_item_icon
+key:0e9b6767(0) id:filelist_widget_photo_item_text
+key:fa5da1f3(0) id:filelist_widget_photo_item_panorama_icon
+key:88c69069(0) id:title_bar_base
+key:04e82591(0) id:title_bar_group_dummy
+key:0869de74(0) id:title_bar_group
+key:e0f4a49e(0) id:title_bar_text
+key:3672f0cf(0) id:button_sort
+key:f6dc2e7f(0) id:template_edit_toolbar
+key:261cabbb(0) id:plane_edit_toolbar
+key:b9fbcf7d(0) id:_common_default_style_button
+key:11a6fb3b(0) id:button_edit_toolbar_cancel
+key:adcd9adf(0) id:msg_cancel_vb
+key:805beca6(0) id:msg_ok
+key:d24c6d80(0) id:template_empty_info
+key:c8ece83b(0) id:group_empty_info
+key:b390f407(0) id:text_empty_info
+key:57c985df(0) id:msg_no_images
+key:e386b09e(0) id:msg_no_playlists
+key:18f1160f(0) id:template_filelist_segment_header
+key:44307737(0) id:filelist_segment_header
+key:0b2ba812(0) id:filelist_segment_title
+
+# <texturetable>
+key:4e959b67(0) id:filelist_texture_photo_default
+key:126c80b1(0) id:filelist_texture_photo_loading
+key:936f12fd(0) id:filelist_texture_photo_folder
+key:28bdf805(0) id:filelist_texture_photo_broken
+key:4c81dddd(0) id:filelist_texture_photo_unknown

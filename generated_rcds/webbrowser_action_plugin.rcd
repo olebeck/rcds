@@ -1,0 +1,92 @@
+#
+#
+#               webbrowser_action_plugin - resource debug symbol file
+#
+#
+
+
+# <pagetable>
+key:ab8357ac(0) id:action_main_page
+key:9cb5062f(0) id:action_plane_style_background
+key:b21c7186(0) id:action_main_parent
+key:9b232bf9(0) id:action_layout
+key:0a2f2cd9(0) id:landscape
+key:25c60488(0) id:portrait
+key:09a66b2e(0) id:action_plane_style_trans
+key:1ee25a5a(0) id:action_main_title_parent
+key:29d6f4f4(0) id:action_box_style_title
+key:cdda0903(0) id:action_main_title_box
+key:81e54759(0) id:deault
+key:ed67ead6(0) id:action_plane_style_texture
+key:4722f6ce(0) id:action_main_title_icon
+key:42f9bff0(0) id:action_texture_thunder
+key:07b6bf73(0) id:tate
+key:d6025849(0) id:action_text_style_title
+key:574e0875(0) id:action_main_title
+key:8f4a7b7d(0) id:msg_action_title
+key:b9fbcf7d(0) id:_common_default_style_button
+key:0ca4a2bb(0) id:action_main_cancel_btn
+key:14536dfd(0) id:action_texture_close
+key:df247f6c(0) id:action_main_urlboss
+key:d49ad904(0) id:action_texture_url_bg
+key:d51d42ed(0) id:text_style_url
+key:0da9378d(0) id:action_main_url_text
+key:e1f43cc6(0) id:msg_add_bookmark
+key:003cec1a(0) id:action_listview_style_btn
+key:d0f3e2e5(0) id:action_main_list
+key:d0410f14(0) id:action_command_page
+key:422365e1(0) id:plane_style_dark_plane
+key:53ba50ef(0) id:action_command_parent
+key:e2ad9302(0) id:_common_default_style_text
+key:df6fa5de(0) id:action_command_title
+key:e0bab223(0) id:action_command_url_text
+key:b48235f5(0) id:action_command_boxboss
+key:cfcf49af(0) id:box_style_action
+key:de516d54(0) id:action_command_box
+key:87ff77d1(0) id:action_command_open_url_btn
+key:a7c19939(0) id:msg_open_url
+key:1bf562c0(0) id:action_command_newopen_url_btn
+key:7c39f13a(0) id:msg_newopen_url
+key:26c2d2c1(0) id:action_command_saveimage_btn
+key:6a5fe8fe(0) id:msg_save_image
+key:13fc9a8c(0) id:action_command_send_mail_btn
+key:bca6e9fa(0) id:msg_send_mail
+key:78747360(0) id:action_command_sepalate_1
+key:c9402dfd(0) id:action_command_cancel_btn
+key:a0401bb4(0) id:msg_cancel
+
+# <styletable>
+key:8faffadc(0) id:plane_back_g
+key:442bd541(0) id:plane_back_toumei
+key:82b928c9(0) id:plane_obj_shiro
+key:3cc94efa(0) id:textobj_afefe
+key:e95f1628(0) id:planeobj
+key:e6b494d1(0) id:action_text_style_title_ta
+key:b2f893ac(0) id:action_text_style_title_pa
+key:4ca10b24(0) id:action_listview_style_btn_pl
+key:d3402683(0) id:action_imgbutton_style_backobje
+key:a9ceb2fb(0) id:action_imgbutton_style_label
+key:5d9d1f25(0) id:action_imgbutton_style_bg
+key:acd80c7b(0) id:action_imgbutton_style_image_obj
+key:1d2b35fe(0) id:action_imgbutton_style
+key:e01bd79b(0) id:action_listitem_style_bg
+key:99f2a6d9(0) id:action_listitem_style
+
+# <texturetable>
+key:6b0ffeb6(0) id:action_texture_bookmark
+key:293cbd5b(0) id:action_texture_sendmail
+key:c7d553aa(0) id:action_texture_shortcut
+key:d97603a4(0) id:action_texture_tweet
+key:7d130fe6(0) id:action_texture_open_url
+key:5c9b30ba(0) id:action_texture_newopen_url
+key:f152aa88(0) id:action_texture_saveimage
+key:3e81f849(0) id:action_texture_config
+
+# <stringtable>
+
+# <templatetable>
+key:928485e8(0) id:actionwindow_template_listitem
+key:d48bea5c(0) id:actionwindow_list_item
+key:68bb405a(0) id:actionwindow_list_item_plane
+key:84c60cb3(0) id:actionwindow_list_item_plane_layhint
+key:f1b22df7(0) id:actionwindow_list_item_button

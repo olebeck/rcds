@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal" id="0x6ec499b2">
+    <templatetable>
+        <template id="0x2e9374eb">
+            <group id="0x3c5b4927">
+                <layout_hint pos="0, 66, 0"/>
+            </group>
+            <group id="0x10a55ba8">
+                <layout_hint pos="-282, 105, 0" size="228, 90"/>
+            </group>
+            <group id="0x1361f380">
+                <layout_hint pos="282, 105, 0" size="228, 90"/>
+            </group>
+            <group id="0xb3e92cd9">
+                <layout_hint pos="-282, -5, 0" size="228, 90"/>
+            </group>
+            <group id="0xb4a9beb2">
+                <layout_hint pos="282, -5, 0" size="228, 90"/>
+            </group>
+            <group id="0xb44d9ee4">
+                <layout_hint pos="-242, -160, 0" size="145, 145"/>
+            </group>
+            <group id="0x10fa6163">
+                <layout_hint pos="0, -160, 0" size="145, 145"/>
+            </group>
+            <group id="0x414305d6">
+                <layout_hint pos="242, -160, 0" size="145, 145"/>
+            </group>
+        </template>
+    </templatetable>
+</resource>

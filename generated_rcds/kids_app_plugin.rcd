@@ -1,0 +1,81 @@
+#
+#
+#               kids_app_plugin - resource debug symbol file
+#
+#
+
+
+# <pagetable>
+key:a72f5c9b(0) id:page_photo_browser
+key:14d5b36a(0) id:style_plane_bg
+key:9c9138bf(0) id:plane_base
+key:2fe7e8cc(0) id:_common_style_plane_aspect_size
+key:f526e3d9(0) id:box_base
+
+# <styletable>
+key:7a5c31cc(0) id:_common_sound_image_button
+key:22ff88bd(0) id:glow_obj
+key:28ccf273(0) id:label_obj
+key:9c96918b(0) id:bg_obj
+key:d3979b63(0) id:image_obj
+key:095d7249(0) id:style_box_common
+key:088e32c2(0) id:style_scroll_view_common
+key:e95f1628(0) id:planeobj
+key:61cae31d(0) id:tex_footer_base
+key:91e1c701(0) id:style_plane_surface_size
+key:aff3e0cf(0) id:tex_check
+key:20413274(0) id:_common_sound_button_enter
+key:d8ff8e1c(0) id:highlight_obj
+key:a04d2130(0) id:style_list_item_button
+key:2822454f(0) id:_common_texture_list_70px
+key:a7f5dbb2(0) id:_common_texture_list_glow_70px
+key:3bcae1d1(0) id:tex_textbox
+key:5cd8fdbb(0) id:_common_texture_checkbox_textbox_glow
+key:c9addaa4(0) id:highlight
+key:64c65374(0) id:label
+key:80f87c88(0) id:bg
+key:3d132ed4(0) id:_common_texture_button_white
+key:74319925(0) id:_common_texture_button
+key:9b7bed4b(0) id:_common_texture_button_glow
+key:c17d7980(0) id:_common_sound_button_cancel
+key:54cb6584(0) id:imageobj
+key:243e9955(0) id:_common_sound_plane_button_enter
+key:eb3b8f6e(0) id:glowobj
+key:a95f1f0e(0) id:style_button_hint
+key:d644fb58(0) id:tex_hint
+key:01f875b1(0) id:textobj
+key:18c7bc48(0) id:style_text_title
+key:e58c4ff4(0) id:_common_sound_text_box
+key:35e0295d(0) id:_common_texture_text_box
+key:30396cea(0) id:style_slidebar
+key:0defb7f6(0) id:_common_texture_progressbar_slider_glow
+
+# <stringtable>
+
+# <templatetable>
+key:3267a4bb(0) id:button_cancel
+key:d5cff5e3(0) id:button_ok
+key:35ca8ee7(0) id:_common_style_corner_bottom_left
+key:a97afcda(0) id:button_back
+key:d7220c5c(0) id:_common_style_corner_bottom_right
+key:98bddaf7(0) id:top_base
+key:dc0179bc(0) id:msg_change_passcode
+key:f10ab230(0) id:template_kids_app_application_list_item
+key:e8897baa(0) id:kids_app_application_list_item
+key:78a4eb82(0) id:template_kids_app_func_list_item
+key:cc678f51(0) id:kids_app_func_list_item
+key:3d5e5125(0) id:msg_off
+key:2537055e(0) id:msg_bullet
+key:fdc0e7a2(0) id:msg_sunday_cap
+key:00ea626a(0) id:msg_monday_cap
+key:35e1c118(0) id:msg_tuesday_cap
+key:d0b4ae74(0) id:msg_wednesday_cap
+key:84633c1b(0) id:msg_thursday_cap
+key:098c1f35(0) id:msg_friday_cap
+key:60cfe6fe(0) id:msg_saturday_cap
+
+# <texturetable>
+key:5288f006(0) id:tex_spin_base
+key:8cd5e386(0) id:tex_spin_center
+key:17bdfde3(0) id:tex_spin_line_highlight
+key:ab2c69c5(0) id:tex_spin_line_shadow

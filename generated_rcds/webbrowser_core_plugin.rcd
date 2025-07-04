@@ -1,0 +1,72 @@
+#
+#
+#               webbrowser_core_plugin - resource debug symbol file
+#
+#
+
+
+# <pagetable>
+key:5fcd170e(0) id:page_main
+key:75fe59f6(0) id:_common_default_style_plane
+key:12e5f8c7(0) id:main_page1
+key:07b6bf73(0) id:tate
+key:0a2f2cd9(0) id:landscape
+key:25c60488(0) id:portrait
+key:c9f0ef70(0) id:core_wndselect_page
+key:1407717e(0) id:plane_style_wndselect_bg
+key:182faff6(0) id:core_wndselect_parent
+key:b9fbcf7d(0) id:_common_default_style_button
+key:66955c73(0) id:core_wndselect_cancel_btn
+key:ad25c7b8(0) id:core_wndselect_close
+key:ae1c77d8(0) id:listview_style_windowselect
+key:efb45eca(0) id:core_wndselect_list
+key:9f5a6f89(0) id:type1
+key:0dc07f3b(0) id:core_wndselect_create_btn
+key:301a41e3(0) id:core_wndselect_create
+
+# <styletable>
+key:1f408ad0(0) id:plane_style1
+key:f239aa56(0) id:plane_obj1
+key:7a3f48e2(0) id:plane_style_draw_plane
+key:422365e1(0) id:plane_style_dark_plane
+key:0cf41b03(0) id:plane_style_gray_plane
+key:63f3404f(0) id:afefe_text_obj
+key:baf23d85(0) id:afefe_plane_obj
+key:5f31f3d9(0) id:button_style_core_wndselect
+key:9c96918b(0) id:bg_obj
+key:52448fad(0) id:scroll_view_style_base
+key:8a39c03e(0) id:listview_style_windowselect_bg
+key:3fcd331c(0) id:listview_style_windowselect_item_bg
+key:f664f5df(0) id:listview_style_windowselect_item
+key:21ddca27(0) id:wndselect_cell_text_style_title_ta
+key:b64a8d54(0) id:wndselect_cell_text_style_title
+key:225b05f3(0) id:wndselect_cell_text_style_title_pa
+key:cb449a2a(0) id:wndselect_cell_text_style_title_tb
+key:d90d75b5(0) id:wndselect_cell_text_style_title_s
+key:0235605b(0) id:wndselect_cell_text_style_title_pb
+
+# <texturetable>
+key:33e66c70(0) id:core_dummysite_001
+key:c38db514(0) id:core_dummysite_002
+key:2d172956(0) id:core_dummysite_003
+key:46bcc46f(0) id:core_dummysite_004
+key:1a37c9b2(0) id:core_dummysite_005
+key:8a4b927d(0) id:core_dummysite_006
+key:d9ab7c36(0) id:core_dummysite_007
+key:7222e1f6(0) id:core_dummysite_008
+key:f3db1fb8(0) id:core_dummysite_009
+key:ee7651bf(0) id:core_dummysite_010
+key:bb204920(0) id:core_dummysite_011
+
+# <stringtable>
+
+# <templatetable>
+key:29fe72e5(0) id:windowselect_template_item
+key:8afabb31(0) id:_common_default_style_list_item
+key:79426ca0(0) id:windowselect_item
+key:2edbebb0(0) id:window_item_button
+key:4a431304(0) id:windowselect_template_item_ex2
+key:2548ad1d(0) id:windowselect_item_ex2
+key:e547c873(0) id:windowselect_thumb_btn
+key:bf6a835c(0) id:windowselect_close_btn
+key:0f512163(0) id:windowselect_title_txt

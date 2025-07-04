@@ -1,0 +1,72 @@
+#
+#
+#               tel_reg_plugin - resource debug symbol file
+#
+#
+
+
+# <pagetable>
+key:75fe59f6(0) id:_common_default_style_plane
+key:7374487a(0) id:_common_default_style_dialog_box
+key:20413274(0) id:_common_sound_button_enter
+
+# <styletable>
+key:01f875b1(0) id:textobj
+key:22ff88bd(0) id:glow_obj
+key:e95f1628(0) id:planeobj
+key:a6d7ae72(0) id:tex_text_box
+key:5cd8fdbb(0) id:_common_texture_checkbox_textbox_glow
+key:a56e4ba2(0) id:text_obj1
+key:f239aa56(0) id:plane_obj1
+key:74319925(0) id:_common_texture_button
+key:68b87019(0) id:plane_style_white
+key:16975d70(0) id:plane_style_red
+key:74ecb2f5(0) id:plane_obj_red
+key:b9b5f37e(0) id:plane_progless
+key:dbb3c7fb(0) id:menu_style_plane_trans
+key:a39b3558(0) id:menu_style_plane_background
+key:63f3404f(0) id:afefe_text_obj
+key:baf23d85(0) id:afefe_plane_obj
+key:813068ed(0) id:button_style_menu_url
+key:b046f497(0) id:button_style_menu_def_po
+key:5391f7da(0) id:button_style_menu_def
+key:ddbbc1de(0) id:plane_obj3
+key:a246c545(0) id:plane_obj2
+key:3d132ed4(0) id:_common_texture_button_white
+key:9b7bed4b(0) id:_common_texture_button_glow
+key:73819373(0) id:text_style_htmltitle_ta
+key:06cf7a1a(0) id:text_style_htmltitle
+key:2a38395d(0) id:base_obj_style
+key:582bb3ca(0) id:bar_fore_obj_style
+key:1f77e7b7(0) id:progressbar_style_url
+key:183569ba(0) id:style_busyindicator
+key:1c4fbcb6(0) id:plane_obj4
+key:d92ee5d0(0) id:style_listitem_button
+key:34dd2465(0) id:labelobj
+key:eb3b8f6e(0) id:glowobj
+key:97fcd894(0) id:style_listitem_label
+key:ef7fe400(0) id:bgobj
+key:079b7dff(0) id:style_list_view
+key:4fbbc27c(0) id:scroll_view_style
+
+# <templatetable>
+key:3f4b5bd9(0) id:tex_title_bar
+key:c17d7980(0) id:_common_sound_button_cancel
+key:501d508e(0) id:_common_default_style_progressbar
+key:c6e3b635(0) id:_common_style_text_progressbar_label
+key:b9fbcf7d(0) id:_common_default_style_button
+key:adcd9adf(0) id:msg_cancel_vb
+key:e58c4ff4(0) id:_common_sound_text_box
+key:5f7b332b(0) id:_common_style_plane_transparent
+key:7a5c31cc(0) id:_common_sound_image_button
+key:ba195a37(0) id:_common_texture_busy
+key:8afabb31(0) id:_common_default_style_list_item
+key:7897906d(0) id:_common_texture_check_mark
+key:e211ce05(0) id:_common_style_busyindicator_8
+key:aa2c6d2a(0) id:msg_back
+key:1efc6cbe(0) id:msg_next
+key:d2c8f0c2(0) id:scrollbar
+
+# <stringtable>
+
+# <texturetable>

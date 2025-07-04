@@ -1,0 +1,76 @@
+# SCE CONFIDENTIAL
+#
+#
+#      Copyright (C) 2010 Sony Computer Entertainment Inc.
+#                        All Rights Reserved.
+#
+#
+#               webbrowser_config_plugin - resource debug symbol file
+#
+#
+
+# <pagetable>
+key:51597683(0) id:config_page
+key:2d450223(1) id:config_main_parent
+key:07b6bf73(1) id:tate
+key:0a2f2cd9(1) id:landscape
+key:25c60488(1) id:portrait
+key:b4e66521(1) id:config_main_title
+key:c8e58a1f(1) id:scroll_view
+key:25d7db51(1) id:config_parent
+key:83f17b17(1) id:cookie_text
+key:530ed6bf(1) id:java_text
+key:da606632(1) id:plugin_text
+key:37274361(1) id:search_text
+key:da4e4168(1) id:auto_text
+key:dc75a96f(1) id:limit_text
+key:4fdf3f53(1) id:delcookie_text
+key:6500f5b7(1) id:cookie_btn
+key:e8bd0b7b(1) id:java_btn
+key:48d0ba54(1) id:plugin_btn
+key:0cd56b94(1) id:auto_input_btn
+key:b9646134(1) id:limit_btn
+key:8f3fe69a(1) id:config_bottom
+key:729536ef(1) id:ok_btn
+key:60c29264(1) id:cancel_btn
+key:01592f43(0) id:select_search_engine_page
+
+# <styletable>
+key:83fcc573(0) id:scroll_view_style1
+key:16ca0b50(1) id:planeobj_style1
+key:0b8c0153(0) id:plane_style_dark
+key:f239aa56(1) id:plane_obj1
+key:98436ec0(0) id:plane_style_gray
+key:58ebd228(0) id:config_text_style_title
+key:34f8e0ef(1) id:config_text_style_title_ta
+key:cb0882e3(1) id:config_text_style_title_pa
+
+# <stringtable>
+key:6fc5b8be(0) id:msg_config_title
+key:a6fc1474(0) id:msg_switch_on
+key:8e56fdbc(0) id:msg_switch_off
+key:27d3542d(0) id:msg_commit
+key:a0401bb4(0) id:msg_cancel
+key:fad80a60(0) id:msg_cookie
+key:a9e712e5(0) id:msg_javascript
+key:db158dfd(0) id:msg_flash
+key:a671b7bc(0) id:msg_search_engine
+key:30fd9956(0) id:msg_auto_input
+key:af29562e(0) id:msg_start_limit
+key:23854491(0) id:msg_cookie_del
+key:2132fc41(0) id:msg_config_cache_del
+key:34f7d5be(0) id:msg_config_auth_del
+key:28d2bbe5(0) id:msg_config_google
+key:355a8692(0) id:msg_config_yahooo
+key:40170b95(0) id:msg_config_cookie_del_confirmation
+key:b2326e2b(0) id:msg_config_plugin_del_confirmation
+key:4c0789ec(0) id:msg_config_cache_del_confirmation
+key:5b9a24f9(0) id:msg_config_auth_del_confirmation
+key:0a7ed7ee(0) id:msg_config_cookie_del_success
+key:38c24f95(0) id:msg_config_plugin_del_success
+key:6530228c(0) id:msg_config_cache_del_success
+key:d1efd9c3(0) id:msg_config_auth_del_success
+
+# <texturetable>
+key:c26525df(0) id:config_texture_spna,src:texture/spanner.png,type:texture/png
+

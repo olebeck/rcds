@@ -1,0 +1,32 @@
+#
+#
+#               liveboard_a_layout_A_2 - resource debug symbol file
+#
+#
+
+
+# <templatetable>
+key:093d5978(0) id:list_item_header
+key:2a4dfc59(0) id:style_list_item
+key:0a7ad130(0) id:list_header
+key:d97527fc(0) id:layout_horizontal
+key:efe8bd15(0) id:list_item_panelheader_style
+key:12edebfc(0) id:list_header_panel
+key:81bf7e0a(0) id:list_item_panel_style
+key:e1f185d6(0) id:infoarea
+key:2684356a(0) id:spc1
+key:7ee72c4e(0) id:spc2
+key:754d2e97(0) id:screenshot
+key:d11516d3(0) id:spc3
+
+# <styletable>
+key:ad7ca1b1(0) id:panel_bg_style
+key:fa019a45(0) id:bg_null
+key:87cc245f(0) id:obj_plane_listitem
+key:b75b7c7c(0) id:label_obj_style
+key:8d9fcb07(0) id:bg_obj_style
+key:0f1450fd(0) id:list_item_button_style
+
+# <stringtable>
+
+# <texturetable>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal" id="0xcc8ecd7a">
+    <pagetable>
+        <page id="0x5fcd170e">
+            <plane style="0xdd2a2442" id="0xb28b7af6" texture="0x05d8058a">
+                <layout_hint id="0xd97527fc" size="960, 544, 0"/>
+                <plane style="0xdd2a2442" id="0x9e32521d" texture="0x449ffb16">
+                    <layout_hint id="0xd97527fc" size="50, 38, 0"/>
+                </plane>
+                <button style="0xe5b95a23" id="0x32b7b67a">
+                    <layout_hint id="0xd97527fc" size="960, 544, 0"/>
+                </button>
+            </plane>
+        </page>
+    </pagetable>
+    <styletable>
+        <style_plane color="1, 1, 1, 1" id="0xdd2a2442" planeobj="0x72a92b05">
+            <planeobj id="0x72a92b05"/>
+        </style_plane>
+        <style_button color="1, 1, 1, 0.5" label_obj="0x8eb31782" bg_obj="0xfad65a2d" id="0xe5b95a23">
+            <planeobj id="0xfad65a2d"/>
+            <textobj id="0x8eb31782" point="32"/>
+        </style_button>
+    </styletable>
+    <texturetable>
+        <texture src="0x05d8058a.bin" type="texture/png" id="0x05d8058a"/>
+        <texture src="0x449ffb16.bin" type="texture/png" id="0x449ffb16"/>
+    </texturetable>
+</resource>

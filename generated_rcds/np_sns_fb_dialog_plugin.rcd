@@ -1,0 +1,13 @@
+#
+#
+#               np_sns_fb_dialog_plugin - resource debug symbol file
+#
+#
+
+
+# <pagetable>
+key:9573096e(0) id:page_bg
+key:80f87c88(0) id:bg
+
+# <styletable>
+key:248a20b6(0) id:background

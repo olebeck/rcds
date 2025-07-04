@@ -1,0 +1,78 @@
+#
+#
+#               ime_dialog_plugin - resource debug symbol file
+#
+#
+
+
+# <pagetable>
+key:4eb6378f(0) id:page_osk
+key:14f9c408(0) id:_common_dialog_osk_template
+
+# <styletable>
+key:37b8719d(0) id:basic_plane_style
+key:ef0c4f4e(0) id:planeobj_basic
+key:1eb1ff8a(0) id:textobj_item_title
+key:9d1d1068(0) id:text_item_title_style
+key:004cf4ce(0) id:text_item_osk
+key:e1c041a3(0) id:text_item_osk_style
+key:8f7bf1eb(0) id:textobj_item_subtitle
+key:c3b479c6(0) id:text_item_subtitle_style
+key:36d2eea1(0) id:textobj_ime_text_box
+key:b7c0a1f9(0) id:text_box_ime_style
+key:a56e4ba2(0) id:text_obj1
+key:f239aa56(0) id:plane_obj1
+key:92fd288f(0) id:_common_default_style_dialog_button
+key:7facd7a6(0) id:_common_texture_button_frame
+key:f871bcf0(0) id:textobj_style2
+key:c62bd9d6(0) id:planeobj_style2
+key:ee3d4a6f(0) id:button_style1
+
+# <templatetable>
+key:766acf4b(0) id:textbox_base
+key:92c3c9cc(0) id:ime_dialog_text
+key:bc88b09a(0) id:osk_type1
+key:62ee49dc(0) id:osk_text_title
+key:9c40c65f(0) id:title_texbase
+key:00a3276e(0) id:_common_t1b0_dialog_template
+key:5515d341(0) id:_common_default_style_dialog
+key:4dd3f804(0) id:t1b0_dialog
+key:7505d64a(0) id:default
+key:7374487a(0) id:_common_default_style_dialog_box
+key:e6addc3d(0) id:t1b0_dialog_box1
+key:e6ea7d34(0) id:_common_default_style_dialog_text_box
+key:38e27a53(0) id:t1b0_dialog_text1
+key:980811e8(0) id:t1b0_dialog_text1_scrollbar
+key:3fc2179e(0) id:_common_default_style_scrollbar_touch
+key:d9aae587(0) id:_common_t1b1_dialog_template
+key:56f61279(0) id:t1b1_dialog
+key:db059b1c(0) id:t1b1_dialog_box1
+key:aa13dc14(0) id:t1b1_dialog_text1
+key:55219d22(0) id:t1b1_dialog_text1_scrollbar
+key:8c0077b1(0) id:t1b1_dialog_button1
+key:805beca6(0) id:msg_ok
+key:d29478b9(0) id:_common_t1b2_dialog_template
+key:a432af40(0) id:t1b2_dialog
+key:6d0686e2(0) id:t1b2_dialog_box1
+key:2c214acc(0) id:t1b2_dialog_text1
+key:9a6b1ba2(0) id:t1b2_dialog_text1_scrollbar
+key:d428d3c7(0) id:t1b2_dialog_box2
+key:8cac6653(0) id:t1b2_dialog_button1
+key:bae3a99c(0) id:t1b2_dialog_button2
+key:adcd9adf(0) id:msg_cancel_vb
+key:612ba499(0) id:_common_t1p1b1_dialog_template
+key:548c2e7a(0) id:t1p1b1_dialog
+key:7eed5900(0) id:t1p1b1_dialog_box1
+key:322cd4c6(0) id:t1p1b1_dialog_text1
+key:054dfa94(0) id:t1p1b1_dialog_text1_scrollbar
+key:4404228e(0) id:t1p1b1_dialog_box2
+key:c6e3b635(0) id:_common_style_text_progressbar_label
+key:9f22fa77(0) id:t1p1b1_dialog_progressbar1_label1
+key:501d508e(0) id:_common_default_style_progressbar
+key:4408800e(0) id:t1p1b1_dialog_progressbar_text
+key:295cf6fa(0) id:t1p1b1_dialog_progressbar1
+key:e2ad9302(0) id:_common_default_style_text
+key:9b7ef7e0(0) id:t1p1b1_dialog_button1
+
+# <texturetable>
+key:28be1c5c(0) id:cancel_button

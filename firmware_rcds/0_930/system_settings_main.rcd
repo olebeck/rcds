@@ -1,0 +1,151 @@
+# SCE CONFIDENTIAL
+#
+#
+#      Copyright (C) 2010 Sony Computer Entertainment Inc.
+#                        All Rights Reserved.
+#
+#
+#               system_settings_main - resource debug symbol file
+#
+#
+
+# <pagetable>
+key:e4fe046d(0) id:page_information_bar
+key:11745577(1) id:informationbar_plane
+key:0a2f2cd9(1) id:landscape
+key:25c60488(1) id:portrait
+key:e43415d7(0) id:page_menulist
+key:3ed430b3(1) id:menulist_bg
+key:2ea4ff12(1) id:menulist_bg_fill
+key:026bcc75(1) id:menulist_list
+key:4221411f(1) id:menulist_scrollbar
+key:4eb6378f(0) id:page_osk
+key:4a47ae31(1) id:osk_background
+key:ece8472d(1) id:osk_title_plane
+key:960a8393(1) id:osk_title_text
+key:8d7f3ef7(1) id:osk_textarea
+
+# <styletable>
+key:de30768c(0) id:style_plane_header
+key:e95f1628(1) id:planeobj
+key:11a1fcbb(0) id:style_text_header
+key:01f875b1(1) id:textobj
+key:088b1347(0) id:style_plane_footer
+key:526c4b0e(0) id:style_plane_background
+key:189bacfe(0) id:style_plane_horizontal_line
+key:c72cf1d7(0) id:style_plane_triangle
+key:cabd940f(0) id:style_box
+key:3c288ee9(0) id:style_menuitem_text
+key:534ffb3b(0) id:style_menuitem_value
+key:904d8dd6(0) id:style_menutoggle_text_title
+key:8242fc28(0) id:style_menutoggle_text_desc
+key:aa7fe801(0) id:style_text_item_title
+key:24e81e49(0) id:style_text_item_desc
+key:2f652005(0) id:style_menuitem_button
+key:8d9fcb07(1) id:bg_obj_style
+key:3ac04c4b(0) id:style_textbox_item_value
+key:1cc47b5d(0) id:style_textbox_dialog
+key:83de7131(0) id:style_img_button_item
+key:165dd6be(1) id:style_img_button_item_bg
+key:0b37c246(1) id:style_basic_item_button_image
+key:cead273b(0) id:style_button_footer
+key:b75b7c7c(1) id:label_obj_style
+key:a95f1f0e(0) id:style_button_hint
+key:13a35c9d(0) id:style_text_generic_page_align_right
+key:b5bd9c9b(0) id:style_text_generic_page_align_left
+key:37a8dd39(0) id:style_generic_progress_label
+key:84f4956f(0) id:scrollbar_style_base
+key:75cbf56e(1) id:base_obj
+key:da1d47bb(1) id:slider_obj
+key:8a5dcef1(0) id:button_style_menulist
+key:787fa287(1) id:lable_obj
+
+# <stringtable>
+key:c51aa4a4(0) id:msg_error_occurred
+
+# <texturetable>
+key:388aa792(0) id:tex_informationbar,src:texture/informationbar.png,type:texture/png
+key:ed0f806f(0) id:tex_back,src:../../../common/resource/paf/texture/button/back_button.png,type:texture/png
+key:61b7ddfa(0) id:tex_common_button_h36,src:../../../common/resource/paf/texture/button/common_button_h36.png,type:texture/png
+key:a77e5c7c(0) id:tex_common_button_shadow_h38,src:../../../common/resource/paf/texture/button/common_button_shadow_h38.png,type:texture/png
+key:caa929e7(0) id:tex_button,src:texture/button.gim,type:texture/gim
+key:3bcae1d1(0) id:tex_textbox,src:../../../common/resource/paf/texture/button/text_box_h33_v33.png,type:texture/png
+key:c13b028e(0) id:tex_ok_cancel,src:texture/ok_cancel.gim,type:texture/gim
+key:68ecc7c3(0) id:tex_spanner,src:../../../common/resource/filelist/texture/spanner.png,type:texture/png
+key:2ef2c7ae(0) id:tex_disclosure,src:../../../common/resource/filelist/texture/disclosure.png,type:texture/png
+key:06efcfdc(0) id:tex_header_h48,src:../../../common/resource/filelist/texture/header_h48.png,type:texture/png
+key:c0fbeec9(0) id:tex_list_70px,src:../../../common/resource/filelist/texture/list_70px.png,type:texture/png
+key:29b91f26(0) id:tex_list_80px,src:../../../common/resource/filelist/texture/list_80px.png,type:texture/png
+key:5031e1d0(0) id:tex_scrollbar_lane_v43,src:../../../common/resource/filelist/texture/scrollbar_lane_v43.png,type:texture/png
+key:d06a0449(0) id:tex_scrollbar_v43,src:../../../common/resource/filelist/texture/scrollbar_v43.png,type:texture/png
+key:a67cb5df(0) id:tex_settings_bg,src:texture/settings_bg.png,type:texture/png
+key:9d6b29ca(0) id:tex_arrow,src:texture/arrow.png,type:texture/png
+key:7f5d918f(0) id:tex_close,src:../../../common/resource/paf/texture/button/close_button.png,type:texture/png
+key:d644fb58(0) id:tex_hint,src:texture/guide.png,type:texture/png
+key:59187574(0) id:tex_sidebar_fill,src:../../../common/resource/paf/texture/dialog/sidebar_fill_h33_v33.png,type:texture/png
+key:0f5b7371(0) id:tex_sidebar_frame,src:../../../common/resource/paf/texture/dialog/sidebar_frame_h33_v33.png,type:texture/png
+key:aff3e0cf(0) id:tex_check,src:../../../common/resource/paf/texture/button/checkbox_check.png,type:texture/png
+
+# <templatetable>
+key:f32068fa(0) id:template_main_page_bg
+key:cb7ca879(1) id:main_page_background
+key:b047ffd3(0) id:template_main_page_title
+key:0ab56f5a(1) id:main_page_title_dummybg
+key:bebf0207(1) id:main_page_title_plane
+key:d2290b7b(1) id:main_page_title_box
+key:4188a999(1) id:main_page_title_plane_icon
+key:857fda14(1) id:main_page_title_text
+key:8211f03f(1) id:main_page_button_close
+key:5a1c0ebc(0) id:template_main_page
+key:481574e1(1) id:main_page_scroll_view
+key:118a00ab(1) id:main_page_box
+key:04ccd3b1(1) id:main_page_scrollbar
+key:3904b5bb(1) id:main_page_footer
+key:4810335b(1) id:main_page_button_back
+key:5792f984(0) id:template_base_box
+key:20d2a620(1) id:itembase_box
+key:6386d9a1(0) id:template_menuitem_button
+key:224390d9(1) id:menuitem_button
+key:202f570c(1) id:menuitem_icon
+key:2fbcdeae(1) id:menuitem_title
+key:4c5dfe96(1) id:menuitem_value
+key:dd31503b(1) id:menuitem_triangle
+key:b75b228f(0) id:template_menuitem_image
+key:1b2b1d51(1) id:menuitem_image
+key:1891ec19(0) id:template_menuitem_text
+key:56c51469(1) id:menuitem_plane
+key:53ff84de(1) id:menuitem_desc
+key:9a01434e(0) id:template_menuitem_toggle
+key:892dd148(1) id:menuitem_box
+key:99fd1289(1) id:menuitem_box_internal
+key:86d6de69(1) id:menuitem_checkbox
+key:3cd63ab6(0) id:template_menuitem_edit
+key:0520547a(0) id:template_group
+key:638e02f9(1) id:group_box
+key:dc49520b(0) id:template_footer_button
+key:4ab91ad2(1) id:footer_button
+key:720ae5fe(0) id:template_hint_icon
+key:f0d5fab6(1) id:menuitem_hint
+key:5c35fcdd(0) id:template_generic_text
+key:b0eb8e22(1) id:generic_page_text
+key:570af596(0) id:template_generic_bulleted_text
+key:0988ba83(1) id:generic_bullet_box
+key:7f4c5993(1) id:generic_page_bullet
+key:6e2d0b7e(1) id:generic_page_bullet_text
+key:84311110(0) id:template_generic_box
+key:7d02b5df(1) id:generic_box
+key:f3d6dce2(0) id:template_generic_progressbar
+key:34357958(1) id:generic_progressbar
+key:498bdd6c(1) id:generic_progressbar_label
+key:666459f9(0) id:template_info_list
+key:4476ef64(1) id:info_list_box
+key:0c3f5ebd(0) id:template_info_list_item
+key:626bc1f8(1) id:info_list_item_box
+key:73bc0ed2(1) id:info_list_item_text_left
+key:e301c0cd(1) id:info_list_item_text_right
+key:595f9aa8(0) id:template_menulist_item
+key:71429801(1) id:menulist_item
+key:ee0a0abd(1) id:menulist_button
+key:405aabd4(0) id:template_menulist_mark
+key:663d7644(1) id:menulist_mark
+

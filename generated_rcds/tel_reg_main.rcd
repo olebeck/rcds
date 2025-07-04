@@ -1,0 +1,16 @@
+#
+#
+#               tel_reg_main - resource debug symbol file
+#
+#
+
+
+# <pagetable>
+key:9573096e(0) id:page_bg
+key:28d16a42(0) id:style_plane_filled_bg
+
+# <styletable>
+key:e95f1628(0) id:planeobj
+key:bb742ca2(0) id:tex_bg
+
+# <texturetable>

@@ -1,0 +1,33 @@
+#
+#
+#               grief_report_dialog_specific_plugin - resource debug symbol file
+#
+#
+
+
+# <pagetable>
+key:27a21885(0) id:title_text_style
+key:9f5a6f89(0) id:type1
+key:bb576907(0) id:sound_button_back
+key:f00d6c43(0) id:button_style_close
+key:b9fbcf7d(0) id:_common_default_style_button
+
+# <styletable>
+key:01f875b1(0) id:textobj
+key:574170e5(0) id:default_text_style
+key:835b7d9e(0) id:plane_obj
+key:9c96918b(0) id:bg_obj
+key:22ff88bd(0) id:glow_obj
+key:11c027f5(0) id:_common_texture_close_button
+key:f5b88e4a(0) id:_common_texture_close_button_glow
+
+# <texturetable>
+
+# <templatetable>
+
+# <soundindextable>
+key:ac019bcd(0) id:sound_button_ok
+key:48d64cf1(0) id:_common_snd01
+key:5c756da0(0) id:_common_snd02
+key:e8b9a154(0) id:_common_snd03
+key:9c746313(0) id:_common_snd06

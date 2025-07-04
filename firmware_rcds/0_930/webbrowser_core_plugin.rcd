@@ -1,0 +1,78 @@
+# SCE CONFIDENTIAL
+#
+#
+#      Copyright (C) 2010 Sony Computer Entertainment Inc.
+#                        All Rights Reserved.
+#
+#
+#               webbrowser_core_plugin - resource debug symbol file
+#
+#
+
+# <pagetable>
+key:5fcd170e(0) id:page_main
+key:12e5f8c7(1) id:main_page1
+key:07b6bf73(1) id:tate
+key:0a2f2cd9(1) id:landscape
+key:25c60488(1) id:portrait
+key:c9f0ef70(0) id:core_wndselect_page
+key:182faff6(1) id:core_wndselect_parent
+key:66955c73(1) id:core_wndselect_cancel_btn
+key:efb45eca(1) id:core_wndselect_list
+key:9f5a6f89(1) id:type1
+key:0dc07f3b(1) id:core_wndselect_create_btn
+
+# <styletable>
+key:1f408ad0(0) id:plane_style1
+key:f239aa56(1) id:plane_obj1
+key:7a3f48e2(0) id:plane_style_draw_plane
+key:422365e1(0) id:plane_style_dark_plane
+key:0cf41b03(0) id:plane_style_gray_plane
+key:1407717e(0) id:plane_style_wndselect_bg
+key:5f31f3d9(0) id:button_style_core_wndselect
+key:baf23d85(1) id:afefe_plane_obj
+key:63f3404f(1) id:afefe_text_obj
+key:52448fad(0) id:scroll_view_style_base
+key:9c96918b(1) id:bg_obj
+key:ae1c77d8(0) id:listview_style_windowselect
+key:8a39c03e(1) id:listview_style_windowselect_bg
+key:f664f5df(0) id:listview_style_windowselect_item
+key:3fcd331c(1) id:listview_style_windowselect_item_bg
+key:b64a8d54(0) id:wndselect_cell_text_style_title
+key:21ddca27(1) id:wndselect_cell_text_style_title_ta
+key:225b05f3(1) id:wndselect_cell_text_style_title_pa
+key:d90d75b5(0) id:wndselect_cell_text_style_title_s
+key:cb449a2a(1) id:wndselect_cell_text_style_title_tb
+key:0235605b(1) id:wndselect_cell_text_style_title_pb
+
+# <stringtable>
+key:1aba059e(0) id:webbrowser_core_string1
+key:dc3272ce(0) id:app_title1
+key:ebe19ea3(0) id:not_faund
+key:700306b3(0) id:msg_core_windowselect_title
+
+# <texturetable>
+key:ad25c7b8(0) id:core_wndselect_close,src:texture/close_btn.png,type:texture/png
+key:301a41e3(0) id:core_wndselect_create,src:texture/LiveBoard_BTN_CreateNewTab.png,type:texture/png
+key:33e66c70(0) id:core_dummysite_001,src:texture/dummysite/googlecom.png,type:texture/png
+key:c38db514(0) id:core_dummysite_002,src:texture/dummysite/googleresult.png,type:texture/png
+key:2d172956(0) id:core_dummysite_003,src:texture/dummysite/uspscom.png,type:texture/png
+key:46bcc46f(0) id:core_dummysite_004,src:texture/dummysite/ustmcom.png,type:texture/png
+key:1a37c9b2(0) id:core_dummysite_005,src:texture/dummysite/yahoocom.png,type:texture/png
+key:8a4b927d(0) id:core_dummysite_006,src:texture/dummysite/nytimescom.png,type:texture/png
+key:d9ab7c36(0) id:core_dummysite_007,src:texture/dummysite/gourmetcom.png,type:texture/png
+key:7222e1f6(0) id:core_dummysite_008,src:texture/dummysite/ihtp.png,type:texture/png
+key:f3db1fb8(0) id:core_dummysite_009,src:texture/dummysite/jppscom.png,type:texture/png
+key:ee7651bf(0) id:core_dummysite_010,src:texture/dummysite/ukpscom.png,type:texture/png
+key:bb204920(0) id:core_dummysite_011,src:texture/dummysite/nop.png,type:texture/png
+
+# <templatetable>
+key:29fe72e5(0) id:windowselect_template_item
+key:79426ca0(1) id:windowselect_item
+key:2edbebb0(1) id:window_item_button
+key:4a431304(0) id:windowselect_template_item_ex2
+key:2548ad1d(1) id:windowselect_item_ex2
+key:e547c873(1) id:windowselect_thumb_btn
+key:bf6a835c(1) id:windowselect_close_btn
+key:0f512163(1) id:windowselect_title_txt
+

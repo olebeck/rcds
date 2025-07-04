@@ -1,0 +1,24 @@
+#
+#
+#               dummyapp_intermittent_plugin - resource debug symbol file
+#
+#
+
+
+# <pagetable>
+key:5fcd170e(0) id:page_main
+key:dd2a2442(0) id:style_main
+key:b28b7af6(0) id:main
+key:05d8058a(0) id:tex_main
+key:d97527fc(0) id:layout_horizontal
+key:9e32521d(0) id:car
+key:449ffb16(0) id:tex_car
+key:e5b95a23(0) id:style_button
+key:32b7b67a(0) id:widget_button
+
+# <styletable>
+key:72a92b05(0) id:obj_plane
+key:8eb31782(0) id:label_obj_icon
+key:fad65a2d(0) id:bg_obj_icon
+
+# <texturetable>

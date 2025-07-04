@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal" id="0xfa59d798">
+    <templatetable>
+        <template id="0x093d5978">
+            <list_item style="0x2a4dfc59" id="0x0a7ad130">
+                <layout_hint adjust="0, 0, 0" id="0xd97527fc"/>
+                <plane style="0xefe8bd15" id="0x12edebfc">
+                    <layout_hint adjust="0, 0, 0" size="840, 512, 0"/>
+                    <plane style="0x81bf7e0a" id="0xe1f185d6">
+                        <layout_hint pos="0, -30, 0" size="60, 60"/>
+                    </plane>
+                    <plane style="0xefe8bd15" id="0x2684356a">
+                        <layout_hint pos="-290, -192, 0" size="256, 200"/>
+                    </plane>
+                    <plane style="0xefe8bd15" id="0x7ee72c4e">
+                        <layout_hint pos="290, -192, 0" size="256, 200"/>
+                    </plane>
+                    <plane style="0xefe8bd15" id="0x754d2e97">
+                        <layout_hint pos="0, -191, 0" size="290, 164"/>
+                    </plane>
+                    <plane style="0xefe8bd15" id="0xd11516d3">
+                        <layout_hint pos="0, -327, 0" size="840, 70"/>
+                    </plane>
+                    <plane style="0xefe8bd15" id="0x67617bfe">
+                        <layout_hint pos="0, -397, 0" size="840, 70"/>
+                    </plane>
+                    <plane style="0xefe8bd15" id="0xd5017916">
+                        <layout_hint pos="0, -467, 0" size="840, 70"/>
+                    </plane>
+                </plane>
+            </list_item>
+        </template>
+    </templatetable>
+    <styletable>
+        <style_plane color="1, 1, 1, 1" id="0xefe8bd15" planeobj="0xad7ca1b1">
+            <planeobj texture0="0xfa019a45" id="0xad7ca1b1"/>
+        </style_plane>
+        <style_list_item color="1, 1, 1, 1" bg_obj="0x87cc245f" id="0x2a4dfc59">
+            <planeobj texture0="0xfa019a45" id="0x87cc245f"/>
+        </style_list_item>
+        <style_button color="1, 1, 1, 1" label_obj="0xb75b7c7c" bg_obj="0x8d9fcb07" id="0x0f1450fd">
+            <planeobj texture0="0xfa019a45" id="0x8d9fcb07"/>
+            <textobj id="0xb75b7c7c" point="32"/>
+        </style_button>
+        <style_plane color="1, 1, 1, 1" id="0x81bf7e0a" planeobj="0xad7ca1b1">
+            <planeobj texture0="0xfa019a45" id="0xad7ca1b1"/>
+        </style_plane>
+    </styletable>
+    <stringtable>
+        <locale src="ja.bin" id="ja"/>
+        <locale src="en.bin" id="en"/>
+    </stringtable>
+    <texturetable>
+        <texture src="0xfa019a45.bin" type="texture/gim" id="0xfa019a45"/>
+    </texturetable>
+</resource>

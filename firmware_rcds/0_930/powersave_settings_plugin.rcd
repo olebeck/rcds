@@ -1,0 +1,23 @@
+# SCE CONFIDENTIAL
+#
+#
+#      Copyright (C) 2010 Sony Computer Entertainment Inc.
+#                        All Rights Reserved.
+#
+#
+#               powersave_settings_plugin - resource debug symbol file
+#
+#
+
+# <pagetable>
+
+# <styletable>
+
+# <stringtable>
+key:db96a164(0) id:msg_power_saving_settings
+
+# <texturetable>
+key:68ecc7c3(0) id:tex_spanner,src:../../../common/resource/filelist/texture/spanner.png,type:texture/png
+
+# <templatetable>
+

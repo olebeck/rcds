@@ -1,0 +1,174 @@
+# SCE CONFIDENTIAL
+#
+#
+#      Copyright (C) 2010 Sony Computer Entertainment Inc.
+#                        All Rights Reserved.
+#
+#
+#               store_browser_plugin - resource debug symbol file
+#
+#
+
+# <pagetable>
+key:9573096e(0) id:page_bg
+key:80f87c88(1) id:bg
+key:5fcd170e(0) id:page_main
+key:c5cbc6e6(1) id:main_base
+key:b24ae7ee(1) id:pool_parent
+key:c4fec548(0) id:page_title_bar
+key:b0bd2ab4(1) id:title_bar
+key:9749364d(1) id:button_game_store
+key:50cf2517(1) id:button_video_store
+key:dc599ac9(1) id:button_comic_store
+key:d1832425(1) id:button_search
+key:bc7e3098(0) id:page_tool_bar
+key:2c2b92bc(1) id:tool_bar_base
+key:2372482e(1) id:button_codes
+key:8cf7e2d1(1) id:button_downloads
+key:7af629a4(1) id:button_update
+key:f532adc2(1) id:button_legal_notice
+key:488e46e8(1) id:button_more
+key:a20371f2(1) id:back_button
+key:95110b01(1) id:option_button
+key:13c08590(0) id:page_debug
+
+# <styletable>
+key:14d5b36a(0) id:style_plane_bg
+key:2cae0566(0) id:style_plane_default
+key:d7bfea26(0) id:style_plane_invisible
+key:9b32550a(0) id:style_plane_title_bar
+key:e95f1628(1) id:planeobj
+key:cbbb6577(0) id:style_plane_topmenu
+key:451d6489(0) id:style_box_default
+key:f1e6ef69(0) id:style_box_shadowed
+key:a5404cee(0) id:style_scroll_view_default
+key:d0ff9f73(0) id:style_button_texture
+key:8cf10e49(0) id:style_topmenu_button_left
+key:01f875b1(1) id:textobj
+key:70c7298a(0) id:style_topmenu_button_mid
+key:29b463a5(0) id:style_topmenu_button_right
+key:af633b9f(0) id:style_button_sku
+key:259fb2ad(0) id:style_button_detail
+key:6ec4de40(0) id:style_list_view_banner_list
+key:974d8d3a(0) id:style_list_item_banner_item
+key:7cb94b81(0) id:style_button_banner_item
+key:e17e1797(0) id:style_list_view_sku
+key:2b9a0ae4(0) id:style_list_item_sku
+key:6f3ef94c(0) id:style_button_sku_item
+key:ac005ffa(0) id:style_image_slidebar
+key:75cbf56e(1) id:base_obj
+key:89085de6(1) id:bar_obj
+key:9e9c17e1(0) id:style_text_default
+key:5ca708a6(0) id:style_text_large
+key:7c796005(0) id:style_text_small
+key:0dc50918(0) id:style_rich_text_desc
+key:9c96918b(1) id:bg_obj
+key:d03d78ad(0) id:style_image_button_game_store
+key:54cb6584(1) id:imageobj
+key:bc0d9542(0) id:style_image_button_video_store
+key:0f709074(0) id:style_image_button_comic_store
+key:867e7a79(0) id:style_image_button_search
+key:bff4668b(0) id:style_plane_menu_bar_separater
+key:bb955e8a(0) id:style_plane_tool_bar
+key:1e2a67de(0) id:style_image_button_tool
+key:9c053f46(0) id:style_plane_item_base
+key:41fe47a5(0) id:style_button_browser_item
+key:aa7fe801(0) id:style_text_item_title
+key:467aa5d6(0) id:style_text_item_publisher
+key:a240aecb(0) id:style_text_item_price
+
+# <stringtable>
+key:7c3c3782(0) id:msg_game
+key:c2c84b48(0) id:msg_video
+key:a4f740e1(0) id:msg_comics
+key:5e72cab8(0) id:msg_search
+key:3b46ac4a(0) id:msg_recommend
+key:3cb85ee1(0) id:msg_whatsnew
+key:057ab6cc(0) id:msg_topdownloads
+key:1ed03fdf(0) id:msg_category
+key:0127b16d(0) id:msg_codes
+key:ebaa7fd8(0) id:msg_downloads
+key:7f53dced(0) id:msg_update
+key:a625fb39(0) id:msg_legal_notice
+key:4494c5de(0) id:msg_more
+
+# <texturetable>
+key:bb742ca2(0) id:tex_bg,src:texture/bg.png,type:texture/png
+key:8044c23f(0) id:tex_horizontal_sep,src:texture/horizontal_sep.gim,type:texture/gim
+key:a550b37e(0) id:tex_button_base,src:texture/button_base.png,type:texture/png
+key:20271e01(0) id:tex_back_button,src:../../../common/resource/paf/texture/button/back_button.png,type:texture/png
+key:a3b4b81f(0) id:tex_list_button,src:../../../common/resource/paf/texture/button/back_to_list_button.png,type:texture/png
+key:73972d91(0) id:tex_star_true,src:texture/star_true.png,type:texture/png
+key:762c2da0(0) id:tex_star_false,src:texture/star_false.png,type:texture/png
+key:bbda2aab(0) id:tex_line,src:texture/line.png,type:texture/png
+key:2ee51f2a(0) id:tex_dlg_panel,src:texture/dlg_panel.png,type:texture/png
+key:eb04a6f9(0) id:tex_list_item_bg,src:../../../common/resource/filelist/texture/list_90px.png,type:texture/png
+key:911b5c7a(0) id:tex_title_bar_bg,src:..\..\resource\texture\menu_bar_bg.png,type:texture/png
+key:7eb11276(0) id:tex_menu_bar_separater,src:..\..\resource\texture\menu_bar_separater.png,type:texture/png
+key:b079e286(0) id:tex_game_icon,src:..\..\resource\texture\menu_bar_off_game.png,type:texture/png
+key:56aed982(0) id:tex_video_icon,src:..\..\resource\texture\menu_bar_off_video.png,type:texture/png
+key:52693eeb(0) id:tex_comic_icon,src:..\..\resource\texture\menu_bar_off_comic.png,type:texture/png
+key:ff517e85(0) id:tex_menu_bar_search_bg,src:..\..\resource\texture\menu_bar_search_bg.png,type:texture/png
+key:e205dc76(0) id:tex_search_icon,src:..\..\resource\texture\menu_bar_search.png,type:texture/png
+key:550c3f6e(0) id:tex_topmenu_bg,src:..\..\resource\texture\top_banner_bg.png,type:texture/png
+key:7bfa976d(0) id:tex_topmenu_button_left,src:..\..\resource\texture\top_tab_off_left.png,type:texture/png
+key:27668352(0) id:tex_topmenu_button_mid,src:..\..\resource\texture\top_tab_off_center.png,type:texture/png
+key:c28c66ae(0) id:tex_topmenu_button_right,src:..\..\resource\texture\top_tab_off_right.png,type:texture/png
+key:08f87917(0) id:tex_option_bar_bg,src:..\..\resource\texture\option_bar_bg.png,type:texture/png
+key:23485675(0) id:tex_option_bar_code,src:..\..\resource\texture\option_bar_code.png,type:texture/png
+key:0a420d86(0) id:tex_option_bar_download,src:..\..\resource\texture\option_bar_download.png,type:texture/png
+key:1683c815(0) id:tex_option_bar_legal,src:..\..\resource\texture\option_bar_legal.png,type:texture/png
+key:5735d4c9(0) id:tex_option_bar_more,src:..\..\resource\texture\option_bar_more.png,type:texture/png
+key:a97edd07(0) id:tex_option_bar_update,src:..\..\resource\texture\option_bar_update.png,type:texture/png
+
+# <templatetable>
+key:05428556(0) id:template_scroll_base
+key:514bc8e5(1) id:scroll_base
+key:ba7cb555(0) id:test_item_template
+key:1b9a5f90(1) id:test_item
+key:b51d6a05(1) id:item_icon
+key:367ba5ea(1) id:item_title
+key:1311546d(1) id:item_title2
+key:e4aabf13(0) id:horizontal_sep_template
+key:f699bf3a(1) id:horizontal_sep
+key:7c4f3202(0) id:template_banner_item
+key:0920c57b(1) id:banner_item
+key:6a4322a0(1) id:button_banner_item
+key:d05fb525(0) id:template_browser_item
+key:f068918d(1) id:browser_item_base
+key:f1ce8e5b(1) id:browser_item_image
+key:3079d36b(1) id:browser_item_rating_image
+key:e3591b8b(1) id:browser_item_title
+key:df19b6bb(1) id:browser_item_publisher
+key:dcd00847(1) id:browser_item_price
+key:693f0a19(1) id:browser_item_button
+key:f3d6f395(0) id:template_detail
+key:a1501a03(1) id:detail_base
+key:19f25c32(1) id:detail_title
+key:1896153b(1) id:detail_publisher
+key:8477fc5f(1) id:detail_misc
+key:593a1260(1) id:detail_rating
+key:1b3de22b(1) id:detail_rating_desc
+key:625acb73(1) id:detail_desc
+key:d37bf49d(0) id:template_fivestar
+key:1a8a91f8(1) id:fivestar
+key:ad218145(0) id:template_sku_text
+key:497d1193(1) id:sku_text
+key:1b17e91e(0) id:template_sku_button
+key:3c7bab5b(1) id:sku_button
+key:5685f4d9(0) id:template_detail_button
+key:01c19c16(1) id:detail_button
+key:895b9db9(0) id:template_detail_sku_list
+key:e6dcdc6e(1) id:detail_sku_list
+key:db322a18(0) id:template_detail_sku_item
+key:2be74b6c(1) id:detail_sku_item
+key:02195ec0(1) id:sku_item_button
+key:6c8583d5(0) id:template_top
+key:98bddaf7(1) id:top_base
+key:d9e759e5(1) id:topmenu
+key:6a4b2d0c(1) id:banner_list
+key:ff9259a1(1) id:button_recommend
+key:1507e47a(1) id:button_whatsnew
+key:754f1fe9(1) id:button_topdownloads
+key:5e867193(1) id:button_category
+

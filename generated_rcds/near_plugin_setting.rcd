@@ -1,0 +1,59 @@
+#
+#
+#               near_plugin_setting - resource debug symbol file
+#
+#
+
+
+# <pagetable>
+key:4e596c0f(0) id:page_setting
+key:cabd940f(0) id:style_box
+key:7505d64a(0) id:default
+key:7072b302(0) id:page_setting_top
+
+# <styletable>
+key:c0b8fbb7(0) id:style_plane_transparent
+key:de30768c(0) id:style_plane_header
+key:e95f1628(0) id:planeobj
+key:06efcfdc(0) id:tex_header_h48
+key:01f875b1(0) id:textobj
+key:11a1fcbb(0) id:style_text_header
+key:088b1347(0) id:style_plane_footer
+key:f239aa56(0) id:plane_obj1
+key:22ff88bd(0) id:glow_obj
+key:b75b7c7c(0) id:label_obj_style
+key:8d9fcb07(0) id:bg_obj_style
+key:cead273b(0) id:style_button_footer
+key:74319925(0) id:_common_texture_button
+key:9b7bed4b(0) id:_common_texture_button_glow
+key:cca7db36(0) id:menu_text_obj
+key:b32a61e4(0) id:menu_plane_obj
+key:f12aa862(0) id:decide_button_style
+key:caa929e7(0) id:tex_button
+key:8920ccae(0) id:tex_exit
+key:d644fb58(0) id:tex_hint
+
+# <texturetable>
+
+# <templatetable>
+key:b047ffd3(0) id:template_main_page_title
+key:0ab56f5a(0) id:main_page_title_dummybg
+key:0a2f2cd9(0) id:landscape
+key:25c60488(0) id:portrait
+key:bebf0207(0) id:main_page_title_plane
+key:857fda14(0) id:main_page_title_text
+key:3904b5bb(0) id:main_page_footer
+key:35ca8ee7(0) id:_common_style_corner_bottom_left
+key:4810335b(0) id:main_page_button_back
+key:3d31f98d(0) id:landscape960x544
+key:c17d7980(0) id:_common_sound_button_cancel
+key:20413274(0) id:_common_sound_button_enter
+key:ba195a37(0) id:_common_texture_busy
+key:501d508e(0) id:_common_default_style_progressbar
+key:c6e3b635(0) id:_common_style_text_progressbar_label
+
+# <sounddatatable>
+
+# <filetable>
+
+# <stringtable>

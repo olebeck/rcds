@@ -1,0 +1,31 @@
+#
+#
+#               second_screen - resource debug symbol file
+#
+#
+
+
+# <pagetable>
+
+# <styletable>
+key:ee3d4a6f(0) id:button_style1
+key:b522af2d(0) id:common_button_style1
+key:8d9fcb07(0) id:bg_obj_style
+key:22ff88bd(0) id:glow_obj
+key:01f875b1(0) id:textobj
+
+# <texturetable>
+
+# <stringtable>
+
+# <templatetable>
+key:75fe59f6(0) id:_common_default_style_plane
+key:e211ce05(0) id:_common_style_busyindicator_8
+key:1332d6fc(0) id:busyindicator
+key:ba195a37(0) id:_common_texture_busy
+
+# <sounddatatable>
+
+# <soundindextable>
+key:ac019bcd(0) id:sound_button_ok
+key:48d64cf1(0) id:_common_snd01

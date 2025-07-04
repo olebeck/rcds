@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal" id="0x95af30b8">
+    <pagetable>
+        <page id="0x580377dc" template="0x332962af"/>
+        <page id="0xbbe0e09b">
+            <plane style="0x75fe59f6" id="0x28183c2c" texture="0x9100429f">
+                <layout_hint align="1, 2, 0" pos="-223, 1, 0" size="450, 180, 0"/>
+            </plane>
+            <plane style="0x75fe59f6" id="0x826e7532" texture="0x66684940">
+                <layout_hint pos="-245, -46, 0" size="212, 130, 0"/>
+            </plane>
+            <plane style="0x75fe59f6" id="0x89969a67" texture="0xae9618bf">
+                <layout_hint pos="245, -46, 0" size="188, 190, 0"/>
+            </plane>
+            <text style="0x37111a91" id="0x494362d0" label="0xc43a46d9">
+                <layout_hint pos="0, 150, 0" size="832, 150, 0"/>
+            </text>
+            <button sound="0x20413274" style="0x58d7394c" id="0x72d4a854" label="0x4406ce41">
+                <layout_hint adjust="2, 0, 0" pos="0, 75, 0" size="146, 46, 0"/>
+            </button>
+            <button sound="0x20413274" style="0x58d7394c" id="0xa893e4ad" label="0x6333717b">
+                <layout_hint adjust="2, 0, 0" pos="0, -190, 0" size="146, 46, 0"/>
+            </button>
+            <corner_button style="0xd7220c5c" id="0x3c7fb8ac"/>
+        </page>
+        <page id="0x03e56ee6">
+            <scroll_view style="0x6d23b259" w_sbar_v="0xceae599c" id="0x0ebea26a">
+                <layout_hint alpha="1" pos="0, 48, 0" size="832, 288, 0"/>
+                <scrollbar style="0xffb11291" id="0xceae599c" scroll_type="0">
+                    <layout_hint size="14, 0"/>
+                </scrollbar>
+                <text style="0xda7d63af" id="0xa29ca4c3">
+                    <layout_hint adjust="0, 2" pos="0, 0, 0" size="780, 0, 0"/>
+                </text>
+            </scroll_view>
+            <text style="0xda7d63af" id="0x8aaea252" label="0x0ac5dfff">
+                <layout_hint origin="2, 0, 0" adjust="2, 0, 0" pos="0, -150, 0" size="0, 60, 0"/>
+                <check_box id="0xf2818a98">
+                    <layout_hint align="1, 0, 0" pos="16, 0, 0" size="60, 60, 0"/>
+                </check_box>
+            </text>
+            <plane style="0x4792275c" id="0x684acbaa">
+                <layout_hint align="0, 1" adjust="0, 0" id="0xda39a3ee">
+                    <resolution size="960, 64" id="0x0a2f2cd9" pos="0, -272"/>
+                </layout_hint>
+            </plane>
+            <button sound="0x20413274" style="0xb9fbcf7d" id="0xbae345e4" label="0x805beca6">
+                <layout_hint align="2, 0, 0" adjust="2, 0, 0" pos="471, -240, 0" size="146, 46, 0"/>
+            </button>
+        </page>
+        <page id="0xd53ee931">
+            <text style="0x37111a91" id="0xffc2a2f8" label="0x632b6733">
+                <layout_hint pos="0, 100, 0" size="832, 100, 0"/>
+            </text>
+            <plane style="0x75fe59f6" id="0x618473aa" texture="0xb7ec9772">
+                <layout_hint pos="0, -36, 0" size="360, 64, 0"/>
+            </plane>
+            <plane style="0x75fe59f6" id="0x19e6e482" texture="0x8ed449e1">
+                <layout_hint pos="-170, -33, 0" size="102, 21, 0"/>
+            </plane>
+            <plane style="0x75fe59f6" id="0x954bc104" texture="0x66684940">
+                <layout_hint pos="-245, -29, 0" size="212, 130, 0"/>
+            </plane>
+            <plane style="0x75fe59f6" id="0x89969a67" texture="0xae9618bf">
+                <layout_hint pos="245, -29, 0" size="188, 190, 0"/>
+            </plane>
+            <plane style="0x4792275c" id="0x684acbaa">
+                <layout_hint align="0, 1" adjust="0, 0" id="0xda39a3ee">
+                    <resolution size="960, 64" id="0x0a2f2cd9" pos="0, -272"/>
+                </layout_hint>
+            </plane>
+            <button sound="0xc17d7980" style="0xb9fbcf7d" id="0x45db3c9c" label="0xadcd9adf">
+                <layout_hint align="1, 0, 0" adjust="2, 0, 0" pos="-471, -240, 0" size="146, 46, 0"/>
+            </button>
+        </page>
+        <page id="0x69528e72">
+            <plane style="0x75fe59f6" id="0x9f3bea82" texture="0x8d81c67c">
+                <layout_hint alpha="0.85" align="2, 0, 0" pos="544, 0, 0" size="64, 544, 0"/>
+                <button id="0x5371081f" texture="0x5fffacbb">
+                    <layout_hint pos="0, 240, 0" size="48, 52, 0"/>
+                </button>
+                <button id="0xc7da7b5e" texture="0xb049f1b1">
+                    <layout_hint pos="0, 126, 0" size="50, 48, 0"/>
+                </button>
+                <button id="0x204f348c" texture="0xc2abef4a">
+                    <layout_hint pos="0, -240, 0" size="54, 44, 0"/>
+                </button>
+            </plane>
+            <busyindicator style="0x598221c8" id="0x5de43705" texture="0xba195a37">
+                <layout_hint pos="440, 200, 0" size="40, 40, 0"/>
+            </busyindicator>
+        </page>
+        <page id="0x42798d5b">
+            <scroll_view style="0x6d23b259" w_sbar_v="0xcdff9128" id="0x55087fad">
+                <layout_hint pos="0, 0, 0" size="860, 384, 0"/>
+                <scrollbar style="0xffb11291" id="0xcdff9128" scroll_type="0">
+                    <layout_hint size="14, 0"/>
+                </scrollbar>
+                <text style="0xda7d63af" id="0x25e6e7a3" label="0x82475c8b">
+                    <layout_hint adjust="0, 2" pos="0, 150, 0" size="832, 0, 0"/>
+                </text>
+                <plane style="0x75fe59f6" id="0x28183c2c" texture="0xb7ec9772">
+                    <layout_hint pos="0, -11, 0" size="360, 64, 0"/>
+                </plane>
+                <plane style="0x75fe59f6" id="0x826e7532" texture="0x66684940">
+                    <layout_hint pos="-245, -4, 0" size="212, 130, 0"/>
+                </plane>
+                <plane style="0x75fe59f6" id="0x89969a67" texture="0xae9618bf">
+                    <layout_hint pos="245, -4, 0" size="188, 190, 0"/>
+                </plane>
+                <text style="0xda7d63af" id="0x03299fa1" label="0xee7ebee3">
+                    <layout_hint align="0, 2, 0" adjust="0, 2" pos="0, -86, 0" size="832, 0, 0"/>
+                </text>
+            </scroll_view>
+            <button sound="0x20413274" style="0xb9fbcf7d" id="0x3fecdc67" label="0x1efc6cbe">
+                <layout_hint align="2, 0, 0" adjust="2, 0, 0" pos="471, -240, 0" size="146, 46, 0"/>
+            </button>
+        </page>
+        <page id="0xba3de305">
+            <text style="0x37111a91" id="0x52ac9dd2" label="0x9876c989">
+                <layout_hint pos="0, 0, 0" size="832, 300, 0"/>
+            </text>
+            <button sound="0x20413274" style="0xb9fbcf7d" id="0x8b752231" label="0x1efc6cbe">
+                <layout_hint align="2, 0, 0" adjust="2, 0, 0" pos="471, -240, 0" size="146, 46, 0"/>
+            </button>
+            <button sound="0x25d6d211" style="0xb9fbcf7d" id="0x3c7ef4a6" label="0xaa2c6d2a">
+                <layout_hint align="1, 0, 0" adjust="2, 0, 0" pos="-471, -240, 0" size="146, 46, 0"/>
+            </button>
+        </page>
+        <page id="0xe88f81c4">
+            <text style="0xda7d63af" id="0x62cc2dba" label="0x0144a1a5">
+                <layout_hint pos="0, 100, 0" size="832, 100, 0"/>
+            </text>
+            <text_box style="0xc2f728f1" id="0x57b86a9d">
+                <layout_hint pos="0, -6, 0" size="280, 54, 0"/>
+            </text_box>
+            <button sound="0x20413274" style="0xb9fbcf7d" id="0x961ad6dc" label="0x2225e0f2">
+                <layout_hint align="2, 0, 0" adjust="2, 0, 0" pos="471, -240, 0" size="146, 46, 0"/>
+            </button>
+            <button sound="0x25d6d211" style="0xb9fbcf7d" id="0x85180bc1" label="0xaa2c6d2a">
+                <layout_hint align="1, 0, 0" adjust="2, 0, 0" pos="-471, -240, 0" size="146, 46, 0"/>
+            </button>
+        </page>
+        <page id="0xf6ab0c4b">
+            <text style="0x37111a91" id="0x44633565" label="0x7d5efe87">
+                <layout_hint pos="0, 0, 0" size="832, 100, 0"/>
+            </text>
+            <button sound="0xc17d7980" style="0xb9fbcf7d" id="0x084d2561" label="0xadcd9adf">
+                <layout_hint align="1, 0, 0" adjust="2, 0, 0" pos="-471, -240, 0" size="146, 46, 0"/>
+            </button>
+            <busyindicator style="0x598221c8" id="0x19161293" texture="0xba195a37">
+                <layout_hint pos="440, 200, 0" size="40, 40, 0"/>
+            </busyindicator>
+        </page>
+        <page id="0xc007f33e">
+            <text style="0xda7d63af" id="0x55c33620" label="0xbe277b1e">
+                <layout_hint pos="0, 50, 0" size="832, 200, 0"/>
+            </text>
+            <button sound="0x20413274" style="0xb9fbcf7d" id="0xaa9d7ff7" label="0x1efc6cbe">
+                <layout_hint align="2, 0, 0" adjust="2, 0, 0" pos="471, -240, 0" size="146, 46, 0"/>
+            </button>
+        </page>
+        <page id="0xb08a8486" template="0x332962af">
+            <layout_hint pos="0, 0, 0" size="960, 544, 0"/>
+            <plane id="0x262749b5" texture="0x2e92f222">
+                <layout_hint align="1, 0, 0" pos="-480, -35, 0" size="300, 380, 0"/>
+            </plane>
+            <plane id="0x453ca161" texture="0xe99cbeb4">
+                <layout_hint align="2, 0, 0" pos="480, -35, 0" size="300, 380, 0"/>
+            </plane>
+            <text style="0xc176b7a3" id="0x42e0c8c6" label="0xb5269f1a">
+                <layout_hint pos="0, 208, 0" size="832, 64, 0"/>
+            </text>
+            <plane style="0x83b10bc3" id="0x37fe3b03">
+                <layout_hint pos="0, -24, 0" size="500, 300, 0"/>
+                <text style="0xc176b7a3" id="0x263818f9">
+                    <layout_hint pos="-6, 158, 0" size="832, 40, 0"/>
+                </text>
+                <text style="0xc176b7a3" id="0x27f62651">
+                    <layout_hint pos="-6, 114, 0" size="832, 40, 0"/>
+                </text>
+                <text style="0xc176b7a3" id="0x41454fb6">
+                    <layout_hint pos="1, 70, 0" size="832, 40, 0"/>
+                </text>
+                <text style="0xc176b7a3" id="0x00d91503">
+                    <layout_hint pos="1, 26, 0" size="832, 40, 0"/>
+                </text>
+                <text style="0xc176b7a3" id="0x71c15a71">
+                    <layout_hint pos="0, -14, 0" size="832, 40, 0"/>
+                </text>
+            </plane>
+            <plane id="0x4cdb588d" texture="0xfb67424e">
+                <layout_hint pos="0, 3, 0" size="732, 347, 0"/>
+                <plane id="0x2da9e4e6" texture="0xc9b7ebeb">
+                    <layout_hint pos="12, 81, 0" size="67, 28, 0"/>
+                </plane>
+                <plane id="0x8d811be2" texture="0xc9b7ebeb">
+                    <layout_hint pos="82, 81, 0" size="67, 28, 0"/>
+                </plane>
+                <plane id="0x42f65f43" texture="0xc9b7ebeb">
+                    <layout_hint pos="12, 22, 0" size="67, 28, 0"/>
+                </plane>
+                <plane id="0x7b2d4c33" texture="0xc9b7ebeb">
+                    <layout_hint pos="82, 22, 0" size="67, 28, 0"/>
+                </plane>
+                <text style="0x28fddac0" id="0x4586768d">
+                    <layout_hint pos="-274, 83, 0" size="80, 44, 0"/>
+                </text>
+                <text style="0x28fddac0" id="0x8099e210">
+                    <layout_hint pos="-274, 24, 0" size="80, 44, 0"/>
+                </text>
+                <text style="0x28fddac0" id="0x9a7df95f">
+                    <layout_hint pos="272, 83, 0" size="80, 44, 0"/>
+                </text>
+                <text style="0x28fddac0" id="0xd9e3b72b">
+                    <layout_hint pos="272, 24, 0" size="80, 44, 0"/>
+                </text>
+            </plane>
+            <text style="0xda7d63af" id="0x59acc706" label="0x9de62ea9">
+                <layout_hint pos="0, -16, 0" size="832, 128, 0"/>
+            </text>
+            <text style="0xda7d63af" id="0xb9165530" label="0x6b637447">
+                <layout_hint pos="0, -128, 0" size="832, 160, 0"/>
+            </text>
+            <text style="0xda7d63af" id="0x0032afe0" label="0x2e85623e">
+                <layout_hint pos="0, -128, 0" size="832, 160, 0"/>
+            </text>
+            <radio_box id="0xdd80e78c">
+                <radio_button style="0x426495a7" id="0x6ad73864">
+                    <layout_hint align="2, 0, 0" pos="-70, -241, 0" size="140, 60, 0"/>
+                    <text style="0x37111a91" id="0x839442d3">
+                        <layout_hint pos="0, 0, 0" size="140, 60, 0"/>
+                    </text>
+                </radio_button>
+                <radio_button style="0x718dbefa" id="0xb564d6fe">
+                    <layout_hint align="0, 0, 0" pos="0, -241, 0" size="140, 60, 0"/>
+                    <text style="0x37111a91" id="0x6a908cc9">
+                        <layout_hint pos="0, 0, 0" size="140, 60, 0"/>
+                    </text>
+                </radio_button>
+                <radio_button style="0x83cd84cb" id="0xba5e1dd1">
+                    <layout_hint align="1, 0, 0" pos="70, -241, 0" size="140, 60, 0"/>
+                    <text style="0x37111a91" id="0x94b3c017">
+                        <layout_hint pos="0, 0, 0" size="140, 60, 0"/>
+                    </text>
+                </radio_button>
+            </radio_box>
+            <corner_button style="0x35ca8ee7" id="0xe800217a"/>
+        </page>
+        <page id="0x8ceca353" template="0x332962af">
+            <text style="0x37111a91" id="0x691d19a6" label="0xe7e11348">
+                <layout_hint align="0, 2, 0" pos="0, 240, 0" size="960, 60, 0"/>
+            </text>
+            <text style="0x37111a91" id="0x02fc5420" label="0xcd11dfe0">
+                <layout_hint pos="0, 0, 0" size="832, 300, 0"/>
+            </text>
+            <button sound="0xc17d7980" style="0xb9fbcf7d" id="0xf9147d56" label="0xadcd9adf">
+                <layout_hint align="1, 0, 0" adjust="2, 0, 0" pos="-471, -240, 0" size="146, 46, 0"/>
+            </button>
+            <button sound="0x20413274" style="0xb9fbcf7d" id="0xbb4b29f3" label="0xc87291ee">
+                <layout_hint align="2, 0, 0" adjust="2, 0, 0" pos="471, -240, 0" size="146, 46, 0"/>
+            </button>
+        </page>
+    </pagetable>
+    <stringtable>
+        <locale src="da.bin" compress="on" id="da"/>
+        <locale src="de.bin" compress="on" id="de"/>
+        <locale src="en.bin" compress="on" id="en"/>
+        <locale src="en-gb.bin" compress="on" id="en-gb"/>
+        <locale src="es.bin" compress="on" id="es"/>
+        <locale src="fi.bin" compress="on" id="fi"/>
+        <locale src="fr.bin" compress="on" id="fr"/>
+        <locale src="it.bin" compress="on" id="it"/>
+        <locale src="ja.bin" compress="on" id="ja"/>
+        <locale src="ko.bin" compress="on" id="ko"/>
+        <locale src="nl.bin" compress="on" id="nl"/>
+        <locale src="no.bin" compress="on" id="no"/>
+        <locale src="pl.bin" compress="on" id="pl"/>
+        <locale src="pt.bin" compress="on" id="pt"/>
+        <locale src="pt-br.bin" compress="on" id="pt-br"/>
+        <locale src="ru.bin" compress="on" id="ru"/>
+        <locale src="sv.bin" compress="on" id="sv"/>
+        <locale src="tr.bin" compress="on" id="tr"/>
+        <locale src="zh-s.bin" compress="on" id="zh-s"/>
+        <locale src="zh-t.bin" compress="on" id="zh-t"/>
+    </stringtable>
+    <styletable>
+        <style_text color="1, 1, 1, 1" textobj="0xa56e4ba2" id="0x28fddac0">
+            <textobj align_y="1" align_x="1" font_size="44" id="0xa56e4ba2"/>
+        </style_text>
+        <style_text color="1, 1, 1, 1" textobj="0xf0e75c4b" id="0xc176b7a3">
+            <textobj align_y="1" align_x="1" font_size="36" bold="1" id="0xf0e75c4b"/>
+        </style_text>
+        <style_text textobj="0xf0e75c4b" id="0xda7d63af">
+            <textobj font_size="28" align_y="1" align_x="0" color="1, 1, 1, 1" word_wrap="1" id="0xf0e75c4b"/>
+        </style_text>
+        <style_text textobj="0xf0e75c4b" id="0x37111a91">
+            <textobj font_size="28" align_y="1" align_x="1" color="1, 1, 1, 1" word_wrap="1" id="0xf0e75c4b"/>
+        </style_text>
+        <style_plane id="0x7cf6ee64" planeobj="0x8f56c33f">
+            <planeobj color="0.6, 0.6, 0.6, 1" id="0x8f56c33f"/>
+        </style_plane>
+        <style_plane id="0x83b10bc3" planeobj="0x8f56c33f">
+            <planeobj color="1, 1, 1, 0" id="0x8f56c33f"/>
+        </style_plane>
+        <style_plane id="0x4792275c" planeobj="0x8f56c33f">
+            <planeobj texture0="0xc0f44e0c" id="0x8f56c33f"/>
+        </style_plane>
+        <style_button bottom_margin="12" glow_obj="0x6ae5a623" right_margin="20" highlight_obj="0xc9addaa4" top_margin="12" left_margin="20" label_obj="0xa56e4ba2" bg_obj="0xf239aa56" adjust_min_size="146, 54" id="0x58d7394c">
+            <planeobj color="0.42, 0.8, 0.53, 1" texture0="0x3d132ed4" id="0xf239aa56"/>
+            <textobj font_size="28" bold="1" color="0, 0, 0, 1" align_x="1" align_y="1" adjust_x="1" adjust_y="1" id="0xa56e4ba2"/>
+            <planeobj color="1, 1, 1, 1" texture0="0x74319925" id="0xc9addaa4"/>
+            <planeobj texture0="0x9b7bed4b" blend="2" id="0x6ae5a623"/>
+        </style_button>
+        <style_text_box textobj="0xf0e75c4b" id="0xc2f728f1" planeobj="0x8f56c33f">
+            <planeobj texture0="0x7dc5ada3" id="0x8f56c33f"/>
+            <textobj align_y="1" align_x="1" font_size="32" id="0xf0e75c4b" color="1, 1, 1, 1"/>
+        </style_text_box>
+        <style_radio_button color="1, 1, 1, 1" image_obj="0x8f56c33f" id="0x426495a7">
+            <planeobj texture0="0x3486bb0a" id="0x8f56c33f"/>
+        </style_radio_button>
+        <style_radio_button color="1, 1, 1, 1" image_obj="0x8f56c33f" id="0x718dbefa">
+            <planeobj texture0="0x2c91f77c" id="0x8f56c33f"/>
+        </style_radio_button>
+        <style_radio_button color="1, 1, 1, 1" image_obj="0x8f56c33f" id="0x83cd84cb">
+            <planeobj texture0="0xac51f13a" id="0x8f56c33f"/>
+        </style_radio_button>
+    </styletable>
+    <templatetable>
+        <template id="0x332962af">
+            <plane id="0x42d8c7ad" texture="0x131ae8a5">
+                <layout_hint size="960, 544, 0"/>
+            </plane>
+        </template>
+    </templatetable>
+    <texturetable>
+        <texture src="0x131ae8a5.bin" type="texture/png" id="0x131ae8a5"/>
+        <texture src="0xb7ec9772.bin" type="texture/png" id="0xb7ec9772"/>
+        <texture src="0x9100429f.bin" type="texture/png" id="0x9100429f"/>
+        <texture src="0xe99cbeb4.bin" type="texture/png" id="0xe99cbeb4"/>
+        <texture src="0x2e92f222.bin" type="texture/png" id="0x2e92f222"/>
+        <texture src="0xae9618bf.bin" type="texture/png" id="0xae9618bf"/>
+        <texture src="0x66684940.bin" type="texture/png" id="0x66684940"/>
+        <texture src="0xb049f1b1.bin" type="texture/png" id="0xb049f1b1"/>
+        <texture src="0x5fffacbb.bin" type="texture/png" id="0x5fffacbb"/>
+        <texture src="0xc2abef4a.bin" type="texture/png" id="0xc2abef4a"/>
+        <texture src="0x8d81c67c.bin" type="texture/png" id="0x8d81c67c"/>
+        <texture src="0x8ed449e1.bin" type="texture/png" id="0x8ed449e1"/>
+        <texture src="0xfb67424e.bin" type="texture/png" id="0xfb67424e"/>
+        <texture src="0xc9b7ebeb.bin" type="texture/png" id="0xc9b7ebeb"/>
+        <texture src="0x7f5d918f.bin" type="texture/png" id="0x7f5d918f"/>
+        <texture src="0x3486bb0a.bin" div_mode="3x1" div_ratio_v="0.14" type="texture/png" id="0x3486bb0a"/>
+        <texture src="0x2c91f77c.bin" div_mode="3x1" div_ratio_v="0.14" type="texture/png" id="0x2c91f77c"/>
+        <texture src="0xac51f13a.bin" div_mode="3x1" div_ratio_v="0.14" type="texture/png" id="0xac51f13a"/>
+        <texture src="0x7dc5ada3.bin" compress="on" id="0x7dc5ada3" type="texture/gim" div_mode="3x3"/>
+        <texture src="0xc0f44e0c.bin" div_ratio_h="0.47" compress="on" margin_v="1" div_mode="3x3" div_ratio_v="0.33" type="texture/gim" id="0xc0f44e0c"/>
+    </texturetable>
+</resource>

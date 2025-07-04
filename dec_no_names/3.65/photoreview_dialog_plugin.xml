@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal" id="0x9455d4dc">
+    <pagetable>
+        <page id="0xc4634c57">
+            <plane style="0x75fe59f6" id="0x9fa39b7d">
+                <layout_hint alpha="1" size="960, 544" id="0x3d31f98d" pos="0, 0, 0"/>
+            </plane>
+            <plane style="0x75fe59f6" id="0x9c9138bf">
+                <layout_hint size="960, 544" id="0x3d31f98d" pos="0, 0, 0"/>
+                <scroll_view style="0x6d43c165" id="0xe03dabec">
+                    <layout_hint adjust="1, 1, 0" id="0x3d31f98d" size="0, 0"/>
+                    <plane style="0x75fe59f6" id="0xfb74f705">
+                        <layout_hint size="0, 0" adjust="0, 0, 0" id="0x3d31f98d" pos="0, 0, 0"/>
+                    </plane>
+                    <busyindicator style="0xe211ce05" id="0xa1afc402" texture="0xba195a37">
+                        <layout_hint pos="0, 0" size="64, 64"/>
+                    </busyindicator>
+                </scroll_view>
+                <plane_button sound="0xb1a4211e" style="0xb032e738" id="0xc74a06b0">
+                    <layout_hint align="0, 0, 0" pos="32, -32, 0" id="0x3d31f98d" adjust="0, 0, 0" anchor="1, 2, 0" size="46, 46, 0"/>
+                </plane_button>
+                <button sound="0x20413274" style="0x624294d3" enable="0" id="0x77f456f6" texture="0xf08472bf">
+                    <layout_hint align="0, 0, 0" pos="-48, 36, 0" id="0x3d31f98d" adjust="0, 0, 0" anchor="2, 1, 0" size="64, 64, 0"/>
+                </button>
+            </plane>
+        </page>
+    </pagetable>
+    <styletable>
+        <style_scroll_view color="1, 1, 1, 0" id="0x6d43c165"/>
+        <style_button color="1, 1, 1, 1" id="0x624294d3" bg_obj="0x9c96918b" glow_obj="0x22ff88bd">
+            <planeobj id="0x9c96918b"/>
+            <planeobj texture0="0x34389aa1" scale_mode_y="2" scale_mode_x="2" blend="2" id="0x22ff88bd" scale_value="128, 128"/>
+        </style_button>
+        <style_button color="1, 1, 1, 1" id="0x595507fb" bg_obj="0x9c96918b" glow_obj="0x22ff88bd">
+            <planeobj id="0x9c96918b"/>
+            <planeobj texture0="0x34389aa1" scale_mode_y="2" scale_mode_x="2" blend="2" id="0x22ff88bd" scale_value="128, 128"/>
+        </style_button>
+        <style_plane color="1, 1, 1, 1" id="0x8ac7b6bd" planeobj="0xe95f1628">
+            <planeobj color="1, 1, 1, 1" texture0="0x9dcbc332" id="0xe95f1628"/>
+        </style_plane>
+    </styletable>
+    <stringtable>
+        <locale src="en.bin" compress="on" id="en"/>
+        <locale src="en-gb.bin" compress="on" id="en-gb"/>
+        <locale src="ja.bin" compress="on" id="ja"/>
+        <locale src="fr.bin" compress="on" id="fr"/>
+        <locale src="es.bin" compress="on" id="es"/>
+        <locale src="de.bin" compress="on" id="de"/>
+        <locale src="it.bin" compress="on" id="it"/>
+        <locale src="nl.bin" compress="on" id="nl"/>
+        <locale src="pt.bin" compress="on" id="pt"/>
+        <locale src="pt-br.bin" compress="on" id="pt-br"/>
+        <locale src="ru.bin" compress="on" id="ru"/>
+        <locale src="ko.bin" compress="on" id="ko"/>
+        <locale src="zh-t.bin" compress="on" id="zh-t"/>
+        <locale src="zh-s.bin" compress="on" id="zh-s"/>
+        <locale src="fi.bin" compress="on" id="fi"/>
+        <locale src="sv.bin" compress="on" id="sv"/>
+        <locale src="da.bin" compress="on" id="da"/>
+        <locale src="no.bin" compress="on" id="no"/>
+        <locale src="pl.bin" compress="on" id="pl"/>
+        <locale src="tr.bin" compress="on" id="tr"/>
+    </stringtable>
+    <templatetable>
+        <template id="0x657366b0">
+            <plane style="0x8ac7b6bd" id="0x8ee11c05">
+                <layout_hint align="0, 0, 0" pos="0, 0, 0" adjust="0, 0, 0" alpha="0" rot="0, 0, 0" size="960, 544, 0"/>
+            </plane>
+        </template>
+    </templatetable>
+    <texturetable>
+        <texture src="0xf08472bf.bin" type="texture/gim" id="0xf08472bf" compress="on">
+            <override_texture model_type="1" src="0xf08472bf_model_1_override.bin" type="texture/gim" compress="on"/>
+        </texture>
+        <texture src="0x5e67af0a.bin" type="texture/gim" id="0x5e67af0a" compress="on"/>
+        <texture src="0x9dcbc332.bin" div_ratio_h="0.4" compress="on" div_mode="3x3" div_ratio_v="0.4" type="texture/gim" id="0x9dcbc332"/>
+        <texture src="0x99b69b8b.bin" type="texture/gim" id="0x99b69b8b" compress="on"/>
+    </texturetable>
+</resource>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal" id="0x80b65ec5">
+    <templatetable>
+        <template id="0x5d8a730d">
+            <button style="0x6ea6497d" id="0x083db300">
+                <layout_hint align="1, 0" pos="10, 8" size="90, 90"/>
+            </button>
+        </template>
+    </templatetable>
+    <styletable>
+        <style_button color="1, 1, 1, 1" bg_obj="0x835b7d9e" id="0x6ea6497d">
+            <planeobj id="0x835b7d9e"/>
+        </style_button>
+    </styletable>
+    <stringtable>
+        <locale src="ja.bin" id="ja"/>
+        <locale src="en.bin" id="en"/>
+    </stringtable>
+    <texturetable>
+        <texture src="0x68ecc7c3.bin" type="texture/png" id="0x68ecc7c3"/>
+    </texturetable>
+</resource>

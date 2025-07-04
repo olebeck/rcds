@@ -1,0 +1,154 @@
+# SCE CONFIDENTIAL
+#
+#
+#      Copyright (C) 2010 Sony Computer Entertainment Inc.
+#                        All Rights Reserved.
+#
+#
+#               indicator_plugin - resource debug symbol file
+#
+#
+
+# <pagetable>
+key:ffd7e3f0(0) id:page_infobar
+key:3a375cef(1) id:information_bar
+key:d97527fc(1) id:layout_horizontal
+key:25c60488(1) id:portrait
+key:0a2f2cd9(1) id:landscape
+key:6b85f455(1) id:communication_indicator
+key:546d3eaa(1) id:layout_communication
+key:89588fb3(1) id:liveboard_indicator
+key:ca66c27a(1) id:layout_liveboard
+key:d62fc4e9(1) id:status_indicator
+key:6f834ed1(1) id:layout_status
+key:5ba2d706(1) id:new_indicator
+key:570f893b(1) id:layout_new
+
+# <styletable>
+key:f66e8269(0) id:style_information_bar
+key:835b7d9e(1) id:plane_obj
+key:cf5603b7(0) id:style_datetime
+key:01f875b1(1) id:textobj
+key:e5b95a23(0) id:style_button
+key:2839d7cf(0) id:style_signal_level
+key:fddbdc61(0) id:style_signal_area
+key:a288e8fc(0) id:style_network_generation_name
+key:c8530a4f(0) id:style_roaming_info_name
+key:b59cfe0f(0) id:style_operator_name
+key:4fd18a77(0) id:style_download_status
+key:b230a3de(0) id:style_position
+key:11bf5957(1) id:obj_plane_position
+key:0fe875b4(0) id:style_liveposition
+key:15c6e4be(0) id:style_indicator
+key:fd717012(0) id:style_indicator_base
+key:bbe8dcbf(0) id:style_new_event_indicator
+key:53a6c8b5(1) id:text_obj
+key:b11ce6aa(0) id:style_window_area
+key:e95f1628(1) id:planeobj
+key:c2605c34(0) id:style_window_bg
+key:8d9fcb07(1) id:bg_obj_style
+key:6883a9cd(0) id:style_event_list
+key:8d07923e(0) id:list_item_style
+key:a04d2130(0) id:style_list_item_button
+key:c6d90f67(0) id:style_list_item_icon
+key:ef7e9d6d(0) id:style_list_line
+key:f1871104(0) id:style_list_item_title
+key:063a1693(0) id:style_list_item_subtitle
+
+# <stringtable>
+key:187da0f4(0) id:msg_no_notifications
+key:4494c5de(0) id:msg_more
+key:3daa9cbd(0) id:msg_download_waiting
+key:02139f28(0) id:msg_downloading
+key:431f4d56(0) id:msg_downloaded
+key:36328571(0) id:msg_installed
+key:2a862367(0) id:msg_installing
+
+# <texturetable>
+key:fd54a5b3(0) id:tex_indibtn,src:texture/indicator_button.gim,type:texture/gim
+key:6821404a(0) id:tex_event_none,src:texture/News_BTN/News_BTN_None.gim,type:texture/gim
+key:e062c41f(0) id:tex_event_on,src:texture/News_BTN/News_BTN_On.gim,type:texture/gim
+key:1b9bdf87(0) id:tex_notification,src:texture/NewIndicator/News_baloon.gim,type:texture/gim
+key:0619c91a(0) id:tex_item_underline,src:texture/NewIndicator/News_RuledLine.gim,type:texture/gim
+key:1bc4a259(0) id:tex_item_upperline,src:texture/NewIndicator/News_RuledLine_Shadow.gim,type:texture/gim
+key:3afa2d3e(0) id:tex_infobar_bg,src:texture/Icon/Infobar_bg_b.gim,type:texture/gim
+key:2bc37813(0) id:tex_PStelecom,src:texture/Icon/Infobar_PStelecom.gim,type:texture/gim
+key:6176e34c(0) id:tex_clock,src:texture/Icon/Infobar_time.gim,type:texture/gim
+key:79b781fa(0) id:tex_generation_3g,src:texture/Icon/Infobar_3G.gim,type:texture/gim
+key:ba742617(0) id:tex_generation_2g,src:texture/Icon/Infobar_2G.gim,type:texture/gim
+key:85a3b888(0) id:tex_adhoc,src:texture/Icon/Infobar_adhoc.gim,type:texture/gim
+key:d9984a1c(0) id:tex_flight_mode,src:texture/Icon/Infobar_flight.gim,type:texture/gim
+key:ca76be07(0) id:tex_bluetooth,src:texture/Icon/Infobar_bluetooth.gim,type:texture/gim
+key:7811f8c1(0) id:tex_busy,src:texture/Icon/Infobar_busy.gim,type:texture/gim
+key:57fb5ab3(0) id:tex_lock,src:texture/Icon/Infobar_lock.gim,type:texture/gim
+key:1794f210(0) id:tex_roaming,src:texture/Icon/Infobar_roaming.gim,type:texture/gim
+key:c213d743(0) id:tex_sound,src:texture/Icon/Infobar_mute.gim,type:texture/gim
+key:dd7f3729(0) id:tex_tel_bg,src:texture/Icon/Infobar_tel_bg.gim,type:texture/gim
+key:4eb6043e(0) id:tex_tel_1,src:texture/Icon/Infobar_tel_01.gim,type:texture/gim
+key:6c9f1e48(0) id:tex_tel_2,src:texture/Icon/Infobar_tel_02.gim,type:texture/gim
+key:b3b3a98e(0) id:tex_tel_3,src:texture/Icon/Infobar_tel_03.gim,type:texture/gim
+key:4c0d5714(0) id:tex_tel_4,src:texture/Icon/Infobar_tel_04.gim,type:texture/gim
+key:536b6964(0) id:tex_tel_5,src:texture/Icon/Infobar_tel_05.gim,type:texture/gim
+key:f1767506(0) id:tex_battery_bg,src:texture/Icon/Infobar_battery_bg.gim,type:texture/gim
+key:78600544(0) id:tex_battery_01,src:texture/Icon/Infobar_battery_01.gim,type:texture/gim
+key:4a8ae255(0) id:tex_battery_02,src:texture/Icon/Infobar_battery_02.gim,type:texture/gim
+key:9e9cfcab(0) id:tex_battery_03,src:texture/Icon/Infobar_battery_03.gim,type:texture/gim
+key:f85f0b80(0) id:tex_battery_04,src:texture/Icon/Infobar_battery_04.gim,type:texture/gim
+key:51f47683(0) id:tex_wifi_bg,src:texture/Icon/Infobar_wifi_bg.gim,type:texture/gim
+key:89dc8410(0) id:tex_wifi_1,src:texture/Icon/Infobar_wifi_01.gim,type:texture/gim
+key:2278fb2a(0) id:tex_wifi_2,src:texture/Icon/Infobar_wifi_02.gim,type:texture/gim
+key:ee958f99(0) id:tex_wifi_3,src:texture/Icon/Infobar_wifi_03.gim,type:texture/gim
+key:a13376bc(0) id:tex_wifi_4,src:texture/Icon/Infobar_wifi_04.gim,type:texture/gim
+
+# <templatetable>
+key:b4a5ee1c(0) id:template_datetime
+key:89ffad08(1) id:datetime
+key:31eec9ed(1) id:text_layout
+key:f5a73799(0) id:template_liveposition
+key:004f54e1(1) id:liveposition
+key:9cfea264(1) id:layout_liveposition
+key:09c61366(0) id:template_position
+key:90be1658(1) id:position
+key:3d5ab77e(1) id:layout_position
+key:c867fcd2(0) id:template_button
+key:7b7fcc78(1) id:button
+key:43d2d73e(1) id:layout_button
+key:3ddfcb34(0) id:template_signal_level
+key:4ae47f6e(1) id:signal_area
+key:dabd4b62(1) id:layout_signal_level
+key:916cee1b(1) id:signal_level
+key:00bbf917(1) id:layout_level
+key:07db37a0(0) id:template_network_generation
+key:75180c2c(1) id:network_generation_name
+key:35af0f9b(1) id:layout_network_generation_name
+key:da261734(0) id:template_roaming_info
+key:256ab7e3(1) id:roaming_info_name
+key:27a93d66(1) id:layout_roaming_info_name
+key:882ccce3(0) id:template_operator_name
+key:b383ed84(1) id:operator_name
+key:4fb59e9a(0) id:template_new_event_indicator
+key:718cb7ff(1) id:new_event_indicator
+key:bc1af547(1) id:layout_new_event
+key:7b4f51c1(0) id:template_new_event_window
+key:5ad9c323(1) id:event_window_area
+key:2cd0bc22(1) id:layout_window_area
+key:7f6395c6(1) id:event_window_bg
+key:98b52450(1) id:layout_window_bg
+key:bcae5ee5(1) id:event_list
+key:26921136(1) id:layout_event_list
+key:1124b9a6(0) id:template_list_item
+key:63678fee(1) id:list_item
+key:3a7d9767(1) id:item
+key:526b27a1(1) id:list_item_button
+key:424e9dc9(1) id:item_button
+key:136d89d3(1) id:list_item_progress_bar
+key:779e5455(1) id:item_progress_bar
+key:a0ba8d5e(1) id:list_item_title
+key:367ba5ea(1) id:item_title
+key:d2d696d6(1) id:list_item_subtitle
+key:80c5c70d(1) id:item_subtitle
+key:caa91adf(1) id:list_item_icon
+key:b51d6a05(1) id:item_icon
+key:12d13e29(1) id:list_item_underline
+key:a9fcabdc(1) id:item_line
+

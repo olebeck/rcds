@@ -1,0 +1,88 @@
+# SCE CONFIDENTIAL
+#
+#
+#      Copyright (C) 2010 Sony Computer Entertainment Inc.
+#                        All Rights Reserved.
+#
+#
+#               liveboard_a_plugin_X - resource debug symbol file
+#
+#
+
+# <pagetable>
+
+# <styletable>
+key:a6de484b(0) id:style_basic_item_button_X
+key:a1ce39de(1) id:style_basic_item_button_bg
+key:d7737911(1) id:style_basic_item_button_label
+key:0a43c414(0) id:list_item_panelheader_style_X
+key:ad7ca1b1(1) id:panel_bg_style
+key:43112c04(0) id:style_list_item_X
+key:87cc245f(1) id:obj_plane_listitem
+key:bf1b1ff1(0) id:style_basic_item_X
+key:e69c6d5d(1) id:obj_plane_basiclistitem
+key:71c14d68(0) id:list_item_button_style_X
+key:8d9fcb07(1) id:bg_obj_style
+key:b75b7c7c(1) id:label_obj_style
+key:5bf60d61(0) id:list_item_panel_style_X
+key:03a5f91c(0) id:list_item_text_style_X
+key:01f875b1(1) id:textobj
+key:898f364f(0) id:style_scroll_view_insipid_X
+key:0ebe3343(1) id:obj_plane_insipid
+
+# <stringtable>
+key:89d70b5b(0) id:rid_topmenu_string1
+
+# <texturetable>
+key:fa019a45(0) id:bg_null,src:../../liveboard_a_plugin/resource/texture/null.gim,type:texture/gim
+key:108c0c25(0) id:icon_shop,src:../../liveboard_a_plugin/resource/texture/shop.png,type:texture/png
+key:a56800c8(0) id:icon_psp,src:../../liveboard_a_plugin/resource/texture/PSP.png,type:texture/png
+key:52b0d953(0) id:icon_www,src:../../liveboard_a_plugin/resource/texture/www.png,type:texture/png
+key:2f88f589(0) id:header_manual,src:../../liveboard_a_plugin/resource/texture/help.png,type:texture/png
+key:6df5c7c2(0) id:header_search,src:../../liveboard_a_plugin/resource/texture/Search.png,type:texture/png
+key:152b4784(0) id:header_upgrade,src:../../liveboard_a_plugin/resource/texture/upgrade.png,type:texture/png
+key:b588ea6c(0) id:header_send2friend,src:../../liveboard_a_plugin/resource/texture/Send2Friend.png,type:texture/png
+key:3cad5a6f(0) id:header_patch,src:../../liveboard_a_plugin/resource/texture/patch.png,type:texture/png
+
+# <templatetable>
+key:2c4a0f78(0) id:template_basic_item
+key:73cfe0d0(1) id:widget_basic_item
+key:7c7ac910(1) id:widget_basic_item_button
+key:84c4a996(0) id:chatlog
+key:585d00fd(1) id:list_chat_item
+key:cbfd5e35(1) id:chat_panel
+key:21608295(0) id:list_item_footer
+key:ebbc425d(1) id:list_footer
+key:d97527fc(1) id:layout_horizontal
+key:7e59214d(1) id:list_footer_panel
+key:27ad384a(0) id:list_item_template
+key:63678fee(1) id:list_item
+key:a26527e2(1) id:list_bg_panel
+key:526b27a1(1) id:list_item_button
+key:d2e20301(1) id:list_item_panel
+key:7bc210f3(1) id:list_item_text
+key:326c9d9c(1) id:text_box_layout
+key:1e7cb920(0) id:list_item_template128
+key:3dfeaed2(1) id:list_item128
+key:cc516aca(1) id:list_bg_panel128
+key:9529d02e(1) id:list_item_panel128
+key:c17c0735(1) id:list_item_button128
+key:277a0a7e(1) id:list_item_text128
+key:55a358ca(0) id:template_fixed_0
+key:4c8f69e3(1) id:widget_fixed_0_item
+key:816a5281(0) id:template_live_board
+key:22b16165(1) id:widget_scroll_view_board0
+key:ba14df43(1) id:widget_plane_liveboard
+key:f3109133(1) id:widget_scroll_vartical
+key:e35e815a(1) id:layout_manual
+key:33855a73(1) id:top_segment_plane
+key:976fd9aa(1) id:file_list_plane
+key:673b21a9(0) id:template_live_board_no_activity
+key:05acfb67(1) id:widget_scroll_view_board0_noAct
+key:a5a772b1(1) id:widget_plane_liveboard_noAct
+key:b3ad0d69(1) id:widget_scroll_vartical_noAct
+key:d73128a1(1) id:top_segment_plane_noAct
+key:993f96d3(0) id:template_activity_list
+key:7d923bcd(1) id:widget_scroll_view_board_activity
+key:ef929f1f(1) id:segment_plane
+

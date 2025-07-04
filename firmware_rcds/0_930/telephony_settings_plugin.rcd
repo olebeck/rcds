@@ -1,0 +1,100 @@
+# SCE CONFIDENTIAL
+#
+#
+#      Copyright (C) 2010 Sony Computer Entertainment Inc.
+#                        All Rights Reserved.
+#
+#
+#               telephony_settings_plugin - resource debug symbol file
+#
+#
+
+# <styletable>
+key:3c288ee9(0) id:style_menuitem_text
+key:01f875b1(1) id:textobj
+key:2f652005(0) id:style_menuitem_button
+key:8d9fcb07(1) id:bg_obj_style
+key:f8191c96(0) id:style_new_icon
+key:e95f1628(1) id:planeobj
+key:73a5ac3a(0) id:style_text_detail
+key:c8ab88fa(0) id:style_line_spacer
+
+# <stringtable>
+key:aac7859a(0) id:msg_operator
+key:e3328e4a(0) id:msg_auto_selection
+key:bae3ac69(0) id:msg_docomo
+key:5d9993a2(0) id:msg_network
+key:bbd16c99(0) id:msg_data_roaming
+key:e135b0f2(0) id:msg_data_roaming_explanation
+key:6c0f755f(0) id:msg_generation_connection
+key:d09619b4(0) id:msg_generation_connection_explanation
+key:598cae12(0) id:msg_lock_sim
+key:0ac18482(0) id:msg_lock_sim_ecplanation
+key:61cdcc09(0) id:msg_change_pin
+key:5419c58d(0) id:msg_unlock_sim
+key:98ae0ea9(0) id:msg_remain
+key:ed1b4456(0) id:msg_input_puk
+key:65f337fd(0) id:msg_sim_pin_setting
+key:b6b8307c(0) id:msg_type_your_newpin_code_again
+key:9d4f4baf(0) id:msg_type_your_new_pin_code
+key:a73be714(0) id:msg_type_your_pin_code
+key:0f70183a(0) id:msg_type_your_current_pin_code
+key:6fb460f9(0) id:msg_type_your_new_pin_code_again
+key:ddfb2068(0) id:msg_type_your_puk_code
+key:c5ae2dcc(0) id:msg_pin_authorize_succeeded
+key:92237c92(0) id:msg_message_from_operator
+key:20b1c88f(0) id:msg_from
+key:9f11b195(0) id:msg_error_pin_fail
+key:acf1d2bc(0) id:msg_error_pin_retry_and_remain
+key:0a84689a(0) id:msg_error_pin_retry
+key:8d34248d(0) id:msg_error_puk_retry
+key:5d2f22e9(0) id:msg_error_sim_permanentry_blocked
+key:2d1231bf(0) id:msg_setting_completed
+key:632b6733(0) id:msg_wait
+key:bbb679a9(0) id:msg_error_occured
+key:29170645(0) id:msg_operator_not_found
+key:1569bf5a(0) id:msg_network_not_available
+key:d4359421(0) id:msg_change_operator_info
+key:7dc763b8(0) id:msg_now_searching
+key:27c2dede(0) id:msg_enable_wwan_info
+key:df05202a(0) id:msg_disable_wwan_info
+key:c51aa4a4(0) id:msg_error_occurred
+key:ed2af3af(0) id:msg_incorrect_new_pin_code
+key:7c3576e5(0) id:msg_mobile_network
+key:403ce27a(0) id:msg_on
+key:3d5e5125(0) id:msg_off
+key:4169056d(0) id:msg_pin_auth
+key:5a201875(0) id:msg_puk_auth
+key:31268e4d(0) id:msg_pin_change
+key:bab838c4(0) id:msg_available_operator
+key:9e1c089e(0) id:msg_ntt_docomo
+key:f63bdb3b(0) id:msg_au
+key:7424bcdc(0) id:msg_softbank
+key:cc70e542(0) id:msg_no_service
+key:e1b837fb(0) id:msg_change
+key:1df954d7(0) id:msg_enable
+key:0ec2e364(0) id:msg_disable
+
+# <texturetable>
+key:68ecc7c3(0) id:tex_spanner,src:../../../common/resource/filelist/texture/spanner.png,type:texture/png
+key:29b91f26(0) id:tex_list_80px,src:../../../common/resource/filelist/texture/list_80px.png,type:texture/png
+key:0bfc1adc(0) id:tex_new,src:texture/new_icon.gif,type:texture/gif
+key:06efcfdc(0) id:tex_header_h48,src:../../../common/resource/filelist/texture/header_h48.png,type:texture/png
+
+# <templatetable>
+key:c4ad4138(0) id:template_id_list_item
+key:c01f990f(1) id:list_item_cell
+key:526b27a1(1) id:list_item_button
+key:269034ae(1) id:list_item_new_icon
+key:1d70f2b5(1) id:text_date_from
+key:ea015797(1) id:text_preview
+key:c398ab5f(0) id:template_message_detail
+key:c6b6b642(1) id:message_detail_spacer0
+key:04ff3436(1) id:message_detail_line0
+key:d91419b3(1) id:message_detail_from_text
+key:0eaab4ba(1) id:message_detail_spacer1
+key:cd7232ae(1) id:message_detail_date_text
+key:0dae96bb(1) id:message_detail_spacer2
+key:033f9708(1) id:message_detail_line2
+key:ba61cd6e(1) id:message_detail_body_text
+

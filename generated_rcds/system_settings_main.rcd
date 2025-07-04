@@ -1,0 +1,104 @@
+#
+#
+#               system_settings_main - resource debug symbol file
+#
+#
+
+
+# <templatetable>
+key:f32068fa(0) id:template_main_page_bg
+key:526c4b0e(0) id:style_plane_background
+key:cb7ca879(0) id:main_page_background
+key:b047ffd3(0) id:template_main_page_title
+key:5f7b332b(0) id:_common_style_plane_transparent
+key:bebf0207(0) id:main_page_title_plane
+key:cabd940f(0) id:style_box
+key:d2290b7b(0) id:main_page_title_box
+key:0a2f2cd9(0) id:landscape
+key:11a1fcbb(0) id:style_text_header
+key:857fda14(0) id:main_page_title_text
+key:25d6d211(0) id:_common_sound_button_back
+key:15901be0(0) id:style_close_button
+key:8211f03f(0) id:main_page_button_close
+key:088b1347(0) id:style_plane_footer
+key:3904b5bb(0) id:main_page_footer
+key:35ca8ee7(0) id:_common_style_corner_bottom_left
+key:4810335b(0) id:main_page_button_back
+key:ce561ed6(0) id:list_view_clip_area
+key:079b7dff(0) id:style_list_view
+key:90531f74(0) id:list_view
+key:27ad384a(0) id:list_item_template
+key:f3488f99(0) id:_common_style_list_item_transparent
+key:63678fee(0) id:list_item
+key:5792f984(0) id:template_base_box
+key:20d2a620(0) id:itembase_box
+key:6386d9a1(0) id:template_menuitem_button
+key:20413274(0) id:_common_sound_button_enter
+key:2f652005(0) id:style_menuitem_button
+key:224390d9(0) id:menuitem_button
+key:3c288ee9(0) id:style_menuitem_text
+key:2fbcdeae(0) id:menuitem_title
+key:202f570c(0) id:menuitem_icon
+key:534ffb3b(0) id:style_menuitem_value
+key:4c5dfe96(0) id:menuitem_value
+key:c72cf1d7(0) id:style_plane_triangle
+key:dd31503b(0) id:menuitem_triangle
+key:3cd63ab6(0) id:template_menuitem_edit
+key:56c51469(0) id:menuitem_plane
+key:dc49520b(0) id:template_footer_button
+key:cead273b(0) id:style_button_footer
+key:4ab91ad2(0) id:footer_button
+key:720ae5fe(0) id:template_hint_icon
+key:a95f1f0e(0) id:style_button_hint
+key:f0d5fab6(0) id:menuitem_hint
+key:9f20f898(0) id:_common_default_style_check_box
+key:86d6de69(0) id:menuitem_checkbox
+key:53ff84de(0) id:menuitem_desc
+key:1baffe80(0) id:template_line
+key:5cd8fdbb(0) id:_common_texture_checkbox_textbox_glow
+key:5c35fcdd(0) id:template_generic_text
+key:b0eb8e22(0) id:generic_page_text
+key:f3d6dce2(0) id:template_generic_progressbar
+key:498bdd6c(0) id:generic_progressbar_label
+key:34357958(0) id:generic_progressbar
+key:37a8dd39(0) id:style_generic_progress_label
+key:666459f9(0) id:template_info_list
+key:4476ef64(0) id:info_list_box
+key:0c3f5ebd(0) id:template_info_list_item
+key:626bc1f8(0) id:info_list_item_box
+key:13a35c9d(0) id:style_text_generic_page_align_right
+key:73bc0ed2(0) id:info_list_item_text_left
+key:b5bd9c9b(0) id:style_text_generic_page_align_left
+key:e301c0cd(0) id:info_list_item_text_right
+key:183569ba(0) id:style_busyindicator
+key:1332d6fc(0) id:busyindicator
+key:ba195a37(0) id:_common_texture_busy
+
+# <styletable>
+key:e95f1628(0) id:planeobj
+key:01f875b1(0) id:textobj
+key:c0f44e0c(0) id:tex_footer
+key:1845d10d(0) id:_common_texture_disclosure
+key:9c96918b(0) id:bg_obj
+key:22ff88bd(0) id:glow_obj
+key:29b91f26(0) id:tex_list_80px
+key:e58c4ff4(0) id:_common_sound_text_box
+key:4a150e89(0) id:_common_sound_scroll_view
+key:1cc47b5d(0) id:style_textbox_dialog
+key:b75b7c7c(0) id:label_obj_style
+key:8d9fcb07(0) id:bg_obj_style
+key:74319925(0) id:_common_texture_button
+key:9b7bed4b(0) id:_common_texture_button_glow
+key:d644fb58(0) id:tex_hint
+key:a56e4ba2(0) id:text_obj1
+key:f239aa56(0) id:plane_obj1
+key:bbda2aab(0) id:tex_line
+key:11c027f5(0) id:_common_texture_close_button
+key:f5b88e4a(0) id:_common_texture_close_button_glow
+
+# <texturetable>
+key:c0fbeec9(0) id:tex_list_70px
+key:68ecc7c3(0) id:tex_spanner
+key:a67cb5df(0) id:tex_settings_bg
+
+# <stringtable>

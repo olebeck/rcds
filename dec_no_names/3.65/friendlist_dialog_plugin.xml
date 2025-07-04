@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal" id="0x1cc23512">
+    <pagetable>
+        <page id="0x9573096e">
+            <plane style="0xebe87352" id="0x80f87c88">
+                <layout_hint alpha="1" size="960, 544, 0" id="0x3ae98c8d" pos="0, 0, 0"/>
+            </plane>
+        </page>
+    </pagetable>
+    <styletable>
+        <style_plane color="0, 0, 0, 0.8" id="0xebe87352" planeobj="0x248a20b6"/>
+    </styletable>
+</resource>

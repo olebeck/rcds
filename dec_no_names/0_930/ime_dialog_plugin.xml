@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal" id="0x87625152">
+    <pagetable>
+        <page id="0x4eb6378f" template="0x14f9c408"/>
+    </pagetable>
+    <styletable>
+        <style_plane color="0.3, 0.3, 0.3, 1" id="0x3f62ae5e" planeobj="0xcf074b58">
+            <planeobj id="0xcf074b58"/>
+        </style_plane>
+        <style_plane color="1, 1, 1, 1" id="0xe54656d1" planeobj="0x2b4807f8">
+            <planeobj id="0x2b4807f8"/>
+        </style_plane>
+        <style_plane color="1, 1, 1, 1" id="0x37b8719d" planeobj="0xef0c4f4e">
+            <planeobj id="0xef0c4f4e"/>
+        </style_plane>
+        <style_text color="1, 1, 1, 1" textobj="0x1eb1ff8a" id="0x9d1d1068">
+            <textobj visible_size="0, 0" line_space="0" bold="0" family="0" point="9" align_y="1" align_x="1" oblique="0" back_color="0, 0, 0, 0" text_align="0" word_wrap="0" kinsoku="0" adjust_x="0" adjust_y="1" visible_pos="0, 0" ellipsis="1" underline="0" id="0x1eb1ff8a" color="0, 0, 0, 1" size="0, 0"/>
+        </style_text>
+        <style_text color="1, 1, 1, 1" textobj="0x004cf4ce" id="0xe1c041a3">
+            <textobj visible_size="0, 0" line_space="0" bold="0" family="0" point="9" align_y="0" align_x="0" oblique="0" back_color="0, 0, 0, 0" text_align="0" word_wrap="0" kinsoku="0" adjust_x="0" adjust_y="0" visible_pos="0, 0" ellipsis="1" underline="0" id="0x004cf4ce" color="1, 1, 1, 1" size="0, 0"/>
+        </style_text>
+        <style_text color="1, 1, 1, 1" textobj="0x8f7bf1eb" id="0xc3b479c6">
+            <textobj visible_size="0, 0" line_space="0" bold="0" family="0" point="8" align_y="0" align_x="0" oblique="0" back_color="0.5, 0.5, 0.5, 0.5" text_align="0" word_wrap="0" kinsoku="0" adjust_x="0" adjust_y="0" visible_pos="0, 0" ellipsis="1" underline="0" id="0x8f7bf1eb" color="1, 1, 1, 1" size="0, 0"/>
+        </style_text>
+        <style_text_box color="1, 1, 1, 1" textobj="0x36d2eea1" id="0xb7c0a1f9">
+            <textobj visible_size="0, 0" line_space="0" bold="0" family="0" point="7" align_y="0" align_x="0" oblique="0" back_color="0, 0, 0, 0" text_align="0" word_wrap="0" kinsoku="0" adjust_x="0" adjust_y="0" visible_pos="0, 0" ellipsis="1" underline="0" id="0x36d2eea1" color="0, 0, 0, 1" size="0, 0"/>
+        </style_text_box>
+        <style_button bottom_margin="0" right_margin="0" color="1, 1, 1, 1" top_margin="0" left_margin="0" label_obj="0xa56e4ba2" bg_obj="0xf239aa56" id="0x92fd288f">
+            <planeobj size="200, 72, 0" texture0="0x7facd7a6" div_mode="3" id="0xf239aa56"/>
+            <textobj point="10" color="1, 1, 1, 1" align_x="1" align_y="1" adjust_x="1" adjust_y="1" id="0xa56e4ba2"/>
+        </style_button>
+        <style_button color="1, 1, 1, 1" label_obj="0xf871bcf0" bg_obj="0xc62bd9d6" id="0xee3d4a6f">
+            <planeobj texture0="0xda39a3ee" id="0xc62bd9d6"/>
+            <textobj visible_size="0, 0" line_space="0" bold="0" family="0" point="10" align_y="0" align_x="0" oblique="0" back_color="0, 0, 0, 0" text_align="0" word_wrap="0" kinsoku="0" adjust_x="0" adjust_y="0" visible_pos="0, 0" ellipsis="0" underline="0" id="0xf871bcf0" color="1, 1, 1, 1" size="0, 0"/>
+        </style_button>
+    </styletable>
+    <templatetable>
+        <template id="0x14f9c408">
+            <plane style="0x3f62ae5e" id="0xadfd96f4">
+                <layout_hint align="1, 2, 0" pos="-480, 272, 0" adjust="2, 2, 0" alpha="1" rot="0, 0, 0" id="0xbc88b09a" size="960, 540, 0"/>
+                <text selection_mode="0" style="0x9d1d1068" id="0x62ee49dc" texture="0x9c40c65f">
+                    <layout_hint align="1, 0, 0" pos="-480, 210, 0" adjust="0, 0, 0" alpha="1" rot="0, 0, 0" id="0xbc88b09a" size="960, 70, 0"/>
+                </text>
+                <text_box v_scrollbar="0x8d07b56d" style="0xb7c0a1f9" id="0x92c3c9cc" texture="0x766acf4b">
+                    <layout_hint align="1, 0, 0" pos="-465, 100, 0" adjust="0, 0, 0" alpha="1" id="0xbc88b09a" size="930, 150, 0"/>
+                    <scrollbar_touch style="0x3fc2179e" id="0x8d07b56d">
+                        <layout_hint id="0xbc88b09a" size="20, 100, 0"/>
+                    </scrollbar_touch>
+                </text_box>
+            </plane>
+        </template>
+        <template id="0x00a3276e">
+            <dialog style="0x5515d341" id="0x4dd3f804">
+                <layout_dialog layout_type="0" id="0x7505d64a" pos="0, 0, 0"/>
+                <box style="0x7374487a" id="0xe6addc3d">
+                    <layout_box bottom_margin="20" right_margin="20" space="20" top_margin="20" pos="0, 0, 0" left_margin="20" layout_type="1" id="0x7505d64a" max_size="600, 200, 0"/>
+                    <text_box style="0xe6ea7d34" id="0x38e27a53" v_scrollbar="0x980811e8">
+                        <layout_hint adjust="0, 2, 0" id="0x7505d64a" size="500, 100, 0"/>
+                        <scrollbar_touch style="0x3fc2179e" id="0x980811e8">
+                            <layout_hint id="0x7505d64a" size="20, 100, 0"/>
+                        </scrollbar_touch>
+                    </text_box>
+                </box>
+            </dialog>
+        </template>
+        <template id="0xd9aae587">
+            <dialog style="0x5515d341" id="0x56f61279">
+                <layout_dialog layout_type="0" id="0x7505d64a" pos="0, 0, 0"/>
+                <box style="0x7374487a" id="0xdb059b1c">
+                    <layout_box bottom_margin="20" right_margin="20" children_adjust_y="0" children_adjust_x="0" space="20" top_margin="20" pos="0, 0, 0" left_margin="20" layout_type="1" id="0x7505d64a" max_size="600, 200, 0"/>
+                    <text_box style="0xe6ea7d34" id="0xaa13dc14" v_scrollbar="0x55219d22">
+                        <layout_hint adjust="0, 2, 0" id="0x7505d64a" size="500, 100, 0"/>
+                        <scrollbar_touch style="0x3fc2179e" id="0x55219d22">
+                            <layout_hint id="0x7505d64a" size="20, 100, 0"/>
+                        </scrollbar_touch>
+                    </text_box>
+                    <button style="0x92fd288f" id="0x8c0077b1" label="0x805beca6">
+                        <layout_hint adjust="0, 0, 0" id="0x7505d64a" size="200, 72, 0"/>
+                    </button>
+                </box>
+            </dialog>
+        </template>
+        <template id="0xd29478b9">
+            <dialog style="0x5515d341" id="0xa432af40">
+                <layout_dialog layout_type="0" id="0x7505d64a" pos="0, 0, 0"/>
+                <box style="0x7374487a" id="0x6d0686e2">
+                    <layout_box bottom_margin="20" right_margin="20" space="20" top_margin="20" pos="0, 0, 0" left_margin="20" layout_type="1" id="0x7505d64a" max_size="600, 200, 0"/>
+                    <text_box style="0xe6ea7d34" id="0x2c214acc" v_scrollbar="0x9a6b1ba2">
+                        <layout_hint adjust="0, 2, 0" id="0x7505d64a" size="500, 100, 0"/>
+                        <scrollbar_touch style="0x3fc2179e" id="0x9a6b1ba2">
+                            <layout_hint id="0x7505d64a" size="20, 100, 0"/>
+                        </scrollbar_touch>
+                    </text_box>
+                    <box style="0x7374487a" id="0xd428d3c7">
+                        <layout_box space="112" children_adjust_y="0" children_adjust_x="0" adjust="2, 2, 0" layout_type="2" id="0x7505d64a" children_align_x="0"/>
+                        <button style="0x92fd288f" id="0x8cac6653" label="0x805beca6">
+                            <layout_hint adjust="0, 0, 0" id="0x7505d64a" size="200, 72, 0"/>
+                        </button>
+                        <button style="0x92fd288f" id="0xbae3a99c" label="0xadcd9adf">
+                            <layout_hint adjust="0, 0, 0" id="0x7505d64a" size="200, 72, 0"/>
+                        </button>
+                    </box>
+                </box>
+            </dialog>
+        </template>
+        <template id="0x612ba499">
+            <dialog style="0x5515d341" id="0x548c2e7a">
+                <layout_dialog layout_type="0" id="0x7505d64a" pos="0, 0, 0"/>
+                <box style="0x7374487a" id="0x7eed5900">
+                    <layout_box bottom_margin="20" right_margin="20" space="20" top_margin="20" pos="0, 0, 0" left_margin="20" layout_type="1" id="0x7505d64a" max_size="600, 300, 0"/>
+                    <text_box style="0xe6ea7d34" id="0x322cd4c6" v_scrollbar="0x054dfa94">
+                        <layout_hint id="0x7505d64a" size="500, 100, 0"/>
+                        <scrollbar_touch style="0x3fc2179e" id="0x054dfa94">
+                            <layout_hint id="0x7505d64a" size="20, 100, 0"/>
+                        </scrollbar_touch>
+                    </text_box>
+                    <box style="0x7374487a" id="0x4404228e">
+                        <layout_box layout_type="1" id="0x7505d64a" children_align_x="0"/>
+                        <text style="0xc6e3b635" id="0x9f22fa77">
+                            <layout_hint adjust="2, 2, 0" id="0x7505d64a"/>
+                        </text>
+                        <progressbar style="0x501d508e" w_label="0x4408800e" id="0x295cf6fa">
+                            <layout_hint size="500, 30, 0, 0"/>
+                            <text style="0xe2ad9302" id="0x4408800e">
+                                <layout_hint adjust="2, 2, 0" id="0x7505d64a"/>
+                            </text>
+                        </progressbar>
+                    </box>
+                    <button style="0x92fd288f" id="0x9b7ef7e0" label="0x805beca6">
+                        <layout_hint adjust="0, 0, 0" id="0x7505d64a" size="200, 72, 0"/>
+                    </button>
+                </box>
+            </dialog>
+        </template>
+    </templatetable>
+    <texturetable>
+        <texture map="texture/normal_map" type="texture/png" id="0x766acf4b" src="0x766acf4b.bin"/>
+        <texture map="texture/normal_map" type="texture/png" id="0x9c40c65f" src="0x9c40c65f.bin"/>
+    </texturetable>
+</resource>

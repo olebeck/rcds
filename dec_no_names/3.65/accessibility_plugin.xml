@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal">
+    <stringtable>
+        <locale src="ja.bin" compress="on" id="ja"/>
+        <locale src="en-gb.bin" compress="on" id="en-gb"/>
+        <locale src="en.bin" compress="on" id="en"/>
+        <locale src="fr.bin" compress="on" id="fr"/>
+        <locale src="es.bin" compress="on" id="es"/>
+        <locale src="de.bin" compress="on" id="de"/>
+        <locale src="it.bin" compress="on" id="it"/>
+        <locale src="nl.bin" compress="on" id="nl"/>
+        <locale src="pt.bin" compress="on" id="pt"/>
+        <locale src="pt-br.bin" compress="on" id="pt-br"/>
+        <locale src="ru.bin" compress="on" id="ru"/>
+        <locale src="pl.bin" compress="on" id="pl"/>
+        <locale src="fi.bin" compress="on" id="fi"/>
+        <locale src="da.bin" compress="on" id="da"/>
+        <locale src="no.bin" compress="on" id="no"/>
+        <locale src="sv.bin" compress="on" id="sv"/>
+        <locale src="tr.bin" compress="on" id="tr"/>
+        <locale src="ko.bin" compress="on" id="ko"/>
+        <locale src="zh-t.bin" compress="on" id="zh-t"/>
+        <locale src="zh-s.bin" compress="on" id="zh-s"/>
+    </stringtable>
+    <templatetable>
+        <template id="0x25344d12">
+            <plane style="0x5f7b332b" id="0xfc077dff"/>
+            <text id="0xff78b8f1" label="0xbfe9dcff"/>
+            <text id="0x3fa11f9d" label="0xbfe9dcff"/>
+        </template>
+    </templatetable>
+    <texturetable>
+        <texture src="0xca3d9fcb.bin" compress="on" id="0xca3d9fcb" type="texture/gim"/>
+        <texture src="0x19fde058.bin" compress="on" id="0x19fde058" type="texture/gim"/>
+        <texture src="0x1b668378.bin" compress="on" id="0x1b668378" type="texture/gim"/>
+        <texture src="0x9432167a.bin" compress="on" id="0x9432167a" type="texture/gim"/>
+        <texture src="0x3c579a48.bin" compress="on" id="0x3c579a48" type="texture/gim"/>
+        <texture src="0xbbcc4df7.bin" compress="on" id="0xbbcc4df7" type="texture/gim"/>
+        <texture src="0x69cb3790.bin" compress="on" id="0x69cb3790" type="texture/gim"/>
+        <texture src="0x29b91f26.bin" div_ratio_h="0.49" compress="on" margin_v="1" id="0x29b91f26" margin_h="1" type="texture/gim" div_mode="3x1"/>
+        <texture src="0xd0a272a1.bin" div_ratio_h="0.49" compress="on" margin_v="1" id="0xd0a272a1" margin_h="1" type="texture/gim" div_mode="3x1"/>
+        <texture src="0xa73a105f.bin" compress="on" id="0xa73a105f" type="texture/gim"/>
+        <texture src="0x21db7070.bin" compress="on" id="0x21db7070" type="texture/gim"/>
+        <texture src="0x5ec0f76a.bin" compress="on" id="0x5ec0f76a" type="texture/gim"/>
+        <texture src="0x414dd89a.bin" compress="on" id="0x414dd89a" type="texture/gim"/>
+        <texture src="0x0ea324a6.bin" compress="on" id="0x0ea324a6" type="texture/gim"/>
+        <texture src="0xc9bd7cdc.bin" compress="on" id="0xc9bd7cdc" type="texture/gim"/>
+        <texture src="0x2c05724a.bin" compress="on" id="0x2c05724a" type="texture/gim"/>
+        <texture src="0x15e40a72.bin" compress="on" id="0x15e40a72" type="texture/gim"/>
+        <texture src="0xd5ac810c.bin" compress="on" id="0xd5ac810c" type="texture/gim"/>
+        <texture src="0x9ef301d8.bin" compress="on" id="0x9ef301d8" type="texture/gim"/>
+        <texture src="0x3951aaf8.bin" compress="on" id="0x3951aaf8" type="texture/gim"/>
+        <texture src="0x10c63bb6.bin" compress="on" id="0x10c63bb6" type="texture/gim"/>
+        <texture src="0x582b191e.bin" compress="on" id="0x582b191e" type="texture/gim"/>
+        <texture src="0x81921b8c.bin" compress="on" id="0x81921b8c" type="texture/gim"/>
+        <texture src="0x3f847c9b.bin" compress="on" id="0x3f847c9b" type="texture/gim"/>
+        <texture src="0xc51a29dc.bin" compress="on" id="0xc51a29dc" type="texture/gim"/>
+        <texture src="0xf5b540ab.bin" compress="on" id="0xf5b540ab" type="texture/gim"/>
+        <texture src="0x5dba5de5.bin" compress="on" id="0x5dba5de5" type="texture/gim"/>
+        <texture src="0xb2282a18.bin" compress="on" id="0xb2282a18" type="texture/gim"/>
+        <texture src="0x5cb88590.bin" compress="on" id="0x5cb88590" type="texture/gim"/>
+        <texture src="0x91e27735.bin" compress="on" id="0x91e27735" type="texture/gim"/>
+        <texture src="0x0ddaa1df.bin" compress="on" id="0x0ddaa1df" type="texture/gim"/>
+        <texture src="0x3fa2b5a2.bin" compress="on" id="0x3fa2b5a2" type="texture/gim"/>
+        <texture src="0xd9069c92.bin" compress="on" id="0xd9069c92" type="texture/gim"/>
+        <texture src="0x5b4d8689.bin" compress="on" id="0x5b4d8689" type="texture/gim"/>
+        <texture src="0xfce9d312.bin" compress="on" id="0xfce9d312" type="texture/gim"/>
+        <texture src="0xb94fc11c.bin" compress="on" id="0xb94fc11c" type="texture/gim"/>
+        <texture src="0xdf47e8d9.bin" compress="on" id="0xdf47e8d9" type="texture/gim"/>
+        <texture src="0x4b26dd32.bin" compress="on" id="0x4b26dd32" type="texture/gim"/>
+        <texture src="0x99c5bf90.bin" compress="on" id="0x99c5bf90" type="texture/png"/>
+        <texture src="0x4d838421.bin" compress="on" id="0x4d838421" type="texture/gim"/>
+        <texture src="0x500529b0.bin" compress="on" id="0x500529b0" type="texture/gim"/>
+        <texture src="0xc6e9141f.bin" compress="on" id="0xc6e9141f" type="texture/gim"/>
+        <texture src="0x4f5c3486.bin" compress="on" id="0x4f5c3486" type="texture/gim"/>
+        <texture src="0x2a724673.bin" compress="on" id="0x2a724673" type="texture/gim"/>
+        <texture src="0xc43c363f.bin" compress="on" id="0xc43c363f" type="texture/gim"/>
+        <texture src="0xbd9f8c0f.bin" compress="on" id="0xbd9f8c0f" type="texture/gim"/>
+        <texture src="0x499af9e8.bin" compress="on" id="0x499af9e8" type="texture/gim"/>
+        <texture src="0x53b6126c.bin" compress="on" id="0x53b6126c" type="texture/gim"/>
+        <texture src="0x5a2658fa.bin" compress="on" id="0x5a2658fa" type="texture/gim"/>
+        <texture src="0xd3b6d232.bin" compress="on" id="0xd3b6d232" type="texture/gim"/>
+        <texture src="0x041f38dc.bin" compress="on" id="0x041f38dc" type="texture/gim"/>
+        <texture src="0xf2863b16.bin" compress="on" id="0xf2863b16" type="texture/gim"/>
+        <texture src="0x6edffd4c.bin" compress="on" id="0x6edffd4c" type="texture/gim"/>
+        <texture src="0x9d6b29ca.bin" compress="on" id="0x9d6b29ca" type="texture/gim"/>
+        <texture src="0x943d4b80.bin" compress="on" id="0x943d4b80" type="texture/gim"/>
+    </texturetable>
+</resource>

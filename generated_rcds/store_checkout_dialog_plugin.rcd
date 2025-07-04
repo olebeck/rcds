@@ -1,0 +1,14 @@
+#
+#
+#               store_checkout_dialog_plugin - resource debug symbol file
+#
+#
+
+
+# <pagetable>
+key:7b9e3561(0) id:page0
+key:3b65ec3c(0) id:background_style
+key:248a20b6(0) id:background
+key:7c52501e(0) id:background_layout
+
+# <styletable>

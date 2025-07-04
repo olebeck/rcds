@@ -1,0 +1,58 @@
+# SCE CONFIDENTIAL
+#
+#
+#      Copyright (C) 2010 Sony Computer Entertainment Inc.
+#                        All Rights Reserved.
+#
+#
+#               impose_plugin - resource debug symbol file
+#
+#
+
+# <pagetable>
+key:5fc861d1(0) id:page_impose
+
+# <styletable>
+key:88964031(0) id:style_plane_volume_panel
+key:e95f1628(1) id:planeobj
+key:d03fe56b(0) id:style_plane_volume_value
+key:18419509(0) id:style_plane_base
+key:769c7726(0) id:style_button_close
+key:fad65a2d(1) id:bg_obj_icon
+key:8eb31782(1) id:label_obj_icon
+key:4b5d3e7b(0) id:style_text_volume
+key:01f875b1(1) id:textobj
+key:2f9d62b9(0) id:style_button_volume_panel
+
+# <texturetable>
+key:a662cfbb(0) id:tex_vol_base,src:../../impose_plugin/resource/texture/Volume_Base_h33.png,type:texture/png
+key:1d5fa3cb(0) id:tex_vol_on,src:../../impose_plugin/resource/texture/Volume_level_ON.png,type:texture/png
+key:7f0fbc22(0) id:tex_vol_off,src:../../impose_plugin/resource/texture/Volume_level_OFF.png,type:texture/png
+key:edd9d029(0) id:tex_vol_sp,src:../../impose_plugin/resource/texture/Volume_sp.png,type:texture/png
+key:2b0b8833(0) id:tex_vol_bt,src:../../impose_plugin/resource/texture/Volume_Bluetooth.png,type:texture/png
+key:6181d444(0) id:tex_vol_avls,src:../../impose_plugin/resource/texture/Volume_AVLS.png,type:texture/png
+
+# <templatetable>
+key:65fc68a6(0) id:template_nrm_volume_panel
+key:fdafb866(1) id:widget_group_base
+key:d97527fc(1) id:layout_horizontal
+key:aa80a824(1) id:widget_plane_nrm_volume_panel
+key:4cd8aea9(1) id:widget_plane_nrm_volume_sp
+key:ec46ab08(1) id:widget_plane_nrm_volume_on
+key:1ec69c43(1) id:widget_plane_nrm_volume_off
+key:ab3f697e(0) id:template_full_volume_panel
+key:ddc7b2a6(1) id:widget_button_full_volume_panel
+key:2c77afb4(1) id:widget_text_bgm_volume
+key:a8e21482(1) id:widget_plane_bgm_volume_sp
+key:b10fd497(1) id:widget_plane_bgm_volume_on
+key:83999ebc(1) id:widget_plane_bgm_volume_off
+key:25918f0d(1) id:widget_text_sys_volume
+key:07cb75d0(1) id:widget_plane_sys_volume_sp
+key:1bcee533(1) id:widget_plane_sys_volume_on
+key:6d7f4fe4(1) id:widget_plane_sys_volume_off
+key:345aa94b(0) id:template_edit_volume_panel
+key:14472935(1) id:widget_plane_edit_volume_panel
+key:c0099932(1) id:widget_button_close
+key:09fb9086(1) id:widget_slider_bgm_volume
+key:9fb86f10(1) id:widget_slider_sys_volume
+

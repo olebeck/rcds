@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal" id="0xc88ceb37">
+    <stringtable>
+        <locale src="zh-s.bin" compress="on" id="zh-s"/>
+        <locale src="zh-t.bin" compress="on" id="zh-t"/>
+        <locale src="da.bin" compress="on" id="da"/>
+        <locale src="nl.bin" compress="on" id="nl"/>
+        <locale src="en.bin" compress="on" id="en"/>
+        <locale src="en-gb.bin" compress="on" id="en-gb"/>
+        <locale src="fi.bin" compress="on" id="fi"/>
+        <locale src="fr.bin" compress="on" id="fr"/>
+        <locale src="de.bin" compress="on" id="de"/>
+        <locale src="it.bin" compress="on" id="it"/>
+        <locale src="ja.bin" compress="on" id="ja"/>
+        <locale src="ko.bin" compress="on" id="ko"/>
+        <locale src="no.bin" compress="on" id="no"/>
+        <locale src="pl.bin" compress="on" id="pl"/>
+        <locale src="pt.bin" compress="on" id="pt"/>
+        <locale src="pt-br.bin" compress="on" id="pt-br"/>
+        <locale src="ru.bin" compress="on" id="ru"/>
+        <locale src="es.bin" compress="on" id="es"/>
+        <locale src="sv.bin" compress="on" id="sv"/>
+        <locale src="tr.bin" compress="on" id="tr"/>
+    </stringtable>
+    <styletable>
+        <style_plane id="0x2fae8301" planeobj="0xe95f1628">
+            <planeobj color="0.1, 0.1, 0.1, 1" id="0xe95f1628"/>
+        </style_plane>
+        <style_text textobj="0x01f875b1" id="0x18c7bc48" planeobj="0xe95f1628">
+            <planeobj color="0, 0, 0, 0" id="0xe95f1628"/>
+            <textobj font_size="19" bold="0" align_y="1" align_x="1" color="1, 1, 1, 1" ellipsis="1" shadow="1" id="0x01f875b1"/>
+        </style_text>
+        <style_rich_text bg_obj="0x9c96918b" id="0x33fbabc1">
+            <planeobj color="1, 1, 1, 0" id="0x9c96918b"/>
+        </style_rich_text>
+        <style_button glow_obj="0x22ff88bd" right_margin="20" left_margin="20" label_obj="0x28ccf273" bg_obj="0x9c96918b" adjust_min_size="146, 0" id="0x4cad5172">
+            <planeobj texture0="0x74319925" id="0x9c96918b"/>
+            <planeobj texture0="0x9b7bed4b" blend="2" id="0x22ff88bd"/>
+            <textobj font_size="28" bold="1" align_y="1" align_x="1" adjust_x="1" shadow="1" id="0x28ccf273"/>
+        </style_button>
+        <style_scrollbar_touch sound="0x6e8bfb14" base_obj="0x75cbf56e" slider_obj="0xda1d47bb" slider_glow_obj="0x855f12bb" min_size="90" id="0x8b8027c1">
+            <planeobj scale_mode_x="1" texture0="0xfb704b75" id="0x75cbf56e"/>
+            <planeobj scale_mode_x="1" texture0="0xa87acd16" id="0xda1d47bb"/>
+            <planeobj scale_mode_x="1" texture0="0x59ebce2b" id="0x855f12bb"/>
+        </style_scrollbar_touch>
+        <style_busyindicator ball_size="15" id="0x9f184521"/>
+    </styletable>
+    <texturetable>
+        <texture src="0xfb704b75.bin" compress="on" div_mode="1x3" div_ratio_v="0.4772" type="texture/gim" id="0xfb704b75"/>
+        <texture src="0xa87acd16.bin" compress="on" div_mode="1x3" div_ratio_v="0.4772" type="texture/gim" id="0xa87acd16"/>
+        <texture src="0x59ebce2b.bin" compress="on" div_mode="1x3" div_ratio_v="0.4772" type="texture/gim" id="0x59ebce2b"/>
+    </texturetable>
+    <pagetable>
+        <page id="0xf7e05328">
+            <plane style="0x2fae8301" id="0xf2bfe50e">
+                <layout_hint size="960, 64" id="0xda39a3ee" pos="0, 208"/>
+                <button style="0x4cad5172" id="0xbfd1e2a7" texture="0x11c027f5">
+                    <layout_hint size="48, 48" id="0xda39a3ee" pos="-447, 0"/>
+                </button>
+                <text style="0x18c7bc48" id="0xccd5386f" label="0x7bd1c964">
+                    <layout_hint align="1, 0" size="894, 54" id="0xda39a3ee" pos="-414, 0"/>
+                </text>
+            </plane>
+            <rich_text style="0x33fbabc1" w_sbar_v="0xd2c8f0c2" id="0xeda7221a">
+                <layout_hint align="0, 2" pos="0, 176" size="960, 448"/>
+                <scrollbar_touch style="0x8b8027c1" id="0xd2c8f0c2">
+                    <layout_hint pos="436, 0" size="44, 448"/>
+                </scrollbar_touch>
+                <group id="0xaf305488">
+                    <layout_hint align="0, 1" anchor="0, 2" size="844, 94"/>
+                    <button style="0x4cad5172" id="0x9e74f9fa" label="0x12d272f8">
+                        <layout_hint align="1, 0" adjust="2, 0" anchor="1, 0" size="0, 46"/>
+                    </button>
+                    <button style="0x4cad5172" id="0x41c9b9c4" label="0xac29b742">
+                        <layout_hint size="0, 46" align="2, 0" adjust="2, 0" anchor="2, 0" pos="-10, 0"/>
+                    </button>
+                </group>
+            </rich_text>
+            <busyindicator style="0x9f184521" id="0x60332a73" texture="0xba195a37">
+                <layout_hint anchor="0, 0" size="60, 60"/>
+            </busyindicator>
+        </page>
+    </pagetable>
+</resource>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal" id="0xd17c4ccf">
+    <pagetable>
+        <page id="0x15a70cc4">
+            <plane style="0x0dc46a42" id="0x60cc74b0" texture="0x91685156">
+                <layout_hint pos="0, 177.5, 0" size="960, 4, 0"/>
+            </plane>
+            <text style="0x13b3e77a" id="0x31237a64" label="0xed93a379">
+                <layout_hint align="0, 1, 0" adjust="2, 2, 0" pos="0, 188, 0"/>
+            </text>
+            <scroll_view style="0x6d23b259" id="0xefb23258">
+                <layout_hint pos="0, -48, 0" size="960, 448, 0"/>
+                <text scroll_view="0xefb23258" style="0xfaddbeca" id="0x74f6c382">
+                    <layout_hint align="0, 2, 0" adjust="0, 2, 0" pos="0, -48, 0" size="960, 448, 0"/>
+                </text>
+            </scroll_view>
+            <corner_button style="0x35ca8ee7" id="0x321f336f"/>
+        </page>
+    </pagetable>
+    <styletable>
+        <style_plane color="1, 1, 1, 1" id="0x0dc46a42"/>
+        <style_text top_margin="100" right_margin="30" textobj="0xee753a3d" id="0xfaddbeca" left_margin="30">
+            <textobj font_size="24" bold="0" word_wrap="1" id="0xee753a3d"/>
+        </style_text>
+        <style_text textobj="0x0ffe8657" id="0x13b3e77a">
+            <textobj font_size="32" bold="1" id="0x0ffe8657"/>
+        </style_text>
+    </styletable>
+    <stringtable>
+        <locale src="ja.bin" compress="on" id="ja"/>
+        <locale src="en.bin" compress="on" id="en"/>
+        <locale src="fr.bin" compress="on" id="fr"/>
+        <locale src="es.bin" compress="on" id="es"/>
+        <locale src="de.bin" compress="on" id="de"/>
+        <locale src="it.bin" compress="on" id="it"/>
+        <locale src="nl.bin" compress="on" id="nl"/>
+        <locale src="pt.bin" compress="on" id="pt"/>
+        <locale src="ru.bin" compress="on" id="ru"/>
+        <locale src="ko.bin" compress="on" id="ko"/>
+        <locale src="zh-t.bin" compress="on" id="zh-t"/>
+        <locale src="zh-s.bin" compress="on" id="zh-s"/>
+        <locale src="fi.bin" compress="on" id="fi"/>
+        <locale src="sv.bin" compress="on" id="sv"/>
+        <locale src="da.bin" compress="on" id="da"/>
+        <locale src="no.bin" compress="on" id="no"/>
+        <locale src="pl.bin" compress="on" id="pl"/>
+        <locale src="pt-br.bin" compress="on" id="pt-br"/>
+        <locale src="en-gb.bin" compress="on" id="en-gb"/>
+        <locale src="tr.bin" compress="on" id="tr"/>
+    </stringtable>
+    <texturetable/>
+</resource>

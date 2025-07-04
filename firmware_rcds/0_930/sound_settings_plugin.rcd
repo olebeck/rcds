@@ -1,0 +1,17 @@
+# SCE CONFIDENTIAL
+#
+#
+#      Copyright (C) 2010 Sony Computer Entertainment Inc.
+#                        All Rights Reserved.
+#
+#
+#               sound_settings_plugin - resource debug symbol file
+#
+#
+
+# <stringtable>
+key:168bd40d(0) id:msg_avls
+key:f163f0a1(0) id:msg_avls_info
+key:722bab78(0) id:msg_brightness
+key:e5ae58b8(0) id:msg_sound_display
+

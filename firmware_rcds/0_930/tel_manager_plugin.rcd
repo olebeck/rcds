@@ -1,0 +1,26 @@
+# SCE CONFIDENTIAL
+#
+#
+#      Copyright (C) 2010 Sony Computer Entertainment Inc.
+#                        All Rights Reserved.
+#
+#
+#               tel_manager_plugin - resource debug symbol file
+#
+#
+
+# <pagetable>
+key:5fcd170e(0) id:page_main
+key:230d4d65(1) id:page_main_button1
+key:7505d64a(1) id:default
+
+# <styletable>
+key:ee3d4a6f(0) id:button_style1
+key:e95f1628(1) id:planeobj
+key:01f875b1(1) id:textobj
+
+# <stringtable>
+key:11a2fca6(0) id:xxx_string1
+
+# <texturetable>
+

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal">
+    <stringtable>
+        <locale src="ja.bin" id="ja"/>
+        <locale src="en.bin" id="en"/>
+        <locale src="fr.bin" id="fr"/>
+        <locale src="es.bin" id="es"/>
+        <locale src="de.bin" id="de"/>
+        <locale src="it.bin" id="it"/>
+        <locale src="nl.bin" id="nl"/>
+        <locale src="pt.bin" id="pt"/>
+        <locale src="ru.bin" id="ru"/>
+        <locale src="ko.bin" id="ko"/>
+        <locale src="zh-t.bin" id="zh-t"/>
+        <locale src="zh-s.bin" id="zh-s"/>
+        <locale src="fi.bin" id="fi"/>
+        <locale src="sv.bin" id="sv"/>
+        <locale src="da.bin" id="da"/>
+        <locale src="no.bin" id="no"/>
+        <locale src="pl.bin" id="pl"/>
+    </stringtable>
+    <texturetable>
+        <texture src="0xcaa929e7.bin" type="texture/png" id="0xcaa929e7"/>
+        <texture src="0xc0375024.bin" type="texture/png" id="0xc0375024"/>
+    </texturetable>
+    <pagetable>
+        <page id="0xdeda8f16">
+            <plane style="0x587a75d4" id="0x60db8ef3">
+                <layout_hint align="0, 0, 0" size="960, 480, 0" id="0xda39a3ee" pos="0, 0, 0"/>
+                <plane style="0x1b36fcf6" id="0x01d47223">
+                    <layout_hint align="0, 0, 0" size="960, 120, 0" id="0xda39a3ee" pos="0, 180, 0"/>
+                    <text style="0x5628b4f8" id="0xb1749be7">
+                        <layout_hint align="0, 2, 0" size="480, 80, 0" id="0x0a2f2cd9" pos="0, 50, 0"/>
+                    </text>
+                </plane>
+                <plane style="0xd3cd4c3a" id="0x43f341c0">
+                    <layout_hint align="0, 0, 0" size="960, 120, 0" id="0xda39a3ee" pos="0, 60, 0"/>
+                    <text style="0xbcbc21ec" id="0xdb854b50">
+                        <layout_hint align="0, 0, 0" pos="-300, 0, 0" size="120, 80, 0"/>
+                    </text>
+                    <text style="0xbcbc21ec" id="0x2dca63fb">
+                        <layout_hint align="0, 0, 0" pos="-100, 0, 0" size="120, 80, 0"/>
+                    </text>
+                    <text style="0xbcbc21ec" id="0xbeb43d9c">
+                        <layout_hint align="0, 0, 0" pos="100, 0, 0" size="120, 80, 0"/>
+                    </text>
+                    <text style="0xbcbc21ec" id="0x93d55613">
+                        <layout_hint align="0, 0, 0" pos="300, 0, 0" size="120, 80, 0"/>
+                    </text>
+                </plane>
+                <text_box ime_type="257" edit_mode="1" max_length="4" edit_auto_transition_mode="0" id="0xeccd38f2" password_mode="1">
+                    <layout_hint>
+                        <resolution id="0x0a2f2cd9" size="0, 0"/>
+                        <resolution id="0x25c60488" size="0, 0"/>
+                    </layout_hint>
+                </text_box>
+            </plane>
+        </page>
+    </pagetable>
+    <styletable>
+        <style_plane color="0.59, 0.59, 0.59, 1" id="0x587a75d4"/>
+        <style_plane color="0.9, 0.9, 0.9, 1" id="0x1b36fcf6"/>
+        <style_text right_margin="10" textobj="0x01f875b1" id="0x5628b4f8" left_margin="10">
+            <textobj point="7" align_y="1" align_x="1" color="0.1, 0.1, 0.1, 1" word_wrap="1" ellipsis="0" id="0x01f875b1"/>
+        </style_text>
+        <style_plane color="1, 0.51, 0.67, 1" id="0xd3cd4c3a"/>
+        <style_text textobj="0x01f875b1" id="0xbcbc21ec" planeobj="0xe95f1628">
+            <textobj align_y="1" align_x="1" id="0x01f875b1" color="0.1, 0.1, 0.1, 1" point="11.3"/>
+            <planeobj texture0="0xc0375024" div_mode="3" id="0xe95f1628"/>
+        </style_text>
+    </styletable>
+</resource>

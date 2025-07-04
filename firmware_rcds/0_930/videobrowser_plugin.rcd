@@ -1,0 +1,148 @@
+# SCE CONFIDENTIAL
+#
+#
+#      Copyright (C) 2010 Sony Computer Entertainment Inc.
+#                        All Rights Reserved.
+#
+#
+#               videobrowser_plugin - resource debug symbol file
+#
+#
+
+# <pagetable>
+key:5b0d1ba9(0) id:page_contentlist
+key:028c8b3b(1) id:contents_list_base_plane
+key:3d31f98d(1) id:landscape960x544
+key:8e956872(1) id:videobrowser_back
+key:491d4f7b(0) id:page_navibar_delete
+key:7f0a991d(1) id:navibar_delete_base_plane
+key:93303b34(1) id:navibar_delete_base_plane_frame
+key:cd3a32a8(1) id:navibar_delete_btn_cancel
+key:51c70dd3(1) id:navibar_delete_btn_delete
+key:3cce7eae(0) id:page_titlebar
+key:5ab691d1(1) id:titlebar_plane_base
+key:61b40d61(1) id:contents_list_title_text
+key:184feeb7(1) id:videobrowser_sort_mode
+key:7e7ab560(0) id:page_content_info
+key:6062f24b(1) id:content_info_base_plane
+key:b5279328(1) id:content_info_thumbnail
+key:f26a4b0d(1) id:thumbnail
+key:98489a8e(1) id:content_info_title_text1
+key:e72fdd61(1) id:content_info_list
+key:07b6bf73(1) id:tate
+key:87f13dc8(1) id:videobrowser_content_info_back
+
+# <styletable>
+key:b71c0e5a(0) id:text_style_title
+key:ee38688f(1) id:textobj_style
+key:eaca3d88(0) id:text_style_content_list_title
+key:088db824(0) id:text_style_content_list_info
+key:6f9b023f(0) id:text_style_content_title
+key:2d64872d(0) id:plane_style_bg
+key:f239aa56(1) id:plane_obj1
+key:e93712c3(0) id:plane_style_bg_h48
+key:4b2e799a(0) id:plane_style_bg_black_transparent
+key:6ead6725(0) id:plane_style_bg_black_dark
+key:fe001195(0) id:plane_style_bg_black
+key:83bcb615(0) id:menu_button_style
+key:b32a61e4(1) id:menu_plane_obj
+key:cca7db36(1) id:menu_text_obj
+key:63bd09fe(0) id:icon_button_style
+key:3e63fc28(1) id:icon_plane_obj
+key:65547d31(0) id:pulldown_button_style
+key:64206edd(1) id:pulldown_plane_obj
+key:76d78e98(1) id:pulldown_label_obj
+key:99f7752d(0) id:navi_button_style
+key:0c9734c6(1) id:navi_button_plane_obj
+key:0050531d(1) id:navi_button_label_obj
+key:fd9a0c42(0) id:style_basic_item
+key:29931ae0(1) id:style_basic_item_bg
+key:e05c7733(0) id:style_basic_item_button
+key:a1ce39de(1) id:style_basic_item_button_bg
+key:d7737911(1) id:style_basic_item_button_label
+key:0b37c246(1) id:style_basic_item_button_image
+key:2f358759(0) id:content_info_list_view_style
+key:8d9fcb07(1) id:bg_obj_style
+key:8815b977(0) id:content_info_list_item_style
+key:fcb71c09(0) id:filelist_style_video_list
+key:5ff7d997(1) id:filelist_style_video_list_bg
+key:06d4665d(0) id:filelist_style_video_list_button
+key:8700675d(1) id:filelist_style_video_list_button_bg
+key:39d92565(1) id:filelist_style_video_list_button_label
+key:d2e85734(1) id:filelist_style_video_list_button_image
+key:245140b1(1) id:filelist_style_video_list_button_image_back
+key:af853666(0) id:filelist_style_video_item
+key:646d133d(1) id:filelist_style_video_item_bg
+key:8cf564c6(0) id:filelist_style_video_item_button
+key:c0e2cbb3(1) id:filelist_style_video_item_button_bg
+key:930e7325(1) id:filelist_style_video_item_button_label
+key:528d25c6(1) id:filelist_style_video_item_button_image
+key:9665d3d7(1) id:filelist_style_video_item_button_image_back
+
+# <stringtable>
+key:6d110058(0) id:msg_all
+key:1ee4acaf(0) id:msg_date
+key:f1811d32(0) id:msg_delete
+key:e32ff620(0) id:msg_delete_playlist_conf
+key:5866f2ff(0) id:msg_delete_video_conf
+key:22dd0f34(0) id:msg_delete_video_download_once_conf
+key:9fc5e44a(0) id:msg_error_delete_some_video_items
+key:e2c01ff5(0) id:msg_expire_variable
+key:0bb94aca(0) id:msg_name
+key:b35059c7(0) id:msg_playlist
+key:1cc9ec3e(0) id:msg_produced
+key:2e70233d(0) id:msg_rented
+key:29c686ec(0) id:msg_size
+key:3782e139(0) id:msg_start_control
+key:bcd53a45(0) id:msg_updated
+key:632b6733(0) id:msg_wait
+
+# <texturetable>
+key:69a5cd98(0) id:videoplayer_texture_back_icon,src:..\..\videobrowser\resource\texture\tmp\back_button.png,type:texture/png
+key:73a06e9a(0) id:videoplayer_texture_back_list_icon,src:..\..\videobrowser\resource\texture\tmp\back_to_list_button.png,type:texture/png
+key:9d275080(0) id:videoplayer_texture_list_item_bg,src:..\..\videobrowser\resource\texture\list.gim,type:texture/gim
+key:22d360da(0) id:videoplayer_texture_all_icon,src:..\..\videobrowser\resource\texture\play_icon.gim,type:texture/gim
+key:f4dc97c9(0) id:videoplayer_texture_rental_icon,src:..\..\videobrowser\resource\texture\play_icon.gim,type:texture/gim
+key:13a7a2ba(0) id:videoplayer_texture_playlist_icon,src:..\..\videobrowser\resource\texture\play_icon.gim,type:texture/gim
+key:a810c783(0) id:videoplayer_texture_pulldown_base,src:..\..\videobrowser\resource\texture\pulldown_base.gim,type:texture/gim
+key:7a5fba6e(0) id:videoplayer_texture_navibtn_base,src:..\..\videobrowser\resource\texture\tmp\common_button_h36.png,type:texture/png
+key:fb45a3b5(0) id:videoplayer_texture_video_bg,src:..\..\videobrowser\resource\texture\video_Background.png,type:texture/png
+key:b6ad01d8(0) id:videoplayer_texture_toolbar_fill,src:..\..\videobrowser\resource\texture\tmp\toolbar_fill_h33.png,type:texture/png
+key:9691aa8c(0) id:videoplayer_texture_toolbar_frame,src:..\..\videobrowser\resource\texture\tmp\toolbar_frame_h33.png,type:texture/png
+key:c7639e34(0) id:videoplayer_texture_list_header,src:..\..\videobrowser\resource\texture\tmp\header_h48.png,type:texture/png
+key:6dc5f70a(0) id:filelist_texture_common_loading,src:..\..\..\common\resource\filelist\texture\common_loading.gim,type:texture/gim
+key:5ad7ace9(0) id:filelist_texture_common_shadow,src:..\..\..\common\resource\filelist\texture\common_shadow.gim,type:texture/gim
+key:94813a85(0) id:filelist_texture_video_loading,src:..\..\..\common\resource\filelist\texture\video_loading.gim,type:texture/gim
+key:696de75a(0) id:filelist_texture_video_list_default,src:..\..\..\common\resource\filelist\texture\video_list_default.gim,type:texture/gim
+key:0b2b3c4b(0) id:filelist_texture_video_list_thumb,src:..\..\..\common\resource\filelist\texture\video_list_thumb.gim,type:texture/gim
+key:af79f8d8(0) id:filelist_texture_video_item_default,src:..\..\..\common\resource\filelist\texture\video_item_default.gim,type:texture/gim
+
+# <templatetable>
+key:132491ec(0) id:template_file_view_item
+key:282ffcd9(1) id:widget_file_view_item
+key:a7b85c19(1) id:widget_file_view_item_button
+key:2c4a0f78(0) id:template_basic_item
+key:73cfe0d0(1) id:widget_basic_item
+key:7c7ac910(1) id:widget_basic_item_button
+key:72463716(0) id:template_content_info_list_item
+key:56d3d98e(1) id:list_item_content_info
+key:aa21c75b(1) id:info_list
+key:d27d3ddd(1) id:list_item_box
+key:7505d64a(1) id:default
+key:377cad88(1) id:text_content_info_title
+key:3c6de1b7(1) id:title
+key:0aa5684c(1) id:text_content_info
+key:59bd0a3f(1) id:info
+key:21b278b4(0) id:filelist_template_common_shadow
+key:69b13d29(1) id:filelist_widget_common_shadow
+key:852dcca3(1) id:filelist_widget_common_shadow_body
+key:c0e0dccd(0) id:filelist_template_common_check_box
+key:51c361d9(1) id:filelist_widget_common_check_box
+key:8bbb66f7(1) id:filelist_widget_common_check_box_body
+key:c9a65dc4(0) id:filelist_template_video_list
+key:b460b36a(1) id:filelist_widget_video_list
+key:2f440f1c(1) id:filelist_widget_video_list_button
+key:16610b98(0) id:filelist_template_video_item
+key:c05dfbc5(1) id:filelist_widget_video_item
+key:e30cb0b5(1) id:filelist_widget_video_item_button
+

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal" id="0x630afb4f">
+    <templatetable>
+        <template id="0x2e9374eb">
+            <group id="0x3c5b4927">
+                <layout_hint pos="0, 54, 0"/>
+            </group>
+            <text style="0xc6870ad7" id="0x5608c548">
+                <layout_hint pos="0, -84, 0" size="800, 68"/>
+            </text>
+            <group id="0x86f98452">
+                <text style="0x31a146cc" id="0x66fdafe3">
+                    <layout_hint pos="0, -122, 0" size="704, 80"/>
+                </text>
+            </group>
+            <group id="0x4836346e">
+                <text style="0x605cca82" id="0xf099b450">
+                    <layout_hint pos="0, -158, 0" size="704, 64"/>
+                </text>
+            </group>
+            <group id="0x4aa0d155">
+                <plane_button style="0xb1871970" id="0x9f6a44da" texture="0xef3f1f56">
+                    <layout_hint pos="-158, -181, 0" size="96, 64"/>
+                </plane_button>
+            </group>
+            <group id="0x57752bb9">
+                <plane_button style="0xb1871970" id="0xedcd4c30" texture="0xb6dcdc7c">
+                    <layout_hint pos="0, -181, 0" size="96, 64"/>
+                </plane_button>
+            </group>
+            <group id="0x06d2e1fe">
+                <plane_button style="0xb1871970" id="0xe59f8096" texture="0xca3bc45e">
+                    <layout_hint pos="0, -181, 0" size="128, 64"/>
+                </plane_button>
+            </group>
+            <group id="0x29f56115">
+                <plane_button style="0xb1871970" id="0x6ca674d6" texture="0xcaf1ac2a">
+                    <layout_hint pos="158, -181, 0" size="96, 64"/>
+                </plane_button>
+            </group>
+        </template>
+    </templatetable>
+    <styletable>
+        <style_plane_button color="1, 1, 1, 1" image_obj="0x54cb6584" glow_obj="0xeb3b8f6e" id="0xb1871970">
+            <planeobj id="0x54cb6584"/>
+            <planeobj texture0="0x34389aa1" scale_mode_y="2" scale_mode_x="2" blend="2" id="0xeb3b8f6e" scale_value="128, 128"/>
+        </style_plane_button>
+        <style_text textobj="0xee38688f" id="0x31a146cc">
+            <textobj text_align="1" font_size="28" bold="1" align_y="0" align_x="1" max_line_count="1" force_bold="0" color="1, 1, 1, 1" enlarge_font_size="0" id="0xee38688f" deepen_color="0"/>
+        </style_text>
+        <style_text color="1, 1, 1, 0" textobj="0xee38688f" id="0xc6870ad7">
+            <textobj text_align="1" font_size="20" bold="1" align_y="0" align_x="1" max_line_count="1" force_bold="0" color="1, 1, 1, 1" enlarge_font_size="0" id="0xee38688f" deepen_color="0"/>
+        </style_text>
+        <style_text color="1, 1, 1, 0.8" textobj="0xee38688f" id="0x605cca82">
+            <textobj text_align="1" font_size="20" align_y="0" align_x="1" max_line_count="1" force_bold="0" color="1, 1, 1, 1" enlarge_font_size="0" id="0xee38688f" deepen_color="0"/>
+        </style_text>
+    </styletable>
+    <texturetable>
+        <texture src="0xef3f1f56.bin" type="texture/gim" id="0xef3f1f56" compress="on"/>
+        <texture src="0xb6dcdc7c.bin" type="texture/gim" id="0xb6dcdc7c" compress="on"/>
+        <texture src="0xca3bc45e.bin" type="texture/gim" id="0xca3bc45e" compress="on"/>
+        <texture src="0xcaf1ac2a.bin" type="texture/gim" id="0xcaf1ac2a" compress="on"/>
+    </texturetable>
+</resource>

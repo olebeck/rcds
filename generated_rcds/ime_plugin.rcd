@@ -1,0 +1,42 @@
+#
+#
+#               ime_plugin - resource debug symbol file
+#
+#
+
+
+# <pagetable>
+key:9917a0ab(0) id:ime_page_top
+
+# <stringtable>
+
+# <texturetable>
+key:e2909835(0) id:tex_id_candidate_bar_base
+key:0ea1292d(0) id:tex_id_candidate_base
+key:15a4a3d4(0) id:tex_id_candidate_more_close
+key:b3d24cc2(0) id:tex_id_candidate_more_open
+key:8d5fe1ba(0) id:tex_id_candidate_separator
+key:bc3b3817(0) id:tex_id_abc
+key:f0173bb6(0) id:tex_id_accent
+key:e31e45f3(0) id:tex_id_aiu
+key:ffa22400(0) id:tex_id_backspace
+key:65ced674(0) id:tex_id_caret_left
+key:dfa536e1(0) id:tex_id_caret_right
+key:b1b8e234(0) id:tex_id_close
+key:1740bf10(0) id:tex_id_enter
+key:ee822ad9(0) id:tex_id_kb_off
+key:9cf06c18(0) id:tex_id_shift_off
+key:e19358af(0) id:tex_id_shift_on
+key:74620b3d(0) id:tex_id_space
+key:b8c4be95(0) id:tex_id_space_en
+key:1cf9dbf7(0) id:tex_id_space_jp
+key:3d0a2ce4(0) id:tex_id_symbols
+key:4bdaa672(0) id:tex_id_keyboard_base
+key:a5e52b9c(0) id:tex_id_black_keytop
+key:26ab1f0d(0) id:tex_id_gray_keytop
+key:737c4a1b(0) id:tex_id_keytop
+key:98bd035c(0) id:tex_id_white_keytop
+key:c5225ebc(0) id:tex_id_symbols_base
+key:7fae9132(0) id:tex_id_symbols_numbers_base
+
+# <filetable>

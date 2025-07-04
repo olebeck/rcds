@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal" id="0x1de6760d">
+    <pagetable>
+        <page id="0x09197730">
+            <plane style="0x75fe59f6" id="0x82c6c500">
+                <layout_hint alpha="0.5" align="0, 0, 0" id="0x07b6bf73">
+                    <resolution size="960, 544, 0" id="0x0a2f2cd9" pos="0, 0, 0"/>
+                    <resolution size="544, 960, 0" id="0x25c60488" pos="0, 0, 0"/>
+                </layout_hint>
+            </plane>
+        </page>
+        <page id="0x069d578d">
+            <plane style="0x75fe59f6" id="0xba05d76a">
+                <layout_hint alpha="0.5" align="0, 0, 0" id="0x07b6bf73">
+                    <resolution size="960, 544, 0" id="0x0a2f2cd9" pos="0, 0, 0"/>
+                    <resolution size="544, 960, 0" id="0x25c60488" pos="0, 0, 0"/>
+                </layout_hint>
+                <button style="0xb9fbcf7d" id="0x2f472c2c">
+                    <layout_hint alpha="1" align="0, 0, 0" id="0x07b6bf73">
+                        <resolution size="128, 32, 0" id="0x0a2f2cd9" pos="-406, -240, 0"/>
+                        <resolution size="128, 32, 0" id="0x25c60488" pos="-136, -448, 0"/>
+                    </layout_hint>
+                </button>
+                <button style="0xb9fbcf7d" id="0xc257ef25">
+                    <layout_hint alpha="1" align="0, 0, 0" id="0x07b6bf73">
+                        <resolution size="128, 32, 0" id="0x0a2f2cd9" pos="406, -240, 0"/>
+                        <resolution size="128, 32, 0" id="0x25c60488" pos="136, -448, 0"/>
+                    </layout_hint>
+                </button>
+            </plane>
+        </page>
+        <page id="0x0da37daa">
+            <plane style="0x422365e1" id="0x56df16fb">
+                <layout_hint alpha="0.5" align="0, 0, 0" id="0x07b6bf73">
+                    <resolution size="960, 544, 0" id="0x0a2f2cd9" pos="0, 0, 0"/>
+                    <resolution size="544, 960, 0" id="0x25c60488" pos="0, 0, 0"/>
+                </layout_hint>
+                <button style="0xb9fbcf7d" id="0xd82e9a43">
+                    <layout_hint alpha="1" align="0, 0, 0" id="0x07b6bf73">
+                        <resolution size="96, 60, 0" id="0x0a2f2cd9" pos="-420, -228, 0"/>
+                        <resolution size="96, 60, 0" id="0x25c60488" pos="-220, 436, 0"/>
+                    </layout_hint>
+                </button>
+                <button style="0xb9fbcf7d" id="0x6d0482b7">
+                    <layout_hint alpha="1" align="0, 0, 0" id="0x07b6bf73">
+                        <resolution size="96, 60, 0" id="0x0a2f2cd9" pos="420, -228, 0"/>
+                        <resolution size="96, 60, 0" id="0x25c60488" pos="224, 436, 0"/>
+                    </layout_hint>
+                </button>
+                <text style="0xe2ad9302" id="0x79e62ac2" label="0xb1b6f085">
+                    <layout_hint alpha="1" align="0, 0, 0" id="0x07b6bf73">
+                        <resolution size="960, 32, 0" id="0x0a2f2cd9" pos="0, 228, 0"/>
+                        <resolution size="544, 32, 0" id="0x25c60488" pos="0, 0, 0"/>
+                    </layout_hint>
+                </text>
+                <text style="0xe2ad9302" id="0xf543ded0" label="0x26348833">
+                    <layout_hint alpha="1" align="0, 0, 0" id="0x07b6bf73">
+                        <resolution size="960, 32, 0" id="0x0a2f2cd9" pos="0, 100, 0"/>
+                        <resolution size="544, 32, 0" id="0x25c60488" pos="0, 0, 0"/>
+                    </layout_hint>
+                </text>
+                <text style="0xe2ad9302" id="0x1a0fade5" label="0x94f92ef5">
+                    <layout_hint alpha="1" align="0, 0, 0" id="0x07b6bf73">
+                        <resolution size="960, 32, 0" id="0x0a2f2cd9" pos="0, -50, 0"/>
+                        <resolution size="544, 32, 0" id="0x25c60488" pos="0, 0, 0"/>
+                    </layout_hint>
+                </text>
+                <progressbar style="0x501d508e" id="0x3187d156">
+                    <layout_hint alpha="1" align="0, 0, 0" id="0x07b6bf73">
+                        <resolution size="960, 38, 0" id="0x0a2f2cd9" pos="0, 0, 0"/>
+                        <resolution size="544, 38, 0" id="0x25c60488" pos="0, 0, 0"/>
+                    </layout_hint>
+                </progressbar>
+            </plane>
+        </page>
+        <page id="0x63a8385d">
+            <plane style="0x75fe59f6" id="0xf5e21756">
+                <layout_hint alpha="0.5" align="0, 0, 0" id="0x07b6bf73">
+                    <resolution size="960, 544, 0" id="0x0a2f2cd9" pos="0, 0, 0"/>
+                    <resolution size="544, 960, 0" id="0x25c60488" pos="0, 0, 0"/>
+                </layout_hint>
+            </plane>
+        </page>
+    </pagetable>
+    <styletable>
+        <style_plane color="0.3, 0.3, 0.3, 1" id="0x422365e1" planeobj="0xf239aa56">
+            <planeobj lighting="0" id="0xf239aa56"/>
+        </style_plane>
+    </styletable>
+    <stringtable>
+        <locale src="ja.bin" id="ja"/>
+        <locale src="en.bin" id="en"/>
+    </stringtable>
+    <texturetable/>
+</resource>

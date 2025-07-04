@@ -1,0 +1,100 @@
+#
+#
+#               system_update_plugin - resource debug symbol file
+#
+#
+
+
+# <pagetable>
+key:ed906fd3(0) id:page_wizard_bg
+key:75a8ba83(0) id:page_wizard_fg
+key:5fcd170e(0) id:page_main
+key:079b7dff(0) id:style_list_view
+key:0a2f2cd9(0) id:landscape
+key:43bf9d88(0) id:page_checking_pup
+key:a073f686(0) id:text_checking_pup
+key:632b6733(0) id:msg_wait
+key:e211ce05(0) id:_common_style_busyindicator_8
+key:ba195a37(0) id:_common_texture_busy
+key:d1eb3e67(0) id:page_detected
+key:3e39bd88(0) id:text_detected
+key:3e0c53ec(0) id:msg_new_updatefile_found
+key:326c9d9c(0) id:text_box_layout
+key:51245adb(0) id:text_detected_pup_version
+key:ec28b1fe(0) id:msg_version_variable
+key:eed3a907(0) id:page_checking_segment
+key:f189211b(0) id:text_checking_segment
+key:c3c7a681(0) id:page_eula
+key:00932326(0) id:text_box_eula
+key:cead273b(0) id:style_button_footer
+key:6a924e8d(0) id:button_eula_back
+key:20413274(0) id:_common_sound_button_enter
+key:02b5cb45(0) id:button_eula_next
+key:ac29b742(0) id:msg_accept
+key:7d50d741(0) id:sound_scrollbar_touch
+key:0fbf147c(0) id:page_functionlist
+key:030757b5(0) id:text_functionlist
+key:9f5a6f89(0) id:type1
+key:4fbbc27c(0) id:scroll_view_style
+key:c5c01615(0) id:scroll_view_functionlist
+key:041b9765(0) id:text_box_functionlist
+key:3497371d(0) id:text_box_detailed_site
+key:570e870b(0) id:msg_detailed_information_sce_site
+key:06e921fa(0) id:page_start_update
+key:7aa84ef4(0) id:text_start_update
+key:e6408db1(0) id:msg_update_conf
+key:2f3a480d(0) id:page_updating
+key:236e9ceb(0) id:text_updating
+key:501d508e(0) id:_common_default_style_progressbar
+key:a2ea0d13(0) id:progressbar_updating_label
+key:81f6aa13(0) id:progressbar_updating
+key:07b6bf73(0) id:tate
+key:d309e5f1(0) id:text_style_progress
+key:7ed44596(0) id:page_debug_checking_pup
+key:92a7c191(0) id:text_debug_checking_pup
+key:e040fea5(0) id:page_debug_detecting
+key:bb61fcda(0) id:list_view_debug_menu
+
+# <templatetable>
+key:27ad384a(0) id:list_item_template
+key:f3488f99(0) id:_common_style_list_item_transparent
+key:63678fee(0) id:list_item
+key:2f652005(0) id:style_menuitem_button
+key:526b27a1(0) id:list_item_button
+key:3c288ee9(0) id:style_menuitem_text
+key:2fbcdeae(0) id:menuitem_title
+key:5f7b332b(0) id:_common_style_plane_transparent
+key:202f570c(0) id:menuitem_icon
+key:75fe59f6(0) id:_common_default_style_plane
+key:772a9311(0) id:plane_toolbar
+key:3d31f98d(0) id:landscape960x544
+key:adcd9adf(0) id:msg_cancel_vb
+key:25d6d211(0) id:_common_sound_button_back
+key:aa2c6d2a(0) id:msg_back
+key:1efc6cbe(0) id:msg_next
+key:c7a9ef77(0) id:msg_update_vb
+
+# <styletable>
+key:8d9fcb07(0) id:bg_obj_style
+key:749ca58b(0) id:list_view_style
+key:8d07923e(0) id:list_item_style
+key:b75b7c7c(0) id:label_obj_style
+key:0f1450fd(0) id:list_item_button_style
+key:01f875b1(0) id:textobj
+key:0af6b7ad(0) id:text_box1_style
+key:75cbf56e(0) id:base_obj
+key:da1d47bb(0) id:slider_obj
+key:e9694c76(0) id:scrollbar_style
+key:87cc245f(0) id:obj_plane_listitem
+key:2a4dfc59(0) id:style_list_item
+key:9c96918b(0) id:bg_obj
+key:855f12bb(0) id:slider_glow_obj
+key:22ff88bd(0) id:glow_obj
+key:29b91f26(0) id:tex_list_80px
+key:74319925(0) id:_common_texture_button
+key:9b7bed4b(0) id:_common_texture_button_glow
+key:e95f1628(0) id:planeobj
+
+# <stringtable>
+
+# <texturetable>

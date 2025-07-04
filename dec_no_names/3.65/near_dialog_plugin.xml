@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal" id="0x39618465">
+    <pagetable>
+        <page id="0x9573096e"/>
+    </pagetable>
+    <styletable>
+        <style_plane color="1, 1, 1, 1" id="0x3f62ae5e" planeobj="0xcf074b58">
+            <planeobj id="0xcf074b58"/>
+        </style_plane>
+        <style_plane color="1, 1, 1, 1" id="0xe54656d1" planeobj="0x2b4807f8">
+            <planeobj id="0x2b4807f8"/>
+        </style_plane>
+        <style_plane color="1, 1, 1, 1" id="0x37b8719d" planeobj="0xef0c4f4e">
+            <planeobj id="0xef0c4f4e"/>
+        </style_plane>
+        <style_text color="1, 1, 1, 1" textobj="0x1eb1ff8a" id="0x9d1d1068">
+            <textobj visible_size="0, 0" line_space="0" font_size="31.9" bold="0" family="0" align_y="0" align_x="0" oblique="0" back_color="0, 0, 0, 0" text_align="0" word_wrap="0" kinsoku="0" adjust_x="0" adjust_y="1" visible_pos="0, 0" ellipsis="1" underline="0" id="0x1eb1ff8a" color="1, 1, 1, 1" size="0, 0"/>
+        </style_text>
+        <style_text color="1, 1, 1, 1" textobj="0x8f7bf1eb" id="0xc3b479c6">
+            <textobj visible_size="0, 0" line_space="0" font_size="21.9" bold="0" family="0" align_y="0" align_x="0" oblique="0" back_color="0, 0, 0, 0" text_align="0" word_wrap="0" kinsoku="0" adjust_x="0" adjust_y="1" visible_pos="0, 0" ellipsis="1" underline="0" id="0x8f7bf1eb" color="1, 1, 1, 1" size="0, 0"/>
+        </style_text>
+        <style_box color="0, 0, 0, 0" id="0xcabd940f"/>
+        <style_plane color="0, 0, 0, 0" id="0xe01dddf3" planeobj="0x8cd2c239">
+            <planeobj id="0x8cd2c239"/>
+        </style_plane>
+        <style_text textobj="0x01f875b1" id="0x0c5b61f5">
+            <textobj bold="1" color="1, 1, 1, 1" align_x="1" text_align="1" word_wrap="1" id="0x01f875b1"/>
+        </style_text>
+        <style_text textobj="0x01f875b1" id="0x13a35c9d">
+            <textobj color="1, 1, 1, 1" align_x="2" id="0x01f875b1" word_wrap="1" text_align="2"/>
+        </style_text>
+        <style_text textobj="0x01f875b1" id="0xb5bd9c9b">
+            <textobj color="1, 1, 1, 1" align_x="0" id="0x01f875b1" word_wrap="1" text_align="0"/>
+        </style_text>
+    </styletable>
+    <templatetable>
+        <template id="0x49c090fd">
+            <dialog style="0x5515d341" id="0x4dd3f804">
+                <layout_dialog layout_type="0" id="0x7505d64a" pos="0, 0, 0"/>
+                <box style="0x7374487a" id="0xe6addc3d">
+                    <layout_box bottom_margin="20" right_margin="20" space="20" top_margin="20" pos="0, 0, 0" left_margin="20" layout_type="1" id="0x7505d64a" max_size="600, 200, 0"/>
+                    <text_box style="0xe6ea7d34" id="0x38e27a53" v_scrollbar="0x980811e8">
+                        <layout_hint adjust="0, 2, 0" id="0x7505d64a" size="500, 100, 0"/>
+                        <scrollbar_touch style="0x3fc2179e" id="0x980811e8">
+                            <layout_hint id="0x7505d64a" size="20, 100, 0"/>
+                        </scrollbar_touch>
+                    </text_box>
+                </box>
+            </dialog>
+        </template>
+        <template id="0x3e8e9bac">
+            <dialog style="0x5515d341" id="0x56f61279">
+                <layout_dialog layout_type="0" id="0x7505d64a" pos="0, 0, 0"/>
+                <box style="0x7374487a" id="0xdb059b1c">
+                    <layout_box bottom_margin="20" right_margin="20" children_adjust_y="0" children_adjust_x="0" space="20" top_margin="20" pos="0, 0, 0" left_margin="20" layout_type="1" id="0x7505d64a" max_size="600, 200, 0"/>
+                    <text_box style="0xe6ea7d34" id="0xaa13dc14" v_scrollbar="0x55219d22">
+                        <layout_hint adjust="0, 2, 0" id="0x7505d64a" size="500, 100, 0"/>
+                        <scrollbar_touch style="0x3fc2179e" id="0x55219d22">
+                            <layout_hint id="0x7505d64a" size="20, 100, 0"/>
+                        </scrollbar_touch>
+                    </text_box>
+                    <button style="0x92fd288f" id="0x8c0077b1" label="0x805beca6">
+                        <layout_hint adjust="0, 0, 0" id="0x7505d64a" size="200, 72, 0"/>
+                    </button>
+                </box>
+            </dialog>
+        </template>
+        <template id="0x988b5551">
+            <dialog style="0x5515d341" id="0xa432af40">
+                <layout_dialog layout_type="0" id="0x7505d64a" pos="0, 0, 0"/>
+                <box style="0x7374487a" id="0x6d0686e2">
+                    <layout_box bottom_margin="20" right_margin="20" space="20" top_margin="20" pos="0, 0, 0" left_margin="20" layout_type="1" id="0x7505d64a" max_size="600, 200, 0"/>
+                    <text_box style="0xe6ea7d34" id="0x2c214acc" v_scrollbar="0x9a6b1ba2">
+                        <layout_hint adjust="0, 2, 0" id="0x7505d64a" size="500, 100, 0"/>
+                        <scrollbar_touch style="0x3fc2179e" id="0x9a6b1ba2">
+                            <layout_hint id="0x7505d64a" size="20, 100, 0"/>
+                        </scrollbar_touch>
+                    </text_box>
+                    <box style="0x7374487a" id="0xd428d3c7">
+                        <layout_box space="112" children_adjust_y="0" children_adjust_x="0" adjust="2, 2, 0" layout_type="2" id="0x7505d64a" children_align_x="0"/>
+                        <button style="0x92fd288f" id="0x8cac6653" label="0x805beca6">
+                            <layout_hint adjust="0, 0, 0" id="0x7505d64a" size="200, 72, 0"/>
+                        </button>
+                        <button style="0x92fd288f" id="0xbae3a99c" label="0xadcd9adf">
+                            <layout_hint adjust="0, 0, 0" id="0x7505d64a" size="200, 72, 0"/>
+                        </button>
+                    </box>
+                </box>
+            </dialog>
+        </template>
+        <template id="0xabc820fb">
+            <dialog style="0x5515d341" id="0x548c2e7a">
+                <layout_dialog layout_type="0" id="0x7505d64a" pos="0, 0, 0"/>
+                <box style="0x7374487a" id="0x7eed5900">
+                    <layout_box bottom_margin="20" right_margin="20" space="20" top_margin="20" pos="0, 0, 0" left_margin="20" layout_type="1" id="0x7505d64a" max_size="600, 300, 0"/>
+                    <text_box style="0xe6ea7d34" id="0x322cd4c6" v_scrollbar="0x054dfa94">
+                        <layout_hint id="0x7505d64a" size="500, 100, 0"/>
+                        <scrollbar_touch style="0x3fc2179e" id="0x054dfa94">
+                            <layout_hint id="0x7505d64a" size="20, 100, 0"/>
+                        </scrollbar_touch>
+                    </text_box>
+                    <box style="0x7374487a" id="0x4404228e">
+                        <layout_box layout_type="1" id="0x7505d64a" children_align_x="0"/>
+                        <text style="0xc6e3b635" id="0x9f22fa77">
+                            <layout_hint adjust="2, 2, 0" id="0x7505d64a"/>
+                        </text>
+                        <progressbar style="0x501d508e" w_label="0x4408800e" id="0x295cf6fa">
+                            <layout_hint size="500, 30, 0, 0"/>
+                            <text style="0xe2ad9302" id="0x4408800e">
+                                <layout_hint adjust="2, 2, 0" id="0x7505d64a"/>
+                            </text>
+                        </progressbar>
+                    </box>
+                    <button style="0x92fd288f" id="0x9b7ef7e0" label="0x805beca6">
+                        <layout_hint adjust="0, 0, 0" id="0x7505d64a" size="200, 72, 0"/>
+                    </button>
+                </box>
+            </dialog>
+        </template>
+        <template id="0xff95c07d">
+            <box style="0xcabd940f" id="0x43f18209">
+                <layout_box bottom_margin="20" space="24" align="0, 0" top_margin="20" adjust="1, 2" layout_type="1" id="0x0a2f2cd9"/>
+            </box>
+        </template>
+        <template id="0x2a8a77c3">
+            <box style="0xcabd940f" id="0x4afbe713">
+                <layout_box space="24" align="0, 2" adjust="2, 2" layout_type="1" id="0x0a2f2cd9" children_align_y="2"/>
+                <plane style="0xe01dddf3" id="0x39a7a419">
+                    <layout_hint alpha="1" align="0, 0, 0" size="660, 40, 0" id="0x9f5a6f89" pos="0, 0, 0"/>
+                    <text style="0x0c5b61f5" id="0xc6fc31be">
+                        <layout_hint size="320, 0" align="0, 0" adjust="0, 2" id="0xda39a3ee" pos="0, 0"/>
+                    </text>
+                </plane>
+            </box>
+        </template>
+        <template id="0xf4a6636f">
+            <box style="0xcabd940f" id="0xf06a6b9e">
+                <layout_box space="24" align="0, 2" adjust="2, 2" layout_type="2" id="0x0a2f2cd9" children_align_y="2"/>
+                <text style="0x13a35c9d" id="0xf2d1053d">
+                    <layout_hint size="520, 0" align="2, 8" adjust="2, 2" id="0xda39a3ee" pos="-10, 0"/>
+                </text>
+                <text style="0xb5bd9c9b" id="0xd13759cc">
+                    <layout_hint size="220, 0" align="1, 0" adjust="2, 2" id="0xda39a3ee" pos="10, 0"/>
+                </text>
+            </box>
+        </template>
+    </templatetable>
+    <stringtable>
+        <locale src="en.bin" compress="on" id="en"/>
+        <locale src="ja.bin" compress="on" id="ja"/>
+        <locale src="fr.bin" compress="on" id="fr"/>
+        <locale src="es.bin" compress="on" id="es"/>
+        <locale src="de.bin" compress="on" id="de"/>
+        <locale src="it.bin" compress="on" id="it"/>
+        <locale src="nl.bin" compress="on" id="nl"/>
+        <locale src="pt.bin" compress="on" id="pt"/>
+        <locale src="pt-br.bin" compress="on" id="pt-br"/>
+        <locale src="ru.bin" compress="on" id="ru"/>
+        <locale src="ko.bin" compress="on" id="ko"/>
+        <locale src="zh-t.bin" compress="on" id="zh-t"/>
+        <locale src="zh-s.bin" compress="on" id="zh-s"/>
+        <locale src="fi.bin" compress="on" id="fi"/>
+        <locale src="sv.bin" compress="on" id="sv"/>
+        <locale src="da.bin" compress="on" id="da"/>
+        <locale src="no.bin" compress="on" id="no"/>
+        <locale src="pl.bin" compress="on" id="pl"/>
+        <locale src="en-gb.bin" compress="on" id="en-gb"/>
+        <locale src="tr.bin" compress="on" id="tr"/>
+    </stringtable>
+    <texturetable>
+        <texture src="0x4cf7846b.bin" type="texture/gim" id="0x4cf7846b" compress="on"/>
+    </texturetable>
+</resource>

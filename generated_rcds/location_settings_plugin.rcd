@@ -1,0 +1,33 @@
+#
+#
+#               location_settings_plugin - resource debug symbol file
+#
+#
+
+
+# <stringtable>
+
+# <texturetable>
+key:1ddd0e08(0) id:tex_app_icon
+key:6f57e251(0) id:tex_parental_lock_icon
+key:d644fb58(0) id:tex_hint
+
+# <templatetable>
+key:7038364b(0) id:_common_style_file_list_transparent
+key:38b62be4(0) id:list
+key:0a2f2cd9(0) id:landscape
+key:f3488f99(0) id:_common_style_list_item_transparent
+key:63678fee(0) id:list_item
+key:2fbcdeae(0) id:menuitem_title
+key:5f7b332b(0) id:_common_style_plane_transparent
+key:202f570c(0) id:menuitem_icon
+key:20413274(0) id:_common_sound_button_enter
+key:a95f1f0e(0) id:style_button_hint
+key:f0d5fab6(0) id:menuitem_hint
+key:9f20f898(0) id:_common_default_style_check_box
+key:86d6de69(0) id:menuitem_checkbox
+
+# <styletable>
+key:01f875b1(0) id:textobj
+key:8d9fcb07(0) id:bg_obj_style
+key:22ff88bd(0) id:glow_obj

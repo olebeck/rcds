@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="0.1" type="normal" id="0x7f8851c9">
+    <styletable>
+        <style_text textobj="0x01f875b1" id="0x2779fe5c">
+            <textobj font_size="26" bold="0" align_y="2" text_align="0" color="1, 1, 1, 1" line_pitch="40" word_wrap="1" ellipsis="0" id="0x01f875b1"/>
+        </style_text>
+    </styletable>
+    <templatetable>
+        <template id="0x4abd92df">
+            <box style="0x7374487a" id="0xd3495d16">
+                <layout_box min_size="0, 300" layout_type="1" adjust="0, 2" space="13" size="700, 0"/>
+                <text style="0x2779fe5c" id="0x81597442">
+                    <layout_hint align="1, 4" adjust="0, 2" size="660, 0"/>
+                </text>
+                <plane style="0x5f7b332b">
+                    <layout_hint size="10"/>
+                </plane>
+                <text style="0x2779fe5c" id="0x24343a21">
+                    <layout_hint align="1, 4" adjust="0, 2" size="660, 0"/>
+                </text>
+                <plane style="0x5f7b332b">
+                    <layout_hint size="10"/>
+                </plane>
+                <text style="0x2779fe5c" id="0xc1e24466">
+                    <layout_hint align="1, 4" adjust="0, 2" size="660, 0"/>
+                </text>
+                <plane style="0x5f7b332b">
+                    <layout_hint size="10"/>
+                </plane>
+                <text style="0x2779fe5c" id="0x5e2c407d">
+                    <layout_hint align="1, 4" adjust="0, 2" size="660, 0"/>
+                </text>
+            </box>
+        </template>
+    </templatetable>
+    <stringtable>
+        <locale src="ja.bin" compress="on" id="ja"/>
+        <locale src="en.bin" compress="on" id="en"/>
+        <locale src="en-gb.bin" compress="on" id="en-gb"/>
+        <locale src="fr.bin" compress="on" id="fr"/>
+        <locale src="es.bin" compress="on" id="es"/>
+        <locale src="de.bin" compress="on" id="de"/>
+        <locale src="it.bin" compress="on" id="it"/>
+        <locale src="nl.bin" compress="on" id="nl"/>
+        <locale src="pt-br.bin" compress="on" id="pt-br"/>
+        <locale src="pt.bin" compress="on" id="pt"/>
+        <locale src="ru.bin" compress="on" id="ru"/>
+        <locale src="ko.bin" compress="on" id="ko"/>
+        <locale src="zh-t.bin" compress="on" id="zh-t"/>
+        <locale src="zh-s.bin" compress="on" id="zh-s"/>
+        <locale src="fi.bin" compress="on" id="fi"/>
+        <locale src="sv.bin" compress="on" id="sv"/>
+        <locale src="da.bin" compress="on" id="da"/>
+        <locale src="no.bin" compress="on" id="no"/>
+        <locale src="pl.bin" compress="on" id="pl"/>
+        <locale src="tr.bin" compress="on" id="tr"/>
+    </stringtable>
+</resource>
